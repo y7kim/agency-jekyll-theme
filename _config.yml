@@ -1,6 +1,5 @@
-#url: http://joshmccall221.github.io
-#baseurl: /
-#baseurl: /agency-jekyll-theme/
+url: http://joshmccall221.github.io
+baseurl: /openbible/
 
 # Site settings
 title: First Church of the Open Bible 
