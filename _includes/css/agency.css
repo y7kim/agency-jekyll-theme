@@ -266,7 +266,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url(../img/header-bg.jpg);
+    background-image: url(../img/header-bg2.jpg);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -274,6 +274,7 @@ header {
     background-size: cover;
     -o-background-size: cover;
 }
+
 
 header .intro-text {
     padding-top: 100px;
@@ -635,6 +636,7 @@ section h3.section-subheading {
 }
 
 .team-member img {
+    max-width: 478 px;
     margin: 0 auto;
     border: 7px solid #fff;
 }
