@@ -275,6 +275,7 @@ header {
     -o-background-size: cover;
 }
 
+
 header .intro-text {
     padding-top: 100px;
     padding-bottom: 50px;
@@ -354,6 +355,11 @@ section h3.section-subheading {
 #portfolio .portfolio-item {
     right: 0;
     margin: 0 0 15px;
+}
+
+.portfolio-item img {
+    height: 240px;
+    width: 360px;
 }
 
 #portfolio .portfolio-item .portfolio-link {
@@ -635,6 +641,7 @@ section h3.section-subheading {
 }
 
 .team-member img {
+    max-width: 478 px;
     margin: 0 auto;
     border: 7px solid #fff;
 }

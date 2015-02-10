@@ -1,10 +1,10 @@
-url: https://y7kim.github.io
-baseurl: /agency-jekyll-theme/
+url: http://joshmccall221.github.io
+baseurl: /openbible/
 
 # Site settings
-title: Awesome Title
-email: your-email@domain.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+title: First Church of the Open Bible 
+email: joshmccall221@gmail.com
+description: "Writee  aan awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
@@ -14,39 +14,23 @@ color:
 
 # Team names, titles and social links
 people:
-- name: Kay Garland
+- name: Mark Hornback 
   pic: 1
-  position: Lead Designer
+  position: Pastor
   social:
     - title: twitter
       url: #
     - title: facebook
       url: #
-    - title: stack-overflow
-      url: #
 
-- name: Larry Parker
+- name: Bill Hornback 
   pic: 2
-  position: Lead Marketer
+  position: Lead Pastor
   social:
     - title: twitter
       url: #
     - title: facebook
       url: #
-    - title: linkedin
-      url: #
-
-- name: Diana Petersen
-  pic: 3
-  position: Lead Developer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: google-plus
-      url: #
-
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
