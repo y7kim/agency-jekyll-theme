@@ -346,7 +346,7 @@ section h3.section-subheading {
 
 @media(min-width:768px) {
     section {
-        padding: 150px 0;
+        padding: 80px 0;
     }
 }
 
@@ -723,6 +723,10 @@ section#contact:-ms-input-placeholder {
 
 section#contact .text-danger {
     color: #e74c3c;
+}
+
+#contactForm > div {
+    padding-top: 200px;
 }
 
 footer {
