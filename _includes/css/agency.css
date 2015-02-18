@@ -659,8 +659,12 @@ aside.clients img {
 
 section#contact {
     background-image: url(../img/boston-skyline.jpg);
-    background-position: center;
+    background-position: center center;
     background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
 
 section#contact .section-heading {
