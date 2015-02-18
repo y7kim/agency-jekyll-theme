@@ -658,7 +658,7 @@ aside.clients img {
 }
 
 section#contact {
-    background-image: url(../img/Boston_Skyline.jpg);
+    background-image: url(/img/Boston_Skyline.jpg);
     background-position: center;
     background-repeat: no-repeat;
 }
