@@ -1,15 +1,15 @@
 ---
-title: Treehouse
+title: Blog
 subtitle: Website Design
 layout: default
 modal-id: 4
-date: 2014-07-15
-img: treehouse.png
-thumbnail: treehouse-thumbnail.png
+date: Jan 2015
+img: blog.jpg
+thumbnail: blog-thumbnail.jpg
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
+project-date: Jan 2015
+client: Static Blog Demo
 category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+description: Learning project from Dash tutorials. This is just a small blog project done as part of the General Assembly Dash tutorials. Just a basic static site with some responsive features. Skills learned- HTML CSS Javascript Responsive Design
 
 ---

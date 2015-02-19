@@ -15,6 +15,14 @@ body {
     color: #777;
 }
 
+.text-white {
+    color: #FFF;
+}
+
+.pull-up {
+    margin-bottom: 100px;
+}
+
 .text-primary {
     color: #{{ site.color.primary }};
 }
