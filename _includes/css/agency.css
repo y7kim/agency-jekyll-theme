@@ -685,6 +685,7 @@ section#contact {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    min-height: 700px;
 }
 
 section#contact .section-heading {
