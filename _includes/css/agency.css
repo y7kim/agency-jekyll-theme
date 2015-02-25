@@ -23,6 +23,10 @@ body {
     margin-bottom: 100px;
 }
 
+.push-down {
+    position: relative;
+    bottom: -75px;
+}
 .text-primary {
     color: #{{ site.color.primary }};
 }
