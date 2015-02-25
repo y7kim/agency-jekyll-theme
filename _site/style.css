@@ -27,12 +27,12 @@ body {
 }
 
 .pull-up {
-    margin-bottom: 100px;
+    margin-bottom: 180px;
 }
 
 .push-down {
     position: relative;
-    bottom: -75px;
+    bottom: -110px;
 }
 .text-primary {
     color: #00CCCC;
@@ -692,7 +692,7 @@ section#contact {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    min-height: 700px;
+    min-height: 750px;
 }
 
 section#contact .section-heading {
