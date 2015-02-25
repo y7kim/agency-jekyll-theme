@@ -82,7 +82,13 @@ h6 {
 }
 
 .bg-light-gray {
-    background-color: #f7f7f7;
+    background-image: url(../img/paper_texture_03.jpg);
+    background-position: center center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
 
 .bg-darkest-gray {
