@@ -1,5 +1,5 @@
 ---
-title: Resume
+title: Landscaper
 subtitle: Website Design
 layout: default
 modal-id: 6
