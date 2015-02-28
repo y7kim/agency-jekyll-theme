@@ -67,7 +67,13 @@ h5,
 h6 {
     text-transform: uppercase;
     font-family: 'Oxygen', sans-serif;
-    font-weight: 400;
+    font-weight: 300;
+}
+
+.list-bare {
+    list-style: none;
+    color: #777;
+    padding-left: 0;
 }
 
 .img-centered {
@@ -306,7 +312,7 @@ header .intro-text .intro-lead-in {
     font-size: 22px;
     font-style: italic;
     line-height: 22px;
-    font-weight: 200;
+    font-weight: 300;
 }
 
 header .intro-text .intro-heading {
@@ -314,7 +320,6 @@ header .intro-text .intro-heading {
     text-transform: uppercase;
     font-family: 'Oxygen', sans-serif;
     font-size: 50px;
-    font-weight: 700;
     line-height: 50px;
     font-weight: 300;
 }
@@ -331,7 +336,7 @@ header .intro-text .intro-heading {
         font-size: 40px;
         font-style: italic;
         line-height: 40px;
-        font-weight: 200;
+        font-weight: 300;
     }
 
     header .intro-text .intro-heading {
@@ -339,7 +344,6 @@ header .intro-text .intro-heading {
         text-transform: uppercase;
         font-family: 'Oxygen', sans-serif;
         font-size: 75px;
-        font-weight: 700;
         line-height: 75px;
         font-weight: 300;
     }
@@ -601,6 +605,7 @@ section h3.section-subheading {
         padding: 0 30px 20px 20px;
         text-align: left;
     }
+    
 }
 
 @media(min-width:992px) {
@@ -651,26 +656,6 @@ section h3.section-subheading {
     .timeline>li.timeline-inverted>.timeline-panel {
         padding: 0 100px 20px 20px;
     }
-}
-
-.team-member {
-    margin-bottom: 50px;
-    text-align: center;
-}
-
-.team-member img {
-    margin: 0 auto;
-    border: 7px solid #fff;
-}
-
-.team-member h4 {
-    margin-top: 25px;
-    margin-bottom: 0;
-    text-transform: none;
-}
-
-.team-member p {
-    margin-top: 0;
 }
 
 aside.clients img {
