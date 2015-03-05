@@ -6,7 +6,8 @@
 
 body {
     overflow-x: hidden;
-    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 300;
     color: #{{ site.color.secondary-dark }};
 }
 
@@ -14,6 +15,18 @@ body {
     color: #777;
 }
 
+.text-white {
+    color: #FFF;
+}
+
+.pull-up {
+    margin-bottom: 180px;
+}
+
+.push-down {
+    position: relative;
+    bottom: -95px;
+}
 .text-primary {
     color: #{{ site.color.primary }};
 }
@@ -53,8 +66,15 @@ h4,
 h5,
 h6 {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 300;
+}
+
+.list-bare {
+    list-style: none;
+    color: #777;
+    padding-left: 0;
+    font-size: 14px;
 }
 
 .img-centered {
@@ -62,7 +82,13 @@ h6 {
 }
 
 .bg-light-gray {
-    background-color: #f7f7f7;
+    background-image: url(../img/paper_texture_03.jpg);
+    background-position: center center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
 
 .bg-darkest-gray {
@@ -72,7 +98,7 @@ h6 {
 .btn-primary {
     border-color: #{{ site.color.primary }};
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Oxygen', sans-serif;
     font-weight: 700;
     color: #fff;
     background-color: #{{ site.color.primary }};
@@ -123,7 +149,7 @@ fieldset[disabled] .btn-primary.active {
     border-color: #{{ site.color.primary }};
     border-radius: 3px;
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Oxygen', sans-serif;
     font-size: 18px;
     font-weight: 700;
     color: #fff;
@@ -176,15 +202,16 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand {
-    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
-    color: #{{ site.color.primary }};
+    font-family: "Philosopher","Helvetica Neue",Helvetica,Arial,cursive;
+    font-weight: 700;
+    color: #{{ site.color.secondary }};
 }
 
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
-    color: #{{ site.color.secondary }};
+    color: #{{ site.color.primary }};
 }
 
 .navbar-default .navbar-collapse {
@@ -207,7 +234,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .nav li a {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Oxygen', sans-serif;
     font-weight: 400;
     letter-spacing: 1px;
     color: #fff;
@@ -242,7 +269,7 @@ fieldset[disabled] .btn-xl.active {
     }
 
     .navbar-default .navbar-brand {
-        font-size: 2em;
+        font-size: 3em;
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s;
@@ -258,7 +285,7 @@ fieldset[disabled] .btn-xl.active {
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
-        font-size: 1.5em;
+        font-size: 2.5em;
     }
 }
 
@@ -266,7 +293,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url(../img/header-bg.jpg);
+    background-image: url(../img/header_bg.jpg);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -282,19 +309,20 @@ header .intro-text {
 
 header .intro-text .intro-lead-in {
     margin-bottom: 25px;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Oxygen', sans-serif;
     font-size: 22px;
     font-style: italic;
     line-height: 22px;
+    font-weight: 300;
 }
 
 header .intro-text .intro-heading {
     margin-bottom: 25px;
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Oxygen', sans-serif;
     font-size: 50px;
-    font-weight: 700;
     line-height: 50px;
+    font-weight: 300;
 }
 
 @media(min-width:768px) {
@@ -305,19 +333,20 @@ header .intro-text .intro-heading {
 
     header .intro-text .intro-lead-in {
         margin-bottom: 25px;
-        font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-family: 'Oxygen', sans-serif;
         font-size: 40px;
         font-style: italic;
         line-height: 40px;
+        font-weight: 300;
     }
 
     header .intro-text .intro-heading {
         margin-bottom: 50px;
         text-transform: uppercase;
-        font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-family: 'Oxygen', sans-serif;
         font-size: 75px;
-        font-weight: 700;
         line-height: 75px;
+        font-weight: 300;
     }
 }
 
@@ -334,7 +363,7 @@ section h2.section-heading {
 section h3.section-subheading {
     margin-bottom: 75px;
     text-transform: none;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Oxygen', sans-serif;
     font-size: 16px;
     font-style: italic;
     font-weight: 400;
@@ -342,7 +371,7 @@ section h3.section-subheading {
 
 @media(min-width:768px) {
     section {
-        padding: 150px 0;
+        padding: 80px 0;
     }
 }
 
@@ -414,7 +443,7 @@ section h3.section-subheading {
 
 #portfolio .portfolio-item .portfolio-caption p {
     margin: 0;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Oxygen', sans-serif;
     font-size: 16px;
     font-style: italic;
 }
@@ -577,6 +606,7 @@ section h3.section-subheading {
         padding: 0 30px 20px 20px;
         text-align: left;
     }
+    
 }
 
 @media(min-width:992px) {
@@ -629,35 +659,19 @@ section h3.section-subheading {
     }
 }
 
-.team-member {
-    margin-bottom: 50px;
-    text-align: center;
-}
-
-.team-member img {
-    margin: 0 auto;
-    border: 7px solid #fff;
-}
-
-.team-member h4 {
-    margin-top: 25px;
-    margin-bottom: 0;
-    text-transform: none;
-}
-
-.team-member p {
-    margin-top: 0;
-}
-
 aside.clients img {
     margin: 50px auto;
 }
 
 section#contact {
-    background-color: #222;
-    background-image: url(../img/map-image.png);
-    background-position: center;
+    background-image: url(../img/boston-skyline.jpg);
+    background-position: center center;
     background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    min-height: 750px;
 }
 
 section#contact .section-heading {
@@ -670,7 +684,7 @@ section#contact .form-group {
 
 section#contact .form-group input,
 section#contact .form-group textarea {
-    padding: 20px;
+    padding: 2px;
 }
 
 section#contact .form-group input.form-control {
@@ -678,7 +692,7 @@ section#contact .form-group input.form-control {
 }
 
 section#contact .form-group textarea.form-control {
-    height: 236px;
+    height: 136px;
 }
 
 section#contact .form-control:focus {
@@ -688,34 +702,38 @@ section#contact .form-control:focus {
 
 section#contact::-webkit-input-placeholder {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Oxygen', sans-serif;
     font-weight: 700;
     color: #bbb;
 }
 
 section#contact:-moz-placeholder {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Oxygen', sans-serif;
     font-weight: 700;
     color: #bbb;
 }
 
 section#contact::-moz-placeholder {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Oxygen', sans-serif;
     font-weight: 700;
     color: #bbb;
 }
 
 section#contact:-ms-input-placeholder {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Oxygen', sans-serif;
     font-weight: 700;
     color: #bbb;
 }
 
 section#contact .text-danger {
     color: #e74c3c;
+}
+
+#contactForm > div {
+    padding-top: 200px;
 }
 
 footer {
@@ -726,7 +744,7 @@ footer {
 footer span.copyright {
     text-transform: uppercase;
     text-transform: none;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Oxygen', sans-serif;
     line-height: 40px;
 }
 
@@ -734,7 +752,7 @@ footer ul.quicklinks {
     margin-bottom: 0;
     text-transform: uppercase;
     text-transform: none;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Oxygen', sans-serif;
     line-height: 40px;
 }
 
@@ -792,7 +810,7 @@ ul.social-buttons li a:active {
 
 .portfolio-modal .modal-content p.item-intro {
     margin: 20px 0 30px;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Oxygen', sans-serif;
     font-size: 16px;
     font-style: italic;
 }

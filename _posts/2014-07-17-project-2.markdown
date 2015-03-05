@@ -1,15 +1,16 @@
 ---
-title: Escape
+title: Resume
 subtitle: Website Design
 layout: default
 modal-id: 2
-date: 2014-07-17
-img: escape.png
-thumbnail: escape-thumbnail.png
+date: September 2014
+img: resume.jpg
+thumbnail: resume-thumbnail.jpg
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
+project-date: September 2014
+client: My Resume
 category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+link: <a href="http://webdevdjm.github.io/resume/">Resume</a>
+description: My resume, a one page scroller using Bootstrap 3 framwork.
 
 ---

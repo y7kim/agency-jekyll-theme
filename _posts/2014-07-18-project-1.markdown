@@ -1,15 +1,16 @@
 ---
-title: Dreams
+title: Custom Cabinet
 subtitle: Website Design
 layout: default
 modal-id: 1
-date: 2014-07-18
-img: dreams.png
-thumbnail: dreams-thumbnail.png
+date: 2014-12-18
+img: custom-cabinet.jpg
+thumbnail: custom-cabinet-thumbnail.jpg
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
+project-date: December 2014
+client: Project Site Template
 category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+link: <a href="http://webdevdjm.github.io/CabinetSite/">Custom Cabinets</a>
+description: This is a responsive main front page for a woodworking, cabinet, kitchen, bathroom, design or other shop. Bootstrap was used as a base CSS but I would not say this site looks like a typical Bootstrap site. I also used Yeoman, Grunt, Bower to develop and build the site. This was developed as practice for using HTML/CSS/Javascript/jQuery skills.
 
 ---
