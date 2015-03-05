@@ -10,6 +10,7 @@ alt: image-alt
 project-date: November 2014
 client: Sample Site Template
 category: Web Development
+link: <a href="http://webdevdjm.github.io/yogabliss/">Namaste Yoga</a>
 description: This base template can be used as a single or multipage web site. Simply add your images, content, and other customizations. Navigation can be configured for single or multipage display.
 
 ---

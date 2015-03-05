@@ -10,6 +10,7 @@ alt: image-alt
 project-date: September 2014
 client: My Resume
 category: Web Development
+link: <a href="http://webdevdjm.github.io/resume/">Resume</a>
 description: My resume, a one page scroller using Bootstrap 3 framwork.
 
 ---
