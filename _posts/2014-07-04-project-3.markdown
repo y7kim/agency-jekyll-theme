@@ -1,0 +1,15 @@
+---
+title: Reach Out
+subtitle: Personalized CRM
+layout: default
+modal-id: 6
+date: 2014-07-15
+img: roundicons.png
+thumbnail: roundicons-thumbnail.png
+alt: reach-out
+project-date: July 2015
+client: Reach Out
+category: Mobile Development
+description: The best way to make a positive impression on a client is to look them in the eye and shake their hand. The second best way is to send them a personal, handwritten letter. Introducing Reachout, your semi-automated, truly personal, virtual handwritten letter writer. 
+
+---
