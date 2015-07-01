@@ -1,5 +1,5 @@
 url: https://halcyon-labs.github.io
-baseurl: /
+baseurl: ""
 
 # Site settings
 title: Halcyon Labs
@@ -8,11 +8,12 @@ description: "Halcyon Labs is a startup helping startups build their MVPs and la
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: 35ddff
-  secondary: ff9335  
-  secondary-dark: 1e1207
-  #1e1207
-  #333
+  primary: 2ca8c1
+  secondary: c9742a 
+  secondary-dark: 26201a
+  #2ca8c1
+  #c9742a 
+  #26201a
 
 # Team names, titles and social links
 people:
