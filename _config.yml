@@ -1,33 +1,36 @@
-url: https://y7kim.github.io
-baseurl: /agency-jekyll-theme/
+url: https://halcyon-labs.github.io
+baseurl: ""
 
 # Site settings
-title: Awesome Title
-email: your-email@domain.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+title: Halcyon Labs
+email: scott.swarthout724@gmail.com
+description: "Halcyon Labs is a startup helping startups build their MVPs and launch their businesses."
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: fed136
-  secondary: fec503  
-  secondary-dark: 333
+  primary: 2ca8c1
+  secondary: c9742a 
+  secondary-dark: 26201a
+  #2ca8c1
+  #c9742a 
+  #26201a
 
 # Team names, titles and social links
 people:
-- name: Kay Garland
-  pic: 1
-  position: Lead Designer
+- name: Scott Swarthout
+  pic: scott
+  position: Lead Developer
   social:
     - title: twitter
       url: #
     - title: facebook
       url: #
-    - title: stack-overflow
+    - title: github
       url: #
 
-- name: Larry Parker
-  pic: 2
-  position: Lead Marketer
+- name: Derek Metcalf
+  pic: derek
+  position: Lead Manager
   social:
     - title: twitter
       url: #
@@ -36,9 +39,9 @@ people:
     - title: linkedin
       url: #
 
-- name: Diana Petersen
-  pic: 3
-  position: Lead Developer
+- name: Dean Miesner
+  pic: dean
+  position: Lead Marketer
   social:
     - title: twitter
       url: #
@@ -52,18 +55,15 @@ social:
   - title: twitter
     url: http://twitter.com/jekyllrb
   - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket 
-    url: http://bitbucket.org/jekyll
+    url: http://facebook.com/
+  - title: linkedin
+    url: http://linkedin.com/
   - title: github
-    url: http://github.com/jekyll
+    url: http://github.com/halcyon-labs
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+  - line: Farmington Hills, MI 48331
 
 # Build settings
 markdown: kramdown

@@ -1,0 +1,15 @@
+---
+title: VidPicks
+subtitle: Curated Video Content
+layout: default
+modal-id: 2
+date: 2014-05-11
+img: escape.png
+thumbnail: escape-thumbnail.png
+alt: Vidpicks Logo
+project-date: May 2015
+client: Internal
+category: Web Development
+description: VidPicks is a real-time video review platform. Hand-selected reviewers post videos from Youtube and Vimeo and share their reviews with the world. The concept is to create a place where quality, curated content is only clicks away, improving the online video experience.
+
+---

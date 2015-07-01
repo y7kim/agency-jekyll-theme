@@ -1,0 +1,15 @@
+---
+title: ScratchX
+subtitle: Smart Wearables
+layout: default
+modal-id: 1
+date: 2015-04-30
+img: dreams.png
+thumbnail: dreams-thumbnail.png
+alt: ScratchX
+project-date: April 2015
+client: Internal
+category: smart wearables
+description: ScratchX is a wearable device that uses a multitude of sensors to detect when users are performing destructive actions, like skin picking or hair pulling. The device communicates with the user's smartphone and notifies them of this behavior. ScratchX has recieved funding from the LEAP foundation and is currently in development
+
+---
