@@ -1,69 +1,67 @@
-url: https://y7kim.github.io
-baseurl: /agency-jekyll-theme/
+url: http://educational-engineering.github.io
+baseurl: /et_website
 
 # Site settings
-title: Awesome Title
-email: your-email@domain.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+title: E.Tutorials
+email: et@ethz.ch
+description: "Online Learning materials for schools and universities. Developed and maintained at the ETH Zurich"
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: fed136
-  secondary: fec503  
-  secondary-dark: 333
+  primary: 009BF0
+  secondary: 007CC0
+  secondary-dark: 231f20
 
 # Team names, titles and social links
 people:
-- name: Kay Garland
+- name: Lukas Fässler
   pic: 1
-  position: Lead Designer
+  position: Inhalt und Instructional design
   social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
+#    - title: twitter
+#      url: #
+#    - title: facebook
+#      url: #
+#    - title: stack-overflow
+#      url: #
 
-- name: Larry Parker
+- name: David Sichau
   pic: 2
-  position: Lead Marketer
+  position: Software Entwicklung
   social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: linkedin
-      url: #
+    - title: stack-overflow
+      url: http://stackoverflow.com/users/992460/tune2fs
+    - title: github
+      url: http://github.com/DavidSichau
 
-- name: Diana Petersen
+- name: Markus Dahinden
   pic: 3
-  position: Lead Developer
+  position: Online Prüfungen
   social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: google-plus
-      url: #
+#    - title: twitter
+#      url: #
+#    - title: facebook
+#      url: #
+#    - title: google-plus
+#      url: #
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: http://twitter.com/jekyllrb
-  - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket 
-    url: http://bitbucket.org/jekyll
   - title: github
-    url: http://github.com/jekyll
+    url: http://github.com/orgs/Educational-Engineering
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+  - line: ETH Zürich
+  - line: Department Informatik
+  - line:
+  - line: <strong>Dr. Lukas Fässler</strong>
+  - line: Informationstechnologie und Ausbildung
+  - line: CAB F 13.1
+  - line: Universitätstrasse 6
+  - line:
+  - line: 8092 Zürich
+  - line: Switzerland
 
 # Build settings
 markdown: kramdown
