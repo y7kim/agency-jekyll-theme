@@ -12,6 +12,17 @@ color:
   secondary: 007CC0
   secondary-dark: 231f20
 
+collections:
+- courses
+
+#
+# !! You don't need to change any of the configuration flags below !!
+#
+
+markdown: redcarpet
+highlighter: pygments
+permalink: /:title/
+
 # Team names, titles and social links
 people:
 - name: Lukas Fässler

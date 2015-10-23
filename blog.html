@@ -1,0 +1,27 @@
+---
+layout: simple
+---
+
+<section id="blog">
+  <div class="container">
+    <div class="posts">
+
+      <div class="posts">
+        {% for post in site.posts %}
+        <article class="post">
+
+          <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+
+          <h5>Geschrieben am {{ post.date | date_to_string }} von {{post.author}}</h5>
+
+          <div class="entry">
+            {{ post.excerpt }}
+          </div>
+          <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Weiterlesen</a>
+        </article>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+

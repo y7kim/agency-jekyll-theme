@@ -1,0 +1,17 @@
+---
+layout: post
+title: Weiterfahren bei der letzten Position
+comments: true
+author: David Sichau
+permalink: continue-at-last-position
+---
+
+Diese Woche haben wir Version 1.14.0 released. In dieser Version haben wir ein häufig gewünschtes Feature unserer Benutzer implementiert. Das E.Tutorial speichert jetzt immer den aktuellen Fortschritt in einem E.Tutorial. Wenn der Benutzer dieses Tutorial erneut aufruft, frage es nach, ob an der letzten Position weitergefahren werden soll. 
+
+## Performance
+
+In der letzten Zeit haben wir versucht insgesamt die Performance des E.Tutorials zu steigern, wir sind mit den Optimierungen jedoch noch nicht fertig. Insbesondere auf mobilen Geräten sind die Ladezeiten noch nicht optimal.
+
+## Aktuelle Zahlen
+
+Wie jedesmal möchten wir auch ein paar aktuelle Zahlen mit euch teilen. Im September haben wir insgesamt 2500 Besucher gehabt. Der beliebteste Browser unsere Besucher war Chrome dicht gefolgt von Firefox und Safari.

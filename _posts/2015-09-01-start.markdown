@@ -1,0 +1,35 @@
+---
+layout: post
+title: Erfolgreicher Start
+comments: true
+author: David Sichau
+permalink: release
+---
+
+Seit nun 2 Monaten ist das neue System online. Die meisten Kinderkrankheiten sind überstanden und seit Anfang August haben wir das System für alle geöffnet und freuen uns, dass bereits einige Lehrpersonen auf das neue System umgestiegen sind. 
+
+Vielen Dank für Interesse an unserem neuen System.
+## Zahlen und Fakten
+
+- 19 registrierte Lehrpersonen
+- aktuell 365 aktive Benutzer
+- 36 Updates eingespielt
+- Aktuell 10 Kurse im Angebot
+
+## Rückmeldungen
+
+Wir möchten uns über die zahlreichen Rückmeldungen bedanken. Dank diesen Rückmeldungen haben wir schon viele Verbesserungen an unseren Materialien durchführen können.
+
+## Die nächste Zukunft
+Wir geben uns mit dem aktuellen Stand nicht zufrieden. In der nächsten Zukunft haben wir einige neuen Features in Planung, welche wir hoffentlich bald verwirklichen können. Wir freuen uns auf Ihr Feedback und Rückmeldungen:
+
+- eine neue Startseite mit den wichtigsten Informationen zu den Kursen.
+- Fortschrittsanzeige, wo stehe ich, wie viel Prozent habe ich von einem Tutorial bereits gelöst.
+- Lesezeichen, dort weitermachen wo man stehen geblieben ist.
+- Übersicht für die Lehrperson: wo stehen meine Schülerinnen und Schüler im Moment.
+- Verbesserung der gesamt Performance: Die Ladezeiten sind unter bestimmten Bedingungen nicht so schnell wie wir sie haben möchten.
+- Erstellung weiterer Materialien und weiterer Kurse.
+- Laufend Verbesserungen der aktuellen Kurse.
+- Übersetzungen von Kursen ins Spanische und Englische
+- Abstellen des alten Systemes.
+- Falls Sie Ideen und Wünsche haben, freuen wir uns sehr darüber. Nehmen Sie einfach mit uns Kontakt auf oder diskutieren Sie diese mit uns auf [GitHub](https://github.com/Educational-Engineering/Issues/issues).

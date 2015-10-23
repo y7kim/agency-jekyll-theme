@@ -1,10 +1,13 @@
   <footer>
         <div class="container">
             <div class="row">
-                <div class="col-md-4">
-                    <span class="copyright">Copyright &copy; {{ site.title }} 2015</span>
+                <div class="col-md-5">
+                    <ul class="list-inline quicklinks">
+                        <li><span class="copyright">Copyright &copy; {{ site.title }} 2015</span></li>
+                        <li><a href="{{site.baseurl}}/blog">Blog</a></li>
+                    </ul>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-2">
                     <ul class="list-inline social-buttons">
                         {% for network in site.social %}
                         <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
@@ -12,12 +15,10 @@
                         {% endfor %}
                     </ul>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-5">
                     <ul class="list-inline quicklinks">
-                        <li><a href="{{site.baseurl}}/privacy">Datenschutzerklärung</a>
-                        </li>
-                        <li><a href="{{site.baseurl}}/termsOfUse">Geschäftsbedingungen</a>
-                        </li>
+                        <li><a href="{{site.baseurl}}/privacy">Datenschutzerklärung</a></li>
+                        <li><a href="{{site.baseurl}}/termsOfUse">Geschäftsbedingungen</a></li>
                     </ul>
                 </div>
             </div>
