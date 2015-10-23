@@ -1,5 +1,5 @@
-url: http://educational-engineering.github.io
-baseurl: /et_website
+url: http://localhost:8000
+baseurl: /et_website/_site
 
 # Site settings
 title: E.Tutorials

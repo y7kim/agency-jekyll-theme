@@ -209,6 +209,17 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default.active {
     color: #{{ site.color.secondary }};
 }
+.navbar-default .navbar-nav>.et>a {
+    margin-left: 3px;
+    border-radius: 3px;
+    color: #fff;
+    background-color: #{{ site.color.primary}};
+}
+.navbar-default .navbar-nav>.et>a:hover,
+.navbar-default .navbar-nav>.et>a:focus {
+    color: #fff;
+    background-color: #007CC0;
+}
 
 .navbar-default .navbar-collapse {
     border-color: rgba(255,255,255,.02);
@@ -230,7 +241,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .nav li a {
     text-transform: uppercase;
-    font-weight: 400;
+    font-weight: 600;
     letter-spacing: 1px;
     color: #fff;
 }
@@ -288,7 +299,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url(img/sta_zentrum_hauptgebaeude_003.jpg);
+    background-image: url("img/header.jpg");
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -674,7 +685,7 @@ aside.clients img {
 
 section#contact {
     background-color: #222;
-    background-image: url(../img/map-image.png);
+    background-image: url(img/map-image.png);
     background-position: center;
     background-repeat: no-repeat;
 }

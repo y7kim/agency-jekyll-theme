@@ -19,8 +19,9 @@ $(function() {
             if (firstName.indexOf(' ') >= 0) {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
+            console.log(gotcha);
             $.ajax({
-                url: "http://formspree.io/et@ethz.ch",
+                url: "//formspree.io/pele@ethz.ch",
                 method: "POST",
                 data: {
                     name: name,
@@ -32,6 +33,7 @@ $(function() {
                 dataType: "json",
                 cache: false,
                 success: function(data) {
+                    console.log(data);
                     // Success message
                     $('#success').html("<div class='alert alert-success'>");
                     $('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
@@ -49,6 +51,7 @@ $(function() {
                     $('#contactForm').trigger("reset");
                 },
                 error: function(err) {
+                    console.log(err);
                     // Fail message
                     $('#success').html("<div class='alert alert-danger'>");
                     $('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
