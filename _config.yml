@@ -14,9 +14,9 @@ color:
 
 # Team names, titles and social links
 people:
-- name: Whore
+- name: Random
   pic: 1
-  position: PornStar
+  position: Lead Developer
   social:
     - title: twitter
       url: #
