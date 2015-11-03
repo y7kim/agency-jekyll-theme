@@ -1,10 +1,13 @@
-url: http://localhost:8000
-baseurl: /et_website/_site
+url: https://et.ethz.ch
+baseurl: /
 
 # Site settings
 title: E.Tutorials
 email: et@ethz.ch
 description: "Online Learning materials for schools and universities. Developed and maintained at the ETH Zurich"
+languages: ["de", "en"]
+exclude_from_localizations: ["js", "img", "css"]
+
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
@@ -13,7 +16,8 @@ color:
   secondary-dark: 231f20
 
 collections:
-- courses
+  courses:
+    output: true
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account

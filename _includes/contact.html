@@ -2,9 +2,9 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h2 class="section-heading">Kontakt</h2>
+                <h2 class="section-heading">{% t contact.heading %}</h2>
                 <h3 class="section-subheading text-muted" style="color:white;">
-                    Wir freuen uns von Ihnen zu hören
+                    {% t contact.subHeading %}
                 </h3>
             </div>
         </div>
@@ -17,8 +17,8 @@
                                 <div class="input-group">
                                     <span class="input-group-addon"><i class="fa fa-user fa-fw"></i></span>
                                     <input type="text" class="form-control"
-                                           placeholder="Your Name *" id="name" required
-                                           data-validation-required-message="Please enter your name.">
+                                           placeholder="{% t contact.name %}" id="name" required
+                                           data-validation-required-message="{% t contact.nameText %}">
                                     <p class="help-block text-danger"></p>
                                 </div>
                             </div>
@@ -26,8 +26,8 @@
                                 <div class="input-group">
                                     <span class="input-group-addon"><i class="fa fa-envelope-o fa-fw"></i></span>
                                     <input type="email" class="form-control"
-                                           placeholder="Your Email *" id="email" required
-                                           data-validation-required-message="Please enter your email address.">
+                                           placeholder="{% t contact.email %}" id="email" required
+                                           data-validation-required-message="{% t contact.emailText %}">
                                     <p class="help-block text-danger"></p>
                                 </div>
                             </div>
@@ -36,9 +36,9 @@
                                     <span class="input-group-addon"><i class="fa fa-phone fa-fw"></i></span>
                                     <input type="tel"
                                            class="form-control"
-                                           placeholder="Your Phone *"
-                                           id="phone" required
-                                           data-validation-required-message="Please enter your phone number.">
+                                           placeholder="{% t contact.phone %}"
+                                           id="phone"
+                                           >
                                     <input type="text" id="_gotcha" style="display:none" />
                                     <p class="help-block text-danger"></p>
                                 </div>
@@ -47,16 +47,16 @@
                         <div class="col-md-6">
                             <div class="form-group">
                 <textarea class="form-control"
-                          placeholder="Your Message *" id="message"
+                          placeholder="{% t contact.message %}" id="message"
                           required
-                          data-validation-required-message="Please enter a message."></textarea>
+                          data-validation-required-message="{% t contact.messageText %}"></textarea>
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
                         <div class="clearfix"></div>
                         <div class="col-lg-6 col-md-offset-6 text-center">
-                            <div id="success"></div>
-                            <button type="submit" class="btn btn-xl">Nachricht abschicken</button>
+                            <div id="successMessage"></div>
+                            <button type="submit" class="btn btn-xl">{% t contact.send %}</button>
                         </div>
                     </div>
                 </form>

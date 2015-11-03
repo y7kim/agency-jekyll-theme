@@ -1,6 +1,6 @@
-FROM troyswanson/jekyll
+FROM jekyll/jekyll:latest
 
-ADD . /tmp
+ADD . /srv/jekyll
 
-RUN jekyll build --trace -s /tmp -d /usr/share/nginx/html
-
+RUN chown -R jekyll:jekyll /srv/jekyll && \
+    chmod -R 777 /srv/jekyll

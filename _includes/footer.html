@@ -1,26 +1,26 @@
-  <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-5">
-                    <ul class="list-inline quicklinks">
-                        <li><span class="copyright">Copyright &copy; {{ site.title }} 2015</span></li>
-                        <li><a href="{{site.baseurl}}/blog">Blog</a></li>
-                    </ul>
-                </div>
-                <div class="col-md-2">
-                    <ul class="list-inline social-buttons">
-                        {% for network in site.social %}
-                        <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
-                        </li>
-                        {% endfor %}
-                    </ul>
-                </div>
-                <div class="col-md-5">
-                    <ul class="list-inline quicklinks">
-                        <li><a href="{{site.baseurl}}/privacy">Datenschutzerklärung</a></li>
-                        <li><a href="{{site.baseurl}}/termsOfUse">Geschäftsbedingungen</a></li>
-                    </ul>
-                </div>
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5">
+                <ul class="list-inline quicklinks">
+                    <li><span class="copyright">{% t footer.copyright %}</span></li>
+                    <li><a href="/blog">{% t footer.blog %}</a></li>
+                </ul>
+            </div>
+            <div class="col-md-2">
+                <ul class="list-inline social-buttons">
+                    {% for network in site.social %}
+                    <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <div class="col-md-5">
+                <ul class="list-inline quicklinks">
+                    <li><a href="/privacy">{% t footer.privacy %}</a></li>
+                    <li><a href="/termsOfUse">{% t footer.termsOfUse %}</a></li>
+                </ul>
             </div>
         </div>
-    </footer>
+    </div>
+</footer>

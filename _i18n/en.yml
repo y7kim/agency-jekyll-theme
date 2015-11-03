@@ -1,0 +1,18 @@
+global:
+    german: German
+    english: English
+header:
+    message: Welcome to the E.Tutorials
+    info: More informations
+contact:
+    heading: "Contact"
+    subHeading: "We are looking forward to your message."
+    send: "Nachricht abschicken"
+    message: "Your Message *"
+    messageText: "Please enter a message."
+    name: "Your Name *"
+    nameText: "Please enter your name."
+    phone: "Your Phone *"
+    phoneText: "Please enter your phone number."
+    email: "Your Email *"
+    emailText: "Please enter your email address."

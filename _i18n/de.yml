@@ -1,0 +1,97 @@
+global:
+    german: Deutsch
+    english: Englisch
+pages:
+    home: Home
+    work: Arbeit
+
+header:
+    message: Willkommen bei den E.Tutorials
+    info: Mehr Informationen
+contact:
+    heading: "Kontakt"
+    subHeading: "Wir freuen uns von Ihnen zu hören."
+    send: "Nachricht abschicken"
+    message: "Ihre Mitteilung *"
+    messageText: "Bitte schreiben Sie ein Mitteilung."
+    name: "Ihr Name *"
+    nameText: "Bitte geben Sie Ihren Namen an."
+    phone: "Ihre Telefonnummer"
+    phoneText: "Bitte geben Sie Ihre Telefonnummer an."
+    email: "Ihre Email Adresse *"
+    emailText: "Bitte geben Sie Ihre Email Adresse an."
+didactics:
+    heading: "4-Schritte Modell"
+    subHeanding: "Platzhalter"
+    see:
+        heading: Einführung in die Theorie
+        text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
+    try:
+        heading: Praktische Einführung
+        text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
+    do:
+        heading: Selbstständiges Problem
+        text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
+    explain:
+        heading: Überprüfung des Wissens
+        text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
+    end: Das 4 <br>Schritte <br>Modell
+footer:
+    privacy: Datenschutzerklärung
+    blog: Blog
+    termsOfUse: Geschäftsbedingungen
+    copyright: Copyright &copy; E.Tutorial 2015
+nav:
+    et: E.Tutorials öffnen
+    contact: Kontakt
+    team: Team
+    success: Methodik
+    portfolio: Kurse
+    services: Leistungen
+    didactics: Didaktisches Modell
+course:
+    heading: Kurse
+    subHeading: Lorem ipsum dolor sit amet consectetur.
+services:
+    heading: Leistungen
+    subHeading: Unsere Leistungen.
+    materials:
+        heading: Lernmaterialien
+        text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
+    analytics:
+        heading: Learning Analytics
+        text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
+    exams:
+        heading: Online Prüfungen
+        text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
+    consulting:
+        heading: Beratung
+        text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
+success:
+    heading: Erfolge
+    subHeanding: Platzhalter
+    competence:
+        heading: Vermittlung von Kompetenzen
+        subHeading: Problemorientierung von Lernmaterialien
+        text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
+    learning:
+        heading: Instruktionsmaterialien zum Selbststudium
+        subHeading: Learning by Doing
+        text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
+    assesment:
+        heading: Individuelle formative Assessments
+        subHeading: Feedforward und Feedback
+        text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
+    flipped:
+        heading: Flipped Classroom Prinzip
+        subHeading: Zentraler Ort der Grundlagenvermittlung ist das selbststudium
+        text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
+    exams:
+        heading: Elektronische fallbasierte Prüfungen
+        subHeading: Prüfungen auf demselben kognitiven Level wie der Unterricht
+        text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
+    end: Lerne auch erfolgreich.
+team:
+    heading: Unser Team
+    subHeading: Wir arbeiten alle am Lehrstuhl für Informationstechnologie und Ausbildung am Department Informatik der ETH Zürich.
+    end: Zusätzlich haben wir die Unterstützung von vielen weiteren Personen bei einzelnen Projekten.

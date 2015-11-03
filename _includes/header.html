@@ -1,16 +1,11 @@
-    <!-- Header -->
-    <header>
-        <div class="container">
-            <div class="intro-text">
-                <div class="intro-lead-in">Willkommen bei den E.Tutorials</div>
-                <div class="intro-heading"></div>
-                <a href="#didactics" class="page-scroll btn btn-xl">Mehr Informationen</a>
-            </div>
+<!-- Header -->
+<header>
+    <div class="container">
+        <div class="intro-text">
+            <div class="intro-lead-in">{% t header.message %}</div>
+            <div class="intro-heading"></div>
+            <a href="#didactics" class="page-scroll btn btn-xl">{% t header.info %}</a>
         </div>
-    </header>
-<!--
-        {% for page in site.pages %}
-          {% if page.title %}<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>{% endif %}
-        {% endfor %}
- -->
+    </div>
+</header>
 

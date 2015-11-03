@@ -1,29 +1,32 @@
 <!-- Portfolio Grid Section -->
-    <section id="portfolio" class="bg-light-gray">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Kurse</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-                </div>
-            </div>
-            <div class="row">
-            {% for course in site.courses %}
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal{{ course.modal-id }}" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/{{ course.thumbnail }}" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>{{ course.title }}</h4>
-                        <p class="text-muted">{{ course.subtitle }}</p>
-                    </div>
-                </div>
-            {% endfor %}
+<section id="portfolio" class="bg-light-gray">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">{% t course.heading %}</h2>
+                <h3 class="section-subheading text-muted">{% t course.subHeading %}</h3>
             </div>
         </div>
-    </section>
+        <div class="row">
+            {% for course in site.courses %}
+            {% if course.lang == site.lang %}
+            <div class="col-md-4 col-sm-6 portfolio-item">
+                <a href="{{ course.url | remove: '/'}}" class="portfolio-link">
+                    <div class="portfolio-hover">
+                        <div class="portfolio-hover-content">
+                            <i class="fa fa-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img src="img/portfolio/{{ course.thumbnail }}" class="img-responsive" alt="">
+                </a>
+                <div class="portfolio-caption">
+                    <h4>{{ course.title }}</h4>
+                    <p class="text-muted">{{ course.subtitle }}</p>
+                </div>
+            </div>
+            {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
