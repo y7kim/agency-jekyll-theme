@@ -51,19 +51,19 @@ people:
 social:
   - title: twitter
     url: http://twitter.com/tenzinpluto
-  - title: 
+  - title:
     url:
   - title: linkedin
     url: http://linkedin.com/in/tenzinpluto
-  - title: 
-    url: 
+  - title:
+    url:
   - title: github
     url: http://github.com/developertenzin
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+  - line:
+  - line:
 
 # Build settings
 markdown: kramdown
