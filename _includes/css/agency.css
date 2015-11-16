@@ -172,13 +172,11 @@ fieldset[disabled] .btn-xl.active {
     font-family: "Open Sans", serif;
     font-weight: 600;
     font-style: italic;
-    color: #000;
 }
 
 .navbar-default .nav .dropdown-menu li a{
     font-family: "Open Sans", serif;
     font-weight: 600;
-    color: #000;
 }
 
 .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus {
@@ -188,14 +186,9 @@ fieldset[disabled] .btn-xl.active {
     margin-left: 3px;
 }
 
-.navbar-default .nav li a.navbar-brand:hover,
-.navbar-default .nav li a.navbar-brand:focus{
-    color: #000;
-}
-
 .navbar-default .navbar-brand .large{
     font-size: 1.5em;
-    letter-spacing: -6px;
+    letter-spacing: -4px;
 }
 
 .navbar-default .navbar-brand .first{
@@ -203,19 +196,9 @@ fieldset[disabled] .btn-xl.active {
     letter-spacing: -1px;
 }
 
-
-.navbar-default.navbar-shrink .navbar-brand {
+.navbar-default .navbar-brand {
     color: #fff;
 }
-
-.navbar-default.navbar-shrink  .navbar-brand .large{
-    letter-spacing: -4px;
-}
-
-.navbar-default.navbar-shrink  .navbar-brand .first{
-    letter-spacing: -1px;
-}
-
 
 .navbar-default:hover,
 .navbar-default:focus,
@@ -257,7 +240,6 @@ fieldset[disabled] .btn-xl.active {
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 1px;
-    color: #fff;
 }
 
 .navbar-default .nav li a:hover,
@@ -278,36 +260,11 @@ fieldset[disabled] .btn-xl.active {
     background-color: #{{ site.color.secondary }};
 }
 
-@media(min-width:768px) {
-    .navbar-default {
-        padding: 25px 0;
-        border: 0;
-        background-color: transparent;
-        -webkit-transition: padding .3s;
-        -moz-transition: padding .3s;
-        transition: padding .3s;
-    }
-
-    .navbar-default .navbar-brand {
-        font-size: 2em;
-        -webkit-transition: all .3s;
-        -moz-transition: all .3s;
-        transition: all .3s;
-    }
-
-    .navbar-default .navbar-nav>.active>a {
-        border-radius: 3px;
-    }
-
-    .navbar-default.navbar-shrink {
-        padding: 10px 0;
-        background-color: #222;
-    }
-
-    .navbar-default.navbar-shrink .navbar-brand {
-        font-size: 1.5em;
-    }
+.navbar-default {
+    padding: 10px 0;
+    background-color: #222;
 }
+
 
 header {
     text-align: center;
