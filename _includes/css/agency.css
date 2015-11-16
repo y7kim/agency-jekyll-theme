@@ -539,6 +539,23 @@ section h3.section-subheading {
     background-color: #{{ site.color.primary }};
 }
 
+.timeline-image>i{
+    line-height: 66px;
+    font-size: 2em;
+}
+
+.timeline-image>span {
+    font-size: 1em;
+}
+.timeline-image>span i{
+    line-height: 66px;
+}
+.et-text {
+    margin-top: 1.5em;
+    margin-left: .1em;
+    font-size: 75%;
+}
+
 .timeline>li .timeline-image h4 {
     margin-top: 12px;
     font-size: 10px;
@@ -606,6 +623,20 @@ section h3.section-subheading {
         height: 100px;
         margin-left: -50px;
     }
+    .timeline-image>i{
+        line-height: 86px;
+        font-size: 3em;
+    }
+
+    .timeline-image>span {
+        font-size: 1.5em;
+    }
+    .timeline-image>span i{
+        line-height: 86px;
+    }
+    .et-text {
+        margin-top: 1em;
+    }
 
     .timeline>li .timeline-image h4 {
         margin-top: 16px;
@@ -634,6 +665,22 @@ section h3.section-subheading {
         height: 150px;
         margin-left: -75px;
     }
+    .timeline-image>i{
+        line-height: 136px;
+        font-size: 5em;
+    }
+
+    .timeline-image>span {
+        font-size: 2.75em;
+    }
+    .timeline-image>span i{
+        line-height: 136px;
+    }
+    .et-text {
+        margin-top: .65em;
+        margin-left: .1em;
+        font-size: 75%;
+    }
 
     .timeline>li .timeline-image h4 {
         margin-top: 30px;
@@ -660,6 +707,9 @@ section h3.section-subheading {
         height: 170px;
         margin-left: -85px;
     }
+    .timeline i {
+        line-height: 156px;
+    }
 
     .timeline>li .timeline-image h4 {
         margin-top: 40px;
@@ -669,6 +719,9 @@ section h3.section-subheading {
         padding: 0 100px 20px 20px;
     }
 }
+
+
+
 
 .team-member {
     margin-bottom: 50px;
