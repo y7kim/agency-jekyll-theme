@@ -21,20 +21,20 @@ contact:
     email: "Ihre Email Adresse *"
     emailText: "Bitte geben Sie Ihre Email Adresse an."
 didactics:
-    heading: "4-Schritte Modell"
-    subHeanding: "Platzhalter"
+    heading: "Instruktionsdesign"
+    subHeading: "In 4 Schritten zu aktivem Wissen"
     see:
-        heading: Einführung in die Theorie
-        text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
+        heading: Einführung in die wichtigsten Begriffe, Konzepte und Aufgabenstellungen
+        text: In kurzen Textdokumenten und Videos werden die zentralen Konzepte und Begriffe der Informatik erklärt sowie die bevorstehenden Aufgabenstellungen vorgestellt.
     try:
-        heading: Praktische Einführung
-        text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
+        heading: Computergestütztes Problemlösen
+        text: Unter Anleitung eines elektronischen Tutorials (E.Tutorial) werden die Informatikkonzepte zusammen mit einem Informatikmittel (Programmierumgebung, Software, etc.) in einer realen Problemstellung angewendet. Dieser Schritt dient als Vorbereitung für die Phase DO.
     do:
-        heading: Selbstständiges Problem
-        text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
+        heading: Selbstständige Projektaufgabe
+        text: In diesem Schritt werden die Konzepte selbstständig in einer Projektaufgabe mit Naturwissenschaftlichem Kontext angewendet.
     explain:
-        heading: Überprüfung des Wissens
-        text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
+        heading: Individuelle Präsentatin der Projektaufgabe
+        text: In diesem abschliessenden Schritt werden die Lösungen der Projektaufgabe in einem individuellen Abgabegespräch mit einer Assistenzperson diskutiert.
     end: Das 4 <br>Schritte <br>Modell
 footer:
     privacy: Datenschutzerklärung
@@ -50,26 +50,26 @@ nav:
     services: Leistungen
     didactics: Didaktisches Modell
 course:
-    heading: Kurse
-    subHeading: Lorem ipsum dolor sit amet consectetur.
+    heading: Best Practice Kurse
+    subHeading: Unsere Kurse sind an der ETH jährlich mit über 800 Studierenden pro Jahr im Einsatz. Extern setzen zahlreiche Fachhochschulen und Gymnasien in ihrem Unterricht ein.
 services:
     heading: Leistungen
     subHeading: Unsere Leistungen.
     materials:
-        heading: Lernmaterialien
-        text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
+        heading: Lernmaterialien für individualisiertes Lernen
+        text: Die Kombination von Tutorial und Projektarbeit ermöglicht eine Individualisierung der Lernprozesse unter Selbststeuerung der Lernenden. Fehlendes Grundlagenwissen kann als Vorbereitung auf eine selbstständig zu lösende Projektaufgabe im eingenen Tempo angeeignet werden. Die Präsentation der Projekte wird durch die persönlichen Abgabegespräche ebenfalls individualisiert.
     analytics:
         heading: Learning Analytics
-        text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
+        text: Monitoring-Möglichkeiten geben den Dozierenden grosser Lehrveranstaltungen Einblicke zum allgemeinen Stand der studentischen Lernprozesse und zur Qualität der von den Assistierenden geleisteten Arbeit. Durch die Erfassung von Interaktionsdaten kann die Qualität der Instruktuionsmaterialien überprüft und laufend vebessert werden.
     exams:
-        heading: Online Prüfungen
-        text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
+        heading: Computerbasierte Prüfungen
+        text: Durchführung einer grossen Zahl von formativen und summativen elektronischen Prüfungen. Wir haben dazu einen automatisch korrigierbaren, problembasierten Fragetyp entwickelt. Aufbau eines validierten Fragepools.
     consulting:
         heading: Beratung
-        text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
+        text: Wir unterstützen Schulen, Lehrpersonen und Partner aus der Industrie, wie bestehende Lernmaterialien wirkungsvoll eingesetzt und eigene neue Materialien erstellt werden können. 
 success:
     heading: Erfolge
-    subHeanding: Platzhalter
+    subHeading: Platzhalter
     competence:
         heading: Vermittlung von Kompetenzen
         subHeading: Problemorientierung von Lernmaterialien
