@@ -1,10 +1,10 @@
-url: https://y7kim.github.io
-baseurl: /agency-jekyll-theme/
+url: https://silvermist.github.io
+baseurl:
 
 # Site settings
-title: Awesome Title
+title: Nicola and Carl
 email: your-email@domain.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+description: "Details for Nicola Glenday and Carl Scheffler's wedding on the 19th March 2016"
 
 # Color settings (hex-codes without the leading hash-tag)
 color:

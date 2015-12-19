@@ -262,11 +262,11 @@ fieldset[disabled] .btn-xl.active {
     }
 }
 
-header {
+old-header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url(img/header-bg.jpg);
+    background-image: url(img/silvermist-lawn.jpg);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -274,6 +274,21 @@ header {
     background-size: cover;
     -o-background-size: cover;
 }
+
+header {
+    text-align: center;
+    color: #fff;
+    padding: 50 0 50;
+    background-position: 50% 90%;
+    background-attachment: fixed;
+    background-image: url(img/silvermist-lawn.jpg);
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
 
 header .intro-text {
     padding-top: 100px;
@@ -296,6 +311,8 @@ header .intro-text .intro-heading {
     font-weight: 700;
     line-height: 50px;
 }
+
+
 
 @media(min-width:768px) {
     header .intro-text {
@@ -861,4 +878,8 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #{{ site.color.primary }};
+}
+
+.logo {
+    padding-bottom: 30px;
 }
