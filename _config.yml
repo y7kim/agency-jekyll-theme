@@ -3,14 +3,17 @@ baseurl:
 
 # Site settings
 title: Nicola and Carl
-email: your-email@domain.com
+email: nicola.and.carl.com
 description: "Details for Nicola Glenday and Carl Scheffler's wedding on the 19th March 2016"
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: fed136
-  secondary: fec503  
+  primary: dbe396
+  secondary: d5e35b  
   secondary-dark: 333
+  background-dark: 33332f
+  background-medium: f2f2ed
+  background-light: 
 
 # Team names, titles and social links
 people:

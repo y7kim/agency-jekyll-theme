@@ -1,0 +1,11 @@
+---
+title: Framing
+subtitle: Projects
+layout: default
+modal-id: 4
+img: frames.png
+thumbnail: frames-thumbnail.png
+alt: Framing
+description: We have some nice art and some bare walls.  We'd greatly value any contributions towards getting what we have framed nicely so we can put it up.  If we end up with $$$ we'll buy some more art :)
+
+---

@@ -1,0 +1,11 @@
+---
+title: '@home'
+subtitle: Registry
+layout: default
+modal-id: 3
+img: home.png
+thumbnail: home-thumbnail.png
+alt: '@home'
+description: We've put together a registry at @home.  You can browse it and see if there is anything you feel like getting us by clicking the button below.
+
+---

@@ -62,11 +62,11 @@ h6 {
 }
 
 .bg-light-gray {
-    background-color: #f7f7f7;
+    background-color: #{{ site.color.background-medium }};
 }
 
 .bg-darkest-gray {
-    background-color: #222;
+    background-color: #{{ site.color.background-dark }};
 }
 
 .btn-primary {
@@ -172,7 +172,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default {
     border-color: transparent;
-    background-color: #222;
+    background-color: #{{ site.color.background-dark }};
 }
 
 .navbar-default .navbar-brand {
@@ -254,7 +254,7 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default.navbar-shrink {
         padding: 10px 0;
-        background-color: #222;
+        background-color: #{{ site.color.background-dark }};
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
@@ -266,7 +266,7 @@ old-header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url(img/silvermist-lawn.jpg);
+    background-image: url(img/lawn-blackwhite.jpg);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -279,9 +279,9 @@ header {
     text-align: center;
     color: #fff;
     padding: 50 0 50;
-    background-position: 50% 90%;
+    background-position: 50% 70%;
     background-attachment: fixed;
-    background-image: url(img/silvermist-lawn.jpg);
+    background-image: url(img/tinted-bg.jpg);
     background-repeat: none;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -366,6 +366,12 @@ section h3.section-subheading {
 .service-heading {
     margin: 15px 0;
     text-transform: none;
+}
+
+.service-heading-contact {
+    margin: 15px 0;
+    text-transform: none;
+    color: #fff;
 }
 
 #portfolio .portfolio-item {
@@ -671,8 +677,7 @@ aside.clients img {
 }
 
 section#contact {
-    background-color: #222;
-    background-image: url(img/map-image.png);
+    background-color: #{{ site.color.background-dark }};
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -768,7 +773,7 @@ ul.social-buttons li a {
     line-height: 40px;
     outline: 0;
     color: #fff;
-    background-color: #222;
+    background-color: #{{ site.color.background-dark }};
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
     transition: all .3s;
@@ -842,7 +847,7 @@ ul.social-buttons li a:active {
     width: 1px;
     height: 75px;
     margin-left: 35px;
-    background-color: #222;
+    background-color: #{{ site.color.background-dark }};
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
@@ -852,7 +857,7 @@ ul.social-buttons li a:active {
     z-index: 1052;
     width: 1px;
     height: 75px;
-    background-color: #222;
+    background-color: #{{ site.color.background-dark }};
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
@@ -882,4 +887,17 @@ body {
 
 .logo {
     padding-bottom: 30px;
+}
+
+.spacing {
+    padding-top: 30px;
+}
+
+div.flip {
+    display: inline-block;
+  -moz-transform: scaleX(-1);    /* Gecko */
+  -o-transform: scaleX(-1);      /* Opera */
+  -webkit-transform: scaleX(-1); /* Webkit */
+  transform: scaleX(-1);         /* Standard */
+  filter: FlipH;                 /* IE 6/7/8 */
 }

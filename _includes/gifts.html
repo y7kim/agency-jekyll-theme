@@ -1,13 +1,25 @@
 <!-- Portfolio Grid Section -->
-    <section id="portfolio" class="bg-light-gray">
+    <section id="portfolio">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Gifts</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
                 </div>
             </div>
             <div class="row">
+                <div class="col-md-3 text-center">
+                    <span class="fa-stack fa-4x ">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-gift fa-stack-1x fa-inverse"></i>
+                    </span>
+                </div>
+                <div class="col-md-9">
+                    <p class="text-muted">Nobody is obliged to get us gifts – truly.  We're fine in our little house as is. If you're coming from overseas please, please don't bother.  It's a tremendous expense just getting here and we're very grateful!</p>
+                    <p class="text-muted">Despite our protestations we know some of you will insist on giving us something and will want ideas, so we've put together a few here. Some of the items are expensive. Think banding together, not breaking the piggy bank.  You are, of course, not limited to these lists – they're just for ideas.
+
+                </div>
+            </div>
+            <div class="row spacing">
             {% for post in site.posts %}
                 <div class="col-md-3 col-sm-6 portfolio-item">
                     <a href="#portfolioModal{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
