@@ -7,6 +7,8 @@ email: nicola.and.carl.com
 description: "Details for Nicola Glenday and Carl Scheffler's wedding on the 19th March 2016"
 
 # Color settings (hex-codes without the leading hash-tag)
+
+# lime-sage theme
 color:
   primary: dbe396
   secondary: d5e35b  
@@ -14,6 +16,7 @@ color:
   background-dark: 33332f
   background-medium: f2f2ed
   background-light: 
+
 
 # Team names, titles and social links
 people:

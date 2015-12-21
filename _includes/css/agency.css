@@ -6,8 +6,14 @@
 
 body {
     overflow-x: hidden;
-    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #{{ site.color.secondary-dark }};
+}
+
+.body-link {
+    color: #{{ site.color.background-dark }};
+    font-weight: bold;
+    text-decoration: underline;
 }
 
 .text-muted {
@@ -36,7 +42,7 @@ a.active {
 }
 
 a {
-    color: #{{ site.color.primary }};
+    color: #{{ site.color.background-dark }};
 }
 
 a:hover,
@@ -176,15 +182,15 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand {
-    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
-    color: #{{ site.color.primary }};
+    font-family: "Courgette","Helvetica Neue",Helvetica,Arial,cursive;
+    color: #{{ site.color.secondary }};
 }
 
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
-    color: #{{ site.color.secondary }};
+    color: #{{ site.color.primary }};
 }
 
 .navbar-default .navbar-collapse {
@@ -192,8 +198,8 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-toggle {
-    border-color: #{{ site.color.primary }};
-    background-color: #{{ site.color.primary }};
+    border-color: #{{ site.color.secondary }};
+    background-color: #{{ site.color.secondary }};
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -259,6 +265,7 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default.navbar-shrink .navbar-brand {
         font-size: 1.5em;
+        color: #{{ site.color.primary }};
     }
 }
 
@@ -308,7 +315,7 @@ header .intro-text .intro-heading {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 50px;
-    font-weight: 700;
+    font-weight: 100;
     line-height: 50px;
 }
 
@@ -333,7 +340,7 @@ header .intro-text .intro-heading {
         text-transform: uppercase;
         font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 75px;
-        font-weight: 700;
+        font-weight: 100;
         line-height: 75px;
     }
 }
@@ -344,8 +351,8 @@ section {
 
 section h2.section-heading {
     margin-top: 0;
-    margin-bottom: 15px;
-    font-size: 40px;
+    margin-bottom: 30px;
+    font-size: 30px;
 }
 
 section h3.section-subheading {
