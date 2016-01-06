@@ -1,0 +1,16 @@
+---
+title: Vive Peru
+subtitle: 2013 PanAmerican Rally
+layout: default
+modal-id: 2
+date: 2014-05-01
+img: viveperu.png
+thumbnail: viveperu-thumbnail.png
+alt: image-alt
+project-date: December 17, 2013 - April 2, 2014
+homepage: www.viveperu.org
+project: PanAmericanRally
+impact: $15,000 in 2 vehicle donations
+description: Vive Perú is a nonprofit organization dedicated to fostering understanding of Latin American and Peruvian culture and providing much-needed aid to Peruvian communities. Vive Peru works to promote cultural understanding and implement innovative and self-sustainable programs in the areas of health, education, social work and engineering. Through its relationship with local organizations and institutions, Vive Perú is in continuous dialogue with the Peruvian community to design sustainable projects and initiatives that will have a long-term impact in the areas they work. Much-needed aid is provided through medical campaigns, health education campaigns, English workshops, music enrichment programs and Internet installation projects.
+
+---
