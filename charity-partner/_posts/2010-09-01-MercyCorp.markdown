@@ -12,6 +12,5 @@ project: Mongol Rally
 impact: $2,050 
 homepage: www.mercycorp.org
 category: charity-partner
-description: In 2010, as part of the Mongol Rally, we raised money for Mercycorp. Started in 1979, and headquartered in Seattle, Mercycorp is a global aid agency engaged in transitional environments that have experienced natural disaster, economic collapse, or conflict. People working for it move as quickly as possible from bringing in food and supplies to enabling people to rebuild their economy with community-driven and market-led programs.
-
+description: For Team Lastresponder's first journey, we raised money for Mercycorp. Mercycorp has been operating in Mongolia for many years and when the team crossed the finish line on Sept 1, 2010, Mercycorp was there to greet the team.
 ---

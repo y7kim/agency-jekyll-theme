@@ -1,0 +1,85 @@
+url: https://y7kim.github.io
+baseurl: /agency-jekyll-theme/
+
+# Site settings
+title: Team Last Responders
+email: team@lastresponders.org
+description: "Team Last Responders adventures for charity"
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: fed136
+  secondary: fec503  
+  secondary-dark: 333
+
+# Ambulances
+people:
+- make: Mercedes Sprinter
+  year: 2005
+  country: Mongolia  
+  distance-traveled: 10,000 miles
+  pic: 1
+
+- make: Ford E350
+  year: 1989
+  country: Mali
+  distance-traveled: 6,000 miles
+  pic: 2
+
+- make: Ford E450
+  year: 2003
+  country: Peru 
+  pic: 3
+
+# Team names, titles and social links
+people:
+- name: Kay Garland
+  pic: 1
+  position: Lead Designer
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: stack-overflow
+      url: #
+
+- name: Larry Parker
+  pic: 2
+  position: Lead Marketer
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: linkedin
+      url: #
+
+- name: Diana Petersen
+  pic: 3
+  position: Lead Developer
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: google-plus
+      url: #
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: http://twitter.com/lastresponders
+  - title: facebook
+    url: http://facebook.com/lastresponders
+  - title: instagram
+    url: http://instagram.com/lastresponders
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: 2373 Broadway 828
+  - line: New York, NY 10024
+
+# Build settings
+markdown: kramdown
+permalink: pretty

@@ -1,0 +1,33 @@
+<!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <div class="row">
+            </div>
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">Adventuring for Charity</h4>
+                    <p class="text-muted">Charity can be transformative to people’s lives. Adding a dash of adventure ensures that it will transform your life, too. The Last Responders is part of Team MMT, Inc. a registered non-profit that takes on adventure challenges for charity.</p>
+                </div>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">Personal Connections for a Cause</h4>
+                    <p class="text-muted">Ordinary people can do extraordinary things. That message is central to our mission. The project is not just about our journey. It’s also about yours. Everyone is invited to come along with us—through our blogs, videos, and social media. Our mission is not just delivering an ambulance. It is inspiring others to leave the beaten path, meet strangers, take risks, and explore the world.</p>
+                </div>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-lock fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">Get Involved</h4>
+                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                </div>
+            </div>
+        </div>
+    </section>

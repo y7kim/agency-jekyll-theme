@@ -11,6 +11,7 @@ project-date: July 29, 2010 - September 1, 2011
 project: Mongol Rally
 impact: $775 
 homepage: www.msf.org
-description: In 2010 as part of the Mongol Rally, we raised money for MSF, Doctors Without Borders. MSF is a French secular humanitarian-aid non-governmental organization, Nobel Peace Prize laureate, best known for its projects in war-torn regions and developing countries facing endemic diseases. Started in 1971, this organization has been at the forefront of providing humanitarian aid in the face of both political and environmental instability.
+description: As part of the Mongol Rally, we raised money for MSF, Doctors Without Borders. MSF has a strong track record of doing great work around the world, and their spirit struck a chord in the four participating members.
+
 
 ---
