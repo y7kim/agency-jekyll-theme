@@ -475,6 +475,7 @@ section h3.section-subheading {
     margin: 0 auto;
     padding: 25px;
     max-width: 400px;
+    min-height: 120px;
     text-align: center;
     background-color: #fff;
 }
@@ -718,6 +719,26 @@ section h3.section-subheading {
 }
 
 .team-member p {
+    margin-top: 0;
+}
+
+.ambulance-unit {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.ambulance-unit img {
+    margin: 0 auto;
+    border: 7px solid #fff;
+}
+
+.ambulance-unit h4 {
+    margin-top: 25px;
+    margin-bottom: 0;
+    text-transform: none;
+}
+
+.ambulance-unit p {
     margin-top: 0;
 }
 

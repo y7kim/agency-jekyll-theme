@@ -419,12 +419,85 @@ section h3.section-subheading {
     font-style: italic;
 }
 
-#portfolio * {
+#partner * {
+    z-index: 2;
+}
+
+#partner .partner-item {
+    right: 0;
+    margin: 0 0 15px;
+}
+
+#partner .partner-item .partner-link {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    max-width: 400px;
+}
+
+#partner .partner-item .partner-link .partner-hover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    -webkit-transition: all ease .5s;
+    -moz-transition: all ease .5s;
+    transition: all ease .5s;
+    background: rgba(254,209,54,.9); /* Fallback when no plugin support */
+    background: rgba({{ site.color.primary | hex_to_rgb | join: ',' }}, .9);
+}
+
+#partner .partner-item .partner-link .partner-hover:hover {
+    opacity: 1;
+}
+
+#partner .partner-item .partner-link .partner-hover .partner-hover-content {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: 20px;
+    margin-top: -12px;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+}
+
+#partner .partner-item .partner-link .partner-hover .partner-hover-content i {
+    margin-top: -12px;
+}
+
+#partner .partner-item .partner-link .partner-hover .partner-hover-content h3,
+#partner .partner-item .partner-link .partner-hover .partner-hover-content h4 {
+    margin: 0;
+}
+
+#partner .partner-item .partner-caption {
+    margin: 0 auto;
+    padding: 25px;
+    max-width: 400px;
+    min-height: 120px;
+    text-align: center;
+    background-color: #fff;
+}
+
+#partner .partner-item .partner-caption h4 {
+    margin: 0;
+    text-transform: none;
+}
+
+#partner .partner-item .partner-caption p {
+    margin: 0;
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-style: italic;
+}
+
+#partner * {
     z-index: 2;
 }
 
 @media(min-width:767px) {
-    #portfolio .portfolio-item {
+    #partner .partner-item {
         margin: 0 0 30px;
     }
 }
@@ -488,8 +561,8 @@ section h3.section-subheading {
     z-index: 100;
     position: absolute;
     left: 0;
-    width: 80px;
-    height: 80px;
+    width: 160px;
+    height: 160px;
     margin-left: 0;
     border: 7px solid #f1f1f1;
     border-radius: 100%;
@@ -649,6 +722,26 @@ section h3.section-subheading {
     margin-top: 0;
 }
 
+.ambulance-unit {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.ambulance-unit img {
+    margin: 0 auto;
+    border: 7px solid #fff;
+}
+
+.ambulance-unit h4 {
+    margin-top: 25px;
+    margin-bottom: 0;
+    text-transform: none;
+}
+
+.ambulance-unit p {
+    margin-top: 0;
+}
+
 aside.clients img {
     margin: 50px auto;
 }
@@ -770,7 +863,7 @@ ul.social-buttons li a:active {
     outline: 0;
 }
 
-.portfolio-modal .modal-content {
+.partner-modal .modal-content {
     padding: 100px 0;
     min-height: 100%;
     border: 0;
@@ -781,32 +874,32 @@ ul.social-buttons li a:active {
     box-shadow: none;
 }
 
-.portfolio-modal .modal-content h2 {
+.partner-modal .modal-content h2 {
     margin-bottom: 15px;
     font-size: 3em;
 }
 
-.portfolio-modal .modal-content p {
+.partner-modal .modal-content p {
     margin-bottom: 30px;
 }
 
-.portfolio-modal .modal-content p.item-intro {
+.partner-modal .modal-content p.item-intro {
     margin: 20px 0 30px;
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
     font-style: italic;
 }
 
-.portfolio-modal .modal-content ul.list-inline {
+.partner-modal .modal-content ul.list-inline {
     margin-top: 0;
     margin-bottom: 30px;
 }
 
-.portfolio-modal .modal-content img {
+.partner-modal .modal-content img {
     margin-bottom: 30px;
 }
 
-.portfolio-modal .close-modal {
+.partner-modal .close-modal {
     position: absolute;
     top: 25px;
     right: 25px;
@@ -816,11 +909,11 @@ ul.social-buttons li a:active {
     cursor: pointer;
 }
 
-.portfolio-modal .close-modal:hover {
+.partner-modal .close-modal:hover {
     opacity: .3;
 }
 
-.portfolio-modal .close-modal .lr {
+.partner-modal .close-modal .lr {
     z-index: 1051;
     width: 1px;
     height: 75px;
@@ -831,7 +924,7 @@ ul.social-buttons li a:active {
     transform: rotate(45deg);
 }
 
-.portfolio-modal .close-modal .lr .rl {
+.partner-modal .close-modal .lr .rl {
     z-index: 1052;
     width: 1px;
     height: 75px;
