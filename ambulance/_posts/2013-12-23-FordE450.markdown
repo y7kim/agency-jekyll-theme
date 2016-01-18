@@ -1,0 +1,18 @@
+---
+make: Ford E450
+year: 2003
+layout: default
+modal-id: 3
+date: 2013-12-22
+thumb: ambulance/ford_e450_thumb.jpg
+portrait: ambulance/ford_e450_portrait.jpg
+country: Peru
+project: Panamerican Rally
+destination: Trujillo, Peru
+birthplace: Olean, New York
+distance-traveled: 16,000 miles
+timeline: timeline-ford-e450
+description: Ambulance Description
+
+
+---

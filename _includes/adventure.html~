@@ -17,10 +17,10 @@
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
                                     <h3>2010</h3>
-                                    <h4 class="subheading">London to Mongolia</h4> 
+                                    <h2 class="subheading">London to Mongolia</h2> 
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">10,000 Miles</p>
+                                    <p class="text-muted"></p>
                                 </div>
                             </div>
                         </li>
@@ -31,10 +31,10 @@
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
                                     <h3>2011</h3>
-                                    <h4 class="subheading">London to Mali</h4>
+                                    <h2 class="subheading">London to Mali</h2>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">3,000 Miles</p>
+                                    <p class="text-muted"></p>
 
                                 </div>
                             </div>
@@ -46,10 +46,10 @@
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
                                     <h3>2013</h3>
-                                    <h4 class="subheading">New York to Peru</h4>
+                                    <h2 class="subheading">New York to Peru</h2>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">16,000 Miles</p>
+                                    <p class="text-muted"></p>
                                 </div>
                             </div>
                         </li>

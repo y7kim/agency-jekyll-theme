@@ -1,0 +1,18 @@
+---
+make: Ford E350
+year: 1989
+layout: default
+modal-id: 2
+date: 2011-12-14
+thumb: ambulance/ford_e350_thumb.jpg
+portrait: ambulance/ford_e350_portrait.jpg
+country: Mali
+project: Timbuktu Challenge
+destination: Bamako, Mali
+birthplace: Agawam, Mass
+distance-traveled: 3,000 miles
+timeline: timeline-ford-e350
+description: Ambulance Description
+
+
+---

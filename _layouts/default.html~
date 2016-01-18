@@ -10,9 +10,10 @@
     {% include about.html %}
     {% include adventure.html %}
     {% include charity-partner.html %}
-    {% include ambulance.html %}
+    {% include ambulances.html %}
     {% include footer.html %}
-    {% include modals.html %}
+    {% include partner-modals.html %}
+    {% include ambulance-modals.html %}
     {% include js.html %}
 
     </body>

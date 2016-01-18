@@ -1,0 +1,15 @@
+---
+layout: post
+status: publish
+published: true
+title: Starting Line
+location: Goodwood, United Kingdon
+date: '2010-07-24 06:13:00 -0400'
+thumb: img/timeline-mercedes-sprinter/goodwood.jpg
+pic: img/timeline-mercedes-sprinter/goodwood.jpg
+categories:
+- Mongol Rally 2010
+tags: [timeline-mercedes-sprinter]
+comments: []
+---
+

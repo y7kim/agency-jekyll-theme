@@ -18,17 +18,21 @@ ambulances:
   year: 2005
   country: Mongolia  
   distance-traveled: 10,000 miles
+  modal-id: 1
   pic: 1
 
 - make: Ford E350
   year: 1989
   country: Mali
   distance-traveled: 6,000 miles
+  modal-id: 2
   pic: 2
 
 - make: Ford E450
   year: 2003
   country: Peru 
+  distance-traveled: 16,000 miles
+  modal-id: 3
   pic: 3
 
 # Team names, titles and social links

@@ -1,0 +1,26 @@
+<container>
+                    <ul class="modal-timeline">
+						  {% for post in site.posts reversed %}
+						  {% for tag in post.tags %}
+						  {% if tag == include.timeline-story %}
+						
+						<li>
+                            <div class="modal-timeline-image">
+                                <img class="img-circle img-responsive" src="{{post.thumb}}" alt="">
+                            </div>
+                            <div class="modal-timeline-panel" >
+                                <div class="modal-timeline-heading" >
+                                    <h4>{{post.date | date: '%B %d, %Y'}}</h4>
+                                    <h3 class="subheading">{{post.location}}</h2> 
+                                </div>
+                                <div class="modal-timeline-body">
+                                    <h2 class="text-muted">{{post.title}}</h2>
+                                </div>
+                            </div>
+                        </li>
+  						{% endif %}
+				        {% endfor %}
+						{% endfor %}
+                        
+                      
+</container>

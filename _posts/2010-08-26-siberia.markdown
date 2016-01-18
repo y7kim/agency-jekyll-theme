@@ -1,0 +1,15 @@
+---
+layout: post
+status: publish
+published: true
+title: Stuck in mud
+location: Altay Mountains, Russia
+date: '2010-08-26 06:13:00 -0400'
+thumb: img/timeline-mercedes-sprinter/siberia.jpg
+pic: img/timeline-mercedes-sprinter/siberia.jpg
+categories:
+- Mongol Rally 2010
+tags: [timeline-mercedes-sprinter]
+comments: []
+---
+

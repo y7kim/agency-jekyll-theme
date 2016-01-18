@@ -1,0 +1,15 @@
+---
+layout: post
+status: publish
+published: true
+title: Almost There
+location: Northern border, Mongolia
+date: '2010-08-31 06:13:00 -0400'
+thumb: img/timeline-mercedes-sprinter/mongolia.jpg
+pic: img/timeline-mercedes-sprinter/mongolia.jpg
+categories:
+- Mongol Rally 2010
+tags: [timeline-mercedes-sprinter]
+comments: []
+---
+

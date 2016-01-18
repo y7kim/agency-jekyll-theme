@@ -1,0 +1,15 @@
+---
+layout: post
+status: publish
+published: true
+title: Zooming through Europe
+location: Budapest, Hungary
+date: '2010-07-29 06:13:00 -0400'
+thumb: img/timeline-mercedes-sprinter/budapest.jpg
+pic: img/timeline-mercedes-sprinter/budapest.jpg
+categories:
+- Mongol Rally 2010
+tags: [timeline-mercedes-sprinter]
+comments: []
+---
+
