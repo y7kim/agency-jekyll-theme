@@ -14,27 +14,32 @@
                         <div class="modal-body">
                             <h2>{{ambulance.year }} {{ ambulance.make }}</h2>
                             <hr class="star-primary">
-                            <img src="img/{{ ambulance.portrait }}" class="img-responsive img-centered" alt="{{ambulance.year}} {{ ambulance.make }}">
+                            <img src="img/{{ ambulance.portrait }}" class="img-responsive img-centered img-rounded" alt="{{ambulance.year}} {{ ambulance.make }}">
                             <ul class="list-inline item-details">
-                                <li>Purchased: {{ambulance.birthplace}}
-                                </li>
-                                <li>Project:
+	                            <li>Project:
                                     <strong>{{ ambulance.project }}
                                     </strong>
                                 </li>
-                                <li>Distance traveled:
-                                    <strong>{{ ambulance.distance-traveled }}
-                                    </strong>
+    
+                                <li>Place of Purchase: 
+	<strong>
+		{{ambulance.birthplace}}
+		</strong>
                                 </li>
+                               
                                 <li>Destination:
                                     <strong>{{ ambulance.destination }}
                                     </strong>
                                 </li>
+								 <li>Distance traveled:
+	                                    <strong>{{ ambulance.distance-traveled }}
+	                                    </strong>
+	                                </li>
                             </ul>
                             <p>{{ ambulance.description }}</p>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-							<br>
-						    {% include timeline.html timeline-story=ambulance.timeline %}
+							
+							{% include timeline.html timeline-story=ambulance.timeline %}
 
                         </div>
                     </div>

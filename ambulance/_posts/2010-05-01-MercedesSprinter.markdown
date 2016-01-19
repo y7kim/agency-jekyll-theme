@@ -12,7 +12,7 @@ destination: Ulan-bator, Mongolia
 birthplace: Berlin, Germany
 distance-traveled: 10,000 miles
 timeline: timeline-mercedes-sprinter
-description: For the 2010 Mongol Rally, we found a retired ambulance in Berlin and drove 10,000 miles to mongolia.
+description: The search for an ambulance to drive to Mongolia started with Google searches for "use ambulance Europe". Listings weren't hard to find. Putting down a 500 euro deposit wasn't hard either. But the final step of completing the purchase was a complete unknown. We had no idea what the German equivalent to the American DMV. Not one to let the unknown  stop us from reaching Mongolia, Stephen bought a plane ticket to Berlin to complete the mission. Over the course of the week, Stephen recruited a new teammate in Berlin and finally The trip proved to be yet another leg of the adventure. Stephen didn't complete the purchase, instead we recruited a teammate Lillie. We entrusted her the task of finding the ambulance. Lillie eventually zeroed in an a 2001 Mercedes Sprinter Ambulance. 
 
 
 ---

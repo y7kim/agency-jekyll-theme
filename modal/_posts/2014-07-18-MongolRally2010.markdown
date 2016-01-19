@@ -1,0 +1,19 @@
+---
+title: Mongol Rally 2010
+type: summary
+start: Goodwood, United Kingdom
+distance: 10,000 miles
+duration: 3 months
+destination: Ulan-bator, Mongolia
+layout: default
+modal-id: MongolRally2010
+date: 2014-07-18
+img: img/rallies/mongol-rally-2010/portrait.jpg
+event-name: Mongol Rally
+event-link: http://www.theadventurists.com/mongol-rally/
+categories:
+- modal
+tags: [modal-rally]
+description: The Mongol Rally is the ultimate endurance rally that covers the insane distance of 10,000 miles from London UK to Ulan Bator Mongolia. In the summer of 2010, Team Last Responders joined teams from across the world to attempt this challenge. This was Team Last Responder's first charity rally. The team raised money and donated an ambulance benefiting MSF, Mercycorp, and the country of Mongolia.
+
+---

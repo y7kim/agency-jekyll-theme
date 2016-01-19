@@ -1,0 +1,56 @@
+ <!-- Rally Modals -->
+  {% for post in site.categories.modal %}
+	{% for tag in post.tags %}
+	{% if tag == "modal-rally" %}
+
+    <div class="rally-modal modal fade" id="rallyModal{{ post.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>{{ post.title }}</h2>
+                            <hr class="star-primary">
+                            <img src="{{ post.img }}" class="img-responsive img-centered" alt="{{ rally.title }}">
+                            <ul class="list-inline item-details">
+                                <li>Start:
+                                    <strong>{{ post.start }}
+                                    </strong>
+                                </li>
+                                <li>Distance:
+                                    <strong>{{ post.distance }}
+                                    </strong>
+                                </li>
+                                <li>Duration:
+                                    <strong>{{ post.duration }}
+                                    </strong>
+                                </li>
+                                <li>Destination:
+                                    <strong>{{ post.destination }}
+                                    </strong>
+                                </li>
+								<li>Event:
+									<a href=""{{post.event-link}}>
+                                    <strong> {{ post.event-name }}
+                                    </strong>
+</a>
+                                </li>
+                            </ul>
+                            <p>{{ post.description }}</p>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+	{% endif %}
+	{% endfor %}
+	{% endfor %}
+

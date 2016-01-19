@@ -12,7 +12,8 @@ destination: Bamako, Mali
 birthplace: Agawam, Mass
 distance-traveled: 3,000 miles
 timeline: timeline-ford-e350
-description: Ambulance Description
-
+transmission: automatic
+engine: 7.2L
+description: Many things can be found on Ebay - including a Timbuktu Challenge Ambulance. This diesel powered beauty served the community of Spencer Massachusetts for many years before landing on a used car lot in Agawam, Massachusetts. All it took was a test drive to convince the team that this was the one we'd take to Africa. The only things missing some repair work, a new paint job, and disco ball. Once the vehicle was prepped, the team shipped the car to Liverpool and the journey began. Despite all the work we put in, the car suffered a brake down between Casablanca and Marrakech. After a second breakdown in Dakhla, Western Sahara, the team crossed the finish line a month late.
 
 ---
