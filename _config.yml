@@ -110,4 +110,4 @@ address:
 
 # Build settings
 markdown: kramdown
-permalink: pretty
+permalink:    /:title/

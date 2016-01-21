@@ -17,7 +17,7 @@
                 <div class="col-md-4">
                                 <img class=".img-rounded img-responsive" src="img/about/3.jpg" alt="">
                     <h4 class="service-heading">Get Involved</h4>
-                    <p class="text-muted">Team Last Responders is always looking to engage like-minded individuls, passionate about charitable causes. If you would like to contribute or join our team, please reach out to us!</p>
+                    <p class="text-muted">Team Last Responders is always looking to engage like-minded individuls, passionate about charitable causes. If you would like to contribute or join our team, please <a href="#contact">reach out to us!</a></p>
                 </div>
             </div>
         </div>

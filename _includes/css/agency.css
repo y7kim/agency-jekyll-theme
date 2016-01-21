@@ -1356,3 +1356,23 @@ body {
     margin: 0;
 }
 
+/* link format */
+
+.blue-link a,
+a:hover,
+a:focus,
+a:active,
+a.active {
+    outline: 0;
+}
+
+.blue-link a {
+    color: #3647FF;
+}
+
+.blue-link a:hover,
+a:focus,
+a:active,
+a.active {
+    color: #3647FF;
+}

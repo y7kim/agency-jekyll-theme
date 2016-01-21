@@ -14,6 +14,6 @@ event-link: http://www.dakarchallenge.co.uk/
 categories:
 - modal
 tags: [modal-rally]
-description: The Timbuktu Challenge is a 3000 miles car rally that starts in London and ends near Timbuktu, Mali. For this event, teams are tasked with acquiring a car, gathering in London and driving from Europe into Western Africa over the course of 3 weeks. Team Last Resonponsers answered the call to adventure by finding an American ambulance, shipping it to Liverpool and breaking down all over Morocco.
+description: The Timbuktu Challenge is a 3000 miles car rally that starts in London and ends near Timbuktu, Mali. For this event, teams acquire a car for donation, gather in London and drive from Europe into Western Africa in 3 weeks. Team Last Resonders answered the call to adventure with an American made Wheeled Coach Amabulance. For the adventure, the team shipped the car to Liverpool, drove into a Africa, and broke down all over Morocco before crossing the finish line 5 weeks late.
 
 ---
