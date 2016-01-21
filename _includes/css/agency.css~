@@ -1311,14 +1311,14 @@ body {
 }
 
 /* circluar hover*/
-#adventure .timeline .circle-link {
+.circularhover  .circle-link {
     display: block;
     position: relative;
     margin: 0 auto;
     max-width: 400px;
 }
 
-#adventure .timeline .circle-link .circle-hover {
+.circularhover  .circle-link .circle-hover {
     position: absolute;
     width: 100%;
 	border-radius: 100%;
@@ -1331,11 +1331,11 @@ body {
     background: rgba({{ site.color.primary | hex_to_rgb | join: ',' }}, .9);
 }
 
-#adventure .timeline .circle-link .circle-hover:hover {
+.circularhover  .circle-link .circle-hover:hover {
     opacity: 7;
 }
 
-#adventure .timeline .circle-link .circle-hover .circle-hover-content {
+.circularhover  .circle-link .circle-hover .circle-hover-content {
     position: absolute;
     top: 50%;
     width: 100%;
@@ -1346,11 +1346,12 @@ body {
     color: #fff;
 }
 
-#adventure .timeline .circle-link .circle-hover .circle-hover-content i {
+.circularhover  .circle-link .circle-hover .circle-hover-content i {
     margin-top: -12px;
 }
 
-#adventure .timeline .circle-link .circle-hover .circle-hover-content h3,
-#adventure .timeline .circle-link .circle-hover .circle-hover-content h4 {
+.circularhover  .circle-link .circle-hover .circle-hover-content h3,
+.circularhover  .circle-link .circle-hover .circle-hover-content h4 {
     margin: 0;
 }
+

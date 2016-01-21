@@ -12,8 +12,9 @@
     {% include charity-partner.html %}
     {% include ambulances.html %}
     {% include footer.html %}
-    {% include partner-modals.html %}
+    {% include partners-modals.html %}
     {% include ambulance-modals.html %}
+    {% include rally-modals.html %}
     {% include js.html %}
 
     </body>
