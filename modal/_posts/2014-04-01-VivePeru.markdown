@@ -1,0 +1,18 @@
+---
+title: Vive Peru
+subtitle: 2013 PanAmerican Rally
+layout: default
+modal-id: 2
+date: 2014-05-01
+img: viveperu.png
+thumbnail: viveperu-thumbnail.png
+alt: image-alt
+project-date: December 17, 2013 - April 2, 2014
+homepage: www.viveperu.org
+project: PanAmericanRally
+impact: $15,000 2 vehicle donations
+categories:
+- modal
+tags: [partners]
+description: Vive Perú is a nonprofit organization dedicated to fostering understanding of Peruvian culture and providing aid to Peruvian communities. During the planning phase of the project, Vive Peru pointed the team to the Trujillo a Hospital network as the ambulance recipient. Once the team reached Trujillo, Vive Peru introduce the team to challenges that Peruvians face and inspiring they support projects.
+---

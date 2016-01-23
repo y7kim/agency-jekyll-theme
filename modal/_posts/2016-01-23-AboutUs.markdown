@@ -1,0 +1,27 @@
+---
+title: Team Last Responders
+layout: default
+date: 2016-01-23
+img: about/africa_header.jpg
+alt: image-alt
+categories:
+- modal
+tags: [modal-aboutus]
+---
+**Team Last Responders** is a community of like-minded volunteers who believe that travel is not only a mechanism to connect with people around the world, but also a way to experience and to understand charitable work at the ground level. Team members embark on adventures and narrate the personal story of their journey to an audience largely built through social media. By placing the charity at the conclusion of the story, Last Responders aims to relate a real philanthropic work to a real-life personal story.
+
+Founded in 2010 as Team MMT (short for the initial team name Team Magical Mongolian Mystery Tour), Team MMT inc is a registered 501(c)3 non-profit that exists to promote partner charities and raise funds to assist their efforts. The primary means we add value to our charity partners:
+
+* **Raise visibility** of our charity partners by including them in our story
+* **Raise funding** (direct and indirect) for our charity partners either directly
+* **Material donations** to support activities on the ground
+
+To date, our organization has participated in three charity rallies. In 2010, as Team Magical Mongolian Mystery Tour, the team drove 10,000 miles from London to Ulan Bator, Mongolia and chose [Doctors Without Borders](www.msf.org) and [Mercycorp](http://www.mercycorp.org) as our benefactors. In 2011, as Team Last Responders, the team drove 4,000 miles from London to Bamako, Mali choosing the [Mali Health Organizing Project](http://malihealth.org) and the [Salif Keita Global Foundation](http://www.salifkeita.us) to be our partners. In 2014, the PanAmerican Rally took the team from New York to Tujillo, Peru and the team partnered with [Esperanca](http://www.esperanca.org) and [Vive Peru](http://www.viveperu.org).
+
+| **Email**  || team@lastresponders.org |
+| **Address** | |2373 Broadway #828 |
+|   ||New York, NY 10024 |
+
+
+
+

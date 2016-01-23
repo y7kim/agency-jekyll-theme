@@ -1,0 +1,19 @@
+---
+title: Médecins Sans Frontières
+subtitle: 2010 Mongol Rally
+layout: default
+modal-id: 6
+date: 2010-05-01
+img: msf.png
+thumbnail: msf-thumbnail.png
+alt: image-alt
+project-date: July 29, 2010 - September 1, 2011
+project: Mongol Rally
+impact: $775 
+homepage: www.msf.org
+categories:
+- modal
+tags: [partners]
+description: Médecins Sans Frontières, also known as Doctors Without Borders needs little introduction. For their inspiring work, this organization received the Nobel Peace prize in 1999 and continues to be uncompromising in delivering their aid. In response to their inspiring work, Team Last Responders included a donation campaign as part of its Mongol Rally participation. 
+
+---

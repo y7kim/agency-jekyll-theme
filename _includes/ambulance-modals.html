@@ -1,50 +1,54 @@
- <!-- Ambulance Modals -->
-   {% for ambulance in site.categories.ambulance %}
-    <div class="ambulance-modal modal fade" id="ambulanceModal{{ ambulance.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>{{ambulance.year }} {{ ambulance.make }}</h2>
-                            <hr class="star-primary">
-                            <img src="img/{{ ambulance.portrait }}" class="img-responsive img-centered img-rounded" alt="{{ambulance.year}} {{ ambulance.make }}">
-                            <ul class="list-inline item-details">
-	                            <li>Project:
-                                    <strong>{{ ambulance.project }}
-                                    </strong>
-                                </li>
-    
-                                <li>Place of Purchase: 
-	<strong>
-		{{ambulance.birthplace}}
-		</strong>
-                                </li>
-                               
-                                <li>Destination:
-                                    <strong>{{ ambulance.destination }}
-                                    </strong>
-                                </li>
-								 <li>Distance traveled:
-	                                    <strong>{{ ambulance.distance-traveled }}
-	                                    </strong>
-	                                </li>
-                            </ul>
-                            <p>{{ ambulance.description }}</p>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-							
-							{% include timeline.html timeline-story=ambulance.timeline %}
+<!-- Ambulance Modals -->
+{% for ambulance in site.categories.modal %}
+{% for tag in ambulance.tags %}
+{% if tag == "modal-ambulance" %}    <div class="index-modal modal fade" id="ambulanceModal{{ ambulance.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="modal-content">
+		<div class="close-modal" data-dismiss="modal">
+			<div class="lr">
+				<div class="rl">
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2">
+					<div class="modal-body">
+						<h2>{{ambulance.year }} {{ ambulance.make }}</h2>
+						<hr class="star-primary">
+						<img src="img/{{ ambulance.portrait }}" class="img-responsive img-centered img-rounded" alt="{{ambulance.year}} {{ ambulance.make }}">
+						<ul class="list-inline item-details">
+							<li>Place of Purchase: 
+								<strong>
+									{{ambulance.birthplace}}
+								</strong>
+							</li>
+							<li>Start: 
+								<strong>
+									{{ambulance.start}}
+								</strong>
+							</li>
 
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+							<li>Destination:
+								<strong>{{ ambulance.destination }}
+								</strong>
+							</li>
+							<li>Distance traveled:
+								<strong>{{ ambulance.distance-traveled }}
+								</strong>
+							</li>
+						</ul>
+						{{ ambulance.content }}
+					
+					</div>
+					<div class="modal-close">
+							<button type="button" class="btn btn-default modal-clos" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+					</div>
+				</div>
+			
+			</div>
+		</div>
+	</div>
+</div>
+{% endif %}
+{% endfor %}
 {% endfor %}

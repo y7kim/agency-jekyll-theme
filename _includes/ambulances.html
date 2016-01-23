@@ -8,7 +8,9 @@
 			</div>
 		</div>
 		<div class="row">
-			{% for member in site.categories.ambulance %}
+			{% for member in site.categories.modal %}
+			{% for tag in member.tags %}
+			{% if tag == "modal-ambulance" %}
 			<div class="col-sm-4">
 				<div class="ambulance-unit">
 					<a href="#ambulanceModal{{ member.modal-id }}" data-toggle="modal" >
@@ -25,6 +27,8 @@
 					<p class="text-muted">{{ member.position }}</p>
 				</div>
 			</div>
+			{% endif %}
+			{% endfor %}
 			{% endfor %}
 		</div>
 		<div class="row">

@@ -8,7 +8,9 @@
                 </div>
             </div>
             <div class="row">
-            {% for post in site.categories.charity-partner %}
+            {% for post in site.categories.modal %}
+	    {% for tag in post.tags %}
+            {% if tag == "partners" %}
                 <div class="col-md-4 col-sm-6 partner-item">
                     <a href="#partnerModal{{ post.modal-id }}" class="partner-link" data-toggle="modal">
                         <div class="partner-hover">
@@ -23,6 +25,8 @@
                         <p class="text-muted">{{ post.subtitle }}</p>
                     </div>
                 </div>
+            {% endif %}
+            {% endfor %}
             {% endfor %}
             </div>
         </div>
