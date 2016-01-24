@@ -10,7 +10,7 @@ modal-id: TimbuktuChallenge2012
 date: 2014-07-19
 img: img/rallies/timbuktu-challenge-2012/portrait.jpg
 event-name: Timbuktu Challenge 
-event-link: http://www.dakarchallenge.co.uk/
+event-link: www.dakarchallenge.co.uk/
 categories:
 - modal
 tags: [modal-rally]
