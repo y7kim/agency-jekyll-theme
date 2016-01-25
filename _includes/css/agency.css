@@ -1188,7 +1188,7 @@ body {
 }
 
 .circularhover  .circle-link .circle-hover:hover {
-    opacity: 7;
+    opacity: .9;
 }
 
 .circularhover  .circle-link .circle-hover .circle-hover-content {
