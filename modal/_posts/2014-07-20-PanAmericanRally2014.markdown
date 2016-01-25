@@ -14,4 +14,4 @@ categories:
 - modal
 tags: [modal-rally]
 ---
-The Pan American Rally was a Team Last Responders 'first'. For this project, the team designed a route, planned a time table and organized the vehicle donation without the assistance of an organizer. The project revolved around raising money, donating medical supplies, and two vehicles to our partner charities - Vive Peru and Esperanca.
+The Pan American Rally was a Team Last Responders 'first'. For this project, the team designed a route, planned a time table and organized the vehicle donation without the assistance of an organizer. Over the course of the project, the team raised money, donated medical supplies, and delivered two vehicles to our partner charities - Vive Peru and Esperanca.

@@ -5,8 +5,8 @@ layout: default
 modal-id: 4
 date: 2012-02-01
 project-date: December 14, 2011 - February 15, 2012
-img: salifkeitagf.png
-thumbnail: salifkeitagf-thumbnail.png
+img: salifkeitagf.jpg
+thumbnail: salifkeitagf-thumbnail.jpg
 alt: image-alt
 project: Timbuktu Challenge
 homepage: www.salifkeita.us
@@ -15,6 +15,5 @@ impact: $10,000 vehicle donation
 categories:
 - modal
 tags: [partners]
-description: The Salif Keita Foundation was founded by Salif Keita, a Malian singer who focuses on addressing the plight of albinos in Africa. For the 2012 Timbuktu Challenge, Team MMT partnered with this organization to determine how best to organize an ambulance donation. At the conclusion of the 2012 Timbuktu Challenge, the vehicle was successfully donated to a Hospital in Bamako, Mali. There the vehicle would be used as a mobile health clinic to serve the entire region.
-
 ---
+The Salif Keita Global Foundation was named after Malian singer Salif Keita and founded to address the plight of albinos in Africa. For the 2012 Timbuktu Challenge, Team Last Responders partnered with this organization to determine how best to organize an ambulance donation. At the conclusion of the 2012 Timbuktu Challenge, the vehicle's new  home would be in Bamako, Mali at the Center for Development of Vaccines. There, the vehicle would be used as a mobile health clinic to serve the entire region.

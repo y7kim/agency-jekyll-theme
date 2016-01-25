@@ -14,6 +14,5 @@ homepage: www.msf.org
 categories:
 - modal
 tags: [partners]
-description: Médecins Sans Frontières, also known as Doctors Without Borders needs little introduction. For their inspiring work, this organization received the Nobel Peace prize in 1999 and continues to be uncompromising in delivering their aid. In response to their inspiring work, Team Last Responders included a donation campaign as part of its Mongol Rally participation. 
-
 ---
+Médecins Sans Frontières, also known as Doctors Without Borders received the Nobel Peace prize in 1999. This organization continues to be uncompromising in delivering their aid to regions in need. Their work inspired, Team Last Responders to conduct a donation campaign as part of its Mongol Rally participation. 

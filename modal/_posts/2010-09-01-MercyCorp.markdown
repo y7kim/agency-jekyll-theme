@@ -14,5 +14,5 @@ homepage: www.mercycorp.org
 categories:
 - modal
 tags: [partners]
-description: Mercycorp is a global NGO with a great track record for making charitable impact. They are consistently first responders to regions effected by disasters, including Haiti, Nepal, and Syria. This charity was selected by the Mongol Rally organizers as an official charity that teams could support. For the 2010 Mongol Rally, Team Last Responders raised money and promoted Mercycorp.  
 ---
+Mercycorp is a global non-profit with a great track record for making charitable impact. They are consistently the first responders to regions effected by disasters - including Haiti, Nepal, and Syria. For the 2010 Mongol Rally, Team Last Responders raised money and promoted Mercycorp.  
