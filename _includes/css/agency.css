@@ -289,6 +289,11 @@ header .intro-text .intro-lead-in {
     font-size: 22px;
     font-style: italic;
     line-height: 22px;
+    padding: 20px 00px;
+    border-color: #009BF0;
+    border-radius: 3px;
+    color: #fff;
+    background-color: #009BF0;
 }
 
 header .intro-text .intro-heading {
@@ -913,4 +918,11 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #{{ site.color.primary }};
+}
+
+#publications li {
+    margin-bottom: 10px;
+}
+#publications li a {
+    color: black;
 }

@@ -71,7 +71,26 @@ services:
         text: Hohe Anzahl Prüfungen, kurze Prüfungszeiten, Sicherheit bei der Durchführung sowie der Anspruch, mehr als die Wiedergabe von Fakten zu prüfen, stellen hohe Anforderungen an ein System für elektronische Prüfungen. Wir haben dazu einen automatisch korrigierbaren, fallbasierten Fragetyp entwickelt, der eine effiziente Prüfung des studentischen Wissens auf demselben kognitiven Level wie der Unterricht ermöglicht.
     consulting:
         heading: Beratung
-        text: Wir unterstützen Schulen, Lehrpersonen und Partner aus der Industrie, wie bestehende oder neue Lernmaterialien mit einem geeigneten didaktischen und technischen Setup wirkungsvoll eingesetzt werden können. 
+        text: Wir unterstützen Schulen, Lehrpersonen und Partner aus der Industrie, wie bestehende oder neue Lernmaterialien mit einem geeigneten didaktischen und technischen Setup wirkungsvoll eingesetzt werden können.
+publications:
+    heading: Unsere Publikationen
+    subHeading: Blabla
+    paper: "Faessler L., Hinterberger H., Bauer-Messmer B.** (2004). The Application Guide: Each Student His Own Tutor. World Conference on Educational Multimedia, Hypermedia and Telecommunications 2004 (1), 2371-2373."
+    informatics:
+        heading: Vermittlung anspruchsvoller Informatik-Konzepte
+        text: Durch das Lösen von Informatik-Projekten mit Daten aus einem Fachbreich können anspruchsvolle Themenbereiche der Informatik (z.B. Programmieren, Datenbanken, etc.) vermittelt und gleichzeitig auf eine Zielgruppe ausgerichtet werden. Die Lernenden eignen sich Wissen auf höherer kognitiver Stufe an und erhalten gleichzeitig Einblicke in Wissenschaftliches Arbeiten.
+    materials:
+        heading: Entwicklung von Lernmaterialien für individualisiertes Lernen
+        text: Durch die Entwicklung von elektronischen Instruktionsmaterialien können sich die Lernenden im eigenen Computer-Labor durch Learing by Doing je nach Vorwissen individuell und im eigenen Tempo auf das selbstständige Lösen eines Projekts vorbereiten. Die Lernenden eignen sich dadurch das Grundlagenwissen selber an und die Selbstständigkeit und Motivation der Lernenden wird erhöht.
+    analytics:
+        heading: Learning Analytics als Feedback-Instrument
+        text: Monitoring-Möglichkeiten geben den Dozierenden grosser Lehrveranstaltungen Einblicke zum allgemeinen Stand der studentischen Lernprozesse und zur Qualität der von den Lerncoaches geleisteten Arbeit. Durch die Erfassung von Interaktionsdaten kann die Qualität der Instruktuionsmaterialien überprüft und laufend vebessert werden.
+    exams:
+        heading: Entwicklung und Durchführung von computerbasierten Prüfungen
+        text: Hohe Anzahl Prüfungen, kurze Prüfungszeiten, Sicherheit bei der Durchführung sowie der Anspruch, mehr als die Wiedergabe von Fakten zu prüfen, stellen hohe Anforderungen an ein System für elektronische Prüfungen. Wir haben dazu einen automatisch korrigierbaren, fallbasierten Fragetyp entwickelt, der eine effiziente Prüfung des studentischen Wissens auf demselben kognitiven Level wie der Unterricht ermöglicht.
+    consulting:
+        heading: Beratung
+        text: Wir unterstützen Schulen, Lehrpersonen und Partner aus der Industrie, wie bestehende oder neue Lernmaterialien mit einem geeigneten didaktischen und technischen Setup wirkungsvoll eingesetzt werden können.
 success:
     heading: Innovative Lehrapplikationen
     subHeading: Folgende innovativen Lehrapplikationen wurden von uns entwickelt. Sie erweisen sich als flexibel im Einsatz und lassen sich auch in eine eigene Lernplattform einbinden.

@@ -1,19 +1,24 @@
 <footer>
     <div class="container">
         <div class="row">
-            <div class="col-md-5">
+            <div class="col-md-3">
                 <ul class="list-inline quicklinks">
                     <li><span class="copyright">{% t footer.copyright %}</span></li>
                     <li><a href="/blog">{% t footer.blog %}</a></li>
                 </ul>
             </div>
-            <div class="col-md-2">
+            <div class="col-md-4">
+                <a href="https://www.ethz.ch" target="_blank">
+                    <img src="img/logos/eth_logo.png" class="img-responsive img-centered" alt="">
+                </a>
+                <br>
                 <ul class="list-inline social-buttons">
                     {% for network in site.social %}
                     <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
                     </li>
                     {% endfor %}
                 </ul>
+
             </div>
             <div class="col-md-5">
                 <ul class="list-inline quicklinks">

@@ -1,0 +1,20 @@
+<!-- Services Section -->
+    <section id="publications">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">{% t publications.heading %}</h2>
+                    <h3 class="section-subheading text-muted">{% t publications.subHeading %}</h3>
+                </div>
+            </div>
+            <div class="row">
+                <ul>
+                    {% for paper in site.paper %}
+                        <li>
+                            <strong>{{paper.author}} ({{paper.year}}). {{paper.name}}</strong> <a href="{{ paper.url }}">{{paper.journal}}</a>
+                        </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </section>

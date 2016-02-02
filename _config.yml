@@ -57,6 +57,88 @@ people:
   pic: 3
   position: Online Prüfungen
   social:
+
+paper:
+- name: Evaluation of online learning materials with automatically collected interaction data.
+  author: Sichau D., Faessler L.
+  year: 2016
+  journal: Proc. of the 28th World Conference on Educational Media and Technology (EdMedia 2016), to appear.
+  url:
+- name: Aufbau von Programmierkompetenzen mit Selbstlernmodulen der ETH Zürich.
+  author: Faessler L., Dahinden M., Scheuner B.
+  year: 2014
+  journal: Technical Report, ETH Zürich, Informationstechnologie und Ausbildung, Departement Informatik.
+  url: http://e-collection.library.ethz.ch/view/eth:8621
+- name: "Problem-Based E-Learning in Practice: Digital Laboratories Provide Pathways from E-Science to High Schools."
+  author: Hinterberger, H.
+  year: 2011
+  journal: "World Conference on E-Learning in Corporate, Government, Healthcare, and Higher Education 2011, Honolulu, Hawaii, USA. October 17–21: AACE, 1947-1954."
+  url: http://www.editlib.org/p/39013
+- name: Gymnasialer ICT-Unterricht im digitalen Datenlabor.
+  author: Faessler L.
+  year: 2011
+  journal: Technical Report 743, ETH Zürich, Information Technology and Education.
+  url: ftp://ftp.inf.ethz.ch/pub/publications/tech-reports/7xx/743.pdf
+- name:  Monitoring Blended Learning Environments  based  on Performance Data.
+  author: Dahinden M.  & Faessler L.
+  year: 2011
+  journal: IADIS International Conference e-Learning 2011, 20.-23. July 2011, Rome Italy, Vol. 1, 401-408. <italic>Best Research Paper</italic>
+  url: http://www.cta.ethz.ch/publikationen/pdf/11_iadis_rom_dahinden
+- name: Anleitung zur Erstellung von problembasierten Pruefungsfragen fuer den ICT-Unterricht.
+  author: Dahinden M.
+  year: 2010
+  journal: Technical Report 710, ETH Zürich, Information Technology and Education.
+  url: ftp://ftp.inf.ethz.ch/pub/publications/tech-reports/7xx/710.pdf
+- name: "Computer-basierte high-stake Leistungskontrolle mit Sioux: Planung, Durchfuehrung und Auswertung einer Basispruefung mit 269 Studierenden."
+  author: Dahinden M. & Hinterberger H.
+  year: 2010
+  journal: Technical Report 689, ETH Zürich, Information Technology and Education.
+  url: ftp://ftp.inf.ethz.ch/pub/publications/tech-reports/6xx/689.pdf
+- name:  Making Informatics Work for Everyone - Teaching Computer Competences for the Natural Sciences at ETH.
+  author: Hinterberger H.
+  year: 2010
+  journal: Technical Report 686, ETH Zürich, Information Technology and Education.
+  url: ftp://ftp.inf.ethz.ch/pub/publications/tech-reports/6xx/686.pdf
+- name: Log-File Evaluation of a Problem Based e-Learning Unit on Visual Literacy.
+  author: Scheuner B. & Faessler L.
+  year: 2010
+  journal: IADIS International Conference e-Learning 2010, 22.-29. July 2010, Freiburg Germany, Vol. 2, 171-176.
+  url: http://www.cta.ethz.ch/publikationen/pdf/iadis2010_scheuner
+- name: Einsatz von ETH-Lernmaterialien im gymnasialen ICT-Unterricht im Rahmen der informatischen Grundbildung.
+  author: Faessler L.
+  year: 2009
+  journal: Technical Report 641, ETH Zürich, Information Technology and Education.
+  url: ftp://ftp.inf.ethz.ch/pub/publications/tech-reports/6xx/641.pdf
+- name: "Das 4-Schritte-Modell: Grundlage für ein kompetenzorientiertes e-Learning."
+  author: Faessler L.
+  year: 2007
+  journal: Diss. ETH Nr. 17521.
+  url: http://e-collection.ethbib.ethz.ch/cgi-bin/show.pl?type=diss&nr=17521
+- name: "E-Learnig: Make it as simple as possible, but not simpler."
+  author: Hinterberger H.
+  year: 2007
+  journal: Afr. Tehnol. Dev. Forum Journal, Vol. 4, Issue 2, July, 2007.
+  url: http://www.cta.ethz.ch/publikationen/pdf/07_atdf
+- name: Evaluating student motivation in constructivistic, problem-based introductory computer science courses.
+  author: Faessler L., Hinterberger H., Dahinden M., Wyss M.
+  year: 2006
+  journal: World Conference on E-Learning, Hawaii, 2006, 1178. <italic>Awarded Paper</italic>
+  url: http://www.inf.ethz.ch/personal/hinterbe/aace_2006.pdf
+- name: Assessment as an Instrument to Evaluate Quality of Instruction.
+  author: Faessler L., Hinterberger H., Bosia L., Dahinden M.
+  year: 2005
+  journal: World Conference on Educational Multimedia, Hypermedia and Telecommunications 2005, 3555-3562.
+  url: http://www.cta.ethz.ch/publikationen/pdf/05_aace_montreal
+- name:  "From Hybrid Courses to Blended Learning: A Case Study."
+  author: Hinterberger H., Faessler L., Bauer-Messmer B.
+  year: 2004
+  journal: ICNEE 2004.
+  url: http://www.cta.ethz.ch/publikationen/pdf/05_icnee_neuchatel
+- name: "The Application Guide: Each Student His Own Tutor."
+  author: Faessler L., Hinterberger H., Bauer-Messmer B.
+  year: 2004
+  journal: World Conference on Educational Multimedia, Hypermedia and Telecommunications 2004 (1), 2371-2373.
+  url: http://www.cta.ethz.ch/publikationen/pdf/04_aace_lugano
 #    - title: twitter
 #      url: #
 #    - title: facebook
