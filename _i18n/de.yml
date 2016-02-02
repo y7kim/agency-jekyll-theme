@@ -6,7 +6,7 @@ pages:
     work: Arbeit
 
 header:
-    message: Willkommen bei den E.Tutorials
+    message: E.Tutorials - Individualisierte Online-Instruktion für den Informatik-Grundlagen-Unterricht
     info: Mehr Informationen
 contact:
     heading: "Kontakt"
@@ -21,77 +21,73 @@ contact:
     email: "Ihre Email Adresse *"
     emailText: "Bitte geben Sie Ihre Email Adresse an."
 didactics:
-    heading: "In 4 Schritten zu aktivem Wissen"
-    subHeading: "Seit über 10 Jahren unterrichten wir hunderte von Naturwissenschafterinnen und Naturwissenschafter erfolgreich im Fach Informatik. Die Studierenden werden interaktiv und unabhänging von ihrem Vorwissen an Themen wie Programmierung, Datenverwaltung und Datenvisualisierung herangeführt. Zentraler Teil unseres Unterrichts ist das 4-Schritte-Modell, ein Blended Learning Konzept, mit dem sich Selbststudium und Präsenzunterricht auch mit grossen Klassen wirkungsvoll organisieren lässt."
+    heading: In 4 Schritten zu aktivem Wissen
+    subHeading: In den vergangenen Jahren haben wir hunderte von Naturwissenschafterinnen und Naturwissenschafter erfolgreich im Fach Informatik unterrichtet. Die Studierenden werden interaktiv und unabhänging von ihrem Vorwissen an Themen wie Programmierung, Datenverwaltung und Datenvisualisierung herangeführt, indem sie reale Daten aus ihren Fächern verarbeiten. Zentraler Teil unseres Unterrichts ist das <b>4-Schritte-Modell</b>, ein Blended Learning Konzept, mit dem sich Selbststudium und Präsenzunterricht auch mit grossen Klassen wirkungsvoll organisieren lässt und auf das aktive Lernen der Studierenden fokussiert.
     see:
         heading: Einführung in die wichtigsten Begriffe, Konzepte und Aufgabenstellungen
-        text: In kurzen Textdokumenten und Videos werden die zentralen Konzepte und Begriffe der Informatik erklärt sowie die bevorstehenden Aufgabenstellungen vorgestellt.
+        text: In kurzen Textdokumenten und Videos werden die zentralen theoretischen Konzepte und Begriffe der Informatik erklärt sowie die bevorstehenden Aufgabenstellungen vorgestellt.
     try:
         heading: Computergestütztes Problemlösen
-        text: Unter Anleitung eines elektronischen Tutorials (E.Tutorial) werden die Informatikkonzepte zusammen mit einem Informatikmittel (Programmierumgebung, Software, etc.) in einer realen Problemstellung angewendet. Dieser Schritt dient als Vorbereitung für die Phase DO.
+        text: Unter Anleitung eines elektronischen Tutorials (E.Tutorial) werden die Informatikkonzepte der Phase SEE zusammen mit einem Informatikmittel (Programmierumgebung, Datenbank, etc.) angewendet. Dieser Schritt dient als Vorbereitung für die Projektaufgabe der Phase DO.
     do:
         heading: Selbstständige Projektaufgabe
-        text: In diesem Schritt werden die Konzepte selbstständig in einer Projektaufgabe mit Naturwissenschaftlichem Kontext angewendet.
+        text: In diesem Schritt werden die Konzepte selbstständig in einer Projektaufgabe angewendet. Ziel ist der Wissenstransfer aus den vorangehenden Phasen in einer Projektaufgabe mit einem wissenschaftlichem Kontext.
     explain:
-        heading: Individuelle Präsentatin der Projektaufgabe
-        text: In diesem abschliessenden Schritt werden die Lösungen der Projektaufgabe in einem individuellen Abgabegespräch mit einer Assistenzperson diskutiert.
-    end: Das 4 <br>Schritte <br>Modell
+        heading: Individuelle Präsentation der Projektaufgabe
+        text: In diesem abschliessenden Schritt werden die individuellen Lösungen der Projektaufgabe in einem persönlichen Face-to-Face-Abgabegespräch mit einer Fachperson diskutiert. Feedback und gegenseitige Bewertung gehören ebenfalls zu diesem Schritt. 
+    end: Leistungs- kontrolle
+    
 footer:
     privacy: Datenschutzerklärung
     blog: Blog
     termsOfUse: Geschäftsbedingungen
     copyright: Copyright &copy; E.Tutorial 2015
 nav:
-    et: E.Tutorials öffnen
+    et: E.Tutorials Login
     contact: Kontakt
     team: Team
-    success: Methodik
+    services: Kompetenz
     portfolio: Kurse
-    services: Leistungen
-    didactics: Didaktisches Modell
+    success: Tools
+    didactics: Didaktik
+    publications: Publikationen
 course:
     heading: Best Practice Kurse
     subHeading: Unsere Kurse sind an der ETH jährlich mit über 800 Studierenden pro Jahr im Einsatz. Extern setzen zahlreiche Fachhochschulen und Gymnasien in ihrem Unterricht ein.
 services:
-    heading: Leistungen
-    subHeading: Unsere Leistungen.
+    heading: Unsere Kompetenz
+    subHeading: Zentrum unserer Aktivitäten ist ein Educational Engineering, mit dem Ziel, Lernumgebungen zur Vermittlung von Informatik-Grundlagen zu entwicklen und für verschiedene Zielgruppen bereitzustellen.
+    informatics:
+        heading: Vermittlung anspruchsvoller Informatik-Konzepte
+        text: Durch das Lösen von Informatik-Projekten mit Daten aus einem Fachbreich können anspruchsvolle Themenbereiche der Informatik (z.B. Programmieren, Datenbanken, etc.) vermittelt und gleichzeitig auf eine Zielgruppe ausgerichtet werden. Die Lernenden eignen sich Wissen auf höherer kognitiver Stufe an und erhalten gleichzeitig Einblicke in Wissenschaftliches Arbeiten. 
     materials:
-        heading: Lernmaterialien für individualisiertes Lernen
-        text: Die Kombination von Tutorial und Projektarbeit ermöglicht eine Individualisierung der Lernprozesse unter Selbststeuerung der Lernenden. Fehlendes Grundlagenwissen kann als Vorbereitung auf eine selbstständig zu lösende Projektaufgabe im eingenen Tempo angeeignet werden. Die Präsentation der Projekte wird durch die persönlichen Abgabegespräche ebenfalls individualisiert.
+        heading: Entwicklung von Lernmaterialien für individualisiertes Lernen 
+        text: Durch die Entwicklung von elektronischen Instruktionsmaterialien können sich die Lernenden im eigenen Computer-Labor durch Learing by Doing je nach Vorwissen individuell und im eigenen Tempo auf das selbstständige Lösen eines Projekts vorbereiten. Die Lernenden eignen sich dadurch das Grundlagenwissen selber an und die Selbstständigkeit und Motivation der Lernenden wird erhöht.
     analytics:
-        heading: Learning Analytics
-        text: Monitoring-Möglichkeiten geben den Dozierenden grosser Lehrveranstaltungen Einblicke zum allgemeinen Stand der studentischen Lernprozesse und zur Qualität der von den Assistierenden geleisteten Arbeit. Durch die Erfassung von Interaktionsdaten kann die Qualität der Instruktuionsmaterialien überprüft und laufend vebessert werden.
+        heading: Learning Analytics als Feedback-Instrument
+        text: Monitoring-Möglichkeiten geben den Dozierenden grosser Lehrveranstaltungen Einblicke zum allgemeinen Stand der studentischen Lernprozesse und zur Qualität der von den Lerncoaches geleisteten Arbeit. Durch die Erfassung von Interaktionsdaten kann die Qualität der Instruktuionsmaterialien überprüft und laufend vebessert werden.
     exams:
-        heading: Computerbasierte Prüfungen
-        text: Durchführung einer grossen Zahl von formativen und summativen elektronischen Prüfungen. Wir haben dazu einen automatisch korrigierbaren, problembasierten Fragetyp entwickelt. Aufbau eines validierten Fragepools.
+        heading: Entwicklung und Durchführung von computerbasierten Prüfungen
+        text: Hohe Anzahl Prüfungen, kurze Prüfungszeiten, Sicherheit bei der Durchführung sowie der Anspruch, mehr als die Wiedergabe von Fakten zu prüfen, stellen hohe Anforderungen an ein System für elektronische Prüfungen. Wir haben dazu einen automatisch korrigierbaren, fallbasierten Fragetyp entwickelt, der eine effiziente Prüfung des studentischen Wissens auf demselben kognitiven Level wie der Unterricht ermöglicht.
     consulting:
         heading: Beratung
-        text: Wir unterstützen Schulen, Lehrpersonen und Partner aus der Industrie, wie bestehende Lernmaterialien wirkungsvoll eingesetzt und eigene neue Materialien erstellt werden können. 
+        text: Wir unterstützen Schulen, Lehrpersonen und Partner aus der Industrie, wie bestehende oder neue Lernmaterialien mit einem geeigneten didaktischen und technischen Setup wirkungsvoll eingesetzt werden können. 
 success:
-    heading: Erfolge
-    subHeading: Platzhalter
-    competence:
-        heading: Vermittlung von Kompetenzen
-        subHeading: Problemorientierung von Lernmaterialien
-        text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
-    learning:
-        heading: Instruktionsmaterialien zum Selbststudium
-        subHeading: Learning by Doing
-        text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
-    assesment:
-        heading: Individuelle formative Assessments
-        subHeading: Feedforward und Feedback
-        text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
-    flipped:
-        heading: Flipped Classroom Prinzip
-        subHeading: Zentraler Ort der Grundlagenvermittlung ist das selbststudium
-        text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
-    exams:
-        heading: Elektronische fallbasierte Prüfungen
-        subHeading: Prüfungen auf demselben kognitiven Level wie der Unterricht
-        text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
-    end: Lerne auch erfolgreich.
+    heading: Innovative Lehrapplikationen
+    subHeading: Folgende innovativen Lehrapplikationen wurden von uns entwickelt. Sie erweisen sich als flexibel im Einsatz und lassen sich auch in eine eigene Lernplattform einbinden.
+    et: 
+        heading: E.Tutorial(R)
+        subHeading: Individualisierte Online-Instruktion
+        text: E.Tutorials ermöglichen eine sofortige Anwendung von Informatik-Konzepten am Computer (z.B. in einer Programmierumgebung, einer Datenbank, etc.). Angeleitet werden die Lernenden durch step-by-step-Instruktionen. Die einzelnen Arbeitsschritte können durch einklappbare visuelle Hilfen überprüft werden. E.Tutorials können zum Ausgleichen von Vorwissen (Konvergenz), aber auch als individualisierte Vorbereitung auf das Lösen einer Projektaufgabe eingesetzt werden.
+    pele:
+        heading: Pele
+        subHeading: Übungsmanagement-System
+        text: Über das Übungsmanagement-Systems PELE (Personal Electronic Learning Environment) können sich Studierende und Lerncoaches individuell für Termine zur Besprechung von Projekten anmelden und sich über den aktuellen Stand des Lernprozesses informieren. Die Lerncoaches rufen die Studierenden über das Webinterface auf und können die Studierenden nach dem Gespräch direkt bewerten. Danach bewerten auch die Studierenden das Gespräch. Pele spielt bei der Taktung von Distance-Learning und Face-to-Face Kontakt eine wichtige Rolle.
+    sioux: 
+        heading: Sioux 
+        subHeading: Sichere Online-Prüfungen
+        text: Sioux (Secure Interactive Online eXam) ermöglicht das Erstellen und Verwalten von Prüfungsfragen durch mehrere Autoren, das Zusammenstellen und Durchführen von formativen und summativen Prüfungen, die Korrektur der Prüfung sowie die Analyse der Resultate.
 team:
     heading: Unser Team
-    subHeading: Wir arbeiten alle am Lehrstuhl für Informationstechnologie und Ausbildung am Department Informatik der ETH Zürich.
-    end: Zusätzlich haben wir die Unterstützung von vielen weiteren Personen bei einzelnen Projekten.
+    subHeading: Wir arbeiten alle am Department Informatik der ETH Zürich am Lehrstuhl für Informationstechnologie und Ausbildung (Prof. Dr. Juraj Hromkovic).
+    end: Zusätzlich haben wir die Unterstützung von vielen weiteren Personen und Institutionen.
