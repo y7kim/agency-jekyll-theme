@@ -169,9 +169,7 @@ fieldset[disabled] .btn-xl.active {
     background-color: #fff;
 }
 .navbar-default .navbar-brand {
-    font-family: "Open Sans", serif;
-    font-weight: 600;
-    font-style: italic;
+    margin-top: -10px;
 }
 
 .navbar-default .nav .dropdown-menu li a{
@@ -456,7 +454,7 @@ section h3.section-subheading {
 }
 
 .timeline>li:before,
-.timeline>li:after {
+.timeline>li:not(:last-child):after {
     content: " ";
     display: table;
 }
@@ -519,9 +517,8 @@ section h3.section-subheading {
 }
 
 .timeline>li .timeline-image h4 {
-    margin-top: 12px;
     font-size: 10px;
-    line-height: 14px;
+    line-height: 46px;
 }
 
 .timeline>li.timeline-inverted>.timeline-panel {
@@ -601,9 +598,8 @@ section h3.section-subheading {
     }
 
     .timeline>li .timeline-image h4 {
-        margin-top: 16px;
         font-size: 13px;
-        line-height: 18px;
+        line-height: 65px;
     }
 
     .timeline>li.timeline-inverted>.timeline-panel {
@@ -645,9 +641,8 @@ section h3.section-subheading {
     }
 
     .timeline>li .timeline-image h4 {
-        margin-top: 30px;
         font-size: 18px;
-        line-height: 26px;
+        line-height: 110px;
     }
 
     .timeline>li.timeline-inverted>.timeline-panel {
@@ -674,7 +669,7 @@ section h3.section-subheading {
     }
 
     .timeline>li .timeline-image h4 {
-        margin-top: 40px;
+        line-height: 130px;
     }
 
     .timeline>li.timeline-inverted>.timeline-panel {
