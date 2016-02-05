@@ -267,9 +267,10 @@ fieldset[disabled] .btn-xl.active {
 header {
     text-align: center;
     color: #fff;
+    margin-top: 80px;
     background-attachment: scroll;
     background-image: url("img/header.jpg");
-    background-position: center center;
+    background-position: top center;
     background-repeat: none;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -278,20 +279,17 @@ header {
 }
 
 header .intro-text {
-    padding-top: 100px;
+    padding-top: 50px;
     padding-bottom: 50px;
 }
 
 header .intro-text .intro-lead-in {
-    margin-bottom: 25px;
+    margin-bottom: 5px;
     font-size: 22px;
     font-style: italic;
     line-height: 22px;
-    padding: 20px 00px;
-    border-color: #009BF0;
-    border-radius: 3px;
-    color: #fff;
-    background-color: #009BF0;
+    font-weight: 600;
+    color: #000;
 }
 
 header .intro-text .intro-heading {
@@ -304,7 +302,7 @@ header .intro-text .intro-heading {
 
 @media(min-width:768px) {
     header .intro-text {
-        padding-top: 300px;
+        padding-top: 150px;
         padding-bottom: 200px;
     }
 
@@ -316,7 +314,7 @@ header .intro-text .intro-heading {
     }
 
     header .intro-text .intro-heading {
-        margin-bottom: 50px;
+        margin-bottom: 400px;
         text-transform: uppercase;
         font-size: 75px;
         font-weight: 700;
