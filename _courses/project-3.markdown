@@ -1,18 +1,36 @@
 ---
-title: Golden
-subtitle: Website Design
+title: Programmiergrundlagen mit Python
+subtitle: 3 Module - 12 bis 20 Stunden
 layout: courses
 modal-id: 3
 date: 2014-07-16
-img: golden.png
-thumbnail: golden-thumbnail.png
+img: python.png
+thumbnail: python.png
 alt: image-alt
 level: Programmier Anfänger
-client: Start Bootstrap
 category: courses
 lang: de
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+description: In diesem Einführungskurs werden Sie in die wichtigsten Programmierkonzepte eingeführt und setzen die Konzepte unter Anleitung eines elektronischen Tutorials direkt selber auf der Basis kleiner Programmierprojekte um.
 url: java
-permalink: java/
+permalink: python/
 
 ---
+## Programmiergrundlagen mit Python
+
+###Adressaten
+Dieser Kurs eignet sich als Einsteigerkurs auf Stufe Mittelschule, Beginn Hochschule. Es sind keine Vorkenntnisse notwendig. Der Kurs wurde für Studierende der Naturwissenschaften entwickelt. Er eignet sich jedoch für Interessenten aller Fachrichtungen.
+
+###Eignung zum Selbststudium
+Ja
+
+###Zugang
+Todo
+
+###Aufbau
+Dieser Kurs besteht aus folgenden 3 Modulen:
+- Variablen und Datentypen
+- Schleifen, Bedingungsprüfungen und Logik
+- Arrays, Simulieren und Modellieren
+
+###Lernzeit
+12 bis 20 Stunden

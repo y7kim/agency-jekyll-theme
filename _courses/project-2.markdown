@@ -1,23 +1,35 @@
 ---
-title: Programmiergrundlagen Java (Teil 2)
-subtitle: 2 Module - 5 bis 9 Stunden
+title: Matrizenrechnen mit Matlab/Scilab
+subtitle: 2 Module - 4 bis 8 Stunden
 layout: courses
 modal-id: 2
 date: 2014-07-17
-img: escape.png
-thumbnail: escape-thumbnail.png
+img: matlab.png
+thumbnail: matlab.png
 alt: image-alt
 level: Programmier Anfänger
-client: Start Bootstrap
 category: courses
 lang: de
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+description: In diesem Einführungskurs lernen Sie an einer Reihe aufbauender Problemstellungen und einer Fallstudie aus der Thermodynamik direkt in einer mathematischen Software (Matlab oder Scilab) Variablen, Vektoren und Matrizen zu verarbeiten.
 permalink: matlab/
 
 ---
 
-In diesem zweiten aufbauenden Kurs lernen Sie wichige Grundlagen der Objektorientierten Programmierung mit der Sprache Java kennen.
+## Matrizenrechen mit Matlab/Scilab
 
+###Adressaten
+Dieser Kurs eignet sich als Einsteigerkurs auf Stufe Mittelschule, Beginn Hochschule. Es sind keine Vorkenntnisse notwendig. Der Kurs wurde für Studierende der Naturwissenschaften entwickelt. Er eignet sich jedoch für Interessenten aller Fachrichtungen.
+
+###Eignung zum Selbststudium
+Ja
+
+###Zugang
+Todo
+
+###Aufbau
 Dieser Kurs besteht aus folgenden 2 Modulen:
-- Klassen und Objekte 
-- Konstruktoren und weitere spezielle Methoden
+- Installation, Grundlagen, Variablen, Benutzer-Ein- und Ausgaben, Schleifen
+- Vektoren, Matrizen, Schleifen, Visualisierungen, Case-Study
+
+###Lernzeit
+4 bis 8 Stunden

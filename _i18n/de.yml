@@ -22,7 +22,7 @@ contact:
     emailText: "Bitte geben Sie Ihre Email Adresse an."
 didactics:
     heading: In 4 Schritten zu aktivem Wissen
-    subHeading: In den vergangenen Jahren haben wir hunderte von Naturwissenschafterinnen und Naturwissenschafter erfolgreich im Fach Informatik unterrichtet. Die Studierenden werden interaktiv und unabhänging von ihrem Vorwissen an Themen wie Programmierung, Datenverwaltung und Datenvisualisierung herangeführt, indem sie reale Daten aus ihren Fächern verarbeiten. Zentraler Teil unseres Unterrichts ist das <b>4-Schritte-Modell</b>, ein Blended Learning Konzept, mit dem sich Selbststudium und Präsenzunterricht auch mit grossen Klassen wirkungsvoll organisieren lässt und auf das aktive Lernen der Studierenden fokussiert.
+    subHeading: In den vergangenen Jahren haben wir hunderte von Naturwissenschafterinnen und Naturwissenschafter erfolgreich im Fach Informatik unterrichtet. Die Studierenden werden interaktiv und unabhänging von ihrem Vorwissen an Themen wie Programmierung, Datenverwaltung und Datenvisualisierung herangeführt, indem sie reale Daten aus ihren Fächern verarbeiten. Zentraler Teil unseres Unterrichts ist das <b>4-Schritte-Modell</b>, ein Blended Learning Konzept, welches auf das aktive Lernen der Studierenden fokussiert und sich auch mit grossen Klassen wirkungsvoll organisieren lässt.
     see:
         heading: Einführung in die wichtigsten Begriffe, Konzepte und Aufgabenstellungen
         text: In kurzen Textdokumenten und Videos werden die zentralen theoretischen Konzepte und Begriffe der Informatik erklärt sowie die bevorstehenden Aufgabenstellungen vorgestellt.
@@ -35,7 +35,7 @@ didactics:
     explain:
         heading: Individuelle Präsentation der Projektaufgabe
         text: In diesem abschliessenden Schritt werden die individuellen Lösungen der Projektaufgabe in einem persönlichen Face-to-Face-Abgabegespräch mit einer Fachperson diskutiert. Feedback und gegenseitige Bewertung gehören ebenfalls zu diesem Schritt. 
-    end: Leistungs- kontrolle
+    end: Prüfung
     
 footer:
     privacy: Datenschutzerklärung
@@ -59,10 +59,10 @@ services:
     subHeading: Zentrum unserer Aktivitäten ist ein Educational Engineering, mit dem Ziel, Lernumgebungen zur Vermittlung von Informatik-Grundlagen zu entwicklen und für verschiedene Zielgruppen bereitzustellen.
     informatics:
         heading: Vermittlung anspruchsvoller Informatik-Konzepte
-        text: Durch das Lösen von Informatik-Projekten mit Daten aus einem Fachbreich können anspruchsvolle Themenbereiche der Informatik (z.B. Programmieren, Datenbanken, etc.) vermittelt und gleichzeitig auf eine Zielgruppe ausgerichtet werden. Die Lernenden eignen sich Wissen auf höherer kognitiver Stufe an und erhalten gleichzeitig Einblicke in Wissenschaftliches Arbeiten. 
+        text: Durch das Lösen von Informatik-Projekten mit Daten aus einem Fachbreich können anspruchsvolle Themenbereiche der Informatik (z.B. Programmieren, Datenbanken, etc.) vermittelt und auf eine Zielgruppe ausgerichtet werden. Die Lernenden eignen sich Wissen auf höherer kognitiver Stufe an und erhalten gleichzeitig Einblicke in Wissenschaftliches Arbeiten. 
     materials:
         heading: Entwicklung von Lernmaterialien für individualisiertes Lernen 
-        text: Durch die Entwicklung von elektronischen Instruktionsmaterialien können sich die Lernenden im eigenen Computer-Labor durch Learing by Doing je nach Vorwissen individuell und im eigenen Tempo auf das selbstständige Lösen eines Projekts vorbereiten. Die Lernenden eignen sich dadurch das Grundlagenwissen selber an und die Selbstständigkeit und Motivation der Lernenden wird erhöht.
+        text: Durch die Entwicklung von elektronischen Instruktionsmaterialien können sich die Lernenden im eigenen Computer-Labor je nach Vorwissen individuell und im eigenen Tempo auf das selbstständige Lösen eines Projekts vorbereiten. Die Lernenden eignen sich das Grundlagenwissen selber an und die Selbstständigkeit und Motivation wird erhöht.
     analytics:
         heading: Learning Analytics als Feedback-Instrument
         text: Monitoring-Möglichkeiten geben den Dozierenden grosser Lehrveranstaltungen Einblicke zum allgemeinen Stand der studentischen Lernprozesse und zur Qualität der von den Lerncoaches geleisteten Arbeit. Durch die Erfassung von Interaktionsdaten kann die Qualität der Instruktuionsmaterialien überprüft und laufend vebessert werden.
@@ -73,8 +73,8 @@ services:
         heading: Beratung
         text: Wir unterstützen Schulen, Lehrpersonen und Partner aus der Industrie, wie bestehende oder neue Lernmaterialien mit einem geeigneten didaktischen und technischen Setup wirkungsvoll eingesetzt werden können.
 publications:
-    heading: Unsere Publikationen
-    subHeading: Blabla
+    heading: Publikationen
+    subHeading: 
     paper: "Faessler L., Hinterberger H., Bauer-Messmer B.** (2004). The Application Guide: Each Student His Own Tutor. World Conference on Educational Multimedia, Hypermedia and Telecommunications 2004 (1), 2371-2373."
     informatics:
         heading: Vermittlung anspruchsvoller Informatik-Konzepte
@@ -97,11 +97,11 @@ success:
     et: 
         heading: E.Tutorial &reg;
         subHeading: Individualisierte Online-Instruktion
-        text: E.Tutorials ermöglichen eine sofortige Anwendung von Informatik-Konzepten am Computer (z.B. in einer Programmierumgebung, einer Datenbank, etc.). Angeleitet werden die Lernenden durch step-by-step-Instruktionen. Die einzelnen Arbeitsschritte können durch einklappbare visuelle Hilfen überprüft werden. E.Tutorials können zum Ausgleichen von Vorwissen (Konvergenz), aber auch als individualisierte Vorbereitung auf das Lösen einer Projektaufgabe eingesetzt werden.
+        text: E.Tutorials ermöglichen eine sofortige Anwendung von Informatik-Konzepten am Computer (z.B. in einer Programmierumgebung, einer Datenbank, etc.). Angeleitet werden die Lernenden durch step-by-step-Instruktionen. Die einzelnen Arbeitsschritte können durch ausklappbare visuelle Hilfen überprüft werden. E.Tutorials können zum Ausgleichen von Vorwissen (Konvergenz), aber auch als individualisierte Vorbereitung auf das Lösen eines Projekts eingesetzt werden.
     pele:
         heading: Pele
         subHeading: Übungsmanagement-System
-        text: Über das Übungsmanagement-Systems PELE (Personal Electronic Learning Environment) können sich Studierende und Lerncoaches individuell für Termine zur Besprechung von Projekten anmelden und sich über den aktuellen Stand des Lernprozesses informieren. Die Lerncoaches rufen die Studierenden über das Webinterface auf und können die Studierenden nach dem Gespräch direkt bewerten. Danach bewerten auch die Studierenden das Gespräch. Pele spielt bei der Taktung von Distance-Learning und Face-to-Face Kontakt eine wichtige Rolle.
+        text: Über das Übungsmanagement-Systems PELE (Personal Electronic Learning Environment) können sich Studierende und Lerncoaches individuell für Termine zur Besprechung von Projekten anmelden und sich über den aktuellen Stand des Lernprozesses informieren. Die Lerncoaches rufen die Studierenden über das Webinterface auf und können die Studierenden nach dem Gespräch direkt bewerten. Auch die Studierenden bewerten das Gespräch. Pele spielt bei der Taktung von Distance-Learning und Face-to-Face Kontakt eine wichtige Rolle.
     sioux: 
         heading: Sioux 
         subHeading: Sichere Online-Prüfungen

@@ -1,27 +1,37 @@
 ---
-title: Programmiergrundlagen Java (Teil 1)
-subtitle: 5 Module - 15-25 Stunden
+title: Programmiergrundlagen Java
+subtitle: 5 Module - 20 bis 40 Stunden
 layout: courses
 date: 2014-07-18
-img: dreams.png
-thumbnail: dreams-thumbnail.png
+img: java.png
+thumbnail: java.png
 alt: image-alt
 level: Programmier Anfänger
-client: Start Bootstrap
 lang: de
 category: courses
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+description: In diesem Einführungskurs werden Sie in die wichtigsten Programmierkonzepte eingeführt und setzen die Konzepte unter Anleitung eines elektronischen Tutorials direkt selber auf der Basis kleiner Programmierprojekte um.
 permalink: java/
 
 ---
 
-## Programmiergrundlagen Java
+## Programmiergrundlagen mit Java
 
-In diesem ersten aufbauenden Kurs lernen Sie wichige prozedurale Programmiergrundlagen mit der Sprache Java kennen.
+###Adressaten
+Dieser Kurs eignet sich als Einsteigerkurs auf Stufe Mittelschule, Beginn Hochschule. Es sind keine Vorkenntnisse notwendig. Der Kurs wurde für Studierende der Naturwissenschaften entwickelt. Er eignet sich jedoch für Interessenten aller Fachrichtungen.
 
+###Eignung zum Selbststudium
+Ja
+
+###Zugang
+Todo
+
+###Aufbau
 Dieser Kurs besteht aus folgenden 5 Modulen:
 - Programme erstellen in Java
 - Variablen und Datentypen
 - Kontrollstrukturen
 - Arrays
 - Methden
+
+###Lernzeit
+20 bis 40 Stunden
