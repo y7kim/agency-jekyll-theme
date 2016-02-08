@@ -4,8 +4,8 @@ subtitle: 2 Module - 4 bis 8 Stunden
 layout: courses
 modal-id: 2
 date: 2014-07-17
-img: matlab.png
-thumbnail: matlab.png
+img: matlab.jpg
+thumbnail: matlab.jpg
 alt: image-alt
 level: Programmier Anfänger
 category: courses
