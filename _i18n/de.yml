@@ -22,7 +22,7 @@ contact:
     emailText: "Bitte geben Sie Ihre Email Adresse an."
 didactics:
     heading: In 4 Schritten zu aktivem Wissen
-    subHeading: In den vergangenen Jahren haben wir hunderte von Naturwissenschafterinnen und Naturwissenschafter erfolgreich im Fach Informatik unterrichtet. Die Studierenden werden interaktiv und unabhänging von ihrem Vorwissen an Themen wie Programmierung, Datenverwaltung und Datenvisualisierung herangeführt, indem sie reale Daten aus ihren Fächern verarbeiten. Zentraler Teil unseres Unterrichts ist das <b>4-Schritte-Modell</b>, ein Blended Learning Konzept, welches auf das aktive Lernen der Studierenden fokussiert und sich auch mit grossen Klassen wirkungsvoll organisieren lässt.
+    subHeading: In den vergangenen Jahren haben wir hunderte von Naturwissenschaftlerinnen und Naturwissenschaftler erfolgreich im Fach Informatik unterrichtet. Die Studierenden werden interaktiv und unabhängig von ihrem Vorwissen an Themen wie Programmierung, Datenverwaltung und Datenvisualisierung herangeführt, indem sie reale Daten aus ihren Fächern verarbeiten. Zentraler Teil unseres Unterrichts ist das <b>4-Schritte-Modell</b>, ein Blended Learning Konzept, welches auf das aktive Lernen der Studierenden fokussiert und sich auch mit grossen Klassen wirkungsvoll organisieren lässt.
     see:
         heading: Einführung in die wichtigsten Begriffe, Konzepte und Aufgabenstellungen
         text: In kurzen Textdokumenten und Videos werden die zentralen theoretischen Konzepte und Begriffe der Informatik erklärt sowie die bevorstehenden Aufgabenstellungen vorgestellt.
@@ -56,16 +56,16 @@ course:
     subHeading: Unsere Kurse sind an der ETH jährlich mit über 800 Studierenden pro Jahr im Einsatz. Extern setzen zahlreiche Fachhochschulen und Gymnasien in ihrem Unterricht ein.
 services:
     heading: Unsere Kompetenz
-    subHeading: Zentrum unserer Aktivitäten ist ein Educational Engineering, mit dem Ziel, Lernumgebungen zur Vermittlung von Informatik-Grundlagen zu entwicklen und für verschiedene Zielgruppen bereitzustellen.
+    subHeading: Zentrum unserer Aktivitäten ist ein Educational Engineering, mit dem Ziel, Lernumgebungen zur Vermittlung von Informatik-Grundlagen zu entwickeln und für verschiedene Zielgruppen bereitzustellen.
     informatics:
         heading: Vermittlung anspruchsvoller Informatik-Konzepte
-        text: Durch das Lösen von Informatik-Projekten mit Daten aus einem Fachbreich können anspruchsvolle Themenbereiche der Informatik (z.B. Programmieren, Datenbanken, etc.) vermittelt und auf eine Zielgruppe ausgerichtet werden. Die Lernenden eignen sich Wissen auf höherer kognitiver Stufe an und erhalten gleichzeitig Einblicke in Wissenschaftliches Arbeiten. 
+        text: Durch das Lösen von Informatik-Projekten mit Daten aus einem Fachbereich können anspruchsvolle Themenbereiche der Informatik (z.B. Programmieren, Datenbanken, etc.) vermittelt und auf eine Zielgruppe ausgerichtet werden. Die Lernenden eignen sich Wissen auf höherer kognitiver Stufe an und erhalten gleichzeitig Einblicke in Wissenschaftliches Arbeiten.
     materials:
         heading: Entwicklung von Lernmaterialien für individualisiertes Lernen 
         text: Durch die Entwicklung von elektronischen Instruktionsmaterialien können sich die Lernenden im eigenen Computer-Labor je nach Vorwissen individuell und im eigenen Tempo auf das selbstständige Lösen eines Projekts vorbereiten. Die Lernenden eignen sich das Grundlagenwissen selber an und die Selbstständigkeit und Motivation wird erhöht.
     analytics:
         heading: Learning Analytics als Feedback-Instrument
-        text: Monitoring-Möglichkeiten geben den Dozierenden grosser Lehrveranstaltungen Einblicke zum allgemeinen Stand der studentischen Lernprozesse und zur Qualität der von den Lerncoaches geleisteten Arbeit. Durch die Erfassung von Interaktionsdaten kann die Qualität der Instruktuionsmaterialien überprüft und laufend vebessert werden.
+        text: Monitoring-Möglichkeiten geben den Dozierenden grosser Lehrveranstaltungen Einblicke zum allgemeinen Stand der studentischen Lernprozesse und zur Qualität der von den Lerncoaches geleisteten Arbeit. Durch die Erfassung von Interaktionsdaten kann die Qualität der Instruktionsmaterialien überprüft und laufend verbessert werden.
     exams:
         heading: Entwicklung und Durchführung von computerbasierten Prüfungen
         text: Hohe Anzahl Prüfungen, kurze Prüfungszeiten, Sicherheit bei der Durchführung sowie der Anspruch, mehr als die Wiedergabe von Fakten zu prüfen, stellen hohe Anforderungen an ein System für elektronische Prüfungen. Wir haben dazu einen automatisch korrigierbaren, fallbasierten Fragetyp entwickelt, der eine effiziente Prüfung des studentischen Wissens auf demselben kognitiven Level wie der Unterricht ermöglicht.

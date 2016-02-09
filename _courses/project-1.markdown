@@ -23,7 +23,7 @@ Dieser Kurs eignet sich als Einsteigerkurs auf Stufe Mittelschule, Beginn Hochsc
 Ja
 
 ###Zugang
-Todo
+[Anmeldung für den Java Kurs](https://frontend-1.et.ethz.ch/sc/JFYJWs2c4H4vtxwXw)
 
 ###Aufbau
 Dieser Kurs besteht aus folgenden 5 Modulen:

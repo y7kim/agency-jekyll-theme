@@ -24,7 +24,8 @@ Dieser Kurs eignet sich als Einsteigerkurs auf Stufe Mittelschule, Beginn Hochsc
 Ja
 
 ###Zugang
-Todo
+
+[Anmeldung für den Python Kurs](https://frontend-1.et.ethz.ch/sc/ZZK8uwYwC4wNbnGyn)
 
 ###Aufbau
 Dieser Kurs besteht aus folgenden 3 Modulen:

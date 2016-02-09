@@ -24,7 +24,7 @@ Dieser Kurs eignet sich als Einsteigerkurs auf Stufe Mittelschule, Beginn Hochsc
 Ja
 
 ###Zugang
-Todo
+[Anmeldung für den Matlab Kurs](https://frontend-1.et.ethz.ch/sc/M3GzKvmhqvWhHcLsW)
 
 ###Aufbau
 Dieser Kurs besteht aus folgenden 2 Modulen:
