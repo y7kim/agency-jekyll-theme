@@ -6,7 +6,6 @@ author: David Sichau
 permalink: new-landing-page
 ---
 
-## Neue Landing Page
 Wir haben heute unsere neue Landing Page online gestellt. 
 
 Wir hoffen dadurch, dass die wichtigsten Informationen für neue Benutzer auf einen Blick ersichtlich sind. Bisher 
