@@ -1,0 +1,25 @@
+
+- name: Lukas Fässler
+  pic: 1
+  position: Inhalt und Instructional design
+  social:
+#    - title: twitter
+#      url: #
+#    - title: facebook
+#      url: #
+#    - title: stack-overflow
+#      url: #
+
+- name: David Sichau
+  pic: 2
+  position: Software Entwicklung
+  social:
+    - title: stack-overflow
+      url: http://stackoverflow.com/users/992460/tune2fs
+    - title: github
+      url: http://github.com/DavidSichau
+
+- name: Markus Dahinden
+  pic: 3
+  position: Online Prüfungen
+  social:

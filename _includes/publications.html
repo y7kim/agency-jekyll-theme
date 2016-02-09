@@ -9,7 +9,7 @@
             </div>
             <div class="row">
                 <ul>
-                    {% for paper in site.paper %}
+                    {% for paper in site.data.publications %}
                         <li>
                             <strong>{{paper.author}} ({{paper.year}}). {{paper.name}}</strong> <a href="{{ paper.url }}">{{paper.journal}}</a>
                         </li>
