@@ -55,7 +55,7 @@ course:
     heading: Best Practice Kurse
     subHeading: Unsere Kurse sind an der ETH jährlich mit über 800 Studierenden pro Jahr im Einsatz. Extern setzen zahlreiche Fachhochschulen und Gymnasien in ihrem Unterricht ein.
     more: Weitere Kurse
-services:
+competence:
     heading: Unsere Kompetenz
     subHeading: Zentrum unserer Aktivitäten ist ein Educational Engineering, mit dem Ziel, Lernumgebungen zur Vermittlung von Informatik-Grundlagen zu entwickeln und für verschiedene Zielgruppen bereitzustellen.
     informatics:
@@ -92,7 +92,7 @@ publications:
     consulting:
         heading: Beratung
         text: Wir unterstützen Schulen, Lehrpersonen und Partner aus der Industrie, wie bestehende oder neue Lernmaterialien mit einem geeigneten didaktischen und technischen Setup wirkungsvoll eingesetzt werden können.
-success:
+tool:
     heading: Innovative Lehrapplikationen
     subHeading: Folgende innovativen Lehrapplikationen wurden von uns entwickelt. Sie erweisen sich als flexibel im Einsatz und lassen sich auch in eine eigene Lernplattform einbinden.
     et: 

@@ -11,7 +11,6 @@ level: Programmier Anfänger
 category: courses
 lang: de
 description: In diesem Einführungskurs werden Sie in die wichtigsten Programmierkonzepte eingeführt und setzen die Konzepte unter Anleitung eines elektronischen Tutorials direkt selber auf der Basis kleiner Programmierprojekte um.
-url: java
 permalink: python/
 
 ---
