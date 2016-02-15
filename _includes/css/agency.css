@@ -251,8 +251,7 @@ fieldset[disabled] .btn-xl.active {
     background-color: #{{ site.color.primary }};
 }
 
-.navbar-default .navbar-nav>.active>a:hover,
-.navbar-default .navbar-nav>.active>a:focus {
+.navbar-default .navbar-nav>.active>a:hover {
     color: #fff;
     background-color: #{{ site.color.secondary }};
 }
