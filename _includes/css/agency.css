@@ -210,10 +210,9 @@ fieldset[disabled] .btn-xl.active {
     color: #fff;
     background-color: #{{ site.color.primary}};
 }
-.navbar-default .navbar-nav>.et>a:hover,
-.navbar-default .navbar-nav>.et>a:focus {
+.navbar-default .navbar-nav>.et>a:hover {
     color: #fff;
-    background-color: #007CC0;
+    background-color: #{{ site.color.secondary }};
 }
 
 .navbar-default .navbar-collapse {
