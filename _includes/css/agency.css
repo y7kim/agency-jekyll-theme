@@ -177,7 +177,7 @@ fieldset[disabled] .btn-xl.active {
     font-weight: 600;
 }
 
-.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus {
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover {
     background-color:  #{{ site.color.primary }};
     color: #ffffff;
     border-radius: 3px;
