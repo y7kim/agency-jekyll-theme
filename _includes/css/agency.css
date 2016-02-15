@@ -247,7 +247,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-nav>.active>a {
-    border-radius: 0;
+    border-radius: 3px;
     color: #fff;
     background-color: #{{ site.color.primary }};
 }

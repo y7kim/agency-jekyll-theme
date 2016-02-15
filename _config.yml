@@ -27,9 +27,7 @@ disqus: etutorial
 # !! You don't need to change any of the configuration flags below !!
 #
 
-markdown: kramdown
 highlighter: pygments
-permalink: /:title/
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
