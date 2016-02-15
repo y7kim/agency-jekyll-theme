@@ -245,7 +245,8 @@ fieldset[disabled] .btn-xl.active {
     color: #{{ site.color.primary }};
 }
 
-.navbar-default .navbar-nav>.active>a {
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus{
     border-radius: 3px;
     color: #fff;
     background-color: #{{ site.color.primary }};
