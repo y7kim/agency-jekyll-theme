@@ -168,8 +168,6 @@ fieldset[disabled] .btn-xl.active {
     color: #{{ site.color.primary }};
     background-color: #fff;
 }
-
-
 header {
     text-align: center;
     color: #fff;
