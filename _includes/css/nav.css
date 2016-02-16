@@ -1,0 +1,70 @@
+
+.navbar-default {
+    padding: 10px 0;
+    background-color: #222;
+}
+
+.navbar-default .navbar-brand {
+    margin-top: -10px;
+}
+
+.navbar-default .nav li a {
+    font-family: "Open Sans", serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>.open>a:focus,
+.navbar-default .navbar-nav>.open>a:hover {
+    background-color:  #{{ site.color.primary }};
+    color: #ffffff;
+    border-radius: 3px;
+    margin-left: 3px;
+}
+
+.navbar-default .navbar-nav>.open .dropdown-menu a:hover {
+    color: #{{ site.color.primary }};
+}
+.navbar-default .navbar-nav>.open .dropdown-menu li>a:hover {
+    background-color: #ffffff;
+}
+
+.navbar-default .navbar-nav>.et>a {
+    margin-left: 3px;
+    border-radius: 3px;
+    color: #fff;
+    background-color: #{{ site.color.primary}};
+}
+.navbar-default .navbar-nav>.et>a:hover {
+    color: #fff;
+    background-color: #{{ site.color.secondary }};
+}
+
+.navbar-default .nav li a:hover,
+.navbar-default .nav li a:focus {
+    color: #{{ site.color.primary }};
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus {
+    border-radius: 3px;
+    color: #fff;
+    background-color: #{{ site.color.primary }};
+}
+
+.navbar-default .navbar-nav>.active>a:hover {
+    color: #fff;
+    background-color: #{{ site.color.secondary }};
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #{{ site.color.primary }};
+    background-color: #{{ site.color.primary }};
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #{{ site.color.primary }};
+}
