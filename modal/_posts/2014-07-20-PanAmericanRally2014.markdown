@@ -9,7 +9,7 @@ layout: default
 modal-id: PanAmericanRally2014
 date: 2014-07-20
 img: rallies/pan-american-rally-2014/portrait.jpg
-full-journey-url: PanAmericanRally2014.html
+full-journey-url: panamericanrally2014.html
 event-name:
 categories:
 - modal
