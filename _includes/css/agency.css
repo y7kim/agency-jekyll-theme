@@ -859,7 +859,7 @@ ul.social-buttons li a:active {
 
 .btn:focus,
 .btn:active,
-.btn.active,
+.btnactive,
 .btn:active:focus {
     outline: 0;
 }
@@ -893,6 +893,8 @@ body {
     position: relative;
     padding: 0;
     list-style: none;
+    transform: translateZ(-1px) scale(1);
+    z-index:-1;
 }
 
 .modal-timeline:before {
@@ -1308,6 +1310,8 @@ a.active {
     transform: rotate(90deg);
 }
 
-.modal-close {
+.modal-center {
+    margin: 10px;
+    color: #fff;
     text-align: center;
 }

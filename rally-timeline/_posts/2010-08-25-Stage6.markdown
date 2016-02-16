@@ -1,0 +1,36 @@
+---
+layout: post
+status: publish
+published: true
+title: "Stage 6: Russia"
+location: Russia
+date: '2010-08-25 00:00:00 -0400'
+daysontheroad: 34
+thumbnail: 2010-mongolrally/timeline/82-mongolrally-timeline-thumb.jpg
+imagelist:
+- thumb: 2010-mongolrally/timeline/74-mongolrally-timeline-thumb.jpg
+- thumb: 2010-mongolrally/timeline/75-mongolrally-timeline-thumb.jpg
+- thumb: 2010-mongolrally/timeline/76-mongolrally-timeline-thumb.jpg
+- thumb: 2010-mongolrally/timeline/77-mongolrally-timeline-thumb.jpg
+- thumb: 2010-mongolrally/timeline/78-mongolrally-timeline-thumb.jpg
+- thumb: 2010-mongolrally/timeline/79-mongolrally-timeline-thumb.jpg
+- thumb: 2010-mongolrally/timeline/80-mongolrally-timeline-thumb.jpg
+- thumb: 2010-mongolrally/timeline/81-mongolrally-timeline-thumb.jpg
+- thumb: 2010-mongolrally/timeline/82-mongolrally-timeline-thumb.jpg
+- thumb: 2010-mongolrally/timeline/83-mongolrally-timeline-thumb.jpg
+- thumb: 2010-mongolrally/timeline/84-mongolrally-timeline-thumb.jpg
+- thumb: 2010-mongolrally/timeline/85-mongolrally-timeline-thumb.jpg
+- thumb: 2010-mongolrally/timeline/86-mongolrally-timeline-thumb.jpg
+- thumb: 2010-mongolrally/timeline/87-mongolrally-timeline-thumb.jpg
+- thumb: 2010-mongolrally/timeline/88-mongolrally-timeline-thumb.jpg
+- thumb: 2010-mongolrally/timeline/89-mongolrally-timeline-thumb.jpg
+- thumb: 2010-mongolrally/timeline/90-mongolrally-timeline-thumb.jpg
+- thumb: 2010-mongolrally/timeline/91-mongolrally-timeline-thumb.jpg
+- thumb: 2010-mongolrally/timeline/92-mongolrally-timeline-thumb.jpg
+- thumb: 2010-mongolrally/timeline/93-mongolrally-timeline-thumb.jpg
+categories:
+- Mongol Rally 2010
+tags: [timeline-mongol-rally-2010]
+comments: []
+---
+Siberian roads were in surprisingly good shape. We made our way from Omsk to Ulan-Ude without much trouble. Along we way we made new friends and was challenged to a could arm wrestling matches. USA 2 - RUS 0

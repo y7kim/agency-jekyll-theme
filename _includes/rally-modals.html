@@ -17,7 +17,9 @@
 					<div class="modal-body">
 						<h2>{{ post.title }}</h2>
 						<hr class="star-primary">
-						<img src="{{ post.img }}" class="img-responsive img-centered" alt="{{ post.title }}">
+						<a href="{{post.full-journey-url}}">
+							<img src="img/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.title }}">
+						</a>
 						<ul class="list-inline item-details">
 							<li>Start:
 								<strong>{{ post.start }}
@@ -45,9 +47,13 @@
 						</ul>
 						{{ post.content }}
 					</div>
+					<div class="modal-center">
+						<a href="{{post.full-journey-url}}" style="color: #fff" class="btn btn-xl">Learn More</a>
+					</div>
 
-					<div class="modal-close"> 
-						<button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+					<div class="modal-center">
+
+ 						<button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
 
 					</div>
 				</div>
@@ -58,4 +64,3 @@
 {% endif %}
 {% endfor %}
 {% endfor %}
-

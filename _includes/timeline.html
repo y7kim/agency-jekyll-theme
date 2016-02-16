@@ -12,12 +12,12 @@
 			{% endif %}
 
 			<div class="modal-timeline-image">
-				<img class="img-circle img-responsive" src="{{post.thumb}}" alt="">
+				<img class="img-circle img-responsive" src="img/{{post.thumb}}" alt="">
 			</div>
 			<div class="modal-timeline-panel" >
 				<div class="modal-timeline-heading" >
 					<h4>{{post.date | date: '%B %d, %Y'}}</h4>
-					<h3 class="subheading">{{post.location}}</h2> 
+					<h3 class="subheading">{{post.location}}</h2>
 					</div>
 					<div class="modal-timeline-body">
 						<h4 class="text-muted">{{post.title}}</h2>
@@ -27,5 +27,3 @@
 				{% endif %}
 				{% endfor %}
 				{% endfor %}
-
-

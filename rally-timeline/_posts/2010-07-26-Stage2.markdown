@@ -1,0 +1,32 @@
+---
+layout: post
+status: publish
+published: true
+title: 'Stage 2: Czech Republic, Slovakia, Hungary, Serbia, Greece'
+location: Europe
+date: '2010-07-26 00:00:00 -0400'
+daysontheroad: 4
+thumbnail: 2010-mongolrally/timeline/17-mongolrally-timeline-thumb.jpg
+imagelist:
+- thumb: 2010-mongolrally/timeline/11-mongolrally-timeline-thumb.jpg
+- thumb: 2010-mongolrally/timeline/12-mongolrally-timeline-thumb.jpg
+- thumb: 2010-mongolrally/timeline/13-mongolrally-timeline-thumb.jpg
+- thumb: 2010-mongolrally/timeline/14-mongolrally-timeline-thumb.jpg
+- thumb: 2010-mongolrally/timeline/15-mongolrally-timeline-thumb.jpg
+- thumb: 2010-mongolrally/timeline/16-mongolrally-timeline-thumb.jpg
+- thumb: 2010-mongolrally/timeline/17-mongolrally-timeline-thumb.jpg
+- thumb: 2010-mongolrally/timeline/18-mongolrally-timeline-thumb.jpg
+- thumb: 2010-mongolrally/timeline/19-mongolrally-timeline-thumb.jpg
+- thumb: 2010-mongolrally/timeline/20-mongolrally-timeline-thumb.jpg
+- thumb: 2010-mongolrally/timeline/21-mongolrally-timeline-thumb.jpg
+- thumb: 2010-mongolrally/timeline/22-mongolrally-timeline-thumb.jpg
+- thumb: 2010-mongolrally/timeline/23-mongolrally-timeline-thumb.jpg
+- thumb: 2010-mongolrally/timeline/24-mongolrally-timeline-thumb.jpg
+- thumb: 2010-mongolrally/timeline/25-mongolrally-timeline-thumb.jpg
+- thumb: 2010-mongolrally/timeline/26-mongolrally-timeline-thumb.jpg
+categories:
+- Mongol Rally 2010
+tags: [timeline-mongol-rally-2010]
+comments: []
+---
+The rally truly begins at Czech Republic. Eastern Europe gave the team the first dose of unfamiliar language, and culture.

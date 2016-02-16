@@ -1,5 +1,5 @@
 url: https://y7kim.github.io
-baseurl: /agency-jekyll-theme/
+baseurl: /
 
 # Site settings
 title: Team Last Responders
@@ -61,38 +61,33 @@ rallies:
 
 # Team names, titles and social links
 people:
-- name: Kay Garland
-  pic: 1
-  position: Lead Designer
+- name: Stephen Jan
+  pic: team/profile_sjan.jpg
+  position: Director
   social:
-    - title: twitter
-      url: #
     - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
-
-- name: Larry Parker
-  pic: 2
-  position: Lead Marketer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
+      url: http://www.facebook.com/sjan828
     - title: linkedin
-      url: #
+      url: http://www.linkedin.com/in/sjan828
 
-- name: Diana Petersen
-  pic: 3
-  position: Lead Developer
+- name: Cathy Liu
+  pic: team/profile_cliu.jpg
+  position: Treasurer
   social:
-    - title: twitter
-      url: #
     - title: facebook
-      url: #
-    - title: google-plus
-      url: #
+      url: http://www.facebook.com/cathy.liu.9083
+    - title: linkedin
+      url: http://www.linkedin.com/in/cathy-liu-59452a2
+
+- name: Tom Dorwart
+  pic: team/profile_tdorwart.jpg
+  position: Secratary 
+  social:
+      - title: facebook
+        url: http://www.facebook.com/tom.dorwart.5
+      - title: linkedin
+        url: http://www.linkedin.com/in/thomas-dorwart-74a8b221
+   
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
@@ -110,4 +105,4 @@ address:
 
 # Build settings
 markdown: kramdown
-permalink: pretty
+permalink:    /:title/

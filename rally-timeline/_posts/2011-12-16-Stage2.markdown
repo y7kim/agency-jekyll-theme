@@ -1,0 +1,32 @@
+---
+layout: post
+status: publish
+published: true
+title: 'Stage 2: Europe'
+location: Europe
+date: '2011-12-16 00:00:00 -0400'
+daysontheroad: 3
+thumbnail: 2012-timbuktuchallenge/timeline/100-timbuktuchallenge-timeline-thumb.jpg
+imagelist:
+- thumb: 2010-mongolrally/timeline/11-mongolrally-timeline-thumb.jpg
+- thumb: 2010-mongolrally/timeline/12-mongolrally-timeline-thumb.jpg
+- thumb: 2010-mongolrally/timeline/13-mongolrally-timeline-thumb.jpg
+- thumb: 2010-mongolrally/timeline/14-mongolrally-timeline-thumb.jpg
+- thumb: 2010-mongolrally/timeline/15-mongolrally-timeline-thumb.jpg
+- thumb: 2010-mongolrally/timeline/16-mongolrally-timeline-thumb.jpg
+- thumb: 2010-mongolrally/timeline/17-mongolrally-timeline-thumb.jpg
+- thumb: 2010-mongolrally/timeline/18-mongolrally-timeline-thumb.jpg
+- thumb: 2010-mongolrally/timeline/19-mongolrally-timeline-thumb.jpg
+- thumb: 2010-mongolrally/timeline/20-mongolrally-timeline-thumb.jpg
+- thumb: 2010-mongolrally/timeline/21-mongolrally-timeline-thumb.jpg
+- thumb: 2010-mongolrally/timeline/22-mongolrally-timeline-thumb.jpg
+- thumb: 2010-mongolrally/timeline/23-mongolrally-timeline-thumb.jpg
+- thumb: 2010-mongolrally/timeline/24-mongolrally-timeline-thumb.jpg
+- thumb: 2010-mongolrally/timeline/25-mongolrally-timeline-thumb.jpg
+- thumb: 2010-mongolrally/timeline/26-mongolrally-timeline-thumb.jpg
+categories:
+- Mongol Rally 2010
+tags: [timeline-timbuktu-challenge-2012]
+comments: []
+---
+We never really considered how long it would take to drive to Tarifa, Spain. It's a long way from London and we almost died on the way.

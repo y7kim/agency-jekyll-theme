@@ -1,0 +1,29 @@
+---
+layout: post
+status: publish
+published: true
+title: "Stage 3: Morocco"
+location: Turkey
+date: '2011-12-20 00:00:00 -0400'
+daysontheroad: 7
+thumbnail: 2012-timbuktuchallenge/timeline/318-timbuktuchallenge-timeline-thumb.jpg
+imagelist:
+- thumb: 2010-mongolrally/timeline/27-mongolrally-timeline-thumb.jpg
+- thumb: 2010-mongolrally/timeline/28-mongolrally-timeline-thumb.jpg
+- thumb: 2010-mongolrally/timeline/29-mongolrally-timeline-thumb.jpg
+- thumb: 2010-mongolrally/timeline/30-mongolrally-timeline-thumb.jpg
+- thumb: 2010-mongolrally/timeline/31-mongolrally-timeline-thumb.jpg
+- thumb: 2010-mongolrally/timeline/32-mongolrally-timeline-thumb.jpg
+- thumb: 2010-mongolrally/timeline/33-mongolrally-timeline-thumb.jpg
+- thumb: 2010-mongolrally/timeline/34-mongolrally-timeline-thumb.jpg
+- thumb: 2010-mongolrally/timeline/35-mongolrally-timeline-thumb.jpg
+- thumb: 2010-mongolrally/timeline/36-mongolrally-timeline-thumb.jpg
+- thumb: 2010-mongolrally/timeline/37-mongolrally-timeline-thumb.jpg
+- thumb: 2010-mongolrally/timeline/38-mongolrally-timeline-thumb.jpg
+- thumb: 2010-mongolrally/timeline/39-mongolrally-timeline-thumb.jpg
+categories:
+- Mongol Rally 2010
+tags: [timeline-timbuktu-challenge-2012]
+comments: []
+---
+For the entire team, Morocco was out first encounter with Africa. Making our way from Tangiers, to Rabat, to Marrakech was quite an experience.
