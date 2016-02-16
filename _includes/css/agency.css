@@ -175,7 +175,7 @@ header {
     color: #fff;
     margin-top: 80px;
     background-attachment: scroll;
-    background-image: url("img/header.jpg");
+    background-image: url("{{ "/img/header.jpg" | prepend: site.url }}");
     background-position: top center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -616,7 +616,7 @@ aside.clients img {
 
 section#contact {
     background-color: #222;
-    background-image: url(img/map-image.png);
+    background-image: url("{{ "/img/map-image.png" | prepend: site.url }}");
     background-position: center;
     background-repeat: no-repeat;
 }
