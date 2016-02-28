@@ -38,13 +38,13 @@
         </a>
         </div>
 	      {% else %}
-        <div class="modal-timeline-icon">
-          <a class="circle-link" href="{{post.url}}">
+        <a href="{{post.url}}">
+          <div class="modal-timeline-icon">
             <H3>{{post.date | date: '%b'}}<br>
                {{post.date | date: '%d'}}
             </H3>
-        </a>
         </div>
+        </a>
     {% endif %}
             <div class="modal-timeline-panel" >
        				<div class="modal-timeline-heading" >
