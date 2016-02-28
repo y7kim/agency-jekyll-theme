@@ -960,6 +960,35 @@ body {
     background-color: #{{ site.color.primary }};
 }
 
+.modal-timeline>li .modal-timeline-icon {
+    z-index: 100;
+    border-radius: 100%;
+    border: 7px solid #f1f1f1;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    /*left: 0;
+    margin-left: 0;
+
+
+    text-align: center;
+    color: #fff;*/
+    background-color: #{{ site.color.primary }};
+}
+
+.modal-timeline>li .modal-timeline-icon h3 {
+    color: black;
+    font-size: 18px;
+    text-shadow: 1px 1px white;
+    text-align: center;
+}
+
+.modal-timeline>li .modal-timeline-image h3 {
+    font-size: 18px;
+    text-shadow: 1px 1px white;
+    text-align: center;
+}
+
 .modal-timeline>li .modal-timeline-image h4 {
     margin-top: 12px;
     font-size: 10px;
@@ -1028,6 +1057,25 @@ body {
         margin-left: -50px;
     }
 
+    .modal-timeline>li .modal-timeline-icon {
+        left: 50%;
+        width: 100px;
+        height: 100px;
+        margin-left: -50px;
+    }
+
+    .modal-timeline>li .modal-timeline-icon h3 {
+        color: black;
+        font-size: 20px;
+        text-shadow: 1px 1px white;
+        text-align: center;
+    }
+
+    .modal-timeline>li .modal-timeline-image h3 {
+        font-size: 20px;
+        text-align: center;
+    }
+
     .modal-timeline>li .modal-timeline-image h4 {
         margin-top: 16px;
         font-size: 13px;
@@ -1056,10 +1104,28 @@ body {
         margin-left: -100px;
     }
 
+    .modal-timeline>li .modal-timeline-icon {
+      width: 150px;
+      height: 150px;
+        margin-left: -75px;
+    }
+
     .modal-timeline>li .modal-timeline-image h4 {
         margin-top: 30px;
         font-size: 18px;
         line-height: 26px;
+    }
+
+    .modal-timeline>li .modal-timeline-image h3 {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .modal-timeline>li .modal-timeline-icon h3 {
+        color: black;
+        font-size: 26px;
+        text-shadow: 1px 1px white;
+        text-align: center;
     }
 
     .modal-timeline>li.modal-timeline-inverted>.modal-timeline-panel {
@@ -1075,14 +1141,31 @@ body {
     .modal-timeline>li .modal-timeline-panel {
         padding: 0 40px 20px;
     }
- .modal-timeline>li .modal-timeline-image {
-        width: 200px;
-        height: 200px;
-        margin-left: -100px;
-    }
+    .modal-timeline>li .modal-timeline-image {
+           width: 200px;
+           height: 200px;
+           margin-left: -100px;
+       }
+       .modal-timeline>li .modal-timeline-icon {
+              /*width: 100px;
+              height: 100px;
+              margin-left: -50px;*/
+          }
 
     .modal-timeline>li .modal-timeline-image h4 {
         margin-top: 40px;
+    }
+
+    .modal-timeline>li .modal-timeline-image h3 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .modal-timeline>li .modal-timeline-icon h3 {
+        color: black;
+        font-size: 26px;
+        text-shadow: 1px 1px white;
+        text-align: center;
     }
 
     .modal-timeline>li.modal-timeline-inverted>.timeline-panel {
@@ -1174,6 +1257,34 @@ body {
     position: relative;
     margin: 0 auto;
     max-width: 400px;
+}
+
+.circularhover  .circle-link .circle-date {
+    position: absolute;
+    width: 100%;
+	  border-radius: 100%;
+    height: 100%;
+}
+
+.circularhover  .circle-link .circle-date .circle-date-content {
+    position: absolute;
+    top: 20%;
+    width: 100%;
+    height: 20px;
+    margin-top: -12px;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+}
+
+.circularhover  .circle-link .circle-date .circle-date-content i {
+    margin-top: -22px;
+}
+
+.circularhover  .circle-link .circle-date .circle-date-content h3,
+.circularhover  .circle-link .circle-date .circle-date-content h4 {
+    margin: 0;
+    text-shadow: 2px 2px grey;
 }
 
 .circularhover  .circle-link .circle-hover {
@@ -1314,4 +1425,72 @@ a.active {
     margin: 10px;
     color: #fff;
     text-align: center;
+}
+
+.postcontent {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    max-width: 600px;
+    text-align: left;
+}
+
+.timeline-circle {
+  position:absolute;
+  left: 50%;
+  margin-left: -60px;
+
+}
+
+
+.btn-small {
+    padding: 5px 30px;
+    border-color: #{{ site.color.primary }};
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #{{ site.color.primary }};
+}
+
+.btn-small:hover,
+.btn-small:focus,
+.btn-small:active,
+.btn-small.active,
+.open .dropdown-toggle.btn-small {
+    border-color: #{{ site.color.primary }};
+    color: #fff;
+    background-color: #{{ site.color.secondary }};
+}
+
+.btn-small:active,
+.btn-small.active,
+.open .dropdown-toggle.btn-small {
+    background-image: none;
+}
+
+.btn-small.disabled,
+.btn-small[disabled],
+fieldset[disabled] .btn-small,
+.btn-small.disabled:hover,
+.btn-small[disabled]:hover,
+fieldset[disabled] .btn-small:hover,
+.btn-small.disabled:focus,
+.btn-small[disabled]:focus,
+fieldset[disabled] .btn-small:focus,
+.btn-small.disabled:active,
+.btn-small[disabled]:active,
+fieldset[disabled] .btn-small:active,
+.btn-small.disabled.active,
+.btn-small[disabled].active,
+fieldset[disabled] .btn-small.active {
+    border-color: #{{ site.color.primary }};
+    background-color: #{{ site.color.primary }};
+}
+
+.btn-small .badge {
+    color: #{{ site.color.primary }};
+    background-color: #fff;
 }

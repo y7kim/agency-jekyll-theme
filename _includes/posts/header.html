@@ -1,0 +1,35 @@
+<!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="index.html">{{site.title}}</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header! http://maps.googleapis.com/maps/api/staticmap?center=New%20York&size=640x200&scale=2&maptype=terrain&key=AIzaSyCEUuJaMSbwXTf5kpKamhzrQ1sSDnRo5XA-->
+    <header style="background-image: url('http://maps.googleapis.com/maps/api/staticmap?center={{page.location}}&zoom=3&size=640x300&scale=2&maptype=hybrid&markers=color:blue|{{page.location}}&key=AIzaSyCEUuJaMSbwXTf5kpKamhzrQ1sSDnRo5XA');">
+        <div class="container">
+            <div class="intro-text">
+               <!-- <div class="intro-lead-in">{{page.date}}</div> -->
+                <div class="intro-heading">{{page.title}}</div>
+<!--                 <a href="#about" class="page-scroll btn btn-xl"></a> -->
+            </div>
+        </div>
+    </header>
+<!--
+        {% for page in site.pages %}
+          {% if page.title %}<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>{% endif %}
+        {% endfor %}
+ -->

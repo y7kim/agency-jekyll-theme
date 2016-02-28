@@ -9,7 +9,8 @@ thumb: img/timeline-mercedes-sprinter/goodwood.jpg
 pic: img/timeline-mercedes-sprinter/goodwood.jpg
 categories:
 - Mongol Rally 2010
-tags: [timeline-mercedes-sprinter]
+tags:
+- Magical Mongolian Mystery Tour
+- timeline-mercedes-sprinter
 comments: []
 ---
-

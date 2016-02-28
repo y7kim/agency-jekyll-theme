@@ -6,6 +6,7 @@ title: "Stage 5: Kazakhstan"
 location: Kazakhstan
 date: '2010-08-13 00:00:00 -0400'
 daysontheroad: 22
+stage-url: mongolrally2010-stage5.html
 thumbnail: 2010-mongolrally/timeline/63-mongolrally-timeline-thumb.jpg
 imagelist:
 - thumb: 2010-mongolrally/timeline/52-mongolrally-timeline-thumb.jpg

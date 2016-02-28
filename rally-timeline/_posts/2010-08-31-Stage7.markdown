@@ -6,6 +6,7 @@ title: "Stage 7: Mongolia"
 location: Mongolia
 date: '2010-08-31 00:00:00 -0400'
 daysontheroad: 40
+stage-url: mongolrally2010-stage7.html
 thumbnail: 2010-mongolrally/timeline/97-mongolrally-timeline-thumb.jpg
 imagelist:
 - thumb: 2010-mongolrally/timeline/94-mongolrally-timeline-thumb.jpg

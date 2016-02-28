@@ -1,0 +1,16 @@
+
+  <!-- Adventure Section -->
+  <section id="blogpost">
+  	<div class="container postcontent">
+      <div class="row">
+  			<div class="col-lg-12">
+          <h4>{{page.date | date: '%B %d, %Y'}}</h4> <h5>by {{page.author.display_name}} in {{page.location}}</h5>
+    		</div>
+  		</div>
+  		<div class="row">
+  			<div class="col-lg-12">
+           {{ page.content | markdownify }}
+    		</div>
+  		</div>
+    </div>
+</section>

@@ -6,6 +6,7 @@ title: "Stage 3: Turkey"
 location: Turkey
 date: '2010-08-04 00:00:00 -0400'
 daysontheroad: 13
+stage-url: mongolrally2010-stage3.html
 thumbnail: 2010-mongolrally/timeline/38-mongolrally-timeline-thumb.jpg
 imagelist:
 - thumb: 2010-mongolrally/timeline/27-mongolrally-timeline-thumb.jpg

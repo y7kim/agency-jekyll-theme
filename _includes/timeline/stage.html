@@ -1,0 +1,65 @@
+<section id="rally-timeline" class="bg-light-gray">
+  <div class="container circularhover">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading">Adventure Timeline</h2>
+        <h3 class="section-subheading text-muted"></h3>
+      </div>
+    </div>
+   <ul class="modal-timeline" style="margin-top: 20px;z-index:1">
+     {% for post in site.posts reversed %}
+     {% for category in post.categories %}
+     {% for tag in post.tags %}
+     {% if category == page.journey %}
+     {% if tag == page.stage %}
+
+     {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
+     {% if thecycle == 'even' %}
+     <li class="modal-timeline-inverted">
+       {% else %}
+   		<li>
+   			{% endif %}
+        {% if post.thumbnail != null %}
+        <div class="modal-timeline-image">
+          <a class="circle-link" href="{{post.url}}">
+            <div class="circle-date">
+              <div class="circle-date-content">
+                <H3>{{post.date | date: '%b'}}<br>
+                   {{post.date | date: '%d'}}
+                </H3>
+              </div>
+            </div>
+            <div class="circle-hover">
+              <div class="circle-hover-content">
+              more
+              </div>
+            </div>
+          <img class="img-circle img-responsive" src="img/{{post.thumbnail}}" alt="">
+        </a>
+        </div>
+	      {% else %}
+        <div class="modal-timeline-icon">
+          <a class="circle-link" href="{{post.url}}">
+            <H3>{{post.date | date: '%b'}}<br>
+               {{post.date | date: '%d'}}
+            </H3>
+        </a>
+        </div>
+    {% endif %}
+            <div class="modal-timeline-panel" >
+       				<div class="modal-timeline-heading" >
+                <h3 class="subheading">{{post.title}}</h3>
+                  <p class="text-muted">{{post.content |  truncatewords: 40 | markdownify | strip_html }}</p>
+       					</div>
+
+       					</div>
+   				</li>
+
+          {% endif %}
+          {% endif %}
+          {% endfor %}
+          {% endfor %}
+          {% endfor %}
+</ul>
+
+</section>
