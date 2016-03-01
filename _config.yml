@@ -5,7 +5,7 @@ baseurl: /
 title: E.Tutorials
 email: et@ethz.ch
 description: "Online Learning materials for schools and universities. Developed and maintained at the ETH Zurich"
-languages: ["de", "en"]
+languages: ["de", "en", "es"]
 exclude_from_localizations: ["js", "img", "css"]
 
 
@@ -50,3 +50,4 @@ address:
 # Build settings
 markdown: kramdown
 permalink: pretty
+encoding: utf-8

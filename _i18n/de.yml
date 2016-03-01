@@ -4,7 +4,6 @@ global:
 pages:
     home: Home
     work: Arbeit
-
 header:
     message: E.Tutorials - Individualisierte Online-Instruktion für den Informatik-Grundlagen-Unterricht
     info: Mehr Informationen
