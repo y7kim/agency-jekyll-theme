@@ -22,16 +22,16 @@ contact:
 didactics:
     heading: "Hacia un conocimiento activo en 4 pasos"
     subHeading: "En los últimos años hemos enseñado con éxito, a científicos y científicas, la materia de informática. Al trabajar con datos reales de sus áreas de estudio, los estudiantes aprenderán de manera interactiva e independiente de sus conocimientos previos temas como: programación, procesamiento y visualización de datos. Una parte central de nuestra enseñanza es el <b>modelo en 4 pasos</b>,  un concepto de aprendizaje combinado, el cual se enfoca al aprendizaje activo de los estudiantes y el cual también es posible trabajar con grupos extensos."
-    SEE:
+    see:
         heading: "Introducción a los términos, conceptos y planteamientos de problemas fundamentales"
         text: "En breves documentos de texto y videos serán explicados conceptos y términos teóricos centrales en la informática. Así mismo serán presentadas la próximas tareas y ejercicios."
-    TRY:
+    try:
         heading: "Solución de problemas mediante la computadora"
         text: "Bajo la guía y dirección de un tutorial electrónico (E. Tutorial)serán aplicados los conceptos de informática de la fase SEE junto con medios informáticos (entorno de programación, bases de datos, etc.) Este paso sirve como preparación para realizar los ejercicios (proyecto) de la fase DO."
-    DO:
+    do:
         heading: "Desarrollo de un proyecto/tarea de manera autodidacta"
         text: "En este paso serán aplicados los conceptos aprendidos para el desarrollo de su propio proyecto a manera de tarea o ejercicio independiente. El objetivo es transferir  el conocimiento obtenido de la fase anterior a un proyecto (tarea) con un contexto científico."
-    EXPLAIN:
+    explain:
         heading: "Presentación individual del proyecto/tarea"
         text: "En este paso final serán discutidas las soluciones individuales del proyecto (tarea, en una plática personal cara a cara con un especialista. Desde luego la retroalimentación y evaluación son parte de esta actividad. "
     end: "Rendimiento- demostración"
