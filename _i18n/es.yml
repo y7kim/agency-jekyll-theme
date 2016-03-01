@@ -5,8 +5,8 @@ pages:
     home: "Home"
     work: "Arbeit"
 header:
-    message: "E.Tutorials - Capacitación individualizada Online- para la enseñanza de conceptos básicos en informática-"
-    info: "Más informació"
+    message: "E.Tutorials - Instrucción individualizada Online- para la enseñanza de conceptos básicos en informática"
+    info: "Más información"
 contact:
     heading: "Contacto"
     subHeading: "Muchas gracias por sus comentarios."
@@ -24,17 +24,17 @@ didactics:
     subHeading: "En los últimos años hemos enseñado con éxito, a científicos y científicas, la materia de informática. Al trabajar con datos reales de sus áreas de estudio, los estudiantes aprenderán de manera interactiva e independiente de sus conocimientos previos temas como: programación, procesamiento y visualización de datos. Una parte central de nuestra enseñanza es el <b>modelo en 4 pasos</b>,  un concepto de aprendizaje combinado, el cual se enfoca al aprendizaje activo de los estudiantes y el cual también es posible trabajar con grupos extensos."
     see:
         heading: "Introducción a los términos, conceptos y planteamientos de problemas fundamentales"
-        text: "En breves documentos de texto y videos serán explicados conceptos y términos teóricos centrales en la informática. Así mismo serán presentadas la próximas tareas y ejercicios."
+        text: "En breves documentos de texto y videos se explicaran conceptos y términos teóricos centrales en la informática. Así mismo serán presentadas la próximas tareas y ejercicios."
     try:
         heading: "Solución de problemas mediante la computadora"
-        text: "Bajo la guía y dirección de un tutorial electrónico (E. Tutorial)serán aplicados los conceptos de informática de la fase SEE junto con medios informáticos (entorno de programación, bases de datos, etc.) Este paso sirve como preparación para realizar los ejercicios (proyecto) de la fase DO."
+        text: "Bajo la guía y dirección de un tutorial electrónico (E. Tutorial) se aplicarán los conceptos de informática de la fase SEE junto con medios informáticos (entorno de programación, bases de datos, etc.). Este paso sirve como preparación para realizar los ejercicios (proyecto) de la fase DO."
     do:
         heading: "Desarrollo de un proyecto/tarea de manera autodidacta"
-        text: "En este paso serán aplicados los conceptos aprendidos para el desarrollo de su propio proyecto a manera de tarea o ejercicio independiente. El objetivo es transferir  el conocimiento obtenido de la fase anterior a un proyecto (tarea) con un contexto científico."
+        text: "En este paso se aplicarán los conceptos aprendidos en el desarrollo de su propio proyecto a manera de tarea o ejercicio independiente. El objetivo es transferir  el conocimiento obtenido de la fase anterior a un proyecto (tarea) con un contexto científico."
     explain:
         heading: "Presentación individual del proyecto/tarea"
-        text: "En este paso final serán discutidas las soluciones individuales del proyecto (tarea, en una plática personal cara a cara con un especialista. Desde luego la retroalimentación y evaluación son parte de esta actividad. "
-    end: "Rendimiento- demostración"
+        text: "En este paso final se discutirán las soluciones individuales del proyecto (tarea, en una plática personal con un especialista. Desde luego la retroalimentación y evaluación son parte de esta actividad. "
+    end: "evaluación- final"
 
 footer:
     privacy: "Políticas de privacidad"
@@ -44,11 +44,11 @@ footer:
 nav:
     et: "E.Tutorials Login"
     contact: "Contacto"
-    team: "Team"
+    team: "Equipo"
     competences: "Competencias"
     portfolio: "Cursos"
     tools: "Herramientas"
-    didactics: "Propuesta Didáctica"
+    didactics: "Didáctica"
     publications: "Publicaciones"
 course:
     heading: "Los mejores cursos en práctica"
@@ -58,17 +58,17 @@ competence:
     heading: "Nuestras competencias"
     subHeading: "El centro de nuestras actividades es una educación ingenieril, con el objetivo de desarrollar ambientes de aprendizaje para transmitir conocimientos básicos de informática y ofrecerlos a diferentes grupos."
     informatics:
-        heading: "Transmisión de conceptos significativos de la informática"
-        text: "Por medio de solucionar proyectos de informática con datos de una área de estudio se pueden enseñar temas de la informática (p.e. Programación, bases de datos, etc) y orientarlos a un grupo objetivo. Los estudiantes adquieren conocimiento en un nivel cognítivo superior y obtienen al mismo tiempo una visión del trabajo científico."
+        heading: "Enseñanza de conceptos significativos de la informática"
+        text: "Por medio de solucionar proyectos de informática con datos de una área de estudio se pueden enseñar temas de la informática (p.e. Programación, bases de datos, etc) y orientarlos a un grupo objetivo. Los estudiantes adquieren conocimiento en un nivel cognitivo superior y obtienen al mismo tiempo una visión del trabajo científico."
     materials:
         heading: "Desarrollo de materiales para un aprendizaje individualizado"
         text: "Por medio del desarrollo de materiales didácticos electrónicos, lo estudiantes pueden trabajar de acuerdo a sus conocimientos, a su tiempo, de manera independiente y en su propia computadora, la solución de un proyecto. Los estudiantes se apropian de conocimientos básicos ellos mismos y con ello la independencia y motivación aumentan."
     analytics:
         heading: "Learning Analytics como instrumento de retroalimentación"
-        text: "Posibilidades de monitorear dan a los docentes de los cursos, con gran número de alumnos, una visión de la situación general del aprendizaje de los estudiantes y de la calidad del trabajo de los instructores.Por medio de la captura de datos interactivos puede comprobarse la calidad de los materiales instructivos y ser mejorados en el proceso."
+        text: "Posibilidades de monitorear dan a los docentes de los cursos, con gran número de alumnos, una visión de la situación general del aprendizaje de los estudiantes y de la calidad del trabajo de los instructores. Por medio de la captura de datos interactivos puede comprobarse la calidad de los materiales instructivos y ser mejorados en el proceso."
     exams:
         heading: "Desarrollo y aplicación de exámenes sobre computación"
-        text: "Gran cantidad de exámenes, periodos breves de prueba, seguridad en la aplicación, así como la intención de comprobar algo más que la reproducción de hechos, pone grandes retos a un sistema electrónico de exámenes. Para ello contamos con una manera de corregir automatizada, desarrollada con preguntas basadas en casos, la cual posibilita un examen eficiente del conocimiento de los estudiantes y en el mismo nivel cognitivo que las clases."
+        text: "Gran cantidad de exámenes, periodos breves de prueba, seguridad en la aplicación, así como la intención de comprobar algo más que la reproducción de hechos, pone grandes retos a un sistema electrónico de exámenes. Para ello contamos con una manera de corregir automatizada, desarrollada con preguntas basadas en casos, la cual posibilita un examen eficiente del conocimiento de los estudiantes y al mismo nivel cognitivo que las clases."
     consulting:
         heading: "Asesoría"
         text: "Apoyamos escuelas, profesores y compañeros de la industria, para que puedan aplicar materiales de aprendizaje, nuevos o ya probados, con una didáctica y configuración técnica apropiada y efectiva."
@@ -97,11 +97,11 @@ tool:
     et:
         heading: "E.Tutorial &reg;"
         subHeading: "Capacitación Individualizada-Online"
-        text: "E.Tutorials posibilita una aplicación inmediata de conceptos de la informática en al computadora (p.e. en un ambiente de programación, en una base de datos, etc.)Los estudiantes serán guiados por medio de instrucciones paso a paso. Los avances en cada paso podrán se comprobados por medio de una ayuda visual. E. Tutorial podrá ser aplicado para nivelar conocimientos (convergencia) pero también como preparación individual para la solución de un proyecto."
+        text: "E.Tutorial posibilita la aplicación inmediata de conceptos de la informática en al computadora (p.e. en un ambiente de programación, en una base de datos, etc.). Los estudiantes serán guiados por medio de instrucciones paso a paso. Los avances en cada paso podrán ser comprobados por medio de una ayuda visual. E. Tutorial podrá ser aplicado para nivelar conocimientos (convergencia) pero también como preparación individual para la solución de un proyecto."
     pele:
         heading: "Pele"
         subHeading: "Sistema para la gestión de los ejercicios"
-        text: "Con el sistema para la gestión de los ejercicios PELE (Personal Electronic Learning Environment)los estudiantes y los instructores se pueden registrar y tener contacto para discutir proyectos e informarse sobre la situación actual del proceso de aprendizaje. Los instructores llaman a los estudiantes por medio del interfaz del usuario y pueden después de la discusión directamente evaluarlos. También los estudiantes evalúan este intercambio. PELE es muy importante para la continuidad del aprendizaje a distancia y para el contacto cara a cara."
+        text: "Con el sistema para la gestión de los ejercicios PELE (Personal Electronic Learning Environment) los estudiantes y los instructores se pueden registrar y tener contacto para discutir proyectos e informarse sobre la situación actual del proceso de aprendizaje. Los instructores llaman a los estudiantes por medio del interfaz del usuario y pueden después de la discusión directamente evaluarlos. También los estudiantes evalúan este intercambio. PELE es muy importante para la continuidad del aprendizaje a distancia y para el contacto cara a cara."
     sioux:
         heading: "Sioux "
         subHeading: "Exámenes-Online seguros"
