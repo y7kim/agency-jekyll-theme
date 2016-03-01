@@ -49,9 +49,11 @@
                     <ul class="dropdown-menu">
                         {% if site.lang != "de" %}
                         <li><a href="/">de</a></li>
-                        {% else if site.lang != "en" %}
+                        {% endif %}
+                        {% if site.lang != "en" %}
                         <li><a href="/en">en</a></li>
-                        {% else if site.lang != "es" %}
+                        {% endif %}
+                        {% if site.lang != "es" %}
                         <li><a href="/es">es</a></li>
                         {% endif %}
                     </ul>
