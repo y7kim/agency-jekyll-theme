@@ -7,6 +7,8 @@ pages:
 header:
     message: E.Tutorials - Individualisierte Online-Instruktion für den Informatik-Grundlagen-Unterricht
     info: Mehr Informationen
+    maillist: Für Newsletter anmelden
+    subscribe: Anmelden
 contact:
     heading: "Kontakt"
     subHeading: "Wir freuen uns von Ihnen zu hören."
@@ -110,3 +112,45 @@ team:
     heading: Unser Team
     subHeading: Wir arbeiten alle am Department Informatik der ETH Zürich am Lehrstuhl für Informationstechnologie und Ausbildung (Prof. Dr. Juraj Hromkovic).
     end: Zusätzlich haben wir die Unterstützung von vielen weiteren Personen und Institutionen.
+
+pricing:
+    heading: Kostenübersicht
+    subHeading: Um unsere Serverkosten und eine Weiterentwicklung der E.Tutorials zu ermögliche, bieten wir folgende Packete an.
+    free:
+        plan: KOSTENLOS
+        costs: 0 SFr / Jahr
+        buy: JETZT STARTEN
+        feature:
+          one: Kostenloser Zugriff auf existierende Kurse
+          two: Vereinfachte Registrierung von SchülerInnen
+          three: Keine kommerzielle Nutzung der Lehrmaterialien
+    bronce:
+        plan: BRONZE PLAN
+        costs: 250 SFr / Jahr
+        buy: JETZT KAUFEN
+        feature:
+            one: Alle Features des Kostenlosen Plans
+            two: Möglichkeit individualiserter Kurse
+            three: Möglichkeit nicht öffentlicher Kurse
+    silber:
+        plan: SILBER PLAN
+        costs: 500 SFr / Jahr
+        buy: JETZT KAUFEN
+        feature:
+            one: Alle Features des Bronze Plans
+            two: Möglichkeit eigene Materialien in Module einzubinden
+    gold:
+        plan: GOLD PLAN
+        costs: 2000 SFr / Jahr
+        buy: JETZT KAUFEN
+        feature:
+            one: Alle Features des Silber Plans
+            two: Möglichkeit eigene E.Tutorials zu erstellen
+    analytics:
+        plan: ANALYTICS
+        costs: 20 SFr / Jahr / Benutzer
+        buy: JETZT KAUFEN
+        feature:
+            one: Alle Features des Kostenlosen Plans
+            two: Zugriff auf Analytics Plattform
+            three: Ein Lehrbuch für jeden Benutzer

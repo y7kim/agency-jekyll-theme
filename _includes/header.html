@@ -3,8 +3,35 @@
     <div class="container">
         <div class="intro-text">
             <div class="intro-lead-in">{% t header.message %}</div>
-            <div class="intro-heading"></div>
-            <a href="#didactics" class="page-scroll btn btn-xl">{% t header.info %}</a>
+            <div class="intro-heading">
+
+                <div class="col-md-4 col-md-offset-4">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            <h4 class="text-center">{% t header.maillist %}</h4>
+                        </div>
+                        <form action="//ethz.us12.list-manage.com/subscribe/post?u=01dd14a63aa72236f57b49d6b&amp;id=d194e94f8d" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                        <div class="panel-body text-center">
+                            <div class="mc-field-group">
+                                <input type="email" class="required email form-control" placeholder="Ihre Email Adresse *" id="mce-EMAIL" required="" data-validation-required-message="Bitte geben Sie Ihre Email Adresse an.">
+                            </div>
+                            <div id="mce-responses" class="clear">
+                                <div class="response" id="mce-error-response" style="display:none"></div>
+                                <div class="response" id="mce-success-response" style="display:none"></div>
+                            </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_01dd14a63aa72236f57b49d6b_d194e94f8d" tabindex="-1" value=""></div>
+                        </div>
+
+                        <div class="panel-footer">
+                            <input type="submit" value="{% t header.subscribe %}"  name="subscribe" id="mc-embedded-subscribe" class="btn btn-md btn-block btn-primary">
+                            </input>
+                        </div>
+                        </form>
+                    </div>
+                </div>
+
+
+            <!--<a href="#didactics" class="page-scroll btn btn-xl">{% t header.info %}</a>-->
         </div>
     </div>
 </header>

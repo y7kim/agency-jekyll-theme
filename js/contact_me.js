@@ -1,7 +1,7 @@
 
 $(function() {
 
-    $("input,textarea").jqBootstrapValidation({
+    $("#contact>input, #contact>textarea").jqBootstrapValidation({
         preventSubmit: true,
         submitError: function($form, event, errors) {
             // additional error messages or events
@@ -16,7 +16,6 @@ $(function() {
             var message = $("textarea#message").val();
             var firstName = name; // For Success/Failure Message
             // Check for white space in name for Success/Fail message
-            console.log(firstName);
             $.ajax({
                 url: "http://mailthis.to/pele",
                 method: "POST",
