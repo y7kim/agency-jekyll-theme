@@ -1,37 +1,29 @@
 ---
-layout: post
+layout: timeline/adventure-stage
 status: publish
 published: true
-title: "Stage 5: Mauritania"
-location: Kazakhstan
+title: Stage 5
+subtitle: Mauritania
+location: Mauritania
 date: '2012-02-01 00:00:00 -0400'
-daysontheroad: 50
+datestart: '2012-02-01 00:00:00 -0400'
+dateend: '2012-02-06 00:00:00 -0400'
+permalink: timbuktuchallenge2012-stage5.html
+journey: Timbuktu Challenge 2012
+stage: 5
 thumbnail: 2012-timbuktuchallenge/timeline/697-timbuktuchallenge-timeline-thumb.jpg
-imagelist:
-- thumb: 2010-mongolrally/timeline/52-mongolrally-timeline-thumb.jpg
-- thumb: 2010-mongolrally/timeline/53-mongolrally-timeline-thumb.jpg
-- thumb: 2010-mongolrally/timeline/54-mongolrally-timeline-thumb.jpg
-- thumb: 2010-mongolrally/timeline/55-mongolrally-timeline-thumb.jpg
-- thumb: 2010-mongolrally/timeline/56-mongolrally-timeline-thumb.jpg
-- thumb: 2010-mongolrally/timeline/57-mongolrally-timeline-thumb.jpg
-- thumb: 2010-mongolrally/timeline/58-mongolrally-timeline-thumb.jpg
-- thumb: 2010-mongolrally/timeline/59-mongolrally-timeline-thumb.jpg
-- thumb: 2010-mongolrally/timeline/60-mongolrally-timeline-thumb.jpg
-- thumb: 2010-mongolrally/timeline/61-mongolrally-timeline-thumb.jpg
-- thumb: 2010-mongolrally/timeline/62-mongolrally-timeline-thumb.jpg
-- thumb: 2010-mongolrally/timeline/63-mongolrally-timeline-thumb.jpg
-- thumb: 2010-mongolrally/timeline/64-mongolrally-timeline-thumb.jpg
-- thumb: 2010-mongolrally/timeline/65-mongolrally-timeline-thumb.jpg
-- thumb: 2010-mongolrally/timeline/66-mongolrally-timeline-thumb.jpg
-- thumb: 2010-mongolrally/timeline/67-mongolrally-timeline-thumb.jpg
-- thumb: 2010-mongolrally/timeline/68-mongolrally-timeline-thumb.jpg
-- thumb: 2010-mongolrally/timeline/69-mongolrally-timeline-thumb.jpg
-- thumb: 2010-mongolrally/timeline/70-mongolrally-timeline-thumb.jpg
-- thumb: 2010-mongolrally/timeline/71-mongolrally-timeline-thumb.jpg
-- thumb: 2010-mongolrally/timeline/72-mongolrally-timeline-thumb.jpg
-- thumb: 2010-mongolrally/timeline/73-mongolrally-timeline-thumb.jpg
+background: img/2012-timbuktuchallenge/timbuktu-challenge-stage5.jpg
+prev-stage-url: timbuktuchallenge2012-stage4.html
+next-stage-url: timbuktuchallenge2012-stage6.html
+header:
+- name: Timbuktu Challenge 2012
+  type: link
+  link: '/timbuktuchallenge2012.html'
+- name: More Stories
+  type: link
+  link: '/adventure-full.html'
 categories:
-- Mongol Rally 2010
+- Timbuktu Challenge 2012
 tags: [timeline-timbuktu-challenge-2012]
 comments: []
 ---

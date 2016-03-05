@@ -1,13 +1,29 @@
 ---
-layout: post
+layout: timeline/adventure-stage
+permalink: mongolrally2010-stage3.html
+journey: Mongol Rally 2010
+stage: 3
+title: Stage 3
+subtitle: Turkey
+background: img/2010-mongolrally/timeline/27-mongolrally-timeline.jpg
 status: publish
 published: true
-title: "Stage 3: Turkey"
 location: Turkey
-date: '2010-08-04 00:00:00 -0400'
-daysontheroad: 13
+date: '2010-08-04 00:00:00'
+dateend: '2010-08-06 00:00:00 -0400'
 stage-url: mongolrally2010-stage3.html
+next-stage-url: mongolrally2010-stage4.html
+prev-stage-url: mongolrally2010-stage2.html
+next-stage-label: Greece
+prev-stage-label: Georgia
 thumbnail: 2010-mongolrally/timeline/38-mongolrally-timeline-thumb.jpg
+header:
+- name: Mongol Rally 2010
+  type: link
+  link: '/mongolrally2010.html'
+- name: More Stories
+  type: link
+  link: '/adventure-full.html'
 imagelist:
 - thumb: 2010-mongolrally/timeline/27-mongolrally-timeline-thumb.jpg
 - thumb: 2010-mongolrally/timeline/28-mongolrally-timeline-thumb.jpg

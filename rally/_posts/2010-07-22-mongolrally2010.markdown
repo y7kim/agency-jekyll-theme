@@ -1,0 +1,69 @@
+---
+layout: journey-full
+permalink: mongolrally2010.html
+title: Mongol Rally 2010
+journeyid: Mongol Rally 2010
+date: '2010-07-22 00:00:00'
+people:
+- name: Stephen Jan
+  pic: 2010-mongolrally/profile_sjan.jpg
+  social:
+    - title: facebook
+      url: http://www.facebook.com/sjan828
+    - title: linkedin
+      url: http://www.linkedin.com/in/sjan828
+- name: Judith del Cuadro-Zimmerman
+  pic: 2010-mongolrally/profile_judy.jpg
+  social:
+    - title: facebook
+      url: http://www.facebook.com/sjan828
+    - title: linkedin
+      url: http://www.linkedin.com/in/sjan828
+- name: Thomas Dorwart
+  pic: 2010-mongolrally/profile_tom.jpg
+  social:
+    - title: facebook
+      url: http://www.facebook.com/sjan828
+    - title: linkedin
+      url: http://www.linkedin.com/in/sjan828
+- name: Lillie Wilde
+  pic: 2010-mongolrally/profile_lillie.jpg
+  social:
+    - title: facebook
+      url: http://www.facebook.com/sjan828
+    - title: linkedin
+      url: http://www.linkedin.com/in/sjan828
+static-map-path-style-yellow: 'weight:4%7Ccolor:yellow%7C'
+static-map-path-style: 'weight:4%7Ccolor:red%7C'
+static-maptype: 'satellite'
+static-map-size: '640x440'
+static-map-path: u_kyHj_XhunBggdKzlrFqcpDdlvBczsBi|OaliT{p_@a_cIciRaxhTijnAcxyIzpu@ufjHpvuFsbiI|naCwqwF{n@bpwByrp@jx|Al_`B_wcJ~hnFqawDvajDvcLxalCwrxCjieDy{eD~gfEaxhBfywDhjz@vhgEscxDlduCjsLdu_Dcee@vi_A|my@h~iBmilFl`UscPcqdBx`vCgu}@|kb@gpyCb|mAimaDivl@ars@qflHc|Gwu~IejZ{aiOnebAkpbJmoSu`wI{z\\k_gNqwQymrFki[ylhD~sXiqsNm}r@o|~IcgqCwgcJjwz@{gaI`hrBwaeBvjmB}i`Ix}eC{bxMckyAw~aBgxgS}skLqesAoplAux|EehmOkivIjgtEa_iBs`eBg`lEe`pFiykCcdpGeggDetGhkq@o}oPomcB_dkC}u{DysuCeqcEk~WsioBevzHfuaC_jnC`|eBa_|T~`La`~ItetAqhnEwsz@}l`BmunFxiv@{vqC}yiC{zsBy`}GuagCaitAilj@_yqm@l_kAe{nYuczA_xbC{{gCcr|F}j`@u{_H_aZ}m~Rhd`AafxI{wLkwuGggd@a}yJd|vCssvG`lpCevgFfx}BmosL~`fEgz_Fb{{BkzoEhyaCx{lBc_TequL{zSs{fHjfzBfo{DzouBnbMzbfAxyK~mqCxgsAvioDenYdgoCqyfC
+event-description: The Mongol Rally is 10,000 mile journey starting in London, UK and ending in Ulanbataar, Mongolia. Teams from all around the world gather for this once a year event to take on the challenge for charity, in the spirit of adventure.
+adventure-picture: 2010-mongolrally/timeline/67-mongolrally-timeline-thumb.jpg
+adventure-title: Where did we go?
+adventure-caption: 10,475 miles, 15 Countries, 2 Continents. The long road to Mongolia started at Goodwood race track in the UK and covered 15 countries. England, France, Germany, Czech Republic, Slovakia, Hungary, Serbia, Macedonia, Greece, Turkey, Georgia, Azerbaijan, Kazakhstan, Russia, Mongolia
+charity-picture: 2010-mongolrally/timeline/63-mongolrally-timeline-thumb.jpg
+charity-title: A Charitable Cause
+charity-caption: The Mongol Rally isn't just about adventure. Each team is required to raise 1000 GBP for charity. The team decided to support Mecrycorp and MSF. Each team also donates their adventure hardened vehicle at the conclusion of the journey.
+vehicle-picture: 2010-mongolrally/timeline/48-mongolrally-timeline-thumb.jpg
+vehicle-title: By Ambulance?
+vehicle-caption: For the 2010 Mongol Rally, we drove an ambulance. Why? First, Ambulances are cool. Second, Ambulances usually pretty well maintained. Third, Charity. Mongolia is landlocked and has pretty limited access to equipment. They need ambulances.
+timeline-tag: timeline-mongol-rally-2010
+header-tag: 'mongolrally2010'
+home-link: '/'
+header:
+- name: Challenge
+  type: scroll
+  link: '#rally-summary'
+- name: Team
+  type: scroll
+  link: '#rally-team'
+- name: Timeline
+  type: scroll
+  link: '#rally-timeline'
+- name: More Stories
+  type: link
+  link: 'adventure-full.html'
+
+---
+I'm the main body content.

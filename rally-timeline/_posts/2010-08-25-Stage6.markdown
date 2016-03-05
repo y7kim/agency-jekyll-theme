@@ -1,12 +1,26 @@
 ---
-layout: post
+layout: timeline/adventure-stage
+permalink: mongolrally2010-stage6.html
+journey: Mongol Rally 2010
+stage: 6
+title: Stage 6
+subtitle: Russia
+background: img/2010-mongolrally/timeline/93-mongolrally-timeline.jpg
 status: publish
 published: true
-title: "Stage 6: Russia"
 location: Russia
 date: '2010-08-25 00:00:00 -0400'
-daysontheroad: 34
-stage-url: mongolrally2010-stage6.html
+datestart: '2010-08-25 00:00:00 -0400'
+dateend: '2010-08-30 00:00:00 -0400'
+header:
+- name: Mongol Rally 2010
+  type: link
+  link: '/mongolrally2010.html'
+- name: More Stories
+  type: link
+  link: '/adventure-full.html'
+next-stage-url: mongolrally2010-stage7.html
+prev-stage-url: mongolrally2010-stage5.html
 thumbnail: 2010-mongolrally/timeline/82-mongolrally-timeline-thumb.jpg
 imagelist:
 - thumb: 2010-mongolrally/timeline/74-mongolrally-timeline-thumb.jpg

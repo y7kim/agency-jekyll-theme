@@ -1,0 +1,17 @@
+
+.button-container  {
+    color: #{{ site.color.primary }};
+    color: #fff;
+}
+
+.modal-timeline-icon-muted {
+  background-color: #999999;
+}
+
+.modal-timeline-icon-muted  h3 {
+  margin-top: 40%;
+}
+
+.modal-timeline-icon-site-primary {
+  background-color: #{{ site.color.primary }};
+}

@@ -1,13 +1,31 @@
 ---
-layout: post
+layout: timeline/adventure-stage
+permalink: mongolrally2010-stage4.html
+journey: Mongol Rally 2010
+stage: 4
+title: Stage 4
+subtitle: Georgia, Azerbaijan
+background: img/2010-mongolrally/timeline/50-mongolrally-timeline.jpg
 status: publish
 published: true
-title: "Stage 4: Georgia, Azerbaijan"
 location: Georgia
 date: '2010-08-07 00:00:00 -0400'
+datestart: '2010-08-07 00:00:00 -0400'
+dateend: '2010-08-12 00:00:00 -0400'
 daysontheroad: 16
 stage-url: mongolrally2010-stage4.html
+next-stage-url: mongolrally2010-stage5.html
+prev-stage-url: mongolrally2010-stage3.html
+next-stage-label: Kazakhstan
+prev-stage-label: Turkey
 thumbnail: 2010-mongolrally/timeline/51-mongolrally-timeline-thumb.jpg
+header:
+- name: Mongol Rally 2010
+  type: link
+  link: '/mongolrally2010.html'
+- name: More Stories
+  type: link
+  link: '/adventure-full.html'
 imagelist:
 - thumb: 2010-mongolrally/timeline/40-mongolrally-timeline-thumb.jpg
 - thumb: 2010-mongolrally/timeline/41-mongolrally-timeline-thumb.jpg

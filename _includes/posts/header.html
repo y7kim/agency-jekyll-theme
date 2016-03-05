@@ -1,33 +1,98 @@
+
+<!-- get journey -->
+{% for rally in site.categories.rally %}
+  {% for category in page.categories %}
+    {% if category == rally.journeyid %}
+      {% assign journey = rally %}
+    {% endif%}
+  {% endfor %}
+{% endfor %}
+
+<!-- get this stage id-->
+{% for tag in page.tags %}
+  {% if tag contains 'Stage' %}
+    {% assign stage-tag = tag %}
+  {% endif %}
+{% endfor %}
+
+<!-- get stage -->
+{% for stage in site.categories.rally-timeline %}
+  {% capture temp_tag %}Stage {{stage.stage}}{% endcapture %}
+  {% if stage-tag == temp_tag and stage.journey == journey.journeyid %}
+    {% assign stage-post = stage %}
+    {% assign stage-tag = temp_tag %}
+  {% endif%}
+{% endfor %}
+
+{% if stage-post.stage == 0 %}
+  {% assign stage-path = '' %}
+{% else %}
+  {% assign stage-path = journey.static-map-path %}
+{% endif%}
+
+<!-- getnext -->
+{% for post in site.posts %}
+  {% for category in post.categories %}
+    {% for tag in post.tags %}
+      {% if category == journey.journeyid and tag == stage-tag %}
+        {% assign three = two %}
+        {% assign two = one %}
+        {% assign one = post %}
+        {% if two == page %}
+          {% assign prev = one %}
+          {% assign next = three %}
+        {% endif%}
+      {% endif%}
+    {% endfor %}
+  {% endfor %}
+{% endfor %}
+
+{% if one == page %}
+  {% assign next = two %}
+{% endif%}
+
+<!-- getprev -->
+
+
+{% assign headerList = stage-post.header %}
+
+{% include header.html %}
 <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top">
+    <!-- <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand page-scroll" href="index.html">{{site.title}}</a>
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+              </button>
+                <a class="navbar-brand" href="/">{{site.title}}</a>
             </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <!-- /.navbar-collapse -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="{{journey-post.url}}">{{journey-post.title}}</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="{{stage-post.url}}">Stage {{stage-post.stage}}</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-        <!-- /.container-fluid -->
-    </nav>
+    </nav> -->
 
-    <!-- Header! http://maps.googleapis.com/maps/api/staticmap?center=New%20York&size=640x200&scale=2&maptype=terrain&key=AIzaSyCEUuJaMSbwXTf5kpKamhzrQ1sSDnRo5XA-->
-    <header style="background-image: url('http://maps.googleapis.com/maps/api/staticmap?center={{page.location}}&zoom=3&size=640x300&scale=2&maptype=hybrid&markers=color:blue|{{page.location}}&key=AIzaSyCEUuJaMSbwXTf5kpKamhzrQ1sSDnRo5XA');">
+
+   <!-- <header style="background-image: url('{{site.google-map-baseurl}}size=640x300&center={{page.location}}&markers=color:yellow%7C|{{page.location}}&key={{site.google-maps-key}}&scale=2&{{site.google-map-path-style-dark-nolabel}}&path={{site.static-map-path-style-yellow}}enc:{{stage-path}}');">
         <div class="container">
             <div class="intro-text-post">
-               <!-- <div class="intro-lead-in">{{page.date}}</div> -->
                 <div class="intro-heading">{{page.title}}</div>
-<!--                 <a href="#about" class="page-scroll btn btn-xl"></a> -->
             </div>
         </div>
-    </header>
+    </header> -->
 <!--
         {% for page in site.pages %}
           {% if page.title %}<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>{% endif %}

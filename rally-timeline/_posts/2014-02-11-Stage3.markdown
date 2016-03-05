@@ -1,0 +1,25 @@
+---
+layout: timeline/adventure-stage
+status: publish
+published: true
+title: Stage 3
+subtitle: Guatemala
+location: Guatemala
+date: '2014-02-11 00:00:00 -0400'
+dateend: '2014-02-12 00:00:00 -0400'
+thumbnail: 2014-panamericanrally/panamericanrally-stage3-thumb.jpg
+permalink: panamericanrally2014-stage3.html
+journey: Pan-American Rally 2014
+stage: 3
+header:
+- name: Pan-American Rally 2014
+  type: link
+  link: '/panamericanrally2014.html'
+- name: More Stories
+  type: link
+  link: '/adventure-full.html'
+categories:
+- Pan-American Rally
+tags: []
+comments: []
+---

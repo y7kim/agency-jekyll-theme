@@ -1,0 +1,27 @@
+---
+layout: timeline/adventure-stage
+permalink: mongolrally2010-stage8.html
+journey: Mongol Rally 2010
+stage: 8
+title: Stage 8
+subtitle: Post journey
+background: img/2010-mongolrally/stage7-bg.jpg
+status: publish
+published: true
+location: Irkutsk
+date: '2010-09-29 00:00:00 -0400'
+prev-stage-url: mongolrally2010-stage7.html
+thumbnail: 2010-mongolrally/posts/mongolrally-postrally-thumb.jpg
+header:
+- name: Mongol Rally 2010
+  type: link
+  link: 'mongolrally2010.html'
+- name: More Stories
+  type: link
+  link: 'adventure-full.html'
+tags: [timeline-mongol-rally-2010]
+categories:
+- Mongol Rally 2010
+comments: []
+---
+The team parted ways after the journey. Stephen boarded a train back through Russia, Judy flew to Barcelona, Tom to Paris, and Lillie returned to Berlin.

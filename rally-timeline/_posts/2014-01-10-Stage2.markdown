@@ -1,0 +1,25 @@
+---
+layout: timeline/adventure-stage
+status: publish
+published: true
+title: Stage 2
+subtitle: Mexico
+location: Mexico
+date: '2014-01-10 00:00:00 -0400'
+dateend: '2014-02-10 00:00:00 -0400'
+thumbnail: 2014-panamericanrally/panamericanrally-stage2-thumb.jpg
+permalink: panamericanrally2014-stage2.html
+journey: Pan-American Rally 2014
+stage: 2
+header:
+- name: Pan-American Rally 2014
+  type: link
+  link: '/panamericanrally2014.html'
+- name: More Stories
+  type: link
+  link: '/adventure-full.html'
+categories:
+- Pan-American Rally
+tags: [timeline-panamerican-rally-2014]
+comments: []
+---

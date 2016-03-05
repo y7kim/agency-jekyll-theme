@@ -1,32 +1,30 @@
 ---
-layout: post
+layout: timeline/adventure-stage
 status: publish
 published: true
-title: 'Stage 2: Europe'
+title: Stage 2
+subtitle: Europe
 location: Europe
 date: '2011-12-16 00:00:00 -0400'
-daysontheroad: 3
+datestart: '2011-12-16 00:00:00 -0400'
+dateend: '2011-12-19 00:00:00 -0400'
+journey: Timbuktu Challenge 2012
+stage: 2
+permalink: timbuktuchallenge2012-stage2.html
 thumbnail: 2012-timbuktuchallenge/timeline/100-timbuktuchallenge-timeline-thumb.jpg
-imagelist:
-- thumb: 2010-mongolrally/timeline/11-mongolrally-timeline-thumb.jpg
-- thumb: 2010-mongolrally/timeline/12-mongolrally-timeline-thumb.jpg
-- thumb: 2010-mongolrally/timeline/13-mongolrally-timeline-thumb.jpg
-- thumb: 2010-mongolrally/timeline/14-mongolrally-timeline-thumb.jpg
-- thumb: 2010-mongolrally/timeline/15-mongolrally-timeline-thumb.jpg
-- thumb: 2010-mongolrally/timeline/16-mongolrally-timeline-thumb.jpg
-- thumb: 2010-mongolrally/timeline/17-mongolrally-timeline-thumb.jpg
-- thumb: 2010-mongolrally/timeline/18-mongolrally-timeline-thumb.jpg
-- thumb: 2010-mongolrally/timeline/19-mongolrally-timeline-thumb.jpg
-- thumb: 2010-mongolrally/timeline/20-mongolrally-timeline-thumb.jpg
-- thumb: 2010-mongolrally/timeline/21-mongolrally-timeline-thumb.jpg
-- thumb: 2010-mongolrally/timeline/22-mongolrally-timeline-thumb.jpg
-- thumb: 2010-mongolrally/timeline/23-mongolrally-timeline-thumb.jpg
-- thumb: 2010-mongolrally/timeline/24-mongolrally-timeline-thumb.jpg
-- thumb: 2010-mongolrally/timeline/25-mongolrally-timeline-thumb.jpg
-- thumb: 2010-mongolrally/timeline/26-mongolrally-timeline-thumb.jpg
+background: img/2012-timbuktuchallenge/timbuktu-challenge-stage2.jpg
+header:
+- name: Timbuktu Challenge 2012
+  type: link
+  link: '/timbuktuchallenge2012.html'
+- name: More Stories
+  type: link
+  link: '/adventure-full.html'
 categories:
-- Mongol Rally 2010
+- Timbuktu Challenge 2012
 tags: [timeline-timbuktu-challenge-2012]
+prev-stage-url: timbuktuchallenge2012-stage1.html
+next-stage-url: timbuktuchallenge2012-stage3.html
 comments: []
 ---
 We never really considered how long it would take to drive to Tarifa, Spain. It's a long way from London and we almost died on the way.

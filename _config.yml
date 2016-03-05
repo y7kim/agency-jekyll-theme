@@ -1,4 +1,4 @@
-url: https://y7kim.github.io
+url: http://lastresponders.org
 baseurl: ''
 
 # Site settings
@@ -9,7 +9,7 @@ description: "Team Last Responders adventures for charity"
 # Color settings (hex-codes without the leading hash-tag)
 color:
   primary: fed136
-  secondary: fec503  
+  secondary: fec503
   secondary-dark: 333
 
 # Team names, titles and social links
@@ -34,13 +34,13 @@ people:
 
 - name: Tom Dorwart
   pic: team/profile_tdorwart.jpg
-  position: Secratary 
+  position: Secratary
   social:
       - title: facebook
         url: http://www.facebook.com/tom.dorwart.5
       - title: linkedin
         url: http://www.linkedin.com/in/thomas-dorwart-74a8b221
-   
+
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
@@ -58,4 +58,17 @@ address:
 
 # Build settings
 markdown: kramdown
-permalink:    /:title/
+permalink: /:year/:month/:day/:title.html
+
+#google maps
+
+timbuktuchallenge2012-enc-path: gs`yHhxvA~y@d~A_iBkkPjlEb}GseCsxA|u@oRuLpH?z@dBhr@MDYKUXjz@}aDswPabt@`@]wq@mnGJaAkDrBfFgBm@\\Ku@VJ@JnaAjjG??biEy_F`cfA}grG`e{JkywFtxt@l~n@`kA~w@|wBfkMbgB{}Mp{CQnk`@o}Bu_@oYc@JndrA`xeBragB|llAv_l@rqcC`Az@cAyAn`kAx}c@za{Chj~DtunCjbh@lteAavTvwsF~itBRYpapEdc_Ihmo@xhxArcGrbLC?HVEQprIbcOjb|EfioMlzkC_iR?QzixCzn_CF?nypDvqJj{jCqzFr`gDck_An|uDv|t@lwpA_jbCelDymFB??VI?I\\GqALZEh@jxGxrKw~Sks]`mo@leL~E`Bq@Jv`Gd|G~qqJdimGSDa@PX]DJXPQQauGeoHmiBksFx_KpcPN?]\\Ri@OVHKQD{b@iv@a`EgvQyIqPesGj}AWQJKQPEW@Pq@?v|B|{CluBrwB_}GgoLfiA`bC}]pX`dOx~PV?ufFsuSF]{aDaZnxUxaa@v{[biy@~_`@hjy@qpBtpFhwFwoOKKNPxsC`eBzqz@|l@APMK?PCc@Kz@To@??EP?EFDOE?Q@Pluz@njMv_uBnp{@~}kA|_L^}Hf@PQKn_n@z}CRVKs@CfACYh@XE_@Sv@P?CKC@NAG?G`@OORQh@Ye@LE\\?D?EB??EC\\DWCENE?Vb`DwrEEWHJ}zAp~AqfA|oBZKUEPDB?J\\F?TaBSbAJDEK]D\\JEzA]\\b@WvvDq~JovDj~JfslOjqgK~}_@neu@lpd@j`wA|z^vpbAgBhli@pwd@~ij@nhQx}z@xve@tijAg~@vzcArsd@l|y@l_v@ryGzv|@dpg@x~ItcNlxs@blj@t|{@dz_Atuq@xyqAxe]fok@xpu@n`Qxg~A|pj@h`aBnnJv}l@tcIr}m@tibAhzaBr}uApvMl{g@daVlkHbn@l|@dEdh@F_@GR~@l@KUm@a@Lx@Wi@Da@r@Cy`AyCp`AjCgs@}dB|r@jeBLE?QIDRKId@TQEaCYhAVz@t@cAk@CGz@EJNWcpj@ua`@hti@loE|{xAvvs@t}gDbmiAhlv@|of@|aEtgOtxbBb}b@beb@|uDl_Bcr@|zAab@pEsBjlEi|Ahlz@t{R~nElFgys@}vOaeKk~oAlhfAi_|@d_pCopn@rno@{cJdsjBnb[xl|AruS|nbBwo]rvx@_nBdScmGtaD{VpzK{pn@|cg@qnqBlnl@mjlAngMgdUrbl@__|@|nk@ej}@mpl@q|e@okc@m|bBctG}~ZqF{pBcoNa|m@on@}dHxl^ygm@rhl@waaAf`Tuac@d{R_nWr_e@cbk@h~a@}mw@hiJ_|i@jm@quKyTyvPXaqBluBugWflGmoZxZy_JqSgsL?EzfWeykAkQg~GsmFu|K_dq@yufBjCtb@xo^y}FfvyAitKnc_Amac@z}BlaAhf@nNn}h@~~G|al@pxg@aDgtAiADtEtz@a@}`A?_@kClGLeBFx@ptmCitvDbeuDaxrBbiv@wtNfhjAnaVxmt@ezJouxDx_Din~DvbyEmpbCrjoAt|kC{xlBhqNsj_CnddAu_{@f{vBu_AhyhA}cPtb|@vv`@rlTssMtrGccAjChE|fAewBUDBEZEPlAi@eBR|@w@?l@e@GDmIrFnIyEZYQQEX?GCHqvCjZfcHgzL_a@qwr@ezZ{ax@qrHu~sAcee@sxm@aru@yar@gjb@{k`@af@{oA??B??DKEBEJDQJLWO\\B]?JDE?J?E?DBEI?FD?QBECD?P[aA
+panamericanrally2014-enc-path: _pblFlf{vMa`@|m@lpdCp}b@hq`Gf}eAvamDj~jKpwhCbj|E~|`AhmrEffiCv~vGbwkE~gbGrs{DzcmHjdoFridGh~eBlnuCt~z@lbfG`lZ~xgAgcuEzolE_yhGxypCevJnyMc{Ij}|DcnE|pd@d@zBuzB}L`xOhoiAsCnW{wQ_zpA`yStouAg{@nr@_eOueqAbbOn{jAtiRvxgFy_fAlkeJGb@lBbOb}c@jnrGbf]f`}LjoW|twKyyTribCzer@fqlFza|@rpwApuTdwfHg|cBdhtGEk@|bBbrnGzwD|yvIeksAnj~AwecDfz~Bg`Xke_@z}j@yHuxe@lxEx\\}xFc_IxxPfej@}wDrohFu``EynJzmBwzE{PpmEcy@|qyDkaCffbCqaBbdnHw_Bh`AlsFsAq{C~i~Ezl@vgD~cBlva@k_jBbxvCcj}Dn}fFwrqAndy@emsCphgDeg{ChfmGisfErgEs^viA`x@exGeYcDziDbya@ifuA~qkGefzDjlqBqbvBkaEvrD`deA{m}CxhS{p{@ufCtxStxBwpJz|@qzCos@_oCif`HsxnMix@_}EztgDmwaAfvqDcyqBfo}Dg~`DyoDstF~XhjGla@i~Bnh@yI|nLuqAkwaActx@z~eCeyzDlmsE}veBxaeDki{BloP_bl@bvpA}v_BlrVg~lBjkxA_vcIxfdDcvbGx~p@_u^p|QatRa~cAzmr@o}DfjPple@cyjAvgNhzZj|BaxQ{mLmh}@vhI_pn@rdRe`aAntEtsAdwOwiyAvhT}oSdidBwipAxrkB}{qEx{Xq|wDlk~JyplNrha@_h]rudA}yFfutCopwClb]safCxAk{DxxtBi_hAkFgcDde`BoghAjylAwgaD|ri@odsEyha@cl`FgjlB{ceCsrBlLkjMl|Q}kh@|cJekPhnc@|}m@}mr@}kqFebpXbakDvxHv{pBbp{@jhWtdOrhbBkaiA`ncAobx@bivCvir@bocCmfSdrf@|ah@tdF`bBx~pCqc@xlnGvpsBp_}Ef|cAt|~Cz_xAtybC`uw@p{yFbtqD|m~@zqy@jeBwDfo|@fyNd_iDahLxuw@tz\\jl_Cdns@rikA_jFffd@vzUvuBkfl@ivBxel@rejBrr|D|wRd{vA~wYzhs@bukBne`BlecD_~}AvosC{~_@dtrDexgC~rzBstr@~wlC}~fBdu}BksmAphsCqpeAztpDaxbAxdjDqcwAjiyBwinAtfl@cpQ~ioF}g}CrqrBkzlAbbzBekpBnrsAw_b@r`uBq}|Atd_AiraBpeiBaqbFmte@{ilCrs\\iqx@~_tCenjC{nb@iru@ccEi|AmlNgo[}~f@ix`D_qg@qs}CwgDenmCqhDi_b@rv\\{dRoi_@roWj{qBeoZp|nBaq|ClciBsbf@|kmDeheBd`fAsa}Btt^cnS`{eBqkrAh`eBcgRzfgCw~e@~q_@}`t@emZ~cg@w~}Czig@sqeCdyeBaldBum`Ba`dAhfWbqoBmqFcqYlqoBga`AvvsAqeoC`ahCgivDr}gBuq|Bbo`Cvc`AvhfOma[veqDgtmApmjDy~w@hvzCa_jAbmlCu`lAjmeCeefDvg`AwqkCj|cCgs}E|chCcmzBfezAwuuBx`o@gvgF|qqC{blDppt@oeyCnpaAujlBdioA
+google-maps-key: 'AIzaSyCEUuJaMSbwXTf5kpKamhzrQ1sSDnRo5XA'
+google-map-baseurl: 'https://maps.googleapis.com/maps/api/staticmap?'
+google-map-path-style-dark: 'style=feature:all|element:labels.text.fill|color:0xffffff&style=feature:all|element:labels.text.stroke|color:0x000000|lightness:13&style=feature:administrative|element:geometry.fill|color:0x000000&style=feature:administrative|element:geometry.stroke|color:0x144b53|lightness:14|weight:1.4&style=feature:landscape|element:all|color:0x08304b&style=feature:poi|element:geometry|color:0x0c4152|lightness:5&style=feature:road.highway|element:geometry.fill|color:0x000000&style=feature:road.highway|element:geometry.stroke|color:0x0b434f|lightness:25&style=feature:road.arterial|element:geometry.fill|color:0x000000&style=feature:road.arterial|element:geometry.stroke|color:0x0b3d51|lightness:16&style=feature:road.local|element:geometry|color:0x000000&style=feature:transit|element:all|color:0x146474&style=feature:water|element:all|color:0x021019'
+google-map-path-style-dark-nolabel: 'style=feature:all|element:labels.text.fill|color:0xffffff|weight:0.20|lightness:28|saturation:23|visibility:off&style=feature:all|element:labels.text.stroke|color:0x494949|lightness:13|visibility:off&style=feature:all|element:labels.icon|visibility:off&style=feature:administrative|element:geometry.fill|color:0x000000&style=feature:administrative|element:geometry.stroke|color:0x144b53|lightness:14|weight:1.4&style=feature:landscape|element:all|color:0x08304b&style=feature:poi|element:geometry|color:0x0c4152|lightness:5&style=feature:road.highway|element:geometry.fill|color:0x000000&style=feature:road.highway|element:geometry.stroke|color:0x0b434f|lightness:25&style=feature:road.arterial|element:geometry.fill|color:0x000000&style=feature:road.arterial|element:geometry.stroke|color:0x0b3d51|lightness:16&style=feature:road.local|element:geometry|color:0x000000&style=feature:transit|element:all|color:0x146474&style=feature:water|element:all|color:0x021019'
+static-map-path-style-yellow: 'weight:4%7Ccolor:yellow%7C'
+static-map-path-style-red: 'weight:4%7Ccolor:red%7C'
+
+array: []

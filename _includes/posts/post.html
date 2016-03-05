@@ -1,4 +1,3 @@
-
   <!-- Adventure Section -->
   <section id="blogpost">
   	<div class="container postcontent">
@@ -12,5 +11,23 @@
            {{ page.content | markdownify }}
     		</div>
   		</div>
+
+      <div class="row text-center">
+        <div class="col-xs-3">
+          {% if prev %}
+          <div class="button-container">
+            <a href="{{prev.url}}" class="btn btn-small">Older</a>
+          </div>
+          {% endif %}
+        </div>
+        <div class="col-xs-6">
+        </div>
+        <div class="col-xs-3">
+          {% if next %}
+              <div class="button-container">
+            <a href="{{next.url}}" class="btn btn-small">Newer</a>
+          </div>
+          {% endif %}
+        </div>
     </div>
 </section>

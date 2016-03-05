@@ -1,13 +1,29 @@
 ---
-layout: post
 status: publish
 published: true
-title: 'Stage 2: Czech Republic, Slovakia, Hungary, Serbia, Greece'
 location: Europe
-date: '2010-07-26 00:00:00 -0400'
-daysontheroad: 4
-stage-url: mongolrally2010-stage2.html
+date: '2010-07-26 00:00:00'
+datestart: '2010-07-26 00:00:00 -0400'
+dateend: '2010-08-03 00:00:00 -0400'
+layout: timeline/adventure-stage
+permalink: mongolrally2010-stage2.html
+journey: Mongol Rally 2010
+stage: 2
+title: Stage 2
+subtitle: Czech Republic, Hungary, Greece
+background: img/2010-mongolrally/timeline/14-mongolrally-timeline.jpg
+next-stage-url: mongolrally2010-stage3.html
+prev-stage-url: mongolrally2010-stage1.html
+next-stage-label: Turkey
+prev-stage-label: Hungary
 thumbnail: 2010-mongolrally/timeline/17-mongolrally-timeline-thumb.jpg
+header:
+- name: Mongol Rally 2010
+  type: link
+  link: '/mongolrally2010.html'
+- name: More Stories
+  type: link
+  link: '/adventure-full.html'
 imagelist:
 - thumb: 2010-mongolrally/timeline/11-mongolrally-timeline-thumb.jpg
 - thumb: 2010-mongolrally/timeline/12-mongolrally-timeline-thumb.jpg

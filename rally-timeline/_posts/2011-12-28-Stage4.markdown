@@ -1,28 +1,28 @@
 ---
-layout: post
+layout: timeline/adventure-stage
 status: publish
 published: true
-title: "Stage 4: Western Sahara"
-location: Georgia
+title: Stage 4
+subtitle: Western Sahara
 date: '2011-12-28 00:00:00 -0400'
-daysontheroad: 14
+datestart: '2011-12-28 00:00:00 -0400'
+dateend: '2012-01-31 00:00:00 -0400'
+permalink: timbuktuchallenge2012-stage4.html
+journey: Timbuktu Challenge 2012
+stage: 4
 thumbnail: 2012-timbuktuchallenge/timeline/503-timbuktuchallenge-timeline-thumb.jpg
-imagelist:
-- thumb: 2010-mongolrally/timeline/40-mongolrally-timeline-thumb.jpg
-- thumb: 2010-mongolrally/timeline/41-mongolrally-timeline-thumb.jpg
-- thumb: 2010-mongolrally/timeline/42-mongolrally-timeline-thumb.jpg
-- thumb: 2010-mongolrally/timeline/43-mongolrally-timeline-thumb.jpg
-- thumb: 2010-mongolrally/timeline/44-mongolrally-timeline-thumb.jpg
-- thumb: 2010-mongolrally/timeline/45-mongolrally-timeline-thumb.jpg
-- thumb: 2010-mongolrally/timeline/46-mongolrally-timeline-thumb.jpg
-- thumb: 2010-mongolrally/timeline/47-mongolrally-timeline-thumb.jpg
-- thumb: 2010-mongolrally/timeline/48-mongolrally-timeline-thumb.jpg
-- thumb: 2010-mongolrally/timeline/49-mongolrally-timeline-thumb.jpg
-- thumb: 2010-mongolrally/timeline/50-mongolrally-timeline-thumb.jpg
-- thumb: 2010-mongolrally/timeline/51-mongolrally-timeline-thumb.jpg
-- thumb: 2010-mongolrally/timeline/52-mongolrally-timeline-thumb.jpg
+background: img/2012-timbuktuchallenge/timbuktu-challenge-stage4.jpg
+prev-stage-url: timbuktuchallenge2012-stage3.html
+next-stage-url: timbuktuchallenge2012-stage5.html
+header:
+- name: Timbuktu Challenge 2012
+  type: link
+  link: '/timbuktuchallenge2012.html'
+- name: More Stories
+  type: link
+  link: '/adventure-full.html'
 categories:
-- Mongol Rally 2010
+- Timbuktu Challenge 2012
 tags: [timeline-timbuktu-challenge-2012]
 comments: []
 ---

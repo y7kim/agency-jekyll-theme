@@ -1,12 +1,26 @@
 ---
-layout: post
+layout: timeline/adventure-stage
+permalink: mongolrally2010-stage7.html
+journey: Mongol Rally 2010
+stage: 7
+title: Stage 7
+subtitle: Mongolia
+background: img/2010-mongolrally/stage7-bg.jpg
 status: publish
 published: true
-title: "Stage 7: Mongolia"
 location: Mongolia
 date: '2010-08-31 00:00:00 -0400'
-daysontheroad: 40
-stage-url: mongolrally2010-stage7.html
+datestart: '2010-08-31 00:00:00 -0400'
+dateend: '2010-09-02 00:00:00 -0400'
+prev-stage-url: mongolrally2010-stage6.html
+next-stage-url: mongolrally2010-stage8.html
+header:
+- name: Mongol Rally 2010
+  type: link
+  link: '/mongolrally2010.html'
+- name: More Stories
+  type: link
+  link: '/adventure-full.html'
 thumbnail: 2010-mongolrally/timeline/97-mongolrally-timeline-thumb.jpg
 imagelist:
 - thumb: 2010-mongolrally/timeline/94-mongolrally-timeline-thumb.jpg

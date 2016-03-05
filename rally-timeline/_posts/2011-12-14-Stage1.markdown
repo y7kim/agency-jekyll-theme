@@ -1,25 +1,28 @@
 ---
-layout: post
+layout: timeline/adventure-stage
 status: publish
 published: true
-title: "Stage 1: England"
+title: Stage 1
+subtitle: England
 location: Europe
 date: '2011-12-14 00:00:00 -0400'
-daysontheroad: 0
+dateend: '2011-12-15 00:00:00 -0400'
+journey: Timbuktu Challenge 2012
+stage: 1
+permalink: timbuktuchallenge2012-stage1.html
 thumbnail: 2012-timbuktuchallenge/timeline/62-timbuktuchallenge-timeline-thumb.jpg
-imagelist:
-- thumb: 2010-mongolrally/timeline/1-mongolrally-timeline-thumb.jpg
-- thumb: 2010-mongolrally/timeline/2-mongolrally-timeline-thumb.jpg
-- thumb: 2010-mongolrally/timeline/3-mongolrally-timeline-thumb.jpg
-- thumb: 2010-mongolrally/timeline/4-mongolrally-timeline-thumb.jpg
-- thumb: 2010-mongolrally/timeline/5-mongolrally-timeline-thumb.jpg
-- thumb: 2010-mongolrally/timeline/6-mongolrally-timeline-thumb.jpg
-- thumb: 2010-mongolrally/timeline/7-mongolrally-timeline-thumb.jpg
-- thumb: 2010-mongolrally/timeline/8-mongolrally-timeline-thumb.jpg
-- thumb: 2010-mongolrally/timeline/9-mongolrally-timeline-thumb.jpg
-- thumb: 2010-mongolrally/timeline/10-mongolrally-timeline-thumb.jpg
+background: img/2012-timbuktuchallenge/timbuktu-challenge-stage1.jpg
+prev-stage-url: timbuktuchallenge2012-stage0.html
+next-stage-url: timbuktuchallenge2012-stage2.html
+header:
+- name: Timbuktu Challenge 2012
+  type: link
+  link: '/timbuktuchallenge2012.html'
+- name: More Stories
+  type: link
+  link: '/adventure-full.html'
 categories:
-- Mongol Rally 2010
+- Timbuktu Challenge 2012
 tags: [timeline-timbuktu-challenge-2012]
 comments: []
 ---

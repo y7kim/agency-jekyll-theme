@@ -1,13 +1,18 @@
 ---
-layout: post
+layout: timeline/adventure-stage
+permalink: mongolrally2010-stage0.html
 status: publish
 published: true
-title: "Stage 0: New York, Washington DC, Berlin"
 location: New York
-date: '2010-02-15 00:00:00 -0400'
-daysontheroad: 0
+date: '2010-02-15 00:00:00'
+dateend: '2010-07-22 00:00:00 -0400'
 thumbnail: 2010-mongolrally/posts/teammmt-logo-thumb.jpg
-stage-url: mongolrally2010-stage0.html
+journey: Mongol Rally 2010
+stage: 0
+title: Preparation
+subtitle: New York, Washington DC, Berlin
+next-stage-url: mongolrally2010-stage1.html
+next-stage-label: Launch
 imagelist:
 - thumb: 2010-mongolrally/timeline/1-mongolrally-timeline-thumb.jpg
 - thumb: 2010-mongolrally/timeline/2-mongolrally-timeline-thumb.jpg
@@ -21,8 +26,18 @@ imagelist:
 - thumb: 2010-mongolrally/timeline/10-mongolrally-timeline-thumb.jpg
 categories:
 - Mongol Rally 2010
+header:
+- name: Mongol Rally 2010
+  type: link
+  link: '/mongolrally2010.html'
+- name: More Stories
+  type: link
+  link: '/adventure-full.html'
 tags: [timeline-mongol-rally-2010]
 comments: []
+background: 'http://maps.googleapis.com/maps/api/staticmap?center=New York&zoom=3&size=640x300&scale=2&maptype=hybrid&markers=color:blue|New York&key=AIzaSyCEUuJaMSbwXTf5kpKamhzrQ1sSDnRo5XA'
+
+
 ---
 The Mongol rally doesn't launch itself. The months leading up to the journey
 was an adventure in itself.

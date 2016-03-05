@@ -1,12 +1,27 @@
 ---
-layout: post
+layout: timeline/adventure-stage
 status: publish
 published: true
-title: "Stage 6: Mali"
-location: Russia
+title: Stage 6
+subtitle: Mali
+location: Mali
 date: '2012-02-07 00:00:00 -0400'
-daysontheroad: 56
+datestart: '2012-02-07 00:00:00 -0400'
+permalink: timbuktuchallenge2012-stage6.html
+dateend: '2012-02-09 00:00:00 -0400'
+journey: Timbuktu Challenge 2012
+stage: 6
 thumbnail: 2012-timbuktuchallenge/timeline/777-timbuktuchallenge-timeline-thumb.jpg
+prev-stage-url: timbuktuchallenge2012-stage5.html
+next-stage-url: timbuktuchallenge2012-stage7.html
+background: img/2012-timbuktuchallenge/timbuktu-challenge-stage6.jpg
+header:
+- name: Timbuktu Challenge 2012
+  type: link
+  link: '/timbuktuchallenge2012.html'
+- name: More Stories
+  type: link
+  link: '/adventure-full.html'
 imagelist:
 - thumb: 2010-mongolrally/timeline/74-mongolrally-timeline-thumb.jpg
 - thumb: 2010-mongolrally/timeline/75-mongolrally-timeline-thumb.jpg
@@ -29,7 +44,7 @@ imagelist:
 - thumb: 2010-mongolrally/timeline/92-mongolrally-timeline-thumb.jpg
 - thumb: 2010-mongolrally/timeline/93-mongolrally-timeline-thumb.jpg
 categories:
-- Mongol Rally 2010
+- Timbuktu Challenge 2012
 tags: [timeline-timbuktu-challenge-2012]
 comments: []
 ---

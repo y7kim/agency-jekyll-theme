@@ -65,6 +65,10 @@ h6 {
     background-color: #f7f7f7;
 }
 
+.bg-next-light-gray {
+    background-color: ##7b7b7b;
+}
+
 .bg-darkest-gray {
     background-color: #222;
 }
@@ -265,6 +269,7 @@ fieldset[disabled] .btn-xl.active {
 header {
     text-align: center;
     color: #fff;
+    text-shadow: 2px 2px grey;
     background-attachment: scroll;
     background-image: url(img/header-bg2.jpg);
     background-position: center center;
@@ -289,6 +294,29 @@ header .intro-text .intro-lead-in {
 }
 
 header .intro-text .intro-heading {
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 50px;
+    opacity: .8
+}
+
+header .intro-text-post {
+    padding-top: 120px;
+    padding-bottom: 40px;
+}
+
+header .intro-text-post .intro-lead-in {
+    margin-bottom: 25px;
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 22px;
+    font-style: italic;
+    line-height: 22px;
+}
+
+header .intro-text-post .intro-heading {
     margin-bottom: 25px;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -326,13 +354,13 @@ header .intro-text .intro-heading {
       line-height: 75px;
   }
 
-    header .intro-text .intro-lead-in {
-        margin-bottom: 25px;
-        font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-size: 40px;
-        font-style: italic;
-        line-height: 40px;
-    }
+  header .intro-text .intro-lead-in {
+      margin-bottom: 25px;
+      font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+      font-size: 40px;
+      font-style: italic;
+      line-height: 40px;
+  }
 
     header .intro-text .intro-heading {
         margin-bottom: 50px;
@@ -372,74 +400,6 @@ section h3.section-subheading {
 .service-heading {
     margin: 15px 0;
     text-transform: none;
-}
-
-#portfolio .portfolio-item {
-    right: 0;
-    margin: 0 0 15px;
-}
-
-#portfolio .portfolio-item .portfolio-link {
-    display: block;
-    position: relative;
-    margin: 0 auto;
-    max-width: 400px;
-}
-
-#portfolio .portfolio-item .portfolio-link .portfolio-hover {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-    -webkit-transition: all ease .5s;
-    -moz-transition: all ease .5s;
-    transition: all ease .5s;
-    background: rgba(254,209,54,.9); /* Fallback when no plugin support */
-    background: rgba({{ site.color.primary | hex_to_rgb | join: ',' }}, .9);
-}
-
-#portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
-    opacity: 1;
-}
-
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
-    position: absolute;
-    top: 50%;
-    width: 100%;
-    height: 20px;
-    margin-top: -12px;
-    text-align: center;
-    font-size: 20px;
-    color: #fff;
-}
-
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
-    margin-top: -12px;
-}
-
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
-    margin: 0;
-}
-
-#portfolio .portfolio-item .portfolio-caption {
-    margin: 0 auto;
-    padding: 25px;
-    max-width: 400px;
-    text-align: center;
-    background-color: #fff;
-}
-
-#portfolio .portfolio-item .portfolio-caption h4 {
-    margin: 0;
-    text-transform: none;
-}
-
-#portfolio .portfolio-item .portfolio-caption p {
-    margin: 0;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 16px;
-    font-style: italic;
 }
 
 #partner * {
@@ -537,9 +497,9 @@ section h3.section-subheading {
     top: 0;
     bottom: 0;
     left: 40px;
-    width: 2px;
+    width: 4px;
     margin-left: -1.5px;
-    background-color: #f1f1f1;
+    background-color: #999999;
 }
 
 .timeline>li {
@@ -705,6 +665,11 @@ section h3.section-subheading {
     .timeline>li {
         min-height: 170px;
     }
+
+    .timeline>li:last-child {
+        min-height: 150px;
+    }
+
 
     .timeline>li .timeline-panel {
         padding: 0 20px 20px 100px;
@@ -925,9 +890,9 @@ body {
     top: 0;
     bottom: 0;
     left: 40px;
-    width: 2px;
+    width: 4px;
     margin-left: -1.5px;
-    background-color: #f1f1f1;
+    background-color: #999999;
 }
 
 .modal-timeline>li {
@@ -982,6 +947,20 @@ body {
     background-color: #{{ site.color.primary }};
 }
 
+.modal-timeline>li .modal-timeline-box {
+  z-index: 100;
+  left: 0;
+  border-radius: 30%;
+  border: 7px solid #f1f1f1;
+  width: 160px;
+  height: 80px;
+  position: absolute;
+  text-align: center;
+  color: black;
+  background-color: #{{ site.color.primary }};
+}
+
+
 .modal-timeline>li .modal-timeline-icon {
     z-index: 100;
     border-radius: 100%;
@@ -991,11 +970,8 @@ body {
     position: absolute;
     /*left: 0;
     margin-left: 0;
-
-
-    text-align: center;
     color: #fff;*/
-    background-color: #{{ site.color.primary }};
+    text-align: center;
 }
 
 .modal-timeline>li .modal-timeline-icon h3 {
@@ -1079,6 +1055,13 @@ body {
         margin-left: -50px;
     }
 
+    .modal-timeline>li .modal-timeline-box {
+        left: 50%;
+        width: 200px;
+        height: 50px;
+        margin-left: -100px;
+    }
+
     .modal-timeline>li .modal-timeline-icon {
         left: 50%;
         width: 100px;
@@ -1126,6 +1109,12 @@ body {
         margin-left: -100px;
     }
 
+    .modal-timeline>li .modal-timeline-box {
+        width: 200px;
+        height: 50px;
+        margin-left: -100px;
+    }
+
     .modal-timeline>li .modal-timeline-icon {
       width: 150px;
       height: 150px;
@@ -1139,7 +1128,7 @@ body {
     }
 
     .modal-timeline>li .modal-timeline-image h3 {
-        font-size: 18px;
+        font-size: 26px;
         text-align: center;
     }
 
@@ -1160,6 +1149,11 @@ body {
         min-height: 170px;
     }
 
+    .modal-timeline>li:last-child {
+        min-height: 150px;
+    }
+
+
     .modal-timeline>li .modal-timeline-panel {
         padding: 0 40px 20px;
     }
@@ -1167,12 +1161,17 @@ body {
            width: 200px;
            height: 200px;
            margin-left: -100px;
-       }
-       .modal-timeline>li .modal-timeline-icon {
+    }
+    .modal-timeline>li .modal-timeline-box {
+            width: 200px;
+            height: 100px;
+            margin-left: -100px;
+    }
+    .modal-timeline>li .modal-timeline-icon {
               /*width: 100px;
               height: 100px;
               margin-left: -50px;*/
-          }
+    }
 
     .modal-timeline>li .modal-timeline-image h4 {
         margin-top: 40px;

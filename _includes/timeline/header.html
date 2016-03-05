@@ -1,3 +1,13 @@
+{% for journey in site.categories.rally %}
+  {% for category in page.categories %}
+    {% if category == journey.title%}
+      {% assign journey-post = journey %}
+    {% endif%}
+  {% endfor %}
+{% endfor %}
+
+
+
 <!-- Navigation -->
     <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
@@ -9,7 +19,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="index.html">{{site.title}}</a>
+                <a class="navbar-brand" href="/">{{site.title}}</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -17,6 +27,9 @@
                 <ul class="nav navbar-nav navbar-right">
                     <li class="hidden">
                         <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="{{journey-post.url}}">{{journey-post.title}}</a>
                     </li>
                 </ul>
             </div>

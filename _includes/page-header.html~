@@ -11,7 +11,7 @@
                 </button>
                 <a class="navbar-brand page-scroll" href="#page-top">{{site.title}}</a>
             </div>
-
+http://maps.googleapis.com/maps/api/staticmap?zoom=4&size=640x300&scale=2&style=feature:all|element:labels.text.fill|color:0xffffff&style=feature:all|element:labels.text.stroke|color:0x000000|lightness:13&style=feature:administrative|element:geometry.fill|color:0x000000&style=feature:administrative|element:geometry.stroke|color:0x144b53|lightness:14|weight:1.4&style=feature:landscape|element:all|color:0x08304b&style=feature:poi|element:geometry|color:0x0c4152|lightness:5&style=feature:road.highway|element:geometry.fill|color:0x000000&style=feature:road.highway|element:geometry.stroke|color:0x0b434f|lightness:25&style=feature:road.arterial|element:geometry.fill|color:0x000000&style=feature:road.arterial|element:geometry.stroke|color:0x0b3d51|lightness:16&style=feature:road.local|element:geometry|color:0x000000&style=feature:transit|element:all|color:0x146474&style=feature:water|element:all|color:0x021019&path=weight:3%7Ccolor:orange%7Cenc:u_kyHj_X~~lAyu}FnkxC}dgI|dmFruz@|}Cy`_DidQ_`qMq~hAceaNlreAo_sD{fn@q}nPo{u@a}`Fwd~@kaaGvzhC}htHrciEayuD||}BskeCdxUyf|Ckdv@tzjFodNnoTn}hAwjuGhooDgjoFppfC~wZxkxByvc@zkaBqfrBjbiAqnpB~iuD}jkC|yvCqex@rhtCdjuAjjkBy}vCth~Ckee@viuB}iGz|uBwpY~osApgVnr]usb@z|`BwbqDppr@rmIsszA`ihBu}|@n|eAedg@akPwusB~pnAw_eCuoGei{Ast}A}oYmlsFRgbzGihKmluH{nJsffJvuu@uqsGooDcz_Geck@_i}Kv~BqazE}nVehxDo}`@}x`Anm_AaqfKqvGc{vHgkkAot{FahdD{o{G```@qceEnw`AalkExg~A{p|AnypBmyeEd`rBkuuNe_PoojBa|w@glsAuhfRmfwLwpoBqiEl_DghtDo}fFkssK{y`I`czEkpzAqfjBevhA`}LggfD_t~FcjfCq_nFgtiBsvx@_mnAmrs@dw}@ellNuwtAiv~AgwbB}b`EockCuqp@ea_DvsUgvoAqhqE|z`@ql|E`fiA_cvB|{|Acf`RnxEwbyF`cx@kibDvjf@ktjFkt_AatEivtErooAs_gBe~aAkmhAy_gD{boBqavEccpCwgoA_wp@uztQp_a@swfc@~jx@ebiQwly@qroByirBg}dB}upAwadF_}DgseFc~c@cusIt}a@{yyN~xn@cpqFcnTgklDmbi@atmGh~jAkndIdqnBwdyA|rqBu~kEvd{AshwKfk`C}mpC`qfCypoDhr|Au{jClarBljpB|}q@kdaC}`dBaodLz}V_gyDpmgBnchDvj{AlkIrzaA|xa@dep@tb@hyvAj~`@bbuCfe^psvB{xZ|nlBukrB
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
@@ -20,8 +20,8 @@
                     </li>
                     <li>
                         <a class="page-scroll" href="#team">Team</a>
-                    </li>                    
-                           
+                    </li>
+
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -44,4 +44,3 @@
           {% if page.title %}<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>{% endif %}
         {% endfor %}
  -->
-

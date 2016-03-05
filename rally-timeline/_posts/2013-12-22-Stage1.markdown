@@ -1,0 +1,25 @@
+---
+layout: timeline/adventure-stage
+status: publish
+published: true
+title: Stage 1
+subtitle: USA
+location: New York
+date: '2013-12-22 00:00:00 -0400'
+dateend: '2014-01-09 00:00:00 -0400'
+thumbnail: 2014-panamericanrally/panamericanrally-stage1-thumb.jpg
+permalink: panamericanrally2014-stage1.html
+journey: Pan-American Rally 2014
+stage: 1
+header:
+- name: Pan-American Rally 2014
+  type: link
+  link: '/panamericanrally2014.html'
+- name: More Stories
+  type: link
+  link: '/adventure-full.html'
+categories:
+- Pan-American Rally 2014
+tags: [timeline-panamerican-rally-2014]
+comments: []
+---
