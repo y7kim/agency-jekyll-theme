@@ -183,6 +183,15 @@ header {
     -o-background-size: cover;
 }
 
+header .help-block {
+    font-size: 16px;
+    text-align: justify;
+    line-height: 20px;
+    font-weight: 400;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
 header .intro-text {
     padding-top: 50px;
     padding-bottom: 50px;
@@ -223,7 +232,7 @@ header .intro-text .intro-heading {
         font-size: 25px;
         font-weight: 700;
         color: #000;
-        line-height: 75px;
+        line-height: 40px;
     }
 }
 

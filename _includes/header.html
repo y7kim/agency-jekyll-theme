@@ -1,3 +1,5 @@
+
+
 <!-- Header -->
 <header>
     <div class="container">
@@ -10,29 +12,38 @@
                         <div class="panel-heading">
                             <h4 class="text-center">{% t header.maillist %}</h4>
                         </div>
-                        <form action="//ethz.us12.list-manage.com/subscribe/post?u=01dd14a63aa72236f57b49d6b&amp;id=d194e94f8d" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                        <div class="panel-body text-center">
-                            <div class="mc-field-group">
-                                <input type="email" class="required email form-control" placeholder="Ihre Email Adresse *" id="mce-EMAIL" required="" data-validation-required-message="Bitte geben Sie Ihre Email Adresse an.">
-                            </div>
-                            <div id="mce-responses" class="clear">
-                                <div class="response" id="mce-error-response" style="display:none"></div>
-                                <div class="response" id="mce-success-response" style="display:none"></div>
-                            </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_01dd14a63aa72236f57b49d6b_d194e94f8d" tabindex="-1" value=""></div>
-                        </div>
+                        <form action="//ethz.us12.list-manage.com/subscribe/post-json?u=01dd14a63aa72236f57b49d6b&amp;id=d194e94f8d"
+                              method="get"
+                              id="subscribe-form">
+                            <div class="panel-body text-center">
 
-                        <div class="panel-footer">
-                            <input type="submit" value="{% t header.subscribe %}"  name="subscribe" id="mc-embedded-subscribe" class="btn btn-md btn-block btn-primary">
-                            </input>
-                        </div>
+                                <div class="mc-field-group">
+                                    <input name="EMAIL" type="email" class="required email form-control" placeholder="Ihre Email Adresse *" id="mce-EMAIL" required="" data-validation-required-message="Bitte geben Sie Ihre Email Adresse an.">
+                                    <span style="display:none" id="emailError" class="help-block ">{% t header.emailError %}</span>
+                                    <span style="display:none" id="subscribing" class="help-block "><i class="fa fa-circle-o-notch fa-spin"></i></span>
+                                    <span style="display:none" id="success" class="help-block ">{% t header.success %}</span>
+                                    <span style="display:none" id="alreadySubscribed" class="help-block ">{% t header.alreadySubscribed %}</span>
+                                    <span style="display:none" id="unableToSubscribe" class="help-block"></span>
+                                </div>
+                                <div id="mce-responses" class="clear">
+                                    <div class="response" id="mce-error-response" style="display:none"></div>
+                                    <div class="response" id="mce-success-response" style="display:none"></div>
+                                </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_01dd14a63aa72236f57b49d6b_d194e94f8d" tabindex="-1" value=""></div>
+                            </div>
+                            <div id="subscribe-result">
+                            </div>
+
+                            <div class="panel-footer">
+                                <input type="submit" value="{% t header.subscribe %}"  name="subscribe" id="mc-embedded-subscribe" class="btn btn-md btn-block btn-primary">
+                                </input>
+                            </div>
                         </form>
                     </div>
                 </div>
 
 
-            <!--<a href="#didactics" class="page-scroll btn btn-xl">{% t header.info %}</a>-->
+                <!--<a href="#didactics" class="page-scroll btn btn-xl">{% t header.info %}</a>-->
+            </div>
         </div>
-    </div>
 </header>
-

@@ -9,6 +9,9 @@ header:
     info: Mehr Informationen
     maillist: Für Newsletter anmelden
     subscribe: Anmelden
+    emailError: Bitte eine korrekte Email Addresse angeben.
+    success: Vielen Dank für Ihre Anmeldung. Bitte bestätigen Sie die Anmeldung über den Link in der zugesendeten Email.
+    alreadySubscribed: Vielen Dank. Sie sind bereits für den Newslette angemeldet.
 contact:
     heading: "Kontakt"
     subHeading: "Wir freuen uns von Ihnen zu hören."
