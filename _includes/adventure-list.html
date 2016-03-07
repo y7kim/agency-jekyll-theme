@@ -1,6 +1,6 @@
 {% for journey in site.categories.rally reversed %}
-{% capture thecycle2 %}{% cycle 'odd', 'even' %}{% endcapture %}
-{% if thecycle2 == 'even' %}
+{% capture thecycle2 %}{% cycle 'outerodd', 'outereven' %}{% endcapture %}
+{% if thecycle2 == 'outereven' %}
   {% assign backgroundclass = 'bg-light-gray'  %}
 {% else %}
   {% assign backgroundclass = 'bg-next-light-gray'  %}

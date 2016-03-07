@@ -39,5 +39,5 @@ background: 'http://maps.googleapis.com/maps/api/staticmap?center=New York&zoom=
 
 
 ---
-The Mongol rally doesn't launch itself. The months leading up to the journey
-was an adventure in itself.
+The Mongol Rally team doesn't launch itself. The months leading up to the journey
+was an adventure.

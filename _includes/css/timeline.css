@@ -5,7 +5,7 @@
 }
 
 .modal-timeline-icon-muted {
-  background-color: #999999;
+  background-color: #{{ site.color.secondary-light }};
 }
 
 .modal-timeline-icon-muted  h3 {

@@ -50,7 +50,7 @@
     {% if page.background %}
       <header style="background-image: url('{{page.background}}');">
     {% elsif page.layout == 'post' %}
-      <header style="background-image: url('{{site.google-map-baseurl}}size=640x300&center={{page.location}}&markers=color:yellow%7C|{{page.location}}&key={{site.google-maps-key}}&scale=2&{{site.google-map-path-style-dark-nolabel}}&path={{site.static-map-path-style-yellow}}enc:{{stage-path}}');">
+      <header style="background-image: url('{{site.google-map-baseurl}}size=640x300&zoom={{page.zoom}}&center={{page.location}}&markers=color:yellow%7C|{{page.location}}&key={{site.google-maps-key}}&scale=2&{{site.google-map-path-style-dark-nolabel}}&path={{site.static-map-path-style-yellow}}enc:{{stage-path}}');">
     {% elsif page.layout == 'journey-full' %}
       <header style="background-image: url('{{site.google-map-baseurl}}size={{page.static-map-size}}&key={{site.google-maps-key}}&maptype={{page.static-maptype}}&scale=2&path={{site.static-map-path-style-red}}enc:{{page.static-map-path}}');">
     {% else %}

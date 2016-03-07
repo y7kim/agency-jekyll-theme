@@ -14,19 +14,27 @@
 
       <div class="row text-center">
         <div class="col-xs-3">
-          {% if prev %}
+          {% if prev-post %}
           <div class="button-container">
-            <a href="{{prev.url}}" class="btn btn-small">Older</a>
+            <a href="{{prev-post.url}}" class="btn btn-small">Older</a>
           </div>
+          {% elsif stage-post.prev-stage-url %}
+              <div class="button-container">
+                <a href="/{{stage-post.prev-stage-url}}" class="btn btn-small">Stage {{stage-post.stage | minus: 1}}</a>
+              </div>
           {% endif %}
         </div>
         <div class="col-xs-6">
         </div>
         <div class="col-xs-3">
-          {% if next %}
+          {% if next-post %}
               <div class="button-container">
-            <a href="{{next.url}}" class="btn btn-small">Newer</a>
-          </div>
+                <a href="{{next-post.url}}" class="btn btn-small">Newer</a>
+              </div>
+          {% elsif stage-post.next-stage-url %}
+              <div class="button-container">
+                <a href="/{{stage-post.next-stage-url}}" class="btn btn-small">Stage {{stage-post.stage | plus: 1}}</a>
+              </div>
           {% endif %}
         </div>
     </div>

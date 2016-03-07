@@ -30,7 +30,7 @@
   {% assign stage-path = journey.static-map-path %}
 {% endif%}
 
-<!-- getnext -->
+<!-- getnext post -->
 {% for post in site.posts %}
   {% for category in post.categories %}
     {% for tag in post.tags %}
@@ -39,8 +39,8 @@
         {% assign two = one %}
         {% assign one = post %}
         {% if two == page %}
-          {% assign prev = one %}
-          {% assign next = three %}
+          {% assign prev-post = one %}
+          {% assign next-post = three %}
         {% endif%}
       {% endif%}
     {% endfor %}
@@ -48,7 +48,7 @@
 {% endfor %}
 
 {% if one == page %}
-  {% assign next = two %}
+  {% assign next-post = two %}
 {% endif%}
 
 <!-- getprev -->

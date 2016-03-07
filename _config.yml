@@ -1,6 +1,9 @@
 url: http://lastresponders.org
 baseurl: ''
 
+gems:
+- jekyll-assets
+
 # Site settings
 title: Team Last Responders
 email: team@lastresponders.org
@@ -11,6 +14,7 @@ color:
   primary: fed136
   secondary: fec503
   secondary-dark: 333
+  secondary-light: 999
 
 # Team names, titles and social links
 people:
@@ -70,5 +74,3 @@ google-map-path-style-dark: 'style=feature:all|element:labels.text.fill|color:0x
 google-map-path-style-dark-nolabel: 'style=feature:all|element:labels.text.fill|color:0xffffff|weight:0.20|lightness:28|saturation:23|visibility:off&style=feature:all|element:labels.text.stroke|color:0x494949|lightness:13|visibility:off&style=feature:all|element:labels.icon|visibility:off&style=feature:administrative|element:geometry.fill|color:0x000000&style=feature:administrative|element:geometry.stroke|color:0x144b53|lightness:14|weight:1.4&style=feature:landscape|element:all|color:0x08304b&style=feature:poi|element:geometry|color:0x0c4152|lightness:5&style=feature:road.highway|element:geometry.fill|color:0x000000&style=feature:road.highway|element:geometry.stroke|color:0x0b434f|lightness:25&style=feature:road.arterial|element:geometry.fill|color:0x000000&style=feature:road.arterial|element:geometry.stroke|color:0x0b3d51|lightness:16&style=feature:road.local|element:geometry|color:0x000000&style=feature:transit|element:all|color:0x146474&style=feature:water|element:all|color:0x021019'
 static-map-path-style-yellow: 'weight:4%7Ccolor:yellow%7C'
 static-map-path-style-red: 'weight:4%7Ccolor:red%7C'
-
-array: []

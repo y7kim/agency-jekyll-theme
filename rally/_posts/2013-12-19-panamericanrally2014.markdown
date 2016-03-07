@@ -1,9 +1,9 @@
 ---
 layout: journey-full
 permalink: panamericanrally2014.html
-subtitle: Pan American Rally 2014
-journeyid: Pan American Rally 2014
-date: '2013-12-19 00:00:00'
+title: Pan American Rally 2014
+journeyid: Pan-American Rally 2014
+date: '2013-12-22 00:00:00 -0500'
 people:
 - name: Stephen Jan
   pic: 2014-panamericanrally/profile_sjan.jpg
@@ -57,7 +57,7 @@ people:
 static-maptype: 'satellite'
 static-map-size: '640x440'
 static-map-path: _pblFlf{vMntqEta\\b{cMhkcRbqbCt|jJlofM`biSd`gKhxuO`kvAr_oIidkNhllJkaKt{rE}wCdkO|d@x`AhvLltlAmcQutoAd|a@dqsH{neA|oeJbdqAd``MsfKr_lXrolA`f_Gklk@j}aSccQr{rJk``D`vqL{dcAy|@m|SnaQxfXifPjrnFg_qDdtPrOfmmKhaVx`iEas[xtbF_iBbxfDukaH|cyHq{iF~o~L_bbJceHoX~sDy|IngmKmyeJjg{@sw{Bns`@kitAlbCu`T_o~GuyaMzysGqksB~otFqgaG`sH~pFnpLkmAjnpA}~zGrlkJck{Dhh~BiqcFhmhEud}OvbiCqgzBso}Av`jA|rv@_ll@ciL_gzAbej@w_oBtz_@uheBhinEcn_G|{zK_biUhqhBsef@xdpDkq}G`abCevdAbenCeroDfo^{yaMqtsBau`EqyIbwNngE_rQuuo@gvsUjlfCooVzxoGg{m@j|pDjnVzgeDvjDvo~PfgdEzdyKjgjH~j`Bxa`AluaFdvTxocEjkaAffpBhcNjg{@puc@xetA`gtGdbjFxqa@ngvJorxDfvgGo~zCn_zHo~xCj`rJwekEjicFus`CtstHs~wDbcsFkj_EpinDumuI{gHuneEbzhBa`gEkr\\s_fAef|@anzIsV{opB|bbBw}L~duGi|mEp`tEmjjF|f`Dcv{BlgsEojfAgsgDbhxAgrxFkhDtgd@jcp@}{pB|`zEggoI~yeGefHncjTivbDdcoJi_eDvwnHku}HtiyF_hcK`_xDkmcJbrsE{lhJxczC
-event-description: The Pan American Rally Started in New York and ended in Peru. This was our first self organized journey.
+event-description: New York to South America along the Pan-American Highway. This journey is the brain child of Team Last Responders after 2 adventures. This project was the first time Team Last Responders embarked on a solo mission to a destination.
 adventure-picture: 2014-panamericanrally/timeline/temp1.jpg
 adventure-title: Pan American Highway
 adventure-caption: ''
@@ -66,7 +66,7 @@ charity-title: Charity
 charity-caption: ''
 vehicle-picture: 2014-panamericanrally/timeline/temp3.jpg
 vehicle-title: Ambulance
-vehicle-caption: Ambulance make great adventure vehicles, and vehicle donations for civic centers in developing area around the world.
+vehicle-caption: ''
 timeline-tag: timeline-panamerican-rally-2014
 header-tag: 'panamericanrally2014'
 home-link: '/'
