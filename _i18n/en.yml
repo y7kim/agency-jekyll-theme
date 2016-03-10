@@ -1,18 +1,144 @@
 global:
-    german: German
-    english: English
+    german: german
+    english: english
+    spanish: spanish
+pages:
+    home: Home
+    work: Work
 header:
-    message: Welcome to the E.Tutorials
+    message: E.Tutorials - Online Instructions for introductory informatic courses
     info: More informations
+    maillist: Register for the newsletter
+    subscribe: Subscribe
+    emailError: Please provide a valid Email address
+    success: Thank you for the registration. Please confirm the subscription in your inbox.
+    alreadySubscribed: Thank you, but you are already registered for the newsletter
 contact:
-    heading: "Contact"
-    subHeading: "We are looking forward to your message."
-    send: "Nachricht abschicken"
-    message: "Your Message *"
-    messageText: "Please enter a message."
-    name: "Your Name *"
-    nameText: "Please enter your name."
-    phone: "Your Phone *"
-    phoneText: "Please enter your phone number."
-    email: "Your Email *"
-    emailText: "Please enter your email address."
+    heading: Contact
+    subHeading: We are happy to recieve a message from you.
+    send: Send message
+    message: Your message
+    messageText: Please wirte your message
+    name: "Your name *"
+    nameText: Please provide your name
+    phone: Your phone number
+    phoneText: Please provide your phone number
+    email: "Your email address *"
+    emailText: Please provide your email address
+didactics:
+    heading: 4 steps to active knowledge
+    subHeading: During the last years we have tought hundreds of natural scientist successful in informatics. The students are introduced in an interactive way and independent from their pre knowledge to subjects like programming, data managment and data visualisation, by using real world data out of their field of studies. The core part of the teaching is the <b>4-step-model</b>, a blended learning concept, which focus on active learning by the students and can be implemented in large class settings.
+    see:
+        heading: Introduction into the most important definitions, concepts and tasks
+        text: In short text documents and videos the most important theoretical concepts and terms are explained and the forthcoming tasks are introduced.
+    try:
+        heading: Computer aided problemsolving
+        text: Guided by an electronical tutorial (E.Tutorial) the concepts of the step SEE together with the tool (IDE, Database, etc.) are applied. This step serves as preparation for the project in the DO step.
+    do:
+        heading: Independen problem based project
+        text: In this step the concepts are appied individually to an problem based task. This leads to a transfer of knowledge from the previous steps to a sientific content.
+    explain:
+        heading: Individual presentation of the project
+        text: In the final step the individual solutions of the project are discussed in a face-to-face meeting with a specialist. Feedback and feedforward are a fundmental part of this step.
+    end: certificate of performance
+
+footer:
+    privacy: privacy statement
+    blog: Blog
+    termsOfUse: terms of use
+    copyright: Copyright &copy; E.Tutorial 2016
+nav:
+    et: E.Tutorials Login
+    contact: Contact
+    team: Team
+    competences: Expertise
+    portfolio: Courses
+    tools: Tools
+    didactics: Didactics
+    publications: Publications
+course:
+    heading: Best practice course
+    subHeading: Our courses are filed tested by over 800 students at the ETH. The courses are used by numerous universities of applied science and high schools for informatics courses.
+    more: More courses
+competence:
+    heading: Our expertice
+    subHeading: The core of our activity is an educational engineeringa approach aiming to develop learing enviroments for the teaching informatics foundations and provide the solutions for different target groups.
+    informatics:
+        heading: Teaching challanging informatics concepts
+        text: By solving informatics projects with real world data sophisticated subjects (e.g. programming, databases, etc.) are tought and can be adapted to a specifc target group. The students gain knowledge on a higher cognitive level and additional gain insight into scientific work.
+    materials:
+        heading: Development of learning materials for individualised learing
+        text: Through the development of electonical instrcution materials the students can prepare the independen solving of the problem depending on their pre knowledge and in their individual speed. The student gain the basics independently and the motivation and independency are increased.
+    analytics:
+        heading: Learning analytics as feedback
+        text:  Monitoring solutions provide lectuers of large classes insights into the current status of the students learning progress and on the quality of work by the teaching assistants. By collection interaction data the quality of the instruction materials can be monitored and improved continously.
+    exams:
+        heading: Development and execuption of computer based exams
+        text: A high number of exams, short exam durations, security during the execution of the exams and the aim to no simply check the reproduction of knowledge, lead to high standards for a system for electonic exans. We have developed a new task based question type, which is automatically corrected, and allow to measure students' knowledge on the same cognitive level as the istruction.
+    consulting:
+        heading: Consulting
+        text: We support schools, teachers and partners in the industry, how existing or new teaching materials can be implemented effectively via a suitable didactic and technic setup.
+publications:
+    heading: Publikationen
+    subHeading:
+tool:
+    heading: Inovative learning environments
+    subHeading: We developed the following learning environments. They are flexible in their use and can be connected to existing plattforms.
+    et:
+        heading: E.Tutorial &reg;
+        subHeading: Individualised online instructions
+        text: E.Tutorials support a direct applications from concepts on a computer (e.g. IDE, Databasem etc.). The students are guided by step-by-step instructions. Single steps can be checked by collapsable visual aids. E.Tutorials can be used to level out the pre knowledge, or can be used as individual preparation for problem bases tasks.
+    pele:
+        heading: Pele
+        subHeading: Managment of exercise sessions.
+        text: The exercise session managment system PELE (Personal Electronic Learning Environment), allows students and teaching assistants to select individual appointsments for the discussion of projects and see informations about their current status in the learning progress. Teaching assistants call students via a webinterface and can assess them direct after the discussion. The students also rate the discussion. PELE is important to align distance learning and face-to-face meetings.
+    sioux:
+        heading: Sioux
+        subHeading: Secure interactive online exams
+        text: Sioux (Secure Interactive Online eXam) organises the process of generating and managing exam questions by several authors. It allows to generate and execute formative and summative exams and the correction and analysis of exam.
+team:
+    heading: Our team
+    subHeading: We all currently work at the department of computer science at the ETH Zürich at the chair of information technology and education (Prof. Dr. Juraj Hromkovic).
+    end: In addition we have the support of many persoans and institurions.
+
+pricing:
+    heading: Kostenübersicht
+    subHeading: Um unsere Serverkosten und eine Weiterentwicklung der E.Tutorials zu ermögliche, bieten wir folgende Packete an.
+    free:
+        plan: KOSTENLOS
+        costs: 0 SFr / Jahr
+        buy: JETZT STARTEN
+        feature:
+          one: Kostenloser Zugriff auf existierende Kurse
+          two: Vereinfachte Registrierung von SchülerInnen
+          three: Keine kommerzielle Nutzung der Lehrmaterialien
+    bronce:
+        plan: BRONZE PLAN
+        costs: 250 SFr / Jahr
+        buy: JETZT KAUFEN
+        feature:
+            one: Alle Features des Kostenlosen Plans
+            two: Möglichkeit individualiserter Kurse
+            three: Möglichkeit nicht öffentlicher Kurse
+    silber:
+        plan: SILBER PLAN
+        costs: 500 SFr / Jahr
+        buy: JETZT KAUFEN
+        feature:
+            one: Alle Features des Bronze Plans
+            two: Möglichkeit eigene Materialien in Module einzubinden
+    gold:
+        plan: GOLD PLAN
+        costs: 2000 SFr / Jahr
+        buy: JETZT KAUFEN
+        feature:
+            one: Alle Features des Silber Plans
+            two: Möglichkeit eigene E.Tutorials zu erstellen
+    analytics:
+        plan: ANALYTICS
+        costs: 20 SFr / Jahr / Benutzer
+        buy: JETZT KAUFEN
+        feature:
+            one: Alle Features des Kostenlosen Plans
+            two: Zugriff auf Analytics Plattform
+            three: Ein Lehrbuch für jeden Benutzer
