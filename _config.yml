@@ -1,15 +1,15 @@
-url: https://y7kim.github.io
-baseurl: /agency-jekyll-theme/
+url: https://www.papertrails.co
+baseurl: 
 
 # Site settings
-title: Awesome Title
+title: Paper Trails Co
 email: your-email@domain.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+description: "We're two Brooklyn-based travel shamans by the way of Los Angeles, tastefully curating your next travel destination. We create pseudo-itineraries for individuals."
 
 
 # Team names, titles and social links
 people:
-- name: Kay Garland
+- name: Anisha Vasandani
   pic: 1
   position: Lead Designer
   social:
@@ -20,7 +20,7 @@ people:
     - title: stack-overflow
       url: #
 
-- name: Larry Parker
+- name: David Neudorfer
   pic: 2
   position: Lead Marketer
   social:
@@ -31,34 +31,17 @@ people:
     - title: linkedin
       url: #
 
-- name: Diana Petersen
-  pic: 3
-  position: Lead Developer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: google-plus
-      url: #
-
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
-    url: http://twitter.com/jekyllrb
-  - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket 
-    url: http://bitbucket.org/jekyll
-  - title: github
-    url: http://github.com/jekyll
+    url: http://twitter.com/papertrailsco
+  - title: instagram
+    url: http://instagram.com/papertrailsco
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+  - line: 230 Broadway Unit 3A
+  - line: Brooklyn, NY 11211
 
 # Build settings
 markdown: kramdown
