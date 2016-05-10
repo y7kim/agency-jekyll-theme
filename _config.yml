@@ -63,3 +63,6 @@ address:
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+gems:
+    - hex_to_rgb
