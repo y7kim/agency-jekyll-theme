@@ -1,5 +1,6 @@
-url: https://whyiug.github.io
-baseurl: /whyiug.github.io/
+url: http://whyiug.github.io
+
+baseurl: "/whyiug.github.io/"
 
 # Site settings
 title: Awesome Title
