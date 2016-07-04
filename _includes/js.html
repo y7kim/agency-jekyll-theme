@@ -20,7 +20,7 @@
     {% assign sorted_pages = (site.pages | sort: 'order') %}
     {% for sec in sorted_pages %}
       //# Do something.
-      {% if sec.url and sec.section %}
+      {% if sec.url and sec.title %}
       jQuery.ajax({url:"{{ sec.url }}",success: function(data) {
           //console.log(data);
           // window.alert("{{ sec.section }}")

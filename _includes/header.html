@@ -20,9 +20,11 @@
                     </li>
                     {% assign sorted_pages = (site.pages | sort: 'order') %}
                     {% for sec in sorted_pages %}
+                    {% if sec.section and sec.title %}
                     <li>
                         <a class="page-scroll" href="#{{ sec.section }}">{{ sec.title }}</a>
                     </li>
+                    {% endif %}
                     {% endfor %}
                 </ul>
             </div>
