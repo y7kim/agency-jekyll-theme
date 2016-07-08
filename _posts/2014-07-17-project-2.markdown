@@ -4,8 +4,13 @@ subtitle: Website Design
 layout: default
 modal-id: 2
 date: 2014-07-17
+<<<<<<< HEAD
 img: 2.JPG
 thumbnail: 2.JPG
+=======
+img: IMG_5392.JPG
+thumbnail: escape-thumbnail.png
+>>>>>>> origin/master
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
