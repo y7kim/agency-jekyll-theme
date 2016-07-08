@@ -4,8 +4,8 @@ subtitle: Website Design
 layout: default
 modal-id: 1
 date: 2014-07-18
-img: dreams.png
-thumbnail: dreams-thumbnail.png
+img: 1.JPG
+thumbnail: 1.JPG
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
