@@ -8,7 +8,7 @@ destination: Ulan-bator, Mongolia
 layout: default
 modal-id: MongolRally2010
 date: 2014-07-18
-img: rallies/mongol-rally-2010/portrait.jpg
+img: 2010-mongolrally/portrait.jpg
 event-name: Mongol Rally
 event-link: www.theadventurists.com/mongol-rally/
 full-journey-url: mongolrally2010.html

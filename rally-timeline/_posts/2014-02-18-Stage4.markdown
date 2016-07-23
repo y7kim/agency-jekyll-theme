@@ -1,0 +1,28 @@
+---
+layout: timeline/adventure-stage
+status: publish
+published: true
+title: Stage 4
+subtitle: Nicaragua, Costa Rica, Panama
+location: Nicaragua, Costa Rica, Panama
+date: '2014-02-18 00:00:00 -0400'
+dateend: '2014-03-01 00:00:00 -0400'
+thumbnail: 2014-panamericanrally/panamericanrally-stage4-thumb.jpg
+background: img/2014-panamericanrally/panamericanrally-stage4.jpg
+permalink: panamericanrally2014-stage4.html
+journey: Pan-American Rally 2014
+stage: 4
+next-stage-url: panamericanrally2014-stage5.html
+prev-stage-url: panamericanrally2014-stage3.html
+header:
+- name: Pan-American Rally 2014
+  type: link
+  link: '/panamericanrally2014.html'
+- name: More Stories
+  type: link
+  link: '/adventure-full.html'
+categories:
+- Pan-American Rally
+tags: [timeline-panamerican-rally-2014]
+comments: []
+---

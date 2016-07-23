@@ -1,0 +1,28 @@
+---
+layout: timeline/adventure-stage
+status: publish
+published: true
+title: Stage 5
+subtitle: Colombia
+location: Colombia
+date: '2014-03-05 00:00:00 -0400'
+dateend: '2014-03-17 00:00:00 -0400'
+thumbnail: 2014-panamericanrally/panamericanrally-stage5-thumb.jpg
+background: img/2014-panamericanrally/panamericanrally-stage5.jpg
+permalink: panamericanrally2014-stage5.html
+journey: Pan-American Rally 2014
+stage: 5
+next-stage-url: panamericanrally2014-stage6.html
+prev-stage-url: panamericanrally2014-stage4.html
+header:
+- name: Pan-American Rally 2014
+  type: link
+  link: '/panamericanrally2014.html'
+- name: More Stories
+  type: link
+  link: '/adventure-full.html'
+categories:
+- Pan-American Rally
+tags: [timeline-panamerican-rally-2014]
+comments: []
+---

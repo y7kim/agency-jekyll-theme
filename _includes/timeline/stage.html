@@ -64,7 +64,7 @@
           <div class="modal-timeline-panel" >
             <div class="modal-timeline-heading" >
               <h3 class="subheading">{{post.title}}</h3>
-              <p class="text-muted">{{post.content |  truncatewords: 40 | markdownify | strip_html }}</p>
+              <p class="text-muted">{{post.content |  truncate: 250 | markdownify | strip_html }}</p>
             </div>
 
           </div>

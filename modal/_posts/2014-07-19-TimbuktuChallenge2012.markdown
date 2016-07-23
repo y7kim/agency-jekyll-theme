@@ -8,7 +8,7 @@ destination: Bamako, Mali
 layout: default
 modal-id: TimbuktuChallenge2012
 date: 2014-07-19
-img: rallies/timbuktu-challenge-2012/portrait.jpg
+img: 2012-timbuktuchallenge/portrait.jpg
 event-name: Timbuktu Challenge
 event-link: www.dakarchallenge.co.uk/
 full-journey-url: timbuktuchallenge2012.html

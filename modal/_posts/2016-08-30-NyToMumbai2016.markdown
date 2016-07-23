@@ -1,0 +1,18 @@
+---
+title: New York To Mumbai 2016
+type: summary
+start: New York, United States
+distance: 16,000 miles
+duration: 12 weeks
+destination: Mumbai, India
+layout: default
+modal-id: NyToMumbai2016
+date: 2016-04-01
+img: 2016-nytomumbai/map_drawn.jpg
+full-journey-url: nytomumbai2016.html
+event-name:
+categories:
+- modal
+tags: [modal-rally]
+---
+Project Spark is an overland journey starting from New York and ending in Mumbai supporting a charitable cause. Starting in late August 2016, we plan to drive across Europe and Asia to reach our destination Mumbai in about 70 days. As part of Project Spark, we are raising awareness and funds for Kedi School for Tribal Girls, India.

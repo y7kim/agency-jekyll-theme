@@ -4,6 +4,7 @@ permalink: timbuktuchallenge2012.html
 title: Timbuktu Challenge 2012
 journeyid: Timbuktu Challenge 2012
 date: '2011-12-13 00:00:00'
+distance: 4,627
 people:
 - name: Stephen Jan
   pic: 2012-timbuktuchallenge/profile_sjan.jpg
@@ -41,7 +42,7 @@ static-map-path: gs`yHhxvAtmAe{GwJp}@snPqtaALmAllGhj@xg~Ns}jMjng@awRxggFtwwHfhrT
 event-description: The Timbuktu Challenge is 3,000 mile journey that starts in London, UK and ends near Timbuktu, Mali. Teams from all around the world gather once a year to embark on this epic journey into Western Africa.
 adventure-picture: 2012-timbuktuchallenge/timeline/680-timbuktuchallenge-timeline-thumb.jpg
 adventure-title: To Timbuktu
-adventure-caption:  The route to Timbuktu takes the team through 7 countries and the Sahara Desert. The journey was estimated at 3 weeks, but due to unforseen circumstances, the journey took 9 weeks.
+adventure-caption:  The route to Timbuktu takes the team through 7 countries and the Sahara Desert. The journey was estimated at 3 weeks, but due to unforeseen circumstances, the journey took 9 weeks.
 charity-picture: 2012-timbuktuchallenge/timeline/850-timbuktuchallenge-timeline-thumb.jpg
 charity-title: Charitiable Initiative
 charity-caption: For the timbuktu challenge, the team gathered donations and equipment for 2 Malian charities. In addition to our ambulance donation, we provided office supplies, and netbooks.
@@ -51,6 +52,8 @@ vehicle-caption: Not only do ambulances make great adventure vehicles, they make
 timeline-tag: timeline-timbuktu-challenge-2012
 header-tag: 'timbuktuchallenge2012'
 home-link: '/'
+mainpage-modal-tag: 'rallyModalTimbuktuChallenge2012'
+mainpage-modal-image: 'img/adventure/2.jpg'
 header:
 - name: Challenge
   type: scroll

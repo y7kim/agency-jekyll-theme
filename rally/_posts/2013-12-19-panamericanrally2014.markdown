@@ -3,6 +3,7 @@ layout: journey-full
 permalink: panamericanrally2014.html
 title: Pan American Rally 2014
 journeyid: Pan-American Rally 2014
+distance: 16,000
 date: '2013-12-22 00:00:00 -0500'
 people:
 - name: Stephen Jan
@@ -57,19 +58,21 @@ people:
 static-maptype: 'satellite'
 static-map-size: '640x440'
 static-map-path: _pblFlf{vMntqEta\\b{cMhkcRbqbCt|jJlofM`biSd`gKhxuO`kvAr_oIidkNhllJkaKt{rE}wCdkO|d@x`AhvLltlAmcQutoAd|a@dqsH{neA|oeJbdqAd``MsfKr_lXrolA`f_Gklk@j}aSccQr{rJk``D`vqL{dcAy|@m|SnaQxfXifPjrnFg_qDdtPrOfmmKhaVx`iEas[xtbF_iBbxfDukaH|cyHq{iF~o~L_bbJceHoX~sDy|IngmKmyeJjg{@sw{Bns`@kitAlbCu`T_o~GuyaMzysGqksB~otFqgaG`sH~pFnpLkmAjnpA}~zGrlkJck{Dhh~BiqcFhmhEud}OvbiCqgzBso}Av`jA|rv@_ll@ciL_gzAbej@w_oBtz_@uheBhinEcn_G|{zK_biUhqhBsef@xdpDkq}G`abCevdAbenCeroDfo^{yaMqtsBau`EqyIbwNngE_rQuuo@gvsUjlfCooVzxoGg{m@j|pDjnVzgeDvjDvo~PfgdEzdyKjgjH~j`Bxa`AluaFdvTxocEjkaAffpBhcNjg{@puc@xetA`gtGdbjFxqa@ngvJorxDfvgGo~zCn_zHo~xCj`rJwekEjicFus`CtstHs~wDbcsFkj_EpinDumuI{gHuneEbzhBa`gEkr\\s_fAef|@anzIsV{opB|bbBw}L~duGi|mEp`tEmjjF|f`Dcv{BlgsEojfAgsgDbhxAgrxFkhDtgd@jcp@}{pB|`zEggoI~yeGefHncjTivbDdcoJi_eDvwnHku}HtiyF_hcK`_xDkmcJbrsE{lhJxczC
-event-description: New York to South America along the Pan-American Highway. This journey is the brain child of Team Last Responders after 2 adventures. This project was the first time Team Last Responders embarked on a solo mission to a destination.
+event-description: The Pan-American Highway stretches from Alaska all the way to the tip of South America.  Team Last Responders decided after 2 adventures to  embark on its first solo mission to a destination.
 adventure-picture: 2014-panamericanrally/timeline/temp1.jpg
 adventure-title: Pan American Highway
-adventure-caption: ''
+adventure-caption:  The Pan American Highway measures at around 19,000 miles starting from Alaska, ending at Ushuia. Team Last Responders traveled 16,000 miles of it  from Arizona to Bolivia.
 charity-picture: 2014-panamericanrally/timeline/temp2.jpg
 charity-title: Charity
-charity-caption: ''
+charity-caption: Team Last Responders teamed up with Esperanca, and Vive Peru for this project. With their help, we donated medical supplies, a Jeep and an Ambulance. Along the way we visited their sites in Arizona, Nicaragua, Peru, and Bolivia
 vehicle-picture: 2014-panamericanrally/timeline/temp3.jpg
 vehicle-title: Ambulance
-vehicle-caption: ''
+vehicle-caption: Team Last Responders embarked on the Pan-American Rally by ambulance. The team found this one of a kind beauty in Olean, NY, on it's way to be retired. As fate would have it, this 2003 Ford E450 wasn't retiring any time soon.
 timeline-tag: timeline-panamerican-rally-2014
 header-tag: 'panamericanrally2014'
 home-link: '/'
+mainpage-modal-tag: 'rallyModalPanAmericanRally2014'
+mainpage-modal-image: 'img/adventure/2.jpg'
 header:
 - name: Challenge
   type: scroll

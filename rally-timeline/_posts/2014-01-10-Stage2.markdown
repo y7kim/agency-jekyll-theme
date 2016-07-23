@@ -8,9 +8,12 @@ location: Mexico
 date: '2014-01-10 00:00:00 -0400'
 dateend: '2014-02-10 00:00:00 -0400'
 thumbnail: 2014-panamericanrally/panamericanrally-stage2-thumb.jpg
+background: img/2014-panamericanrally/panamericanrally-stage2.jpg
 permalink: panamericanrally2014-stage2.html
 journey: Pan-American Rally 2014
 stage: 2
+next-stage-url: panamericanrally2014-stage3.html
+prev-stage-url: panamericanrally2014-stage1.html
 header:
 - name: Pan-American Rally 2014
   type: link

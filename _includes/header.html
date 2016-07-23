@@ -1,65 +1,65 @@
 <!-- Navigation -->
 {% if page.header %}
-  {% assign headerList = page.header %}
+{% assign headerList = page.header %}
 {% endif %}
 
 {% if page.home-link %}
-  {% assign home-link = page.home-link %}
+{% assign home-link = page.home-link %}
 {% else %}
-  {% assign home-link = "/" %}
+{% assign home-link = "/" %}
 {% endif %}
 
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header page-scroll">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
 
-                <a class="navbar-brand page-scroll" href="{{home-link}}">{{site.title}}</a>
-            </div>
+      <a class="navbar-brand page-scroll" href="{{home-link}}">{{site.title}}</a>
+    </div>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    {% if page.layout == 'post' %}
-                    <li>
-                        <a class="page-scroll" href="/{{stage-post.permalink}}">{{stage-post.title}}</a>
-                    </li>
-                    {% endif %}
-                    {% for headerItem in headerList %}
-                    <li>
-                        <a class="page-scroll" href="{{headerItem.link}}">{{headerItem.name}}</a>
-                    </li>
-                    {% endfor %}
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
-    </nav>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="hidden">
+          <a href="#page-top"></a>
+        </li>
+        {% if page.layout == 'post' %}
+          <li>
+            <a class="page-scroll" href="/{{stage-post.permalink}}">{{stage-post.title}}</a>
+          </li>
+        {% endif %}
+        {% for headerItem in headerList %}
+        <li>
+          <a class="page-scroll" href="{{headerItem.link}}">{{headerItem.name}}</a>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+    <!-- /.navbar-collapse -->
+  </div>
+  <!-- /.container-fluid -->
+</nav>
 
-    <!-- Header -->
-    {% if page.background %}
-      <header style="background-image: url('{{page.background}}');">
-    {% elsif page.layout == 'post' %}
-      <header style="background-image: url('{{site.google-map-baseurl}}size=640x300&zoom={{page.zoom}}&center={{page.location}}&markers=color:yellow%7C|{{page.location}}&key={{site.google-maps-key}}&scale=2&{{site.google-map-path-style-dark-nolabel}}&path={{site.static-map-path-style-yellow}}enc:{{stage-path}}');">
-    {% elsif page.layout == 'journey-full' %}
-      <header style="background-image: url('{{site.google-map-baseurl}}size={{page.static-map-size}}&key={{site.google-maps-key}}&maptype={{page.static-maptype}}&scale=2&path={{site.static-map-path-style-red}}enc:{{page.static-map-path}}');">
-    {% else %}
-      <header>
-    {% endif %}
-        <div class="container">
-            <div class="intro-text">
-               <div class="intro-lead-in">{{page.subtitle}}</div>
-                <div class="intro-heading">{{page.title}}</div>
-            </div>
-        </div>
-    </header>
+<!-- Header -->
+{% if page.background %}
+<header style="background-image: url('{{page.background}}');">
+{% elsif page.layout == 'post' %}
+<header style="background-image: url('{{site.google-map-baseurl}}size=640x300&zoom={{page.zoom}}&center={{page.location}}&markers=color:yellow%7C|{{page.location}}&key={{site.google-maps-key}}&scale=2&{{site.google-map-path-style-dark-nolabel}}&path={{site.static-map-path-style-yellow}}enc:{{stage-path}}');">
+{% elsif page.layout == 'journey-full' %}
+<header style="background-image: url('{{site.google-map-baseurl}}size={{page.static-map-size}}&key={{site.google-maps-key}}&maptype={{page.static-maptype}}&scale=2&path={{site.static-map-path-style-red}}enc:{{page.static-map-path}}');">
+{% else %}
+<header>
+{% endif %}
+  <div class="container">
+    <div class="intro-text">
+      <div class="intro-lead-in">{{page.subtitle}}</div>
+      <div class="intro-heading">{{page.title}}</div>
+    </div>
+  </div>
+</header>

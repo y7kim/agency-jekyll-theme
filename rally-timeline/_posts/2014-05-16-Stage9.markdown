@@ -1,0 +1,27 @@
+---
+layout: timeline/adventure-stage
+status: publish
+published: true
+title: Stage 9
+stage: 9
+subtitle: Home
+location: Home
+date: '2014-05-14 00:00:00 -0400'
+dateend: '2014-05-25 00:00:00 -0400'
+thumbnail: 2014-panamericanrally/panamericanrally-stage9-thumb.jpg
+background: img/2014-panamericanrally/panamericanrally-stage9.jpg
+permalink: panamericanrally2014-stage9.html
+journey: Pan-American Rally 2014
+prev-stage-url: panamericanrally2014-stage8.html
+header:
+- name: Pan-American Rally 2014
+  type: link
+  link: '/panamericanrally2014.html'
+- name: More Stories
+  type: link
+  link: '/adventure-full.html'
+categories:
+- Pan-American Rally
+tags: [timeline-panamerican-rally-2014]
+comments: []
+---

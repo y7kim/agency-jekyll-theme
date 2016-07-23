@@ -8,6 +8,7 @@ location: New York
 date: '2013-06-25 00:00:00 -0400'
 dateend: '2013-12-22 00:00:00 -0500'
 thumbnail: 2014-panamericanrally/panamericanrally-stage0-thumb.jpg
+background: img/2014-panamericanrally/panamericanrally-stage0.jpg
 permalink: panamericanrally2014-stage0.html
 journey: Pan-American Rally 2014
 stage: 0

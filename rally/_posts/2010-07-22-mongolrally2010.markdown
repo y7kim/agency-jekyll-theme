@@ -3,6 +3,7 @@ layout: journey-full
 permalink: mongolrally2010.html
 title: Mongol Rally 2010
 journeyid: Mongol Rally 2010
+distance: 10,475
 date: '2010-07-22 00:00:00'
 people:
 - name: Stephen Jan
@@ -51,6 +52,9 @@ vehicle-caption: For the 2010 Mongol Rally, we drove an ambulance. Why? First, A
 timeline-tag: timeline-mongol-rally-2010
 header-tag: 'mongolrally2010'
 home-link: '/'
+mainpage-modal-tag: 'rallyModalMongolRally2010'
+mainpage-modal-image: 'img/adventure/1.jpg'
+
 header:
 - name: Challenge
   type: scroll
