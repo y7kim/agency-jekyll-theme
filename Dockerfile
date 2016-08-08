@@ -1,4 +1,4 @@
-FROM jekyll/jekyll:latest
+FROM jekyll/jekyll:3.2
 
 COPY . /srv/jekyll
 
