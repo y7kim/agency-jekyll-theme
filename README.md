@@ -5,9 +5,9 @@ Agency theme based on [Agency bootstrap theme ](http://startbootstrap.com/templa
 
 # How to use
 
-###Portfolio 
+###Portfolio
 
-Portfolio projects are in '/_posts'
+Portfolio projects are in '/_projects'
 
 Images are in '/img/portfolio'
 
