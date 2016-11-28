@@ -9,5 +9,5 @@ ftp_passive: false
 # optional
 ftp_port: 21                  # default 21
 ftp_username: 'mmt2010'     # default read from stdin
-ftp_password: '#R*WfjrqvbWSnPi2Cm' # default read from stdin
+ftp_password: 'De63197$Ht%3' # default read from stdin
 ftp_secure: false               # default false

@@ -1,7 +1,8 @@
 <!-- about Modal -->
 {% for post in site.categories.modal %}
 {% for tag in post.tags %}
-{% if tag == "modal-aboutus" %}    <div class="index-modal modal fade" id="aboutModal" tabindex="-1" role="dialog" aria-hidden="true">
+{% if tag == "modal-aboutus" %}
+<div class="index-modal modal fade" id="aboutModal" tabindex="-1" role="dialog" aria-hidden="true">
 	<div class="modal-content">
 		<div class="close-modal" data-dismiss="modal">
 			<div class="lr">
@@ -21,7 +22,6 @@
 					<div class="modal-center">
 						<button type="button" class="btn btn-default modal-close" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
 					</div>
-
 				</div>
 			</div>
 		</div>

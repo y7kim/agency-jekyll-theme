@@ -3,8 +3,11 @@ layout: journey-full
 permalink: nytomumbai2016.html
 title: New York to Mumbai 2016
 journeyid: Ny2Mumbai Rally 2014
-distance: 16,000
+distance: 10,000
+title2: New York to Mumbai
 date: '2016-04-01 00:00:00 -0500'
+map-thumb: 2016-nytomumbai/map_thumb.png
+modal-id: NyToMumbai2016
 people:
 - name: Kunal Modi
   pic: 2016-nytomumbai/profile_kunal.png
@@ -29,21 +32,20 @@ people:
       url: http://www.linkedin.com/in/sjan828
 static-maptype: 'satellite'
 static-map-size: '640x440'
-static-map-path: _pblFlf{vMntqEta\\b{cMhkcRbqbCt|jJlofM`biSd`gKhxuO`kvAr_oIidkNhllJkaKt{rE}wCdkO|d@x`AhvLltlAmcQutoAd|a@dqsH{neA|oeJbdqAd``MsfKr_lXrolA`f_Gklk@j}aSccQr{rJk``D`vqL{dcAy|@m|SnaQxfXifPjrnFg_qDdtPrOfmmKhaVx`iEas[xtbF_iBbxfDukaH|cyHq{iF~o~L_bbJceHoX~sDy|IngmKmyeJjg{@sw{Bns`@kitAlbCu`T_o~GuyaMzysGqksB~otFqgaG`sH~pFnpLkmAjnpA}~zGrlkJck{Dhh~BiqcFhmhEud}OvbiCqgzBso}Av`jA|rv@_ll@ciL_gzAbej@w_oBtz_@uheBhinEcn_G|{zK_biUhqhBsef@xdpDkq}G`abCevdAbenCeroDfo^{yaMqtsBau`EqyIbwNngE_rQuuo@gvsUjlfCooVzxoGg{m@j|pDjnVzgeDvjDvo~PfgdEzdyKjgjH~j`Bxa`AluaFdvTxocEjkaAffpBhcNjg{@puc@xetA`gtGdbjFxqa@ngvJorxDfvgGo~zCn_zHo~xCj`rJwekEjicFus`CtstHs~wDbcsFkj_EpinDumuI{gHuneEbzhBa`gEkr\\s_fAef|@anzIsV{opB|bbBw}L~duGi|mEp`tEmjjF|f`Dcv{BlgsEojfAgsgDbhxAgrxFkhDtgd@jcp@}{pB|`zEggoI~yeGefHncjTivbDdcoJi_eDvwnHku}HtiyF_hcK`_xDkmcJbrsE{lhJxczC
-event-description: The Pan-American Highway stretches from Alaska all the way to the tip of South America.  Team Last Responders decided after 2 adventures to  embark on its first solo mission to a destination.
-adventure-picture: 2014-panamericanrally/timeline/temp1.jpg
+static-map-path: u_kyHj_Xdzi@wscCbfa@mpjCxyi@simC~sa@qac@j_}@a~nBbt^m~RfhbArsAvacCx}h@lhcAdag@kyeAodl@mucCure@k`mAsbgBcdb@azhCasGozsDc~UextDchh@iqxBmlo@ojoBogk@mkb@__s@gujAcpy@amuCs}t@c~`AqyPo{`Bs~]{noAfpMmbyAff[czzDwgQyrwJcfi@}abA|kB_wp@za\\eqMlgFmvzCwTg}aDbSmltIzbSgjeDrqg@{ebEhvSm`jCcuo@mssDe~s@yfsBeunAwe`CotpCcwkAsqc@yziBu_c@gl[kjh@}j@isb@ilc@eeq@ikl@c|g@}pvAi}WowZso]un_Awx_AodpDsb~@{zrEchf@ke_@upg@mgjA_ujBk`lCk}mA}paBmuq@c_u@e|s@vcFkfg@qe^sy\\em`AidsA_`sD{agBg{k@c~mAh_@yck@kvd@sfo@{eWayGy}_@tf@_qvDmjb@ee}Drr]g|sAftf@wes@bnBehcAd_Kobr@pmYog|Aaa@aqaA|`fAo{dClea@ecjBh_AsuqAlkBimiEo|n@kdu@s_ZiaiCzv[ufyBsfCqsqCpj\\wmlBjch@u{U|}dAy_QzdSkmm@flBccx@{zTq|bBySadbEdgMcp~C`jKydcEcxD}qnGj~LavfJi_I}fgD_fm@}m~B{``@kv|@`Hsn}@hdMsaeAmqScrsAycNmmwAciLqeeArf^cgkDjfFs|l@{bQo~`@ugGq~_D~t]{oxAfa]{mc@r{Fel`Apki@qymBvrh@mfaAzyIydcAcbP_~x@~dN{fm@~jiAg}kAfy|C{oaGbqCwtrIjcC{wlLgyLufrDozj@ixjEioAoaxHzaB_acAhvUcfSlgmAwfaCjeLceaIhlbAq_wGwcOoqlC{mCiq{AfdWiusBdsc@i{gBptGe~y@dxV{hX`_i@er_Bhh`Ayb^hip@ujjApr[|pCj~eBpkd@lyn@fb{@nog@rce@tlZ`bb@vxi@}vCt`dAlsMlkVnwp@zlSrddE|wo@jsyBrv_BwtaBvxiAy_Ptd{@kxd@|~|@a}m@lp`CirgFflbA}cn@vjWs_Bp_\\qiX|hy@a{c@`swB_gcA`gwCyqc@rdaB}qiBxgkCyjxBrq~@pinBtidBpisC|``Axii@|gtAqfy@tarAiu`Ad|xAswwChpj@whgDxme@wimAjnb@e_cDggLspj@oyv@acnBije@}qdB~dj@go{@ojIg_dBhKiuqAfjT_w|@yoEwad@iDg|B
+adventure-picture: 2016-nytomumbai/map_square.png
 adventure-title: Route
-adventure-caption:  Flying from New York to London and then driving to Mumbai, we will be passing through 15 countries along the Silk Route.
-charity-picture: 2014-panamericanrally/timeline/temp2.jpg
+adventure-caption:  Flying from New York to London and then driving to Mumbai, we will be passing through 15 countries along the Silk Route - England, France, Germany, Poland, Belarus, Latvia, Lithuania, Estonia, Russia, Kazakhstan, China, Nepal, India.
+charity-picture: 2016-nytomumbai/charity.jpg
 charity-title: Charity
-charity-caption: Kedi Residential High School has the most unique educational curriculum among other residential schools of its kind in this rural part of the district. Commitment to the challenging program is vital from students, teachers and parents. Education, boarding, meal, clothing, and medical care to more than 100 girls of economically deprived tribal areas are free-of-charge. In this project, the school will offer part payment of fees and scholarships to those who want to continue higher studies. We aim to raise $5000 for the same.
-vehicle-picture: 2014-panamericanrally/timeline/temp3.jpg
+charity-caption: Kedi Residential High School provides education, boarding, meal, clothing, and medical care to more than 100 girls of economically deprived tribal areas. In this project, the team will aim to raise $5000 for scholarships to help children advance their studies.
+vehicle-picture: 2016-nytomumbai/car-with-team.jpg
 vehicle-title: Road Trip
-vehicle-caption: For this journey, we are going to use our 2009 Nissan Versa Hatchback. With 1.8l engine and 5 doors, we feel this car will serve the purpose of the journey.
+vehicle-caption: For this journey, we are going to use our 2009 Nissan Versa Hatchback. Nissian Versa's are not known for their adventure readiness. We will demonstrate that this hatchback can take on all the challenges that the silk road can throw at a car.
 timeline-tag: timeline-nytomumbai-2016
-header-tag: 'panamericanrally2014'
+header-tag: '2016-nytomumbai'
 home-link: '/'
-mainpage-modal-tag: 'rallyModalNyToMumbai2014'
+mainpage-modal-tag: 'rallyModalNyToMumbai2016'
 mainpage-modal-image: 'img/adventure/2.jpg'
 header:
 - name: Challenge

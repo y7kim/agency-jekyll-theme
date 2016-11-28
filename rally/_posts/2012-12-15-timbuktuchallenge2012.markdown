@@ -3,7 +3,10 @@ layout: journey-full
 permalink: timbuktuchallenge2012.html
 title: Timbuktu Challenge 2012
 journeyid: Timbuktu Challenge 2012
+title2: London to Timbuktu
 date: '2011-12-13 00:00:00'
+map-thumb: 2012-timbuktuchallenge/map_thumb.jpg
+modal-id: TimbuktuChallenge2012
 distance: 4,627
 people:
 - name: Stephen Jan

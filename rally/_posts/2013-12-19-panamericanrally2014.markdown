@@ -3,8 +3,11 @@ layout: journey-full
 permalink: panamericanrally2014.html
 title: Pan American Rally 2014
 journeyid: Pan-American Rally 2014
+title2: New York to Peru
 distance: 16,000
 date: '2013-12-22 00:00:00 -0500'
+map-thumb: 2014-panamericanrally/map_thumb.jpg
+modal-id: PanAmericanRally2014
 people:
 - name: Stephen Jan
   pic: 2014-panamericanrally/profile_sjan.jpg

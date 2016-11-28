@@ -2,9 +2,11 @@
 layout: journey-full
 permalink: mongolrally2010.html
 title: Mongol Rally 2010
+title2: London to Mongolia
 journeyid: Mongol Rally 2010
 distance: 10,475
 date: '2010-07-22 00:00:00'
+map-thumb: 2010-mongolrally/map_thumb.jpg
 people:
 - name: Stephen Jan
   pic: 2010-mongolrally/profile_sjan.jpg
@@ -35,6 +37,7 @@ people:
     - title: linkedin
       url: http://www.linkedin.com/in/sjan828
 static-map-path-style-yellow: 'weight:4%7Ccolor:yellow%7C'
+modal-id: MongolRally2010
 static-map-path-style: 'weight:4%7Ccolor:red%7C'
 static-maptype: 'satellite'
 static-map-size: '640x440'

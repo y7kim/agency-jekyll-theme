@@ -4,7 +4,7 @@ status: publish
 published: true
 title: Stage 3
 subtitle: Guatemala, El Salvador
-location: Guatemala, Honduras, El Salvador
+location: El Salvador
 date: '2014-02-11 00:00:00 -0400'
 dateend: '2014-02-17 00:00:00 -0400'
 thumbnail: 2014-panamericanrally/panamericanrally-stage3-thumb.jpg
@@ -26,3 +26,4 @@ categories:
 tags: [timeline-panamerican-rally-2014]
 comments: []
 ---
+Guatemala marked the beginning of Central American topics. Within hours the scenery shifted from arid desert to roads lined with bountiful banana trees.

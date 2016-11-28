@@ -1,0 +1,47 @@
+<section id="adventure">
+	<div class="container circularhover">
+		<div class="row">
+			<div class="col-lg-12 text-center">
+				<h2 class="section-heading">Adventure</h2>
+				<h3 class="section-subheading text-muted">3 Ambulances, 3 Charity Rallies, 34 Countries, 5 Continents. Team Last Responders has traveled the world engaging people in the spirit of charity and adventure.</h3>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-12">
+				<ul class="timeline">
+					{% for journey in site.categories.rally %}
+					{% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
+					{% if thecycle == 'even' %}
+					<li class="timeline-inverted">
+					{% else %}
+					<li>
+					{% endif %}
+						<div class="timeline-image">
+							<a href="#rallyModal{{ journey.modal-id }}" data-toggle="modal" class="circle-link">
+								<div class="circle-hover">
+									<div class="circle-hover-content">
+										more
+									</div>
+								</div>
+								<img class="img-circle img-responsive" src="img/{{journey.map-thumb}}" alt="">
+							</a>
+						</div>
+						<div class="timeline-panel">
+							<div class="timeline-heading">
+								<h3>{{journey.date | date: '%Y'}}</h3>
+								<h2 class="subheading">{{journey.title2	}}</h2>
+							</div>
+							<div class="timeline-body">
+								<h3 class="text-muted">{{journey.distance}} Miles</h3>
+							</div>
+							<div class="button-container">
+								<a href="#rallyModal{{ journey.modal-id }}" data-toggle="modal" style="color: #fff" class="btn btn-small">More</a>
+							</div>
+						</div>
+					</li>
+					{% endfor %}
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
