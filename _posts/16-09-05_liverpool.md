@@ -1,7 +1,3 @@
-Dear Friends,
-
-[Picture of me.]
-
 As I start writing this message, I am sitting in the passenger seat of our adventure ready Nissan Versa. We are driving from Liverpool to London for final preparations before setting off toward India. The rest stations here are called "Welcome Break". They're pretty similar to American rest stops except you can get fish and chips if you don't like Burger King and Subway.
 
 Earlier in the week, a Londoner warned us to be careful in Liverpool. He went on to say that port cities like Liverpool are hotbeds for crime and vice. I must say that our stay didn't exactly reflect his description at all. People were friendly and welcoming. Everywhere we walked, we saw murals of the Beatles and statues of their members. The car pickup was hassle-free. Funny enough, the Liverpool Port security officer accompanying us to our car was once a London police officer. I put the question to him and asked if there was any truth to the Londoner's warning. The ex-officer had a lot to say about crime, but he assured us that tourists have nothing to fear from port crime. The type of crime that visiting tourists should worry about are petty crime like theft and robberies, which London's got Liverpool beat by a long shot.
