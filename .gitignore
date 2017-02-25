@@ -38,3 +38,7 @@ Icon
 
 # vim
 *.swp
+
+# local jekyll dev
+Gemfile
+Gemfile.lock
