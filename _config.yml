@@ -1,10 +1,15 @@
 url: https://heatheranderson.github.io
+repository: heatheranderson/heatheranderson.github.io
 
 # Site settings
 title: Awesome Title
 email: your-email@domain.com
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 
+# Heather collections
+collections:
+  offerings:
+    output: false
 
 # Team names, titles and social links
 people:
@@ -49,7 +54,7 @@ social:
     url:
   - title: stack-overflow
     url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket 
+  - title: bitbucket
     url: http://bitbucket.org/jekyll
   - title: github
     url: http://github.com/jekyll
