@@ -729,8 +729,9 @@ footer {
 footer span.copyright {
     text-transform: uppercase;
     text-transform: none;
+    text-align: left;
     font-family: {{ site.data.template.font.primary }};
-    line-height: 40px;
+    /* line-height: 40px; */
 }
 
 footer ul.quicklinks {
