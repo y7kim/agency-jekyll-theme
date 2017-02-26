@@ -1,6 +1,6 @@
 ---
-title: Dreams
-subtitle: Website Design
+title: Lead
+subtitle: Subtitle goes here 
 layout: default
 modal-id: 1
 date: 2014-07-18
@@ -10,6 +10,6 @@ alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
 category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+description: Heather offers her executive and career coaching clients insightful shifts to bring their leadership style and career to the next level.  She has a keen sense of organizational culture and process built on over ten years working with managers and managing in the federal public service.  
 
 ---

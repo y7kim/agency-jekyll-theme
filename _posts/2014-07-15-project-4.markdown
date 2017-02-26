@@ -1,6 +1,6 @@
 ---
-title: Treehouse
-subtitle: Website Design
+title: Launch
+subtitle: Subtitle goes here
 layout: default
 modal-id: 4
 date: 2014-07-15
@@ -10,6 +10,6 @@ alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
 category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+description: Zeroing in on the most critical aspects of your business management, Heather will coach you to develop capacities and see new opportunities.   Working with entrepreneurs is close to Heather’s heart as she has stepped into the exciting, and challenging world of running her coaching business.  
 
 ---
