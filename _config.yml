@@ -50,7 +50,7 @@ social:
     url:
   - title: stack-overflow
     url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket 
+  - title: bitbucket
     url: http://bitbucket.org/jekyll
   - title: github
     url: http://github.com/jekyll
@@ -63,3 +63,7 @@ address:
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+# Portfolio items belong to the /projects collection
+collections:
+  projects:
