@@ -15,3 +15,77 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="{{ "/js/agency.js" | prepend: site.baseurl }}"></script>
+
+    <script type="text/javascript">
+
+    // How to force async functions to execute sequentially
+    // by using deferred pipe chaining.
+
+    // The master deferred.
+    var dfd = $.Deferred(),  // Master deferred
+        dfdNext = dfd; // Next deferred in the chain
+        x = 0, // Loop index
+        values = [],
+
+        // Simulates $.ajax, but with predictable behaviour.
+        // You only need to understand that higher 'value' param
+        // will finish earlier.
+        simulateAjax = function (value) {
+            var dfdAjax = $.Deferred();
+
+            setTimeout(
+                function () {
+                    dfdAjax.resolve(value);
+                },
+                1000 - (value * 100)
+            );
+
+            return dfdAjax.promise();
+        },
+
+        // This would be a user function that makes an ajax request.
+        // In normal code you'd be using $.ajax instead of simulateAjax.
+        requestAjax = function (value) {
+            return simulateAjax(value);
+        };
+
+    // Start the pipe chain.  You should be able to do
+    // this anywhere in the program, even
+    // at the end,and it should still give the same results.
+    dfd.resolve();
+
+    {% assign sorted_pages = (site.pages | sort: 'order') %}
+    {% for sec in sorted_pages %}
+      //# Do something.
+      {% if sec.url and sec.title %}
+        dfdNext = dfdNext.pipe(function () {
+            return jQuery.get("{{ sec.url }}", function(data) {
+                    // Process the response here.
+                    $('#sections').append(data);
+                });
+
+        });
+        {% comment %}
+        function get_page_{{ forloop.index }}(){
+          jQuery.ajax({url:"{{ sec.url }}",success: function(data) {
+              //console.log(data);
+              // window.alert("{{ sec.section }}")
+              $('#sections').append(data);
+              {% if forloop.last == false %}
+              get_page_{{ forloop.index | plus: 1 }}();
+              {% endif %}
+          },async: true});
+        }
+        if (get_pages) {
+          get_pages = false;
+          get_page_{{ forloop.index }}();
+        }
+      {% endcomment %}
+      {% endif %}
+    {% endfor %}
+    jQuery.ajax({url:"{{ "modals" | prepend: site.baseurl }}",success: function(data) {
+        //console.log(data);
+        // window.alert("{{ sec.section }}")
+        $('#sections').append(data);
+    },async: true});
+    </script>
