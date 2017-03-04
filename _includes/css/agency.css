@@ -269,8 +269,8 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url('{{ site.baseurl }}/img/header-bg.jpg');
-    background-position: center center;
+    background-image: url('{{ site.baseurl }}/img/mountain-bg.jpg');
+    background-position: center top;
     background-repeat: none;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -295,7 +295,7 @@ header .intro-text .intro-heading {
     margin-bottom: 25px;
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 700;
     line-height: 50px;
 }
@@ -318,7 +318,7 @@ header .intro-text .intro-heading {
         margin-bottom: 50px;
         text-transform: uppercase;
         font-family: {{ site.data.template.font.primary }};
-        font-size: 75px;
+        font-size: 50px;
         font-weight: 700;
         line-height: 75px;
     }
@@ -639,7 +639,8 @@ section h3.section-subheading {
 
 .team-member img {
     margin: 0 auto;
-    border: 7px solid #fff;
+    border: 7px solid #f1f1f1;
+    border-radius: 100%;
 }
 
 .team-member h4 {
@@ -866,3 +867,4 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #{{ site.data.template.color.primary }};
 }
+
