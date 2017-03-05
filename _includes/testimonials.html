@@ -11,8 +11,15 @@
                 <div class="col-lg-12">
                     <ul class="timeline">
                       {% assign sortedtestimonials = (site.testimonials | sort: 'order' ) %}
+                      {% assign left = true %}
                       {% for testimonial in sortedtestimonials %}
+                        {% if left == true %}
+                          {% assign left = false %}
                         <li>
+                        {% else %}
+                          {% assign left = true %}
+                        <li class="timeline-inverted">
+                        {% endif %}
                             <div class="timeline-image">
                               <img class="img-circle img-responsive" src="{{ testimonial.image }}" alt="">
                             </div>
@@ -21,7 +28,7 @@
                                   <span class="text-muted">{{ testimonial.content }}</span>
                                 </div>
                                 <div>
-                                  <h3 class="copyright">{{ testimonial.name }}</h3>
+                                  <p class="testimonialperson">- {{ testimonial.name }}</p>
                                 </div>
                             </div>
                         </li>
@@ -85,11 +92,13 @@
                         </li>
                       -->
                         <li class="timeline-inverted">
+                            <a class="page-scroll" href="#contact">
                             <div class="timeline-image">
-                                <h4>Be Part
-                                    <br>Of Our
-                                    <br>Story!</h4>
+                                <h4>Ascend
+                                    <br>Your
+                                    <br>Potential!</h4>
                             </div>
+                            </a>
                         </li>
                     </ul>
                 </div>

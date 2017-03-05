@@ -1,5 +1,5 @@
 ---
-picture: img/team/1.jpg 
+picture: img/team/h.jpg 
 heading: "About Heather"
 ---
 Heather is a certified Integral Master Coach™ whose passion for working with coaching clients runs deep.  Coaching not only allows her clients to grow into their potential, but also serves Heather’s need put her highest skills into practice in service of creating a more awake and intentional world.  While making a business from this work is her priority, Heather is committed to always offering a minimal amount of pro-bono coaching services in various capacities.

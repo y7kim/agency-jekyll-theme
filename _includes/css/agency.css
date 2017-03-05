@@ -14,6 +14,11 @@ body {
     color: #{{ site.data.template.color.muted }};
 }
 
+.testimonialperson {
+    font-style: italic;
+    font-weight: bold;
+}
+
 .text-primary {
     color: #{{ site.data.template.color.primary }};
 }
@@ -57,12 +62,20 @@ h6 {
     font-weight: 700;
 }
 
+.about-text {
+  color: #fff;
+}
+
 .img-centered {
     margin: 0 auto;
 }
 
 .bg-light-gray {
     background-color: #f7f7f7;
+}
+
+.bg-light-blue {
+    background-color: #0099e6;
 }
 
 .bg-darkest-gray {
@@ -659,7 +672,7 @@ aside.clients img {
 
 section#contact {
     background-color: #222;
-    background-image: url('{{ site.baseurl }}/img/map-image.png');
+    background-image: url('{{ site.baseurl }}/img/mountain-bg2.jpg');
     background-position: center;
     background-repeat: no-repeat;
 }
