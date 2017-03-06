@@ -1,6 +1,6 @@
 ---
-title: Live
-subtitle: Subtitle goes here
+title: Live 
+subtitle: Life Coaching
 layout: default
 modal-id: 2
 date: 2014-07-17
@@ -10,6 +10,7 @@ alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
 category: Web Development
-description: Life in modern society is challenging.  Living a healthy lifestyle, managing our time, dealing with unexpected event, and finding the space to elevate ourselves to our full potential is difficult.  Whether you yearn to lose weight, communicate better, get back on your feet after a divorce or illness, Heather will design a life coaching program tailored to ascend into living out the vision you have for your life.
+description: Life in modern society is challenging. Living a healthy lifestyle, managing our time, dealing with unexpected event, and finding the space to elevate ourselves to our full potential is difficult. Whether you yearn to lose weight, communicate better, get back on your feet after a divorce or illness, Heather will design a life coaching program tailored to ascend into living out the vision you have for your life.
+
 
 ---

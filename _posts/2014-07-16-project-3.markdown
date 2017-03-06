@@ -1,6 +1,6 @@
 ---
 title: Love
-subtitle: Subtitle goes here
+subtitle: Relationship Coaching
 layout: default
 modal-id: 3
 date: 2014-07-16
