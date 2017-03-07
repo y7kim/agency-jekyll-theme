@@ -191,6 +191,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-brand {
     font-family: "Cabin","Helvetica Neue",Helvetica,Arial,cursive;
     color: #{{ site.data.template.color.primary }};
+    padding: 10px 15px;
 }
 
 .navbar-default .navbar-brand:hover,
@@ -216,6 +217,14 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
     background-color: #{{ site.data.template.color.primary }};
+}
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)  {
+  .ipad-text-shrink {
+    font-size: 13px;
+  }
 }
 
 .navbar-default .nav li a {
@@ -584,7 +593,7 @@ section h3.section-subheading {
 
     .timeline>li .timeline-image h4 {
         margin-top: 16px;
-        font-size: 13px;
+        font-size: 11px;
         line-height: 18px;
     }
 
