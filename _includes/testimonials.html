@@ -1,0 +1,49 @@
+<!-- About Section -->
+    <section id="testimonials">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Testimonials</h2>
+                    <h3 class="section-subheading text-muted"></h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="timeline">
+                      {% assign sortedtestimonials = (site.testimonials | sort: 'order' ) %}
+                      {% assign left = true %}
+                      {% for testimonial in sortedtestimonials %}
+                        {% if left == true %}
+                          {% assign left = false %}
+                        <li>
+                        {% else %}
+                          {% assign left = true %}
+                        <li class="timeline-inverted">
+                        {% endif %}
+                            <div class="timeline-image">
+                              <img class="img-circle img-responsive" src="{{ testimonial.image }}" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-body">
+                                  <span class="text-muted">{{ testimonial.content }}</span>
+                                </div>
+                                <div>
+                                  <p class="testimonialperson">- {{ testimonial.name }}</p>
+                                </div>
+                            </div>
+                        </li>
+                        {% endfor %}
+                        <li class="timeline-inverted">
+                            <a class="page-scroll" href="#contact">
+                            <div class="timeline-image">
+                                <h4>Ascend
+                                    <br>Your
+                                    <br>Potential</h4>
+                            </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>

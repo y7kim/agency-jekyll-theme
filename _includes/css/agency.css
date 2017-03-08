@@ -11,7 +11,12 @@ body {
 }
 
 .text-muted {
-    #{{ site.data.template.color.muted }};
+    color: #{{ site.data.template.color.muted }};
+}
+
+.testimonialperson {
+    font-style: italic;
+    font-weight: bold;
 }
 
 .text-primary {
@@ -57,12 +62,20 @@ h6 {
     font-weight: 700;
 }
 
+.about-text {
+  color: #fff;
+}
+
 .img-centered {
     margin: 0 auto;
 }
 
 .bg-light-gray {
     background-color: #f7f7f7;
+}
+
+.bg-light-blue {
+    background-color: #0099e6;
 }
 
 .bg-darkest-gray {
@@ -176,8 +189,9 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand {
-    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+    font-family: "Cabin","Helvetica Neue",Helvetica,Arial,cursive;
     color: #{{ site.data.template.color.primary }};
+    padding: 10px 15px;
 }
 
 .navbar-default .navbar-brand:hover,
@@ -203,6 +217,14 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
     background-color: #{{ site.data.template.color.primary }};
+}
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)  {
+  .ipad-text-shrink {
+    font-size: 13px;
+  }
 }
 
 .navbar-default .nav li a {
@@ -234,6 +256,10 @@ fieldset[disabled] .btn-xl.active {
     background-color: #{{ site.data.template.color.secondary }};
 }
 
+.navbar-default .logoimg {
+  height: 40px;
+}
+
 @media(min-width:768px) {
     .navbar-default {
         padding: 25px 0;
@@ -263,14 +289,15 @@ fieldset[disabled] .btn-xl.active {
     .navbar-default.navbar-shrink .navbar-brand {
         font-size: 1.5em;
     }
+
 }
 
 header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url('{{ site.baseurl }}/img/header-bg.jpg');
-    background-position: center center;
+    background-image: url('{{ site.baseurl }}/img/mountain-bg.jpg');
+    background-position: center top;
     background-repeat: none;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -295,7 +322,7 @@ header .intro-text .intro-heading {
     margin-bottom: 25px;
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 700;
     line-height: 50px;
 }
@@ -307,7 +334,7 @@ header .intro-text .intro-heading {
     }
 
     header .intro-text .intro-lead-in {
-        margin-bottom: 25px;
+        margin-bottom: 60px;
         font-family: {{ site.data.template.font.secondary }};
         font-size: 40px;
         font-style: italic;
@@ -318,7 +345,7 @@ header .intro-text .intro-heading {
         margin-bottom: 50px;
         text-transform: uppercase;
         font-family: {{ site.data.template.font.primary }};
-        font-size: 75px;
+        font-size: 50px;
         font-weight: 700;
         line-height: 75px;
     }
@@ -374,7 +401,7 @@ section h3.section-subheading {
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
-    background: rgba(254,209,54,.9); /* Fallback when no plugin support */
+    background: rgba(164, 176, 196, .8); /* Fallback when no plugin support */
     background: rgba({{ site.data.template.color.primary | hex_to_rgb | join: ',' }}, .9);
 }
 
@@ -571,7 +598,7 @@ section h3.section-subheading {
 
     .timeline>li .timeline-image h4 {
         margin-top: 16px;
-        font-size: 13px;
+        font-size: 11px;
         line-height: 18px;
     }
 
@@ -606,6 +633,14 @@ section h3.section-subheading {
     .timeline>li.timeline-inverted>.timeline-panel {
         padding: 0 20px 20px;
     }
+
+    .navbar-default .logoimg {
+      height: 65px;
+    }
+
+    .navbar-default.navbar-shrink .logoimg {
+      height: 45px;
+    }
 }
 
 @media(min-width:1200px) {
@@ -639,7 +674,8 @@ section h3.section-subheading {
 
 .team-member img {
     margin: 0 auto;
-    border: 7px solid #fff;
+    border: 7px solid #f1f1f1;
+    border-radius: 100%;
 }
 
 .team-member h4 {
@@ -658,9 +694,13 @@ aside.clients img {
 
 section#contact {
     background-color: #222;
-    background-image: url('{{ site.baseurl }}/img/map-image.png');
-    background-position: center;
+    background-image: url('{{ site.baseurl }}/img/mountain-bg2.jpg');
+    background-position: center top;
     background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
 
 section#contact .section-heading {
@@ -729,8 +769,10 @@ footer {
 footer span.copyright {
     text-transform: uppercase;
     text-transform: none;
+    text-align: left;
     font-family: {{ site.data.template.font.primary }};
-    line-height: 40px;
+    color: #999;
+    /* line-height: 40px; */
 }
 
 footer ul.quicklinks {
@@ -865,3 +907,4 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #{{ site.data.template.color.primary }};
 }
+
