@@ -2,14 +2,15 @@
 picture: img/team/h.jpg
 heading: "About Heather"
 ---
-Heather is a certified Integral Master Coach™ whose passion for working with coaching clients runs deep. Her focus is on helping each client develop, and reach his or her goals. She is constantly searching for and applying new approaches to ascend the challenges and roadblocks of modern life.
 
-Heather was drawn to become a coach after working on her own coaching program in 2011.  When Heather offers her clients exercises that ask them to try something new and take a risk, she knows how that may feel, having gone through years of personal growth and development since embarking on her Masters certification process.  Guiding her clients to grow in meaningful ways is a constant drive for Heather.  Coaching not only allows her clients to grow into their potential, but also serves Heather’s desire to put her highest skills into practice in service of creating a more awake and intentional world.
+I am Integral Master Coach™, certified by Integral Coaching Canada, which is the only accredited Integral Coaching® program in the world that surpasses Masters Level International Coach Federation requirements.  The coaching methodology I use works.  I don't say that lightly, nor because it's the method that I use.  I say it because it's true.  I have lived it myself and seen it work over and over again with the clients that I've worked with and through the personal journies of my fellow Integral coaches.
 
-Drawing on her experience as a beginners’ meditation instructor, and over 10 years experience working with executives and managers in federal public service, Heather offers a balanced approach to development that is tailored to each individual client’s strengths and their needs in order to most effectively guide them to leading, living, loving and launching to their potential.
+I teach beginners' meditation at the Ottawa Shambhala Centre, and I have over 10 years experience working with executives and managers in federal public service, advising Ministers, and writing Cabinet documents to serve Canadians. I hold a degree in Family and Social Relations from the University of Guelph, a Master’s Degree in Public Administration from Queen’s University and a sommelier certificate from Algonquin College. I celebrate diversity and aim to work with clients from all walks of life including the LGBTQ and poly communities. 
 
-Heather celebrates diversity and aims to broaden horizons in how we define relationships.  She works with clients from all walks of life, including those working through with issues related to LGBTQ and poly relationship challenges.
+My passion for coaching runs deep.  So deep, that I will move climb mountains for you.  Together we will reach great heights, savour the view, and reflect on the path taken.  Growth and development paths are not always straight forward.  They ebb and flow. They meander and wind.  They lead us to thrilling heights, to peaceful plateaus, and over hills we didn't even see coming.  
 
-Heather graduated at the Masters level in December 2016 from Integral Coaching Canada, which is the only accredited Integral Coaching® program in the world that surpasses Masters Level International Coach Federation requirements.  Heather holds a degree in Family and Social Relations from the University of Guelph, a Master’s Degree in Public Administration from Queen’s University and a sommelier certificate from Algonquin College.
+It would be my privilege to coach you on your journey, just tell me what mountain you want to ascend.  I will be there by your side rooting for you, and guiding you to develop new capacities and to see new ways to scale that seemingly impossible obstacle.  
 
-*“And the day came when the risk to remain tight in a bud was more painful than the risk it took to blossom.”  - Anais Nin*
+  
+
+*“It is not the mountain we conquer but ourselves.”  - Edmund Hillary*
