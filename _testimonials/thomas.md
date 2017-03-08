@@ -1,7 +1,7 @@
 ---
 name: Tom, Policy Advisor
 order: 100
-image: img/about/1.jpg
+image: img/about/3.jpg
 ---
 
 In spring 2016, having recovered from a major illness, I felt like a novice surfer at the mercy of a vast ocean, a prisoner of my fate. At this junction of my life, I was very fortunate to came across my coach Heather, who helped me to discover the root cause of my challenge. Heather is a true professional who is highly knowledgeable, compassionate, empathetic and yet always remains objective and analytical. She will methodologically work through your problems by peeling away layers of half-truths and misconceptions to reach the core, which, in my case, turned out to be something that I was not aware of at the conscious level.
