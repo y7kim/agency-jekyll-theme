@@ -256,6 +256,10 @@ and (max-device-width : 1024px)  {
     background-color: #{{ site.data.template.color.secondary }};
 }
 
+.navbar-default .logoimg {
+  height: 40px;
+}
+
 @media(min-width:768px) {
     .navbar-default {
         padding: 25px 0;
@@ -285,6 +289,7 @@ and (max-device-width : 1024px)  {
     .navbar-default.navbar-shrink .navbar-brand {
         font-size: 1.5em;
     }
+
 }
 
 header {
@@ -627,6 +632,14 @@ section h3.section-subheading {
 
     .timeline>li.timeline-inverted>.timeline-panel {
         padding: 0 20px 20px;
+    }
+
+    .navbar-default .logoimg {
+      height: 65px;
+    }
+
+    .navbar-default.navbar-shrink .logoimg {
+      height: 45px;
     }
 }
 
