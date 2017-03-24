@@ -1,10 +1,11 @@
-url: https://y7kim.github.io
-baseurl: /agency-jekyll-theme/
+url: http://whyiug.github.io
+
+baseurl: "/whyiug.github.io/"
 
 # Site settings
-title: Awesome Title
-email: your-email@domain.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+title: Group with Mitta
+email: whyiug@gmail.com
+description: "Mitta老师和宝宝的成长日记"
 
 
 # Team names, titles and social links
