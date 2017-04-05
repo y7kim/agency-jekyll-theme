@@ -4,7 +4,7 @@ baseurl: /agency-jekyll-theme/
 # Site settings
 title: Awesome Title
 email: your-email@domain.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+description: "VR、AR、MR内容定制开发，专业靠谱，您事业上的暖男"
 
 
 # Team names, titles and social links
@@ -63,4 +63,5 @@ address:
 # Build settings
 markdown: kramdown
 permalink: pretty
-theme: jekyll-theme-architect
+# theme: jekyll-theme-architect
+theme: minima
