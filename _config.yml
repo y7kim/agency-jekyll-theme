@@ -64,4 +64,4 @@ address:
 markdown: kramdown
 permalink: pretty
 # theme: jekyll-theme-architect
-theme: minima
+theme: jekyll-theme-minimal
