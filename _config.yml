@@ -62,6 +62,6 @@ address:
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-minimal
+theme: minima
 permalink: pretty
-# theme: jekyll-theme-architect
+theme: jekyll-theme-architect
