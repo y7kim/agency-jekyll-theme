@@ -2,7 +2,7 @@ url: https://y7kim.github.io
 baseurl: /agency-jekyll-theme/
 
 # Site settings
-title: VR、AR、MR内容定制开发
+title: BluChs
 email: liyun_0919@126.com
 description: "VR、AR、MR内容定制开发，专业靠谱，您事业上的暖男"
 
@@ -62,6 +62,6 @@ address:
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-minimal
+theme: minima
 permalink: pretty
-theme: jekyll-theme-architect
+#theme: jekyll-theme-architect
