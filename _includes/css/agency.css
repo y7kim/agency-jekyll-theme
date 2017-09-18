@@ -276,9 +276,6 @@ header {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    min-height: 100%;
-    min-width: 100%;
-    overflow: auto;
 }
 
 header .intro-text {
@@ -328,7 +325,7 @@ header .intro-text .intro-heading {
 }
 
 section {
-    padding: 100px 0;
+    /*padding: 100px 0;*/
 }
 
 section h2.section-heading {
