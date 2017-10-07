@@ -23,6 +23,14 @@
                         <p class="text-muted">{{ post.subtitle }}</p>
                     </div>
                 </div>
+                {% assign twos = forloop.index | modulo: 2 %}
+                {% assign threes = forloop.index | modulo: 3 %}
+                {% if twos == 0 %}
+                    <div class="clearfix hidden-md hidden-lg"></div>
+                {% endif %}
+                {% if threes == 0 %}
+                    <div class="clearfix hidden-sm hidden-xs"></div>
+                {% endif %}
             {% endfor %}
             </div>
         </div>
