@@ -2,63 +2,62 @@ url: https://y7kim.github.io
 baseurl: /agency-jekyll-theme/
 
 # Site settings
-title: Awesome Title
-email: your-email@domain.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+title: OpenStreetMap Foundation Japan
+email: info@osmf.jp
+description: "OpenStreetMapプロジェクトの日本での活動を支援する一般社団法人オープンストリートマップ・ファウンデーション・ジャパン(OpenStreetMap Foundation Japan)の活動報告ページです"
 
 
 # Team names, titles and social links
 people:
-- name: Kay Garland
+- name: 三浦 広志 (Miura Hiroshi)
   pic: 1
-  position: Lead Designer
+  position: 代表理事
   social:
     - title: twitter
-      url: #
+      url: https://twitter.com/miurahr
     - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
+      url: # https://www.facebook.com/miurahr
 
-- name: Larry Parker
+- name: ikiya
   pic: 2
-  position: Lead Marketer
+  position: 副理事
   social:
     - title: twitter
-      url: #
+      url: # https://twitter.com/ikiya
     - title: facebook
-      url: #
-    - title: linkedin
-      url: #
+      url: # https://www.facebook.com/kinya.iino
 
-- name: Diana Petersen
+- name: 飯田 哲 (Iida Satoshi, nyampire)
   pic: 3
-  position: Lead Developer
+  position: 副理事
   social:
     - title: twitter
-      url: #
+      url: # https://twitter.com/nyampire
     - title: facebook
-      url: #
-    - title: google-plus
-      url: #
+      url: # https://www.facebook.com/profile.php?id=100002075511572
+
+- name: 古橋 大地 (Furuhashi Taichi, mapconcierge)
+  pic: 4
+  position: 理事
+  social:
+    - title: twitter
+      url: # https://twitter.com/mapconcierge
+    - title: facebook
+      url: # https://www.facebook.com/mapconcierge
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
-    url: http://twitter.com/jekyllrb
+    url: https://twitter.com/osmfj
   - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket 
-    url: http://bitbucket.org/jekyll
+    url: https://www.facebook.com/groups/osmjapan/
   - title: github
-    url: http://github.com/jekyll
+    url: https://github.com/osmfj
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+  - line: 東京都北区
+  - line: Kita-ku, Tokyo Japan
 
 # Build settings
 markdown: kramdown
