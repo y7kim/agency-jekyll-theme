@@ -14,7 +14,8 @@ collections:
     output: false
   about:
     output: false
-
+  coaching:
+    output: false
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
