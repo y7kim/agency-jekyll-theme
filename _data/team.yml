@@ -1,0 +1,72 @@
+# Team names, titles and social links
+- name: Matt Gee
+  pic: team-matt-gee.jpg
+  position: Chief Executive Officer
+  social:
+    - title: linkedin
+      url: "https://www.linkedin.com/in/matthewgee1/"
+
+- name: Tom Plagge
+  pic: team-tom-plagge.jpg
+  position: CTO/Chief Scientist
+  social:
+    - title: linkedin
+      url: "https://www.linkedin.com/in/tplagge/"
+
+- name: Andrew Means
+  pic: team-andrew-means.jpg
+  position: VP of Strategy
+  social:
+    - title: linkedin
+      url: "https://www.linkedin.com/in/meansandrew/"
+
+- name: Natalie Evans Harris
+  pic: team-natalie-evans-harris.jpg
+  position: COO/VP of Ecosystem Development
+  social:
+    - title: linkedin
+      url: "https://www.linkedin.com/in/nevansharris/"
+
+- name: Franziska Gonder
+  pic: team-franzi-gonder.jpg
+  position: VP of Customer Success
+  social:
+    - title: linkedin
+      url: "https://www.linkedin.com/in/franziskagonder/"
+
+- name: Vyki Englert
+  pic: team-vyki-englert.jpg
+  position: Product Manager
+  social:
+    - title: linkedin
+      url: "https://www.linkedin.com/in/vykienglert/"
+    - title: github
+      url: "https://github.com/vykster"
+
+- name: Shelby Everitt
+  pic: team-shelby-everitt.jpg
+  position: Project Manager
+  social:
+    - title: linkedin
+      url: "https://www.linkedin.com/in/shelbykeveritt/"
+
+- name: Adam Gillette
+  pic: team-adam-gillette.jpg
+  position: Director of Programs
+  social:
+    - title: linkedin
+      url: "https://www.linkedin.com/in/adam-c-gillette-aaa4a529/"
+
+- name: Aretha Kebirungi
+  pic: team-matt-gee.jpg
+  position: Lead Software Engineer
+  social:
+    - title: linkedin
+      url: "https://www.linkedin.com/in/akebirungi/"
+
+- name: Stanley Ndagi
+  pic: team-stan-ndagi.jpg
+  position: Software Engineer
+  social:
+    - title: linkedin
+      url: "https://www.linkedin.com/in/ndagistanley/"

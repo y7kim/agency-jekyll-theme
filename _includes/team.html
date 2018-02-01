@@ -4,14 +4,15 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Our Amazing Team</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h3 class="section-subheading text-muted">With decades of collective experience in government, software engineering, and data management our team makes this vision possible.</h3>
+                    <br />
                 </div>
             </div>
             <div class="row">
-                {% for member in site.people %}
-                <div class="col-sm-4">
+                {% for member in site.data.team %}
+                <div class="col-sm-3">
                     <div class="team-member">
-                        <img src="img/team/{{ member.pic }}.jpg" class="img-responsive img-circle" alt="">
+                        <img src="img/team/{{ member.pic }}" class="img-responsive img-circle" alt="">
                         <h4>{{ member.name }}</h4>
                         <p class="text-muted">{{ member.position }}</p>
                         <ul class="list-inline social-buttons">
@@ -28,10 +29,10 @@
                 </div>
                 {% endfor %}
             </div>
-            <div class="row">
+<!--             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
                     <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
                 </div>
-            </div>
+            </div> -->
         </div>
     </section>
