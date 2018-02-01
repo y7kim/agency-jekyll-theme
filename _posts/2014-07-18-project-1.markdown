@@ -7,9 +7,9 @@ date: 2014-07-18
 img: dreams.png
 thumbnail: dreams-thumbnail.png
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+project-date: December 2017
+client: Housing Authority of the County of Salt Lake
+category: Health & Human Services
+description: The goal of the Utah Housing Community Cloud pilot is to help housing locators in the state of Utah reduce the time-to-housing for qualifying service recipients through interoperable data services and a more supportive application ecosystem across Utah’s network of state and local housing agencies and service providers.
 
 ---

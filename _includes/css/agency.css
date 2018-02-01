@@ -721,9 +721,18 @@ section#contact .text-danger {
     color: #e74c3c;
 }
 
+/*About explainer text override*/
+section#about .new-class{
+    color: blue;
+    text-transform: none;
+}
+
 footer {
-    padding: 25px 0;
+    padding-top: 50px;
+    padding-bottom: 50px;
     font-family: {{ site.data.template.font.primary }};
+    background-color: #f7f7f7;
+
 }
 
 /*footer span.copyright {
