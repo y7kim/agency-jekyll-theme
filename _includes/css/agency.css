@@ -269,7 +269,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url('{{ site.baseurl }}/img/chicago-bg.jpg');
+    background-image: url('{{ site.baseurl }}/img/chicago.jpeg');
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -723,23 +723,45 @@ section#contact .text-danger {
 
 footer {
     padding: 25px 0;
-    text-align: center;
+    font-family: {{ site.data.template.font.primary }};
 }
 
-footer span.copyright {
+/*footer span.copyright {
     text-transform: uppercase;
     text-transform: none;
     font-family: {{ site.data.template.font.primary }};
     line-height: 40px;
+}*/
+
+footer ul {
+    list-style: none;
 }
 
-footer ul.quicklinks {
+footer ul li {
+    float: left;
+    padding-left: 1em;
+    padding-right: 1em;
+    display: block;
+    border-left: 2px solid #{{ site.data.template.color.muted }};
+}
+
+footer ul li:first-child {
+    border-left: none;
+}
+footer ul li a {
+    color: inherit;
+    text-decoration: none;
+}
+
+
+/*footer ul.quicklinks {
     margin-bottom: 0;
     text-transform: uppercase;
     text-transform: none;
     font-family: {{ site.data.template.font.primary }};
     line-height: 40px;
-}
+
+}*/
 
 ul.social-buttons {
     margin-bottom: 0;
