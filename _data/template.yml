@@ -1,9 +1,21 @@
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: fed136
-  secondary: fec503   
+  primary: 4FAC8E
+  secondary: 3f8971
   secondary-dark: 333
   muted: 777
+
+# BrightHive Colors
+# Dark Green #5D9F9C
+# Med Green #85B6B6
+# Light Green #D9E8E9
+
+# Default Colors
+# color:
+  # primary: fed136
+  # secondary: fec503
+  # secondary-dark: 333
+  # muted: 777
 
 # Font Families
 font:

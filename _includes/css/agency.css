@@ -729,10 +729,12 @@ section#contact .text-danger {
 
 /*About explainer text override*/
 section#about .new-class{
-    color: blue;
+    /*color: blue;*/
+    font-size: 3em;
     text-transform: none;
-    margin-bottom: 100px;
+    margin-bottom: 75px;
 }
+
 
 footer {
     padding-top: 50px;
