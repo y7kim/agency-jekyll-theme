@@ -274,7 +274,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url('{{ site.baseurl }}/img/chicago.jpeg');
+    background-image: url('{{ site.baseurl }}/img/chicago-bg.jpg');
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
