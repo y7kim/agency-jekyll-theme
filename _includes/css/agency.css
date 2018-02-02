@@ -14,6 +14,11 @@ body {
     color: #{{ site.data.template.color.muted }};
 }
 
+.testimonialperson {
+    font-style: italic;
+    font-weight: bold;
+}
+
 .text-primary {
     color: #{{ site.data.template.color.primary }};
 }
@@ -57,12 +62,20 @@ h6 {
     font-weight: 700;
 }
 
+.about-text {
+  color: #fff;
+}
+
 .img-centered {
     margin: 0 auto;
 }
 
 .bg-light-gray {
     background-color: #f7f7f7;
+}
+
+.bg-light-blue {
+    background-color: #0099e6;
 }
 
 .bg-darkest-gray {
@@ -176,8 +189,9 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand {
-    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+    font-family: "Cabin","Helvetica Neue",Helvetica,Arial,cursive;
     color: #{{ site.data.template.color.primary }};
+    padding: 10px 15px;
 }
 
 .navbar-default .navbar-brand:hover,
@@ -203,6 +217,14 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
     background-color: #{{ site.data.template.color.primary }};
+}
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)  {
+  .ipad-text-shrink {
+    font-size: 13px;
+  }
 }
 
 .navbar-default .nav li a {
@@ -234,6 +256,10 @@ fieldset[disabled] .btn-xl.active {
     background-color: #{{ site.data.template.color.secondary }};
 }
 
+.navbar-default .logoimg {
+  height: 40px;
+}
+
 @media(min-width:768px) {
     .navbar-default {
         padding: 25px 0;
@@ -263,14 +289,23 @@ fieldset[disabled] .btn-xl.active {
     .navbar-default.navbar-shrink .navbar-brand {
         font-size: 1.5em;
     }
+
+    .navbar-default.navbar-force-shrink {
+        padding: 10px 0;
+        background-color: #222;
+    }
+
+    .navbar-default.navbar-force-shrink .navbar-brand {
+        font-size: 1.5em;
+    }
 }
 
 header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url('{{ site.baseurl }}/img/header-bg.jpg');
-    background-position: center center;
+    background-image: url('{{ site.baseurl }}/img/mountain-bg.jpg');
+    background-position: center top;
     background-repeat: none;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -295,7 +330,7 @@ header .intro-text .intro-heading {
     margin-bottom: 25px;
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 700;
     line-height: 50px;
 }
@@ -307,7 +342,7 @@ header .intro-text .intro-heading {
     }
 
     header .intro-text .intro-lead-in {
-        margin-bottom: 25px;
+        margin-bottom: 60px;
         font-family: {{ site.data.template.font.secondary }};
         font-size: 40px;
         font-style: italic;
@@ -318,7 +353,7 @@ header .intro-text .intro-heading {
         margin-bottom: 50px;
         text-transform: uppercase;
         font-family: {{ site.data.template.font.primary }};
-        font-size: 75px;
+        font-size: 50px;
         font-weight: 700;
         line-height: 75px;
     }
@@ -374,7 +409,7 @@ section h3.section-subheading {
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
-    background: rgba(254,209,54,.9); /* Fallback when no plugin support */
+    background: rgba(164, 176, 196, .8); /* Fallback when no plugin support */
     background: rgba({{ site.data.template.color.primary | hex_to_rgb | join: ',' }}, .9);
 }
 
@@ -571,7 +606,7 @@ section h3.section-subheading {
 
     .timeline>li .timeline-image h4 {
         margin-top: 16px;
-        font-size: 13px;
+        font-size: 11px;
         line-height: 18px;
     }
 
@@ -606,6 +641,18 @@ section h3.section-subheading {
     .timeline>li.timeline-inverted>.timeline-panel {
         padding: 0 20px 20px;
     }
+
+    .navbar-default .logoimg {
+      height: 65px;
+    }
+
+    .navbar-default.navbar-shrink .logoimg {
+      height: 45px;
+    }
+
+    .navbar-default.navbar-force-shrink .logoimg {
+      height: 45px;
+    }
 }
 
 @media(min-width:1200px) {
@@ -639,7 +686,8 @@ section h3.section-subheading {
 
 .team-member img {
     margin: 0 auto;
-    border: 7px solid #fff;
+    border: 7px solid #f1f1f1;
+    border-radius: 100%;
 }
 
 .team-member h4 {
@@ -658,9 +706,13 @@ aside.clients img {
 
 section#contact {
     background-color: #222;
-    background-image: url('{{ site.baseurl }}/img/map-image.png');
-    background-position: center;
+    background-image: url('{{ site.baseurl }}/img/mountain-bg2.jpg');
+    background-position: center top;
     background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
 
 section#contact .section-heading {
@@ -729,8 +781,10 @@ footer {
 footer span.copyright {
     text-transform: uppercase;
     text-transform: none;
+    text-align: left;
     font-family: {{ site.data.template.font.primary }};
-    line-height: 40px;
+    color: #999;
+    /* line-height: 40px; */
 }
 
 footer ul.quicklinks {
@@ -774,7 +828,7 @@ ul.social-buttons li a:active {
 }
 
 .portfolio-modal .modal-content {
-    padding: 100px 0;
+    padding: 60px 0;
     min-height: 100%;
     border: 0;
     border-radius: 0;
@@ -812,9 +866,9 @@ ul.social-buttons li a:active {
 .portfolio-modal .close-modal {
     position: absolute;
     top: 25px;
-    right: 25px;
-    width: 75px;
-    height: 75px;
+    right: 45px;
+    width: 55px;
+    height: 55px;
     background-color: transparent;
     cursor: pointer;
 }
@@ -826,7 +880,7 @@ ul.social-buttons li a:active {
 .portfolio-modal .close-modal .lr {
     z-index: 1051;
     width: 1px;
-    height: 75px;
+    height: 55px;
     margin-left: 35px;
     background-color: #222;
     -webkit-transform: rotate(45deg);
@@ -837,7 +891,7 @@ ul.social-buttons li a:active {
 .portfolio-modal .close-modal .lr .rl {
     z-index: 1052;
     width: 1px;
-    height: 75px;
+    height: 55px;
     background-color: #222;
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
@@ -864,4 +918,47 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #{{ site.data.template.color.primary }};
+}
+
+/* Fix for iPad screensize menu breakpoint to collapse - jon */
+@media (max-width: 769px) {
+  .navbar-header {
+    float: none;
+  }
+  .navbar-left,.navbar-right {
+    float: none !important;
+  }
+  .navbar-toggle {
+    display: block;
+  }
+  .navbar-collapse {
+    border-top: 1px solid transparent;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+  }
+  .navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px;
+  }
+  .navbar-collapse.collapse {
+    display: none!important;
+  }
+  .navbar-nav {
+    float: none!important;
+    margin-top: 7.5px;
+  }
+  .navbar-nav>li {
+    float: none;
+  }
+  .navbar-nav>li>a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .collapse.in{
+    display:block !important;
+  }
+}
+
+/* Upping blog post font size for content */
+.blog-content p {
+  font-size: 16px;
 }
