@@ -729,7 +729,7 @@ section#about .new-class{
 
 footer {
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 45px;
     font-family: {{ site.data.template.font.primary }};
     background-color: #f7f7f7;
 
@@ -742,20 +742,26 @@ footer {
     line-height: 40px;
 }*/
 
+footer {
+    font-family: {{ site.data.template.font.primary }};
+
+}
+
 footer ul {
     list-style: none;
+    text-align: center;
 }
 
 footer ul li {
-    float: left;
+    display:inline-block;
     padding-left: 1em;
     padding-right: 1em;
-    display: block;
     border-left: 2px solid #{{ site.data.template.color.muted }};
 }
 
 footer ul li:first-child {
     border-left: none;
+    padding-left: 0;
 }
 footer ul li a {
     color: inherit;
