@@ -1,0 +1,16 @@
+<!-- Full blog posts -->
+    <section id="blog">
+      <div class="container">
+        {% for p in site.posts %}
+        <div class="row">
+          <div class="col-sm-4 col-md-offset-2">
+            <h2 class="section-heading">{{p.title}}</h2>
+            <h4 class="section-subheading">{{p.date | date: '%B %d, %Y'}}</h4>
+          </div>
+        </div>
+        <div class="row">
+        <div class="col-sm-8 col-md-offset-2 blog-content">{{p.content}}</div>
+        </div>
+        {% endfor %}
+      </div>
+    </section>

@@ -290,6 +290,14 @@ and (max-device-width : 1024px)  {
         font-size: 1.5em;
     }
 
+    .navbar-default.navbar-force-shrink {
+        padding: 10px 0;
+        background-color: #222;
+    }
+
+    .navbar-default.navbar-force-shrink .navbar-brand {
+        font-size: 1.5em;
+    }
 }
 
 header {
@@ -641,6 +649,10 @@ section h3.section-subheading {
     .navbar-default.navbar-shrink .logoimg {
       height: 45px;
     }
+
+    .navbar-default.navbar-force-shrink .logoimg {
+      height: 45px;
+    }
 }
 
 @media(min-width:1200px) {
@@ -908,3 +920,45 @@ body {
     webkit-tap-highlight-color: #{{ site.data.template.color.primary }};
 }
 
+/* Fix for iPad screensize menu breakpoint to collapse - jon */
+@media (max-width: 769px) {
+  .navbar-header {
+    float: none;
+  }
+  .navbar-left,.navbar-right {
+    float: none !important;
+  }
+  .navbar-toggle {
+    display: block;
+  }
+  .navbar-collapse {
+    border-top: 1px solid transparent;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+  }
+  .navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px;
+  }
+  .navbar-collapse.collapse {
+    display: none!important;
+  }
+  .navbar-nav {
+    float: none!important;
+    margin-top: 7.5px;
+  }
+  .navbar-nav>li {
+    float: none;
+  }
+  .navbar-nav>li>a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .collapse.in{
+    display:block !important;
+  }
+}
+
+/* Upping blog post font size for content */
+.blog-content p {
+  font-size: 16px;
+}
