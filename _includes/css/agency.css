@@ -731,6 +731,7 @@ section#contact .text-danger {
 section#about .new-class{
     color: blue;
     text-transform: none;
+    margin-bottom: 100px;
 }
 
 footer {
