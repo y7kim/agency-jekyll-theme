@@ -1,0 +1,15 @@
+---
+title: マッピングパーティ開催支援
+subtitle: イベント支援
+layout: default
+modal-id: 2
+date: 2100-01-01
+img: dreams.png
+thumbnail: dreams-thumbnail.png
+alt: image-alt
+project-date: 2018
+client: TBD1
+category: TBD2
+description: マッピングパーティを開催してみたいけれども、どうやればよいのかわからない。。。 そんな方々のために、マッピング経験のあるマッパーの紹介、およびその派遣支援を行います。詳しくはContactからお申し込みください。
+
+---

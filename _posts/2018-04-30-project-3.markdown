@@ -1,0 +1,15 @@
+---
+title: 会計報告
+subtitle: 年次会計報告
+layout: default
+modal-id: 3
+date: 2018-03-31
+img: golden.png
+thumbnail: golden-thumbnail.png
+alt: image-alt
+project-date: 2018
+client: none
+category: info
+description: OpenStreetMap Foundation Japanの会計報告は以下のとおりです。<br><ul><li><a href="https://docs.google.com/viewer?a=v&pid=sites&srcid=b3NtZi5qcHx3d3d8Z3g6NGUzMzAwNjdmZGU1MGM2">OSMFJ第1期報告・第2期計画</a><li><a href="https://docs.google.com/viewer?a=v&pid=sites&srcid=b3NtZi5qcHx3d3d8Z3g6MTJmMDNhMzUxZWRjNTZhMg">OSMFJ第2期報告・第3期計画</a></li><li><a href="https://docs.google.com/viewer?a=v&pid=sites&srcid=b3NtZi5qcHx3d3d8Z3g6NjQ5ZDU1OGM5MmY5ZTU5YQ">OSMFJ第3期報告・第4期計画</a></li><li><a href="https://docs.google.com/viewer?a=v&pid=sites&srcid=b3NtZi5qcHx3d3d8Z3g6OWZhYzU5NjAwNjRjNWU0">OSMFJ第6期報告・第7期計画</a></li></ul>
+
+---
