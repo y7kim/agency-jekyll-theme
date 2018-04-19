@@ -1,15 +1,15 @@
 ---
-title: SotM Japanについて
-subtitle: OpenStreetMapローカルカンファレンス
+title: 会員について
+subtitle: 個人会員・企業会員
 layout: default
 modal-id: 4
-date: 2014-07-15
-img: sotmjapanlogo.png
-thumbnail: sotmjapanlogo-thumbnail.png
+date: 2017-10-11
+img: members.png
+thumbnail: members-thumbnail.png
 alt: image-alt
-project-date: 2014
+project-date: Apr 2014
 client: none
 category: info
-description: OpenStreetMap Foundation Japanでは、2014年以降1年に1回、State of the Map Japanとして、ローカルカンファレンスの開催を行っています。<ul><li><a href="http://stateofthemap.jp/2014/">State of the Map 2014 - 東京</a></li><li><a href="http://stateofthemap.jp/2015/">State of the Map 2015 - 浜松</a></li><li><a href="http://stateofthemap.jp/2016/">State of the Map 2016 - 東京</a></li><li><a href="https://2017.stateofthemap.org/ja/">State of the Map 2017 - 会津若松</a> (英国OSMFと共催、国際カンファレンスとして開催)</li></ul>
+description: OSMFJは、個人として参加できる会員種別として「正会員」と「賛助会員」、企業として参加できる会員種別として「賛助会員」を設定しています。「一般社団法人オープンストリートマップ・ファウンデーション・ジャパン(略称:OSMFJ)」の理念に賛同し、活動に参加したり、援助してくださる方を募集しています。<br><br>正会員<br>2018年現在、正会員は募集しておりません。<br>賛助会員の募集<br>私たちの活動を応援していただける賛助会員募集しています。（法人、個人は問いません）<br>正会員としての活動はできないが、OSMFJの趣旨に賛同し、資金的に援助したいという方、賛助会員としてOSMFJを支えて頂けませんか？<br>また、賛助会員には会費以外特別な義務はありません。<br>会費<br><ul><li>賛助会員（法人）： （入会金なし、年会費一口50,000円）</li><li>賛助会員（個人）： （入会金なし、年会費3,500円）　（2016年年度改定）</li></ul>※その他寄付等については随時受け賜ります。
 
 ---

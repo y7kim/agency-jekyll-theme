@@ -1,15 +1,15 @@
 ---
-title: 会計報告
-subtitle: 年次会計報告
+title: SotM Japanについて
+subtitle: OpenStreetMapローカルカンファレンス
 layout: default
 modal-id: 3
-date: 2018-03-31
-img: accounting.png
-thumbnail: accounting-thumbnail.png
+date: 2014-07-15
+img: sotmjapanlogo.png
+thumbnail: sotmjapanlogo-thumbnail.png
 alt: image-alt
-project-date: 2018
+project-date: 2014
 client: none
 category: info
-description: OpenStreetMap Foundation Japanの会計報告は以下のとおりです。<br><ul><li><a href="https://docs.google.com/viewer?a=v&pid=sites&srcid=b3NtZi5qcHx3d3d8Z3g6NGUzMzAwNjdmZGU1MGM2">OSMFJ第1期報告・第2期計画</a><li><a href="https://docs.google.com/viewer?a=v&pid=sites&srcid=b3NtZi5qcHx3d3d8Z3g6MTJmMDNhMzUxZWRjNTZhMg">OSMFJ第2期報告・第3期計画</a></li><li><a href="https://docs.google.com/viewer?a=v&pid=sites&srcid=b3NtZi5qcHx3d3d8Z3g6NjQ5ZDU1OGM5MmY5ZTU5YQ">OSMFJ第3期報告・第4期計画</a></li><li><a href="https://docs.google.com/viewer?a=v&pid=sites&srcid=b3NtZi5qcHx3d3d8Z3g6OWZhYzU5NjAwNjRjNWU0">OSMFJ第6期報告・第7期計画</a></li></ul>
+description: OpenStreetMap Foundation Japanでは、2014年以降1年に1回、State of the Map Japanとして、ローカルカンファレンスの開催を行っています。<ul><li><a href="http://stateofthemap.jp/2014/">State of the Map 2014 - 東京</a></li><li><a href="http://stateofthemap.jp/2015/">State of the Map 2015 - 浜松</a></li><li><a href="http://stateofthemap.jp/2016/">State of the Map 2016 - 東京</a></li><li><a href="https://2017.stateofthemap.org/ja/">State of the Map 2017 - 会津若松</a> (英国OSMFと共催、国際カンファレンスとして開催)</li></ul>
 
 ---
