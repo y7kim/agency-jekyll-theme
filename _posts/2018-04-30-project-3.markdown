@@ -4,8 +4,8 @@ subtitle: 年次会計報告
 layout: default
 modal-id: 3
 date: 2018-03-31
-img: golden.png
-thumbnail: golden-thumbnail.png
+img: accounting.png
+thumbnail: accounting-thumbnail.png
 alt: image-alt
 project-date: 2018
 client: none

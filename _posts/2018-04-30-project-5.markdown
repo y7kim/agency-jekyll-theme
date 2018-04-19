@@ -4,8 +4,8 @@ subtitle: 個人会員・企業会員
 layout: default
 modal-id: 5
 date: 2017-10-11
-img: treehouse.png
-thumbnail: treehouse-thumbnail.png
+img: members.png
+thumbnail: members-thumbnail.png
 alt: image-alt
 project-date: Apr 2014
 client: none

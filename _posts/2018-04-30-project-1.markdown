@@ -4,8 +4,8 @@ subtitle: 団体について
 layout: default
 modal-id: 1
 date: 2018-04-10
-img: escape.png
-thumbnail: escape-thumbnail.png
+img: organizational.png
+thumbnail: organizational-thumbnail.png
 alt: image-alt
 project-date: 2010
 client: none
