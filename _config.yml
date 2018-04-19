@@ -16,34 +16,34 @@ people:
     - title: twitter
       url: https://twitter.com/miurahr
     - title: facebook
-      url: # https://www.facebook.com/miurahr
+      url: https://www.facebook.com/miurahr
 
 - name: ikiya
   pic: 2
   position: 副理事
   social:
     - title: twitter
-      url: # https://twitter.com/ikiya
+      url: https://twitter.com/ikiya
     - title: facebook
-      url: # https://www.facebook.com/kinya.iino
+      url: https://www.facebook.com/kinya.iino
 
 - name: 飯田 哲 (Iida Satoshi, nyampire)
   pic: 3
   position: 副理事
   social:
     - title: twitter
-      url: # https://twitter.com/nyampire
+      url: https://twitter.com/nyampire
     - title: facebook
-      url: # https://www.facebook.com/profile.php?id=100002075511572
+      url: https://www.facebook.com/profile.php?id=100002075511572
 
 - name: 古橋 大地 (Furuhashi Taichi, mapconcierge)
   pic: 4
   position: 理事
   social:
     - title: twitter
-      url: # https://twitter.com/mapconcierge
+      url: https://twitter.com/mapconcierge
     - title: facebook
-      url: # https://www.facebook.com/mapconcierge
+      url: https://www.facebook.com/mapconcierge
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
