@@ -872,3 +872,21 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #{{ site.data.template.color.primary }};
 }
+
+
+@media(min-width:768px) {
+  section h2.section-heading {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 30px;
+  }
+
+  header .intro-text .intro-heading {
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    font-family: Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 50px;
+  }
+}
