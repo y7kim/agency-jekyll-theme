@@ -874,7 +874,7 @@ body {
 }
 
 
-@media(min-width:768px) {
+@media(max-width:768px) {
   section h2.section-heading {
     margin-top: 0;
     margin-bottom: 15px;
