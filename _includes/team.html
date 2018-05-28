@@ -9,7 +9,11 @@
             </div>
             <div class="row">
                 {% for member in site.people %}
+                {% if member.pic == "4.jpg" %}
+                <div class="col-sm-4 col-md-offset-4">
+                {% else %}
                 <div class="col-sm-4">
+                {% endif %}
                     <div class="team-member">
                         <img src="img/team/{{ member.pic }}" class="img-responsive img-circle" alt="">
                         <h4>{{ member.name }}</h4>
