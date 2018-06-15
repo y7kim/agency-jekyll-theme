@@ -1,0 +1,140 @@
+{
+  "basics": {
+    "name": "Madison Cranmer",
+    "label": "Student",
+    "picture": "",
+    "email": "madison_cranmer@hotmail.com",
+    "phone": "(907) 230-3126",
+    "website": "www.madi-designs.com",
+    "summary": "Born and raised in Alaska, Madison now goes to school at Eastern Washington University. In June 2019 she will graduate with a Bachelor of Arts in Visual Communications Design, UX Certificate. and a minor in Communication Studies. Madi is passionate in being creative and thinking outside the box. Well versed in Photoshop, Illustrator, InDesign, and User Experience Design. ",
+    "location": {
+      "address": "4243 Cosmos Dr.",
+      "postalCode": "99517",
+      "city": "Anchorage",
+      "countryCode": "US",
+      "region": "Alaska"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "madisoncranmer",
+        "url": "https://www.linkedin.com/in/madison-cranmer-982b41135/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Eastern Washington University Housing",
+      "position": "Community Advisor",
+      "website": "",
+      "startDate": "Fall 2016",
+      "endDate": "Present",
+      "summary": " Housing and Residential Life at EWU strives to make living on-campus an excellent experience by building community, personal development, and striving in academics. ",
+      "highlights": [
+        "Create flyers, bulletin boards, and programs that are engaging and education",
+        "Keep contact with supervisor, co-workers, and residents everyday"
+      ]
+    },
+    {
+      "company": "BAC Transportation",
+      "position": "Reservations",
+      "website": "",
+      "startDate": "Summer 2015",
+      "endDate": "Summer 2018",
+      "summary": "BAC Transportation strives to create a reliable transportation service to people traveling in Alaska. Timeliness and professionalism is essential while working for BAC",
+      "highlights": [
+        "Friendly customer service through the phone and email on a daily basis",
+        "Multi-tasking between phone calls, emails, and customers coming to reservations"
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Various Projects in Cheney and Spokane",
+      "position": "Volunteer",
+      "website": "",
+      "startDate": "Fall 2015",
+      "endDate": "Present",
+      "summary": "Through EWU and the Community Adviser position, Madi has participated and facilitated multiple projects in the Spokane and Cheney area",
+      "highlights": [
+        "Raised over $300 and created toys and blankets for Spokane Humane Society",
+        "Participated in community service on Martin Luther King Jr. Day of Service at the House of Charity, SCRAPS, and cleaned homes",
+        "Facilitated Penny and Can Wars for Feed Cheney",
+        "Spent time raising money and donating time for Vanessa Behan Crisis Nursery"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Eastern Washington University",
+      "area": "Visual Communications Design",
+      "studyType": "Bachelor of Arts",
+      "startDate": "September 2015",
+      "endDate": "June 2019",
+      "gpa": "3.97",
+      "courses": []
+    },
+    {
+      "institution": "West Anchorage High School",
+      "area": "High School Diploma",
+      "studyType": "",
+      "startDate": "2011",
+      "endDate": "2015",
+      "gpa": "3.8",
+      "courses": []
+    }
+  ],
+  "awards": [
+    {
+      "title": "Dean's List",
+      "date": "2018",
+      "awarder": "Eastern Washington University",
+      "summary": "Every quarter at EWU since Madison started, she has been on the Dean's List, which is awarded for having a 3.5 GPA or higher"
+    },
+    {
+      "title": "Bronze Pin",
+      "date": "2017",
+      "awarder": "Eastern Washington University Housing and Residential Life",
+      "summary": "Awarded a bronze pin for exceding in leadership as a Community Advisory, Publicity Adviser in the National Residence Hall Honorary, and attending a National Leadership Conference where my program was top 50 out of the country. "
+    },
+    {
+      "title": "Induction into a National Society ",
+      "date": "2016",
+      "awarder": "National Society of Collegiate Scholars",
+      "summary": "Was inducted into the National Society of Collegiate Scholars due to excellent grades"
+    }
+  ],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Graphic Design",
+      "level": "",
+      "keywords": [
+        "Illustrator",
+        "Photoshop",
+        "InDesign"
+      ]
+    },
+    {
+      "name": "User Experience Design",
+      "level": "",
+      "keywords": [
+        "Sketch",
+        "Usability Testing",
+        "Prototyping/Wireframing"
+      ]
+    },
+    {
+      "name": "Web Development",
+      "level": "",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript"
+      ]
+    }
+  ],
+  "languages": [],
+  "interests": [],
+  "references": []
+}
