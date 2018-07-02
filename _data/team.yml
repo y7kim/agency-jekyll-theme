@@ -1,14 +1,14 @@
 # Team names, titles and social links
 - name: Matt Gee
   pic: team-matt-gee.jpg
-  position: Chief Executive Officer
+  position: CEO
   social:
     - title: linkedin
       url: "https://www.linkedin.com/in/matthewgee1/"
 
 - name: Tom Plagge
   pic: team-tom-plagge.jpg
-  position: CTO/Chief Scientist
+  position: CTO
   social:
     - title: linkedin
       url: "https://www.linkedin.com/in/tplagge/"
@@ -22,7 +22,7 @@
 
 - name: Natalie Evans Harris
   pic: team-natalie-evans-harris.jpg
-  position: COO/VP of Ecosystem Development
+  position: COO
   social:
     - title: linkedin
       url: "https://www.linkedin.com/in/nevansharris/"
@@ -33,6 +33,15 @@
   social:
     - title: linkedin
       url: "https://www.linkedin.com/in/franziskagonder/"
+
+- name: David Goodman
+  pic: team-david-goodman.jpg
+  position: VP of Ecosystem Development
+  social:
+    - title: linkedin
+      url: "https://www.linkedin.com/in/david-goodman-ph-d-1846375/"
+    - title: twitter
+      url: "https://twitter.com/measuredoc"
 
 - name: Vyki Englert
   pic: team-vyki-englert.jpg
