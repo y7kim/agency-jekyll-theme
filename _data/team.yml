@@ -65,21 +65,3 @@
   social:
     - title: linkedin
       url: "https://www.linkedin.com/in/adam-c-gillette-aaa4a529/"
-
-- name: Aretha Kebirungi
-  pic: aretha-kebirungi.jpg
-  position: Lead Software Engineer
-  social:
-    - title: linkedin
-      url: "https://www.linkedin.com/in/akebirungi/"
-    - title: github
-      url: "https://github.com/akebi"
-
-- name: Stanley Ndagi
-  pic: team-stan-ndagi.jpg
-  position: Software Engineer
-  social:
-    - title: linkedin
-      url: "https://www.linkedin.com/in/ndagistanley/"
-    - title: github
-      url: "https://github.com/NdagiStanley"
