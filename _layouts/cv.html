@@ -1,0 +1,201 @@
+<!doctype html>
+
+<html lang="en">
+
+    <head>
+
+      <title>fastlaw.io</title>
+
+        <meta name="description" content="">
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+        <!-- Google Font: Lato -->
+        <link href='https://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,700italic,900,900italic&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+
+        <!-- FontAwesome -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+        <!-- Main CSS -->
+        <link rel="stylesheet" href="/cv_assets/css/main.css">
+        
+        <!-- Themes -->
+        <link rel="stylesheet" href="/cv_assets/css/custom.css">
+        
+        <!-- jQuery -->
+        <script src="/cv_assets/js/jquery.min.js"></script>
+
+        <!-- dense.js (Retina plugin) -->
+        <script src="/cv_assets/js/dense.js"></script>
+
+        <!-- ScrollReveal -->
+        <script src="/cv_assets/js/scrollreveal.min.js"></script>
+
+        <!-- Main JS -->
+        <script src="/cv_assets/js/main.js"></script>
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-58209212-3"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'UA-58209212-3');
+        </script>
+    </head>
+
+    <body>
+
+        <div class="c-preloader  js-preloader">
+            <div class="c-preloader__spinner  t-preloader__spinner"></div>
+        </div>
+
+        <div class="c-main-container  js-main-container">
+
+
+
+            <!-- ################################ -->
+            <!-- ############ HEADER ############ -->
+            <!-- ################################ -->
+            
+            <section class="o-section o-section--header  t-section  t-section--header">
+                <div class="c-header">
+
+                    <div class="o-section__header-bg  t-section__header"></div>
+                    <div class="o-section__content-bg  t-section__content"></div>
+
+                    <div class="o-container">
+                        <div class="o-section__container">
+
+                            <header class="o-section__header  c-header__header  t-section__header">
+                                <div class="c-header__inner-header">
+
+                                    <div class="c-header__avatar">
+                                        <div class="a-header  c-avatar">
+                                          <img class="c-avatar__img" src="/img/team/{{ page.person_id }}.png" alt="">
+                                        </div><!-- /c-avatar -->
+                                    </div><!-- /c-header-avatar -->
+
+                                </div><!-- /c-header__inner-header -->
+                            </header><!-- /o-section__header -->
+
+                            <div class="o-section__content  c-header__content  t-section__content">
+                                <div class="c-header__inner-content">
+
+                                    <div class="c-header__top">
+
+                                        <div class="c-header__brand">
+
+                                            <div class="c-brand">
+                                                <h1 class="c-brand__title  t-title">
+                                                    <span class="c-brand__sizer">
+                                                        <span class="a-header  c-brand__first-word  t-title__first-word">
+                                                          {{ page.person_name }}
+                                                        </span>
+                                                        <span class="a-header  c-brand__second-word  t-title__second-word">
+                                                          {{ page.person_surname }}
+                                                        </span>
+                                                    </span>
+                                                </h1>
+                                                <h2 class="a-header  c-brand__sub-title  t-sub-title">
+                                                    <span class="c-brand__sizer">
+                                                      {{ page.person_duties }}
+                                                    </span>
+                                                </h2>
+                                            </div><!-- /c-brand -->
+
+                                        </div><!-- /c-header__brand -->
+
+                                        <ul class="c-header__social-buttons  c-social-buttons">
+                                            {% if page.facebook %}
+                                            <li class="a-header">
+                                              <a href="{{ page.facebook }}" target="_blank" class="c-social-button t-social-button">
+                                                    <i class="fab fa-lg fa-facebook"></i>
+                                                </a>
+                                            </li>
+                                            {% endif %}
+                                            {% if page.website %}
+                                            <li class="a-header">
+                                              <a href=" {{ page.website }} " target="_blank" class="c-social-button  t-social-button">
+                                                    <i class="fa-lg fab fa-internet-explorer"></i>
+                                                </a>
+                                            </li>
+                                            {% endif %}
+                                            {% if page.github %}
+                                            <li class="a-header">
+                                              <a href="{{ page.github }}" target="_blank" class="c-social-button  t-social-button">
+                                                <i class="fab fa-lg fa-github"></i>
+                                              </a>
+                                            </li>
+                                            {% endif %}
+                                        </ul><!-- /c-header__social-buttons -->
+
+                                    </div><!-- /c-header__top -->
+
+                                    <div class="c-header__contact">
+
+                                        <hr class="a-header  c-header__contact-divider" />
+
+                                        <div class="o-grid">
+
+                                            <div class="o-grid__col-md-6  o-grid__col-sm-12">
+                                                <div class="a-header  o-content">
+                                                    <div class="o-content__body">
+                                                        <h4>Адрес</h4>
+                                                        <address>
+                                                            121205, Москва, территория инновационного центра Сколково, Большой бульвар, 42с1, офис 322
+                                                        </address>
+                                                    </div>
+                                                </div><!-- /o-content -->
+                                            </div><!-- /o-grid__col -->
+
+                                            <div class="o-grid__col-md-3  o-grid__col-sm-6">
+                                                <div class="a-header  o-content">
+                                                    <div class="o-content__body">
+                                                      <a href="tel:{{ page.person_phone }}" class="t-link-container">
+                                                        <h4>Телефон</h4>
+                                                        <p>
+                                                          <span class="t-link-container__item--blended">
+                                                            {{ page.person_phone }}
+                                                          </span>
+                                                        </p>
+                                                      </a>
+                                                    </div>
+                                                </div><!-- /o-content -->
+                                            </div><!-- /o-grid__col -->
+
+                                            <div class="o-grid__col-md-3  o-grid__col-sm-6">
+                                                <div class="a-header  o-content">
+                                                    <div class="o-content__body">
+                                                        <a href="mailto:{{ page.person_id }}@example.com" class="t-link-container">
+                                                            <h4>Email</h4>
+                                                            <p>
+                                                                <span class="t-link-container__item--blended">
+                                                                  {{ page.person_id }}@example.com
+                                                                </span>
+                                                            </p>
+                                                        </a><!-- /o-link-container -->
+                                                    </div>
+                                                </div><!-- /o-content -->
+                                            </div><!-- /o-grid__col -->
+
+                                        </div><!-- /o-grid -->
+                                    </div><!-- /c-header__contact -->
+
+                                </div><!-- /c-header__inner-content -->
+                            </div><!-- /o-section__content -->
+
+                        </div><!-- /o-section__container -->
+
+                    </div><!-- /o-container -->
+
+                </div><!-- /c-header -->
+            </section><!-- /o-section -->
+
+        </div><!-- /c-main-container -->
+
+    </body>
+
+</html>
