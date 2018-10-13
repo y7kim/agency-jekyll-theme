@@ -3,47 +3,9 @@ baseurl: /
 
 # Site settings
 title: FastLaw
-email: bavadim@gmail.com
+email: info@fastlaw.io
 description: "Сайт команды FastLaw. Описание команды и проектов."
 
-
-# Team names, titles and social links
-people:
-- name: Вадим Полулях
-  pic: 1.png
-  position: Главный инженер
-  description: 'Архитектор платформ AlfaFactoring и Raiffeisen Business Online. Ведущий инженер проекта iPavlov, МФТИ.'
-  social:
-    - title: facebook
-      url: https://www.facebook.com/vpolulyah
-    - title: stack-overflow
-      url: https://stackoverflow.com/users/1613558/vad
-    - title: github
-      url: https://github.com/bavadim
-
-- name: Марат Зайнутдинов
-  pic: 2.jpg
-  position: Научный консультант
-  description: 'Основатель направления анализа данных в компаниях Segmento и QuantBrothers. Исследователь проекта iPavlov, МФТИ.'
-  social:
-    - title: facebook
-      url: https://www.facebook.com/tsundokum
-
-- name: Антон Пронин
-  pic: 3.jpg
-  position: Бизнес-наставник
-  description: 'Эксперт в области повышения эффективности бизнес-процессов. Директор Центра юридических технологий Фонда Сколково.'
-  social:
-    - title: facebook
-      url: https://www.facebook.com/anton.pronin.10
-
-- name: Бурцев Михаил Сергеевич
-  pic: 4.jpg
-  position: Научный руководитель
-  description: 'Кандидат физико-математических наук, заведующий лабораторией нейронных систем и глубокого обучения МФТИ.'
-  social:
-    - title: facebook
-      url: https://www.facebook.com/mikhail.burtsev
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:

@@ -1,0 +1,68 @@
+<div class="block main" style="background-image: url(assets/img/bg-main.jpg);">
+  <div class="block__inner flex">
+    <div class="main__content">
+      <div class="main__partners">
+        {% for partner in site.data.partners limit:2 %}
+        <a href="{{ partner.url }}" class="main__partners-item">
+          <img src="assets/img/partners/{{ partner.name }}-white.png" alt="partner">
+        </a>
+        {% endfor %}
+      </div> 
+      <h1 class="main__title">SMART ASSISTANTS - диалоговые решения для автоматизации типовых бизнес-процессов на базе искусственного интеллекта</h1>
+      <a href="#facilities" class="button"><span>Узнать больше</span></a>
+    </div>
+    <div class="main__image">
+      <img src="assets/img/phone.png" alt="tiser" style="max-width: 250px;">
+    </div>
+  </div>
+</div><!-- .main end -->
+
+<div id="facilities" class="block card">
+  <div class="block__content">
+    <div class="title-group">
+      <h2 class="title">Возможности SMART ASSISTANTS</h2>
+      <p class="text">Не думайте о лишнем, об этом подумает ИИ</p>
+    </div>
+    <div class="block__sections block__sections_reverse">
+      <div class="block__section-content">
+        <h2 class="card__title">Smart Assist позволяет:</h2>
+        <div class="__user-input">
+          <ul>
+            <li>в один клик решить любой вопрос, стоящий перед предпринимателем</li>
+            <li>максимально удешевить и ускорить сервис за счет применения интеллектуальных ассистентов на базе ИИ</li>
+            <li>снизить потребность в коммуникации с предпринимателем за счет интеграции всех данных в один профиль</li>
+            <li>вести документооборот и управлять командой</li>
+            <li>строить отчетность по разным аспектам деловой активности</li>
+          </ul>
+        </div>
+      </div>
+      <div class="block__section-image" style="text-align: center; background-image: url(assets/img/bg-card.png);">
+        <img src="assets/img/phone.png" alt="Изображение" style="max-width: 250px;">
+      </div>
+    </div>
+  </div>
+  <div class="block__inner">
+    <div class="advantages">
+      <div class="flex-items">
+        <div class="advantages-item">
+          <div class="advantages-item__inner">
+            <img class="advantages-item__image" src="assets/img/ic_day.svg" alt="#">
+            <p class="advantages-item__text">Помощник находится у вас в мессенджере 24/7</p>
+          </div>
+        </div>
+        <div class="advantages-item">
+          <div class="advantages-item__inner">
+            <img class="advantages-item__image" src="assets/img/ic_clock.svg" alt="#">
+            <p class="advantages-item__text">Экономия до 80% времени на решение типовых задач</p>
+          </div>
+        </div>
+        <div class="advantages-item">
+          <div class="advantages-item__inner">
+            <img class="advantages-item__image" src="assets/img/ic_gear.svg" alt="#">
+            <p class="advantages-item__text">Автоматизация любых типовых консультаций с использованием нейронных сетей и машинного обучения</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div><!-- .block end -->

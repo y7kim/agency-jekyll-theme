@@ -1,53 +1,53 @@
-<!-- Services Section -->
-    <section id="services">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Что мы делаем</h2>
-                    <h3 class="section-subheading text-muted">Мы стараемся максимально использовать свои знания и технологии для вас.</h3>
-                </div>
+<div id="products">
+  {% for product in site.data.products %}
+  {% assign loopindex = forloop.index | modulo: 2 %}
+  {% if loopindex == 1 %}
+  <div class="block card" style="background-color: #f5f9fc;">
+  {% else %}
+  <div class="block card">
+  {% endif %}
+    <div class="block__inner">
+      <div class="title-group">
+        <h2 class="title">{{ product.name }}</h2>
+        <p class="text">{{ product.summary }}</p>
+      </div>
+      <div class="block__sections">
+        <div class="block__section-content">
+          <div class="block__section-content-inner">
+            <h2 class="card__title">Что может {{ product.shortname }}</h2>
+            <div class="__user-input">
+              {% for feature in product.features %}
+              <h3>{{ feature.title }}</h3>
+              <p>{{ feature.description }}</p>
+              {% endfor %}
             </div>
-            <div class="row text-center">
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-phone fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="service-heading"><a href="http://products.fastlaw.io/contactcenter/">Contact Center</a></h4>
-                    <p class="text-muted">Система автоматизации контакт-центра на основе технологий машинного обучения.</p>
-                </div>
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-shield fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="service-heading"><a href="http://products.fastlaw.io/grc/">FastLaw GRC</a></h4>
-                  <p class="text-muted">Система контроля комплайнс-рисков, следующая концепции Governance, Risk and Compliance.</p>
-                </div>
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-comments fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="service-heading"><a href="http://products.fastlaw.io/nota/">Nota</a></h4>
-                    <p class="text-muted">Чат-бот для управления командой. Читает переписку и автоматически создает запись в системе управления задач.</p>
-                </div>
-                <!--div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-file fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="service-heading">Fact Extractor</h4>
-                    <p class="text-muted">Извлечение значимой информации из документов, в том числе в форме изображений.</p>
-                </div>
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-paperclip fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="service-heading">Buiseness Assistent</h4>
-                    <p class="text-muted">Помощник в решении типовых задачах бизнеса. Оказывает помощь в регистрации предприятия, юридических и бухгалтерских вопросах.</p>
-                </div-->
-            </div>
+            <a href="#contacts" class="button"><span>Попробовать</span></a>
+            <!--button class="button-link">Узнать больше</button--!>
+          </div>
         </div>
-    </section>
+        <div class="block__section-image block-video">
+          <div class="block-video__inner">
+            <div class="youtube" id="0wCC3aLXdOw"></div>
+            <!-- <img class="video" src="content/img/img-video-0.jpg" alt="Изображение"> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div><!-- .block end -->
+  {% endfor %}
+</div>
+
+<div id="cases" class="block cases">
+  <div class="block__inner">
+    <div class="partners">
+      <div class="flex-items">
+        {% for partner in site.data.partners %}
+        <div class="partners-item">
+          <img src="assets/img/partners/{{ partner.name }}.png" alt="partner">
+        </div>  
+        {% endfor %}
+      </div>
+    </div><!-- .partners end -->
+  </div>
+</div><!-- .cases end -->
+

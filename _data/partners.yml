@@ -1,0 +1,6 @@
+- name: skolkovo
+  url: https://sk.ru/
+- name: mipt
+  url: https://mipt.ru/
+- name: ipavlov
+  url: https://ipavlov.ai
