@@ -1,75 +1,28 @@
-<div id="benefits" class="block assistants">
+<div id="advantages" class="block assistants">
   <div class="block__inner">
     <div class="title-group">
-      <h2 class="title">Зачем компании нужны Ассистенты?</h2>
+      <h2 class="title">{{ site.data.advantages.title }}</h2>
     </div>
     <div class="flex-items">
+      {% for advantage in site.data.advantages.advantages %}
       <div class="assistants-item">
         <div class="assistants-item__inner">
-          <div class="assistants-item__num">01</div>
-          <div class="assistants-item__title">Ассистент хранит все полученные знания</div>
-          <div class="assistants-item__text">Разнообразный и богатый опыт дальнейшее развитие различных форм деятельности требуют определения и уточнения направлений прогрессивного развития.</div>
+          <div class="assistants-item__num">0{{ forloop.index + 1 }}</div>
+          <div class="assistants-item__title">{{ advantage.name }}</div>
+          <div class="assistants-item__text">{{ advantage.description }}</div>
         </div>
       </div>
-      <div class="assistants-item">
-        <div class="assistants-item__inner">
-          <div class="assistants-item__num">02</div>
-          <div class="assistants-item__title">Продолжает обучаться в процессе работы</div>
-          <div class="assistants-item__text">Разнообразный и богатый опыт дальнейшее развитие различных форм деятельности требуют определения и уточнения направлений прогрессивного развития.</div>
-        </div>
-      </div>
-      <div class="assistants-item">
-        <div class="assistants-item__inner">
-          <div class="assistants-item__num">03</div>
-          <div class="assistants-item__title">Тиражируется, не требуя обучения и тренингов</div>
-          <div class="assistants-item__text">Разнообразный и богатый опыт дальнейшее развитие различных форм деятельности требуют определения и уточнения направлений прогрессивного развития.</div>
-        </div>
-      </div>
-      <div class="assistants-item">
-        <div class="assistants-item__inner">
-          <div class="assistants-item__num">04</div>
-          <div class="assistants-item__title">Не болеет, не уходит в отпуск, не ходит на «перекуры»</div>
-          <div class="assistants-item__text">Разнообразный и богатый опыт дальнейшее развитие различных форм деятельности требуют определения и уточнения направлений прогрессивного развития.</div>
-        </div>
-      </div>
-      <div class="assistants-item">
-        <div class="assistants-item__inner">
-          <div class="assistants-item__num">05</div>
-          <div class="assistants-item__title">Не бывает в плохом настроении</div>
-          <div class="assistants-item__text">Разнообразный и богатый опыт дальнейшее развитие различных форм деятельности требуют определения и уточнения направлений прогрессивного развития.</div>
-        </div>
-      </div>
-      <div class="assistants-item">
-        <div class="assistants-item__inner">
-          <div class="assistants-item__num">06</div>
-          <div class="assistants-item__title">Не устраивает забастовок, не выдвигает требования</div>
-          <div class="assistants-item__text">Разнообразный и богатый опыт дальнейшее развитие различных форм деятельности требуют определения и уточнения направлений прогрессивного развития.</div>
-        </div>
-      </div>
+      {% endfor %}
     </div>
     <div class="checks">
       <div class="flex-items">
+        {% for item in site.data.advantages.summary %}
         <div class="checks-item">
-          <div class="checks-item__check">Экономия 50% времени</div>
+          <div class="checks-item__check">{{ item }}</div>
         </div>
-        <div class="checks-item">
-          <div class="checks-item__check">Дешевле аутсорса</div>
-        </div>
-        <div class="checks-item">
-          <div class="checks-item__check">Проще всего, что есть</div>
-        </div>
+        {% endfor %}
       </div>
     </div>
   </div>
 </div><!-- .assistant end -->
 
-<div id="technologies" class="block block-text" style="background-image: url(assets/img/bg-text.jpg);">
-  <div class="block__content">
-    <h2 class="title _text-center">Технологии</h2>
-    <div class="__user-input">
-      <p>Мы используем мощные нейросетевые алгоритмы для решения задач NER и intent recognition - лучшие технологии машинного обучения и лучшие алгоритмы для русского и английского языков.</p>
-
-      <p>FastLaw включает соавторов из лаборатории iPavlov при МФТИ - один из крупнейших проектов по созданию инструментария и алгоритмов обработки естественного языка.</p>
-    </div>
-  </div>
-</div><!-- .block-text end -->

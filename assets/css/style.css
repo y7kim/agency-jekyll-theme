@@ -59,7 +59,7 @@ ol {
   list-style: none;
   margin: 0;
   padding: 0;
-  font-size: 14px;
+  font-size: 16px;
 }
 a {
   color: inherit;
@@ -613,7 +613,7 @@ iframe {
   display: inline-block;
   vertical-align: middle;
   width: 100%;
-  max-width: 160px;
+  max-width: 3em;
 }
 .logo img {
   width: 100%;
@@ -1346,7 +1346,7 @@ footer {
   justify-content: space-between;
   -webkit-align-items: center;
   align-items: center;
-  min-height: 300px;
+  min-height: 440px;
 }
 .main .button {
   margin-top: 30px;
@@ -1381,7 +1381,7 @@ footer {
     font-size: 32px;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   .main__content {
     max-width: 100%;
     padding-right: 0;
@@ -1391,11 +1391,12 @@ footer {
     font-size: 26px;
   }
   .main__image {
-    position: absolute;
+    display: none;
+    /*position: absolute;
     top: -40px;
     max-width: 100%;
     width: 100%;
-    opacity: .4;
+    opacity: .4;*/
   }
 }
 .card .block__content {
@@ -1789,3 +1790,9 @@ footer {
 .youtube:hover .play {
   background-position: 0 0;
 }
+
+.phone-demo {
+    position: absolute;
+    right: 8px;
+}
+
