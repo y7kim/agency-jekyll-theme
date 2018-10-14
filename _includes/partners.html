@@ -1,0 +1,13 @@
+<div id="partners" class="block cases">
+  <div class="block__inner">
+    <div class="partners">
+      <div class="flex-items">
+        {% for partner in site.data.partners %}
+        <div class="partners-item">
+          <img src="assets/img/partners/{{ partner.name }}.png" alt="partner">
+        </div>  
+        {% endfor %}
+      </div>
+    </div><!-- .partners end -->
+  </div>
+</div><!-- .cases end -->

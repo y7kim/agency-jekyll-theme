@@ -1,0 +1,35 @@
+<div id="intro" class="block main" style="background-image: url(assets/img/bg-main.jpg);">
+  <div class="block__inner flex">
+    <div class="main__content">
+      <div class="main__partners">
+        {% for partner in site.data.partners limit:2 %}
+        <a href="{{ partner.url }}" class="main__partners-item">
+          <img src="assets/img/partners/{{ partner.name }}-white.png" alt="partner">
+        </a>
+        {% endfor %}
+      </div> 
+      <h1 class="main__title">{{  site.data.problems.solve }}</h1>
+      <a href="#problem" class="button"><span>Узнать больше</span></a>
+    </div>
+
+    <div class="main__image phone-demo">
+      <div class="marvel-device iphone5s">
+        <div class="top-bar"></div>
+        <div class="sleep"></div>
+        <div class="volume"></div>
+        <div class="camera"></div>
+        <div class="sensor"></div>
+        <div class="speaker"></div>
+        <div class="screen">
+          <video height="568" loop autoplay>
+            <source src="assets/video/screencast.mp4">
+          </video>
+        </div>
+        <div class="home"></div>
+        <div class="bottom-bar"></div>
+      </div>
+    </div>
+</div>
+
+  </div>
+</div><!-- .main end -->
