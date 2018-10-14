@@ -12,6 +12,7 @@
         <p class="text">{{ product.summary }}</p>
       </div>
       <div class="block__sections">
+        {% if loopindex == 1 %}
         <div class="block__section-content">
           <div class="block__section-content-inner">
             <h2 class="card__title">Что может {{ product.shortname }}</h2>
@@ -31,6 +32,27 @@
             <!-- <img class="video" src="content/img/img-video-0.jpg" alt="Изображение"> -->
           </div>
         </div>
+        {% else %}
+        <div class="block__section-image block-video">
+          <div class="block-video__inner">
+            <div class="youtube" id="{{ product.youtube }}"></div>
+            <!-- <img class="video" src="content/img/img-video-0.jpg" alt="Изображение"> -->
+          </div>
+        </div>
+        <div class="block__section-content" style="padding-left: 40px; padding-right: 0">
+          <div class="block__section-content-inner">
+            <h2 class="card__title">Что может {{ product.shortname }}</h2>
+            <div class="__user-input">
+              {% for feature in product.features %}
+              <h3>{{ feature.title }}</h3>
+              <p>{{ feature.description }}</p>
+              {% endfor %}
+            </div>
+            <a href="#contacts" class="button"><span>Попробовать</span></a>
+            <!--button class="button-link">Узнать больше</button--!>
+          </div>
+        </div>
+        {% endif %}
       </div>
     </div>
   </div><!-- .block end -->

@@ -1342,8 +1342,8 @@ footer {
   position: relative;
   -webkit-flex-wrap: nowrap;
   flex-wrap: nowrap;
-  -webkit-justify-content: space-between;
-  justify-content: space-between;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
   -webkit-align-items: center;
   align-items: center;
   min-height: 440px;
@@ -1353,7 +1353,7 @@ footer {
 }
 .main__content {
   position: relative;
-  max-width: 670px;
+  max-width: 650px;
   padding-right: 20px;
   z-index: 1;
 }
@@ -1371,7 +1371,7 @@ footer {
 .main__image {
   -webkit-flex: 1 1 auto;
   flex: 1 1 auto;
-  max-width: 350px;
+  max-width: 370px;
   max-height: 100%;
   text-align: center;
 }
@@ -1792,7 +1792,6 @@ footer {
 }
 
 .phone-demo {
-    position: absolute;
-    right: 8px;
+  height: 480px;
 }
 
