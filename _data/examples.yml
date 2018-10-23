@@ -1,34 +1,35 @@
 - name: Personal-ASSISTANT “Marusia” 
   shortname: Marusia
-  summary: "Избавляет от необходимости вручную вести календарь и следить за системой управления задачами."
+  summary: "Eliminates the need to manually keep a calendar and monitor the task management system."
   youtube: XNmA1DbVFew 
   features:
-    - title: "Ведет учет задач на основе переписки"
-      description: "Следит за диалогом и записывает задачи за вас, отныне задачи не потеряются."
-    - title: "Придумывает названия для задач"
-      description: "Резюмировать задачу и придумать для нее название - сложное дело. ИИ придумает понятное название для задачи за вас."
-    - title: "Работает с основными свойствами задачи: сроками, датами, исполнителями"
-      description: "Наша технология NER позволяет автоматически извлекать ключевые параметры задачи, что экономит ваше время."
+    - title: "Keeps track of tasks based on correspondence"
+      description: "Monitors the dialogue and writes down tasks for you, from now on tasks won’t get lost."
+    - title: "Assigns names to your tasks"
+      description: "To summarize a task and think of a name for it is a complicated matter. AI will come up with a clear task name for you."
+    - title: "Works with the main task properties: deadlines, dates, executors."
+      description: "Our NER technology allows you to automatically extract key task parameters, saving your time."
 - name: LEGAL-ASSISTANT “Potap”
   shortname: Potap
-  summary: "Избавляет вас от долгих поисков ответа на юридические вопросы. Просто спросите его и получите ответ." 
-  youtube: AzmmJOqJM-g 
+  summary: "Saves you from a long search for answers to legal questions. Just ask it and get the answer." 
+  youtube: AzmmJOqJM-g
   features:
-    - title: "Не требует отдыха"
-      description: "Вы можете без лишних трудностей получить моментальный ответ на юридический вопрос."
-    - title: "Поможет подготовить договор"
-      description: "Робот обладает большой базой шаблонов, которые он поможет заполнить."
-    - title: "Позволит организовать документооборот"
-      description: "Робот запоминает созданные документы, информацию о вашей организации и в последующем поможет ее найти."
+    - title: "Doesn’t need to rest"
+      description: "You can get an instant answer to your legal question without any difficulties."
+    - title: "Helps you prepare a contract"
+      description: "The robot has a large database of templates which it will help fill out."
+    - title: "Allows you to organize workflow"
+      description: "The robot remembers created documents, information about your organization and will help finding it in future."
 - name: HR-ASSISTANT “Toni”
   shortname: Toni
-  summary: "Поможет вам нанять и устроить на работу сотрудника без лишних проблем."
-  youtube: Nz2e5VzuJ70 
+  summary: "Helps you hire an employee without any problems."
+  youtube: Nz2e5VzuJ70
   features:
-    - title: "Поможет сформировать описание вакансии"
-      description: "Подумайте над названием и зарплатой будущего сотрудника, а робот подготовит детальное описание вакансии."
-    - title: "Поможет принять сотрудника на работу"
-      description: "Просто сфотографируйте документы сотрудника, ответьте на несколько вопросов и робот создаст трудовой договор и сопутствующие документы."
-    - title: "Избавит от головной боли с ведением кадрового документооборота"
-      description: "Сохранит фото заявлений, документов, шаблоны трудовых договоров и позволит искать по ним."
+    - title: "Helps create a job description"
+      description: "Think of a position name and salary of the future employee and the robot will prepare a detailed job description."
+    - title: "Helps hire an employee"
+      description: "Just take a photo of the employee’s documents, answer a few questions and the robot will create an employment contract and related documents."
+    - title: "Relieves the headache of personnel document flow management. "
+      description: "Saves photos of requests, documents, templates of employment contracts and allows you to search by them."
+
 
