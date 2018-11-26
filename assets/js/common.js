@@ -70,6 +70,7 @@
           if (this.getAttribute("data-params")) iframe_url += '&' + this.getAttribute("data-params");
           iframe.setAttribute("src", iframe_url);
           iframe.setAttribute("frameborder", '0');
+          iframe.setAttribute("allowfullscreen", null);
 
           // Высота и ширина iFrame будет как у элемента-родителя
           iframe.style.width  = this.style.width;
