@@ -1,30 +1,10 @@
-Agency Jekyll theme
+fastlaw.io website
 ====================
 
-Agency theme based on [Agency bootstrap theme ](https://startbootstrap.com/template-overviews/agency/)
+Russian and English websites base on [jekyll](https://jekyllrb.com/).
 
-# How to use
+## How to use
 
-###Portfolio 
+For run in dev mode use `jekyll s`.
 
-Portfolio projects are in '/_posts'
-
-Images are in '/img/portfolio'
-
-###About
-
-Images are in '/img/about/'
-
-###Team
-
-Team members and info are in '_config.yml'
-
-Images are in '/img/team/'
-
-
-# Demo
-
-View this jekyll theme in action [here](https://y7kim.github.io/agency-jekyll-theme)
-
-=========
-For more details, read [documentation](http://jekyllrb.com/)
+database is located at `_data` and `_i18n` directories.

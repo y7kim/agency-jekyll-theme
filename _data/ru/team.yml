@@ -1,0 +1,45 @@
+# Team names, titles and social links
+- name: Вадим Полулях
+  nickname: vad
+  position: Учредитель 
+  description: 'Архитектор платформ AlfaFactoring и Raiffeisen Business Online. Ведущий инженер проекта iPavlov, МФТИ.'
+  contacts:
+    - title: facebook
+      url: https://www.facebook.com/vpolulyah
+    - title: stack-overflow
+      url: https://stackoverflow.com/users/1613558/vad
+    - title: github
+      url: https://github.com/bavadim
+
+- name: Николай Тюрников
+  nickname: nikolay
+  position: Соучредитель
+  description: 'Предприниматель. Учредитель «osago.tech», президент Ассоциации защиты страхователей.'
+  contacts:
+    - title: facebook
+      url: https://www.facebook.com/nikolay.tyurnikov 
+
+- name: Михаил Бурцев
+  nickname: mike
+  position: Научный руководитель
+  description: 'Кандидат физико-математических наук, заведующий лабораторией нейронных систем и глубокого обучения МФТИ.'
+  contacts:
+    - title: facebook
+      url: https://www.facebook.com/mikhail.burtsev
+
+- name: Антон Пронин
+  nickname: chieftain
+  position: Консультант
+  description: 'Эксперт в области повышения эффективности бизнес-процессов. Директор Центра юридических технологий Фонда Сколково.'
+  contacts:
+    - title: facebook
+      url: https://www.facebook.com/anton.pronin.10
+
+- name: Алексей Скугарев
+  nickname: alex
+  position: Директор по развитию
+  description: 'Выпускник МФТИ и научный сотрудник РАН. Организатор антикоррупционных форумов 2017 года проекта ОНФ "За честные Закупки"'
+  contacts:
+    - title: facebook
+      url: https://www.facebook.com/profile.php?id=100009139866520
+

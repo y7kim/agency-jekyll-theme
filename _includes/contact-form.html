@@ -2,13 +2,13 @@
   <div class="block__inner">
     <div class="title-group">
       <div class="title-group">
-        <h2 class="title title_small">Need a consultation?</h2>
-        <p class="text">Our experts will answer all your questions and help you make the right choice.</p>
+        <h2 class="title title_small">{% t contact_form.title %}</h2>
+        <p class="text">{% t contact_form.subtitle %}</p>
       </div>
     </div>
     <form class="form" action="https://formspree.io/info@fastlaw.io" method="POST">
       <input class="input" type="email" placeholder="e-mail" name="_replyto">
-      <input class="button" type="submit" value="Send">
+      <input class="button" type="submit" value="{% t contact_form.send_text %}">
     </form>
   </div>
-</div><!-- .expert end -->
+</div>

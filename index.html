@@ -2,20 +2,26 @@
 layout: default
 ---
 
+<script>
+  var lang = navigator.language || navigator.userLanguage;
+  if (lang.indexOf('ru') == 0 && window.location.pathname != '/ru/')
+    window.location = '/ru/';
+</script>
+
 <header class="_js_sticky">
 	<div class="block__inner flex">
 		<div class="header__section">
-      <a href="#intro" class="logo"><img src="assets/img/logo.svg" alt="logo"></a>
+      <a href="#intro" class="logo"><img src="/assets/img/logo.svg" alt="logo"></a>
 			<ul class="header__menu">
 				<li><a href="#problem">SMART ASSISTANTS</a></li>
-				<li><a href="#advantages">Benefits</a></li>
-        <li><a href="#examples">Examples</a></li>
-				<li><a href="#howitworks">Technologies</a></li>
-				<li><a href="#team">About</a></li>
+        <li><a href="#advantages">{% t index.advantages %}</a></li>
+        <li><a href="#examples">{% t index.examples %}</a></li>
+				<li><a href="#howitworks">{% t index.howitworks %}</a></li>
+				<li><a href="#team">{% t index.team %}</a></li>
 			</ul>
 		</div>
 		<div class="header__section">
-			<a href="#contacts" class="button button_small"><span>Try it</span></a>
+      <a href="#contacts" class="button button_small"><span>{% t examples.try_it_text %}</span></a>
 		</div>
 	</div>
 </header>

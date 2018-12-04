@@ -2,12 +2,12 @@
   <div class="block__inner">
     <div class="partners">
       <div class="flex-items">
-        {% for partner in site.data.partners %}
+        {% for partner in site.data[site.lang].partners %}
         <div class="partners-item">
-          <img src="assets/img/partners/{{ partner.name }}.png" alt="partner">
+          <img src="/assets/img/partners/{{ partner.name }}.png" alt="partner">
         </div>  
         {% endfor %}
       </div>
-    </div><!-- .partners end -->
+    </div>
   </div>
-</div><!-- .cases end -->
+</div>

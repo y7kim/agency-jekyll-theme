@@ -1,4 +1,4 @@
-url: http://www.fastlaw.io
+url: https://fastlaw.io
 baseurl: /
 
 # Site settings
@@ -8,15 +8,17 @@ phone: +7 (964) 509-16-37
 description: "Site of fastlaw.io. Team and projects."
 
 
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
-social:
-  - title: github
-    url: https://github.com/SageBear
-
-# Postal address (add as many lines as necessary)
-address:
-  - line: г. Москва, технопарк Сколково
-
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+languages: ["en", "ru"]
+exclude_from_localizations: ["assets", "CNAME"]
+defaultLang: en
+languageNames:
+  ru: Russian
+  en: English
+
+plugins:
+  - jekyll-multiple-languages-plugin
+

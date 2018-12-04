@@ -4,7 +4,7 @@
       <h2 class="title">{{ site.data.advantages.title }}</h2>
     </div>
     <div class="flex-items">
-      {% for advantage in site.data.advantages.advantages %}
+      {% for advantage in site.data[site.lang].advantages.advantages %}
       <div class="assistants-item">
         <div class="assistants-item__inner">
           <div class="assistants-item__num">0{{ forloop.index + 1 }}</div>
@@ -16,7 +16,7 @@
     </div>
     <div class="checks">
       <div class="flex-items">
-        {% for item in site.data.advantages.summary %}
+        {% for item in site.data[site.lang].advantages.summary %}
         <div class="checks-item">
           <div class="checks-item__check">{{ item }}</div>
         </div>

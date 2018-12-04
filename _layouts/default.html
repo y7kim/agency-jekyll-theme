@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="fullpage" lang="ru">
+<html class="fullpage" lang="{{ site.lang }}">
   <head>
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,11 +9,11 @@
     <meta name="description" content="{{ site.description }}">
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
 
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/devices.min.css" type="text/css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/devices.min.css" type="text/css">
 
-        <!-- FontAwesome -->
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -31,8 +31,8 @@
       {{ content }}
     </div>
 
-    <script src="assets/js/jquery-3.3.1.min.js"></script>
-    <script src="assets/js/common.js"></script>
+    <script src="/assets/js/jquery-3.3.1.min.js"></script>
+    <script src="/assets/js/common.js"></script>
 
   </body>
 </html>

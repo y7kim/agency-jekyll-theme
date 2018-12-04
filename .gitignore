@@ -37,3 +37,4 @@ Icon
 .Trashes
 
 *.swp
+Gemfile.lock

@@ -1,5 +1,5 @@
 <div id="examples">
-  {% for product in site.data.examples %}
+  {% for product in site.data[site.lang].examples %}
   {% assign loopindex = forloop.index | modulo: 2 %}
   {% if loopindex == 1 %}
   <div class="block card" style="background-color: #f5f9fc;">
@@ -15,28 +15,25 @@
         {% if loopindex == 1 %}
         <div class="block__section-content">
           <div class="block__section-content-inner">
-            <h2 class="card__title">What can {{ product.shortname }}</h2>
+            <h2 class="card__title">{% t examples.what_can %} {{ product.shortname }}</h2>
             <div class="__user-input">
               {% for feature in product.features %}
               <h3>{{ feature.title }}</h3>
               <p>{{ feature.description }}</p>
               {% endfor %}
             </div>
-            <a href="#contacts" class="button"><span>Try it</span></a>
-            <!--button class="button-link">Узнать больше</button--!>
+            <a href="#contacts" class="button"><span>{% t examples.try_it_text %}</span></a>
           </div>
         </div>
         <div class="block__section-image block-video">
           <div class="block-video__inner">
             <div class="youtube" id="{{ product.youtube }}"></div>
-            <!-- <img class="video" src="content/img/img-video-0.jpg" alt="Изображение"> -->
           </div>
         </div>
         {% else %}
         <div class="block__section-image block-video">
           <div class="block-video__inner">
             <div class="youtube" id="{{ product.youtube }}"></div>
-            <!-- <img class="video" src="content/img/img-video-0.jpg" alt="Изображение"> -->
           </div>
         </div>
         <div class="block__section-content" style="padding-left: 40px; padding-right: 0">
@@ -48,14 +45,13 @@
               <p>{{ feature.description }}</p>
               {% endfor %}
             </div>
-            <a href="#contacts" class="button"><span>Try it</span></a>
-            <!--button class="button-link">Узнать больше</button--!>
+            <a href="#contacts" class="button"><span>{% t examples.try_it_text %}</span></a>
           </div>
         </div>
         {% endif %}
       </div>
     </div>
-  </div><!-- .block end -->
+  </div>
   {% endfor %}
 </div>
 

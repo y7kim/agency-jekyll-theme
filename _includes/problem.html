@@ -2,31 +2,31 @@
   <div class="block__content">
     <div class="title-group">
       <h2 class="title">{{ site.data.problems.title }}</h2>
-      <p class="text">{{ site.data.problems.tagline }}</p>
+      <p class="text">{{ site.data[site.lang].problems.tagline }}</p>
     </div>
     <div class="block__sections block__sections_reverse">
       <div class="block__section-content">
         <h2 class="card__title">Smart Assist will help you if:</h2>
         <div class="__user-input">
           <ul>
-            {% for problem in site.data.problems.problems %}
+            {% for problem in site.data[site.lang].problems.problems %}
             <li>{{ problem }}</li>
             {% endfor %}
           </ul>
         </div>
       </div>
-      <div class="block__section-image" style="text-align: center; background-image: url(assets/img/bg-card.png);">
-        <img src="assets/img/phone_logo.png" alt="Изображение" style="max-width: 250px;">
+      <div class="block__section-image" style="text-align: center; background-image: url(/assets/img/bg-card.png);">
+        <img src="/assets/img/phone_logo.png" alt="fastlaw.io" style="max-width: 250px;">
       </div>
     </div>
   </div>
   <div class="block__inner">
     <div class="advantages">
       <div class="flex-items">
-        {% for bullet in site.data.problems.bullets %}
+        {% for bullet in site.data[site.lang].problems.bullets %}
         <div class="advantages-item">
           <div class="advantages-item__inner">
-            <img class="advantages-item__image" src="assets/img/{{ bullet.icon }}" alt="#">
+            <img class="advantages-item__image" src="/assets/img/{{ bullet.icon }}" alt="#">
             <p class="advantages-item__text">{{ bullet.summary }}</p>
           </div>
         </div>

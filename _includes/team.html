@@ -4,10 +4,10 @@
       <h2 class="title">Our team</h2>
     </div>
     <div class="flex-items">
-      {% for member in site.data.team %}
+      {% for member in site.data[site.lang].team %}
       <div class="members-item">
         <div class="members-item__inner">
-          <img class="members-item__image" src="assets/img/team/{{ member.nickname }}.png" alt="photo">
+          <img class="members-item__image" src="/assets/img/team/{{ member.nickname }}.png" alt="photo">
           <h2 class="members-item__title">{{ member.name }}</h2>
           <p class="members-item__role">{{ member.position }}</p>
           <p class="members-item__text">{{ member.description }}</p>
@@ -23,4 +23,4 @@
       {% endfor %}
     </div>
   </div>
-</div><!-- .members end -->
+</div>
