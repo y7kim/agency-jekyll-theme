@@ -728,11 +728,6 @@ iframe {
 .button-link:hover {
   color: #aa4f05;
 }
-@media screen and (max-width: 768px) {
-  .button {
-    white-space: normal;
-  }
-}
 .edd-root,
 .edd-root *,
 .edd-root *::before,
