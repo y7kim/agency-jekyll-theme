@@ -1261,6 +1261,7 @@ header {
   color: #fff;
   transition: background-color 0.25s;
   z-index: 10;
+  right: 0;
 }
 header > .flex {
   -webkit-flex-wrap: nowrap;
@@ -1797,4 +1798,8 @@ footer {
 
 .lang_switch {
   margin: 25px;
+}
+
+.menu {
+  width: 100%;
 }
