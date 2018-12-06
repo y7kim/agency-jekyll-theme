@@ -38,7 +38,7 @@
         </div>
         <div class="block__section-content" style="padding-left: 40px; padding-right: 0">
           <div class="block__section-content-inner">
-            <h2 class="card__title">What can {{ product.shortname }}</h2>
+                  <h2 class="card__title">{% t examples.what_can %} {{ product.shortname }}</h2>
             <div class="__user-input">
               {% for feature in product.features %}
               <h3>{{ feature.title }}</h3>

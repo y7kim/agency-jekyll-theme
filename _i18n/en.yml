@@ -19,3 +19,5 @@ examples:
 howitworks:
   text: "<p>Neural networks made a revolution in solving problems of artificial intelligence. And the aspect of natural language processing wasn’t left out. We apply the latest advances in this area so that SMART ASSISTANTS can understand you and have a coherent conversation with you.</p><p>Our team includes members of the iPavlov project (MIPT) – one of the largest projects in the field of developing tools and algorithms of natural language processing. We actively use the iPavlov algorithms to solve such complex problems as extracting facts from text (NER), user intent recognition and conversation conducting (DST).</p>" 
 
+problem:
+  title: "Smart Assist will help you if:"

@@ -4,7 +4,9 @@
       <div class="flex-items">
         {% for partner in site.data[site.lang].partners %}
         <div class="partners-item">
-          <img src="/assets/img/partners/{{ partner.name }}.png" alt="partner">
+          <a href="{{ partner.url }}" target="_blank">
+                <img src="/assets/img/partners/{{ partner.name }}.png" alt="partner">
+          </a>
         </div>  
         {% endfor %}
       </div>
