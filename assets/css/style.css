@@ -1255,13 +1255,21 @@ iframe {
 }
 header {
   position: fixed;
-  width: 100%;
   min-height: 76px;
   padding: 18px 20px;
   color: #fff;
   transition: background-color 0.25s;
   z-index: 10;
-  right: 0;
+}
+@media screen and (min-width: 1440px) {
+  header {
+    width: 1440px;
+  }
+}
+@media screen and (max-width: 1440px) {
+  header {
+    width: 100%;
+  }
 }
 header > .flex {
   -webkit-flex-wrap: nowrap;
@@ -1297,7 +1305,7 @@ header.sticky {
 .header__menu li:hover {
   color: #e56b07;
 }
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 888px) {
   .header__menu {
     display: none;
   }
