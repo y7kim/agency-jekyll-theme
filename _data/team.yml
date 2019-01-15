@@ -27,13 +27,6 @@
     - title: linkedin
       url: "https://www.linkedin.com/in/nevansharris/"
 
-- name: Franziska Gonder
-  pic: team-franzi-gonder.jpg
-  position: VP of Customer Success
-  social:
-    - title: linkedin
-      url: "https://www.linkedin.com/in/franziskagonder/"
-
 - name: David Goodman
   pic: team-david-goodman.jpg
   position: VP of Ecosystem Development
