@@ -58,3 +58,12 @@
   social:
     - title: linkedin
       url: "https://www.linkedin.com/in/adam-c-gillette-aaa4a529/"
+      
+- name: Kwame Porter Robinson
+  pic: team-kwame-porter-robinson.jpg
+  position: Lead Data Scientist
+  social:
+    - title: linkedin
+      url: "https://www.linkedin.com/in/kporterrobinson/"
+    - title: github
+      url: "https://github.com/robinsonkwame"      
