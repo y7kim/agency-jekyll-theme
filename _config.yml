@@ -35,14 +35,14 @@ people:
     - title: facebook
       url: https://www.facebook.com/profile.php?id=100002075511572
 
-- name: 古橋 大地 (Furuhashi Taichi, mapconcierge)
+- name: 坂ノ下 勝幸 (Sakanoshita Katsuyuki)
   pic: 4
   position: 理事
   social:
     - title: twitter
-      url: https://twitter.com/mapconcierge
+      url: https://twitter.com/k_sakanoshita
     - title: facebook
-      url: https://www.facebook.com/mapconcierge
+      url: https://www.facebook.com/K.Sakanoshita
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
