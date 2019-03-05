@@ -1,15 +1,15 @@
-url: https://y7kim.github.io
-baseurl: /agency-jekyll-theme/
+url: https://ucmercedgamedevelopmentclub.github.io
+baseurl: /welcome
 
 # Site settings
-title: Awesome Title
+title: UC Merced Game Development Club
 email: your-email@domain.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+description: "UC Merced's Game Development Club"
 
 
 # Team names, titles and social links
 people:
-- name: Kay Garland
+- name: Me
   pic: 1
   position: Lead Designer
   social:
@@ -20,7 +20,7 @@ people:
     - title: stack-overflow
       url: #
 
-- name: Larry Parker
+- name: Myself
   pic: 2
   position: Lead Marketer
   social:
@@ -31,7 +31,7 @@ people:
     - title: linkedin
       url: #
 
-- name: Diana Petersen
+- name: I
   pic: 3
   position: Lead Developer
   social:
@@ -44,21 +44,21 @@ people:
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: http://twitter.com/jekyllrb
+  - title: Discord
+    url: http://discord.gg/5z6THuT
   - title: facebook
     url:
   - title: stack-overflow
     url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket 
-    url: http://bitbucket.org/jekyll
+  - title: itch.io 
+    url: https://ucmgdc.itch.io/
   - title: github
-    url: http://github.com/jekyll
+    url: https://github.com/UCMercedGameDevelopmentClub
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+  - line: 5200 N. Lake Dr
+  - line: Merced, CA 95340
 
 # Build settings
 markdown: kramdown
