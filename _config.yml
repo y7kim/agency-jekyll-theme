@@ -9,48 +9,42 @@ description: "UC Merced's Game Development Club"
 
 # Team names, titles and social links
 people:
-- name: Me
-  pic: 1
-  position: Lead Designer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
+- name: Pat Dimaandal
+  position: President / Visual Arts Chair
 
-- name: Myself
-  pic: 2
-  position: Lead Marketer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: linkedin
-      url: #
+- name: Mark Armstrong
+  position: Vice President
 
-- name: I
-  pic: 3
-  position: Lead Developer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: google-plus
-      url: #
+- name: Imani Jones
+  position: Secretary
 
+- name: Russell Yu
+  position: Treasurer
+
+- name: Andrew Wong
+  position: Events Coordinator
+
+- name: Justin Lok
+  position: Programing Chair
+
+- name: Charles Chung
+  position: Events Coordinator / Programing Chair
+
+- name: Nathan Huynh
+  position: Sound Design Chair
+
+- name: Anooj Vadodkar
+  position: Writing Chair
+
+- name: Derek Sollberger
+  position: Advisor
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: Discord
+  - title: discord
     url: http://discord.gg/5z6THuT
   - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: itch.io 
+    url: https://www.facebook.com/groups/269175380309064/
+  - title: itch-io 
     url: https://ucmgdc.itch.io/
   - title: github
     url: https://github.com/UCMercedGameDevelopmentClub
