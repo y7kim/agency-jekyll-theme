@@ -1,4 +1,4 @@
-###Website for the Coalition against Climate Change
+# Website for the Coalition against Climate Change
 ====================
 
 Agency theme based on [Agency bootstrap theme ](https://startbootstrap.com/template-overviews/agency/)
