@@ -49,11 +49,11 @@ social:
   - title: facebook
     url:
  # - title: stack-overflow
-  #  url: http://stackoverflow.com/questions/tagged/jekyll
+ #   url: http://stackoverflow.com/questions/tagged/jekyll
  # - title: bitbucket 
  #   url: http://bitbucket.org/jekyll
- - title: github
-    url: https://github.com/caccoalition/caccoalition.github.io
+   - title: github
+     url: https://github.com/caccoalition/caccoalition.github.io
 
 # Postal address (add as many lines as necessary)
 #address:
