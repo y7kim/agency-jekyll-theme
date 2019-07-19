@@ -44,16 +44,16 @@ people:
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: instagram
-    url: http://twitter.com/jekyllrb
-  - title: facebook
-    url:
+- title: instagram
+    url: https://www.instagram.com/caccoalition/
+# - title: facebook
+ #   url:
  # - title: stack-overflow
  #   url: http://stackoverflow.com/questions/tagged/jekyll
  # - title: bitbucket 
  #   url: http://bitbucket.org/jekyll
-   - title: github
-     url: https://github.com/caccoalition/caccoalition.github.io
+- title: github
+    url: https://github.com/caccoalition/caccoalition.github.io
 
 # Postal address (add as many lines as necessary)
 #address:
