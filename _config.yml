@@ -45,7 +45,7 @@ people:
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
 - title: instagram
-    url: https://www.instagram.com/caccoalition/
+  url: https://www.instagram.com/caccoalition/
 # - title: facebook
  #   url:
  # - title: stack-overflow
@@ -53,7 +53,7 @@ social:
  # - title: bitbucket 
  #   url: http://bitbucket.org/jekyll
 - title: github
-    url: https://github.com/caccoalition/caccoalition.github.io
+  url: https://github.com/caccoalition/caccoalition.github.io
 
 # Postal address (add as many lines as necessary)
 #address:
