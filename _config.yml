@@ -1,64 +1,64 @@
-url: https://y7kim.github.io
+url: https://caccoalition.github.io/
 baseurl: /agency-jekyll-theme/
 
 # Site settings
-title: Awesome Title
-email: your-email@domain.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+title: Coalition Against Climate Change
+email: coalitionagainstclimatechange@gmail.com
+description: "We are a USA based nonprofit that seeks to raise awareness about climate change and create change that helps preserve our planet."
 
 
 # Team names, titles and social links
 people:
-- name: Kay Garland
+- name: Elaine Ly
   pic: 1
-  position: Lead Designer
+  position: Chief Executive Officer
   social:
-    - title: twitter
+    - title: instagram
       url: #
     - title: facebook
       url: #
-    - title: stack-overflow
+    - title: twitter
       url: #
 
-- name: Larry Parker
+- name: Sanjay Nagaraj
   pic: 2
-  position: Lead Marketer
+  position: Chief Technology Officer
   social:
-    - title: twitter
-      url: #
     - title: facebook
-      url: #
-    - title: linkedin
-      url: #
+      url: https://www.facebook.com/sanjayn2816
+    - title: instagram
+      url: https://www.instagram.com/sanjay_n1/
+    - title: twitter
+      url: https://twitter.com/SanjayNagaraj11
 
-- name: Diana Petersen
+- name: Bailey Hirota
   pic: 3
-  position: Lead Developer
+  position: Chief Operating Officer
   social:
-    - title: twitter
+    - title: instagram
       url: #
     - title: facebook
       url: #
-    - title: google-plus
+    - title: twitter
       url: #
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
+  - title: instagram
     url: http://twitter.com/jekyllrb
   - title: facebook
     url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket 
-    url: http://bitbucket.org/jekyll
-  - title: github
-    url: http://github.com/jekyll
+ # - title: stack-overflow
+  #  url: http://stackoverflow.com/questions/tagged/jekyll
+ # - title: bitbucket 
+ #   url: http://bitbucket.org/jekyll
+ - title: github
+    url: https://github.com/caccoalition/caccoalition.github.io
 
 # Postal address (add as many lines as necessary)
-address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+#address:
+  #- line: 3481 Melrose Place
+ # - line: Beverly Hills, CA 90210
 
 # Build settings
 markdown: kramdown
