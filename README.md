@@ -1,4 +1,4 @@
-Agency Jekyll theme
+###Website for the Coalition against Climate Change
 ====================
 
 Agency theme based on [Agency bootstrap theme ](https://startbootstrap.com/template-overviews/agency/)
