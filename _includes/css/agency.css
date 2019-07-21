@@ -865,10 +865,3 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #{{ site.data.template.color.primary }};
 }
-
-.img{
-    position: relative;
-    float: left;
-    width:  200px;
-    height: 200px;   
-}
