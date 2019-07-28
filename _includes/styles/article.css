@@ -1,0 +1,14 @@
+ article {
+     display: grid;                                                                 
+     grid-template-columns: 1fr 0.5in [start] 7.5in [end] 0.5in 1fr;
+     height: 100vh;
+     padding: 0.5in 0;                                                                 
+} 
+                                                                      
+article * { grid-column: start/end; }
+                                                                      
+                                                                      
+@media (max-width: 8.5in) {
+    article { grid-template-columns: 1fr 5% [start] 90% [end] 5% 1fr;  }                                                             
+                                                                      
+}   
