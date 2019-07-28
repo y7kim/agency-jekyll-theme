@@ -1,0 +1,12 @@
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <img src="/img/portfolio/{{ page.img }}" class="circle mx-auto d-block" alt="{{ page.alt }}">
+            <h2>{{ page.title }}</h2>
+            <div class="lead">{{ page.date | date: '%B %d, %Y' }} - {{ page.author }}</div>
+            <hr class="star-primary">
+            {{ page.content }}
+            <a href="/index.html" class="unlink p-50"><button type="button" class="btn btn-primary btn-lg btn-block">Retourner à la page d'accueil</button></a>
+        </div>
+    </div>
+</div>

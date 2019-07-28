@@ -14,12 +14,20 @@
                 </div>
                 <div class="col-md-4">
                     <ul class="list-inline quicklinks">
-                        <li><a href="#">Privacy Policy</a>
+                        <li>
+                            <a data-toggle="modal" data-target="#privpolicy">
+                                Politique de confidentialité 
+                            </a>
                         </li>
-                        <li><a href="#">Terms of Use</a>
+                        <li>
+                            <a data-toggle="modal" data-target="#termuse">
+                                Conditions d'utilisation
+                            </a>
                         </li>
                     </ul>
                 </div>
             </div>
         </div>
+        {% include conditions-utilisation.html %}
+        {% include politique-confidentialite.html %}
     </footer>

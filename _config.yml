@@ -1,64 +1,23 @@
-url: https://y7kim.github.io
-baseurl: /agency-jekyll-theme/
-
 # Site settings
-title: Awesome Title
-email: your-email@domain.com
+url: localhost:4000
+title: Cyril TAVIAN
+email: contact@cyril-tavian.fr
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-
-
-# Team names, titles and social links
-people:
-- name: Kay Garland
-  pic: 1
-  position: Lead Designer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
-
-- name: Larry Parker
-  pic: 2
-  position: Lead Marketer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: linkedin
-      url: #
-
-- name: Diana Petersen
-  pic: 3
-  position: Lead Developer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: google-plus
-      url: #
-
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
-    url: http://twitter.com/jekyllrb
-  - title: facebook
-    url:
+    url: https://twitter.com/Cyril37186552
   - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
+    url: https://stackoverflow.com/users/11845729/cyril
   - title: bitbucket 
-    url: http://bitbucket.org/jekyll
+    url: https://bitbucket.org/cyriltavian/
   - title: github
-    url: http://github.com/jekyll
+    url: https://github.com/ctavian
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+  - line: 77440 Lizy-sur-Ourcq
+  - line: 52 B Rue de Lizy
 
 # Build settings
 markdown: kramdown
