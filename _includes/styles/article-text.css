@@ -1,10 +1,11 @@
 h2,p {margin-bottom: 2.4rem;}
 
-h1        { font: 700 2.0rem/1.2 "Roboto"; color: hsl(000, 0%, 33%); }
-h2        { font: 400 1.5rem/1.2 "Roboto"; color: hsl(000, 0%, 33%); }  
-time      { font: 700 1.0rem/1.2 "Roboto"; color: hsl(250, 100%, 83%); }                                         
-h3        { font: 700 1.0rem/1.2 "Roboto"; color: hsl(250, 100%, 67%); }                                         
-p         { font: 400 1.0rem/1.5 "Roboto"; color: hsl(000, 0%, 33%); }                                         
+h1           { font: 700 2.0rem/1.2 "Roboto"; color: hsl(000, 0%, 33%); }
+h2           { font: 400 1.5rem/1.2 "Roboto"; color: hsl(000, 0%, 33%); }  
+time         { font: 700 1.0rem/1.2 "Roboto"; color: hsl(250, 100%, 83%); }                                         
+h3           { font: 700 1.0rem/1.2 "Roboto"; color: hsl(250, 100%, 67%); }                                         
+p            { font: 400 1.0rem/1.5 "Roboto"; color: hsl(000, 0%, 33%); } 
+figcaption p { font: 400 1.0rem/1.5 "Roboto"; color: hsl(000, 0%, 83%);
                                          
 a         { box-shadow: insert 0 -0.25em hsl(55, 100%, 75%); }
                                          
