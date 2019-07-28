@@ -1,30 +1,10 @@
-Agency Jekyll theme
-====================
+# Theme cyril-tavian.fr 
 
-Agency theme based on [Agency bootstrap theme ](https://startbootstrap.com/template-overviews/agency/)
+## Information 
+Ce thème est un fork de [Agency-jekyll-theme](https://github.com/y7kim/agency-jekyll-theme), celui-ci a été modifié afin d'être utilisé en tant que portfolio et blog.
 
-# How to use
+## Comment l'utiliser ? 
+Les articles du blog sont positionnés dans le répertoire "_posts". 
 
-###Portfolio 
-
-Portfolio projects are in '/_posts'
-
-Images are in '/img/portfolio'
-
-###About
-
-Images are in '/img/about/'
-
-###Team
-
-Team members and info are in '_config.yml'
-
-Images are in '/img/team/'
-
-
-# Demo
-
-View this jekyll theme in action [here](https://y7kim.github.io/agency-jekyll-theme)
-
-=========
-For more details, read [documentation](http://jekyllrb.com/)
+## Démonstration
+Voici le résultat du thème : [cyril-tavian.fr](https://cyril-tavian.fr)
