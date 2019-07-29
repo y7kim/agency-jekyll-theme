@@ -5,7 +5,7 @@ layout: articles
 modal-id: 7
 date: 2019-07-14    
 img: dreams.png
-thumbnail: dreams-thumbnail.png
+thumbnail: infraascode.jpg
 alt: image-alt
 project-date: Juillet 2019
 client: Start Bootstrap
