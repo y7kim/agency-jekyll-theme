@@ -19,7 +19,7 @@ people:
       url: #
     - title: twitter
       url: #
-
+      #bio: 
 - name: Sanjay Nagaraj
   pic: 2
   position: Chief Technology Officer
@@ -30,7 +30,8 @@ people:
       url: https://www.instagram.com/sanjay_n1/
     - title: twitter
       url: https://twitter.com/SanjayNagaraj11
-
+  #bio:
+  
 - name: Bailey Hirota
   pic: 3
   position: Chief Operating Officer
@@ -41,6 +42,7 @@ people:
       url: #
     - title: twitter
       url: #a
+   #bio:
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
