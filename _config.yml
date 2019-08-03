@@ -13,9 +13,9 @@ people:
   pic: 1
   position: Chief Executive Officer
   social:
-    - title: instagram
-      url: #
     - title: facebook
+      url: #
+    - title: instagram
       url: #
     - title: twitter
       url: #
@@ -36,9 +36,9 @@ people:
   pic: 3
   position: Chief Operating Officer
   social:
-    - title: instagram
-      url: #
     - title: facebook
+      url: #
+    - title: instagram
       url: #
     - title: twitter
       url: #a
