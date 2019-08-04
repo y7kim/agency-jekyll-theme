@@ -638,8 +638,8 @@ section h3.section-subheading {
 }
 
 .team-member img {
-     margin: 0 auto;
-     border: 7px solid #fff;
+    margin: 0 auto;
+    border: 7px solid #fff;
 }
 
 .team-member h4 {
@@ -805,8 +805,7 @@ ul.social-buttons li a:active {
     margin-bottom: 30px;
 }
 
-.portfolio-modal .modal-content 
-{
+.portfolio-modal .modal-content img {
     margin-bottom: 30px;
 }
 
@@ -866,4 +865,3 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #{{ site.data.template.color.primary }};
 }
-
