@@ -633,18 +633,16 @@ section h3.section-subheading {
 }
 
 .team-member {
+    height: 300px;
+    width: 400px;
+    overflow: hidden;
     margin-bottom: 50px;
     text-align: center;
 }
 
 .team-member img {
-   width:200px;
-   height:200px;
-
-/*Scale down will take the necessary specified space that is 100px x 100px without stretching the image*/
-    object-fit:scale-down;
-
-
+     height: auto;
+     width: 400px;
 }
 
 .team-member h4 {
@@ -872,13 +870,3 @@ body {
     webkit-tap-highlight-color: #{{ site.data.template.color.primary }};
 }
 
-
-.crop {
- height: 300px;
- width: 400px;
- overflow: hidden;
-}
-.crop img {
- height: auto;
- width: 400px;
-}
