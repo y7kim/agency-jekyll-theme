@@ -638,8 +638,13 @@ section h3.section-subheading {
 }
 
 .team-member img {
-    margin: 0 auto;
-    border: 7px solid #fff;
+   width:200px;
+   height:200px;
+
+/*Scale down will take the necessary specified space that is 100px x 100px without stretching the image*/
+    object-fit:scale-down;
+
+
 }
 
 .team-member h4 {
@@ -805,7 +810,8 @@ ul.social-buttons li a:active {
     margin-bottom: 30px;
 }
 
-.portfolio-modal .modal-content img {
+.portfolio-modal .modal-content 
+{
     margin-bottom: 30px;
 }
 
@@ -875,13 +881,4 @@ body {
 .crop img {
  height: auto;
  width: 400px;
-}
-
-.img{
-   width:100px;
-   height:100px;
-
-/*Scale down will take the necessary specified space that is 100px x 100px without stretching the image*/
-    object-fit:scale-down;
-
 }
