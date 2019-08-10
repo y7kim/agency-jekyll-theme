@@ -2,6 +2,5 @@
 
 set -e
 
-bundle install
 bundle exec jekyll build
-bundle exec htmlprofer ./_site
+bundle exec htmlproofer ./_site
