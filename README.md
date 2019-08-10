@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/ctavian/cyril-tavian.fr.svg?branch=master)](https://travis-ci.org/ctavian/cyril-tavian.fr)
+
 # Theme cyril-tavian.fr 
 
 ## Information 
