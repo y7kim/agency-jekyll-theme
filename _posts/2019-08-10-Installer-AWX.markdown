@@ -6,7 +6,7 @@ modal-id: 1
 date: 2019-08-10   
 img: AWX.png
 thumbnail: AWX.png
-alt: image-alt
+alt: AWX Logo
 category: automatisation
 author: Cyril TAVIAN
 ---
