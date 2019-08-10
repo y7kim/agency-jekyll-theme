@@ -20,6 +20,8 @@ author: Cyril TAVIAN
 
 #### Présentation
 
+AWX permet d'orchestrer l'execution de vos playbooks. 
+
 #### Ou installer AWX
 
 #### Installation sous Docker 
