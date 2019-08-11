@@ -1,14 +1,20 @@
 pipeline {
   agent {
     docker {
-      image 'ruby'
+      image 'ruby:latest'
     }
 
   }
   stages {
-    stage('build') {
+    stage('Build') {
       steps {
-        sh 'ls -l .'
+        sh 'bundle exec jekyll'
+      }
+    }
+    stage('Test') {
+      steps {
+        sh '''build
+bundle exec htmlproofer ./_site'''
       }
     }
   }
