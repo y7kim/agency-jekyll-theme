@@ -1,7 +1,7 @@
 pipeline {
   agent {
     docker {
-      image 'ruby:latest'
+      image 'ruby:2.4.1'
     }
 
   }
@@ -17,5 +17,8 @@ pipeline {
 bundle exec htmlproofer ./_site'''
       }
     }
+  }
+  environment {
+    NOKOGIRI_USE_SYSTEM_LIBRARIES = 'true'
   }
 }
