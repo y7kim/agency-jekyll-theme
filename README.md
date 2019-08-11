@@ -10,3 +10,15 @@ Les articles du blog sont positionnés dans le répertoire "_posts".
 
 ## Démonstration
 Voici le résultat du thème : [cyril-tavian.fr](https://cyril-tavian.fr)
+
+## Générer et tester le site web
+```
+# Installation des Gem. 
+bundle install 
+
+# Génération du site
+jekyll build
+
+# Tester le code HTML 
+bundle exec htmlproofer ./_site
+```
