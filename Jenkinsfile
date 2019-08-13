@@ -8,7 +8,12 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        sh 'sudo rm -rf *'
+        sh 'bundle exec jekyll build'
+      }
+    }
+    stage('Tests') {
+      steps {
+        sh 'bundle exec htmlproofer ./_site'
       }
     }
   }
