@@ -1,15 +1,15 @@
 pipeline {
   agent {
     docker {
-      image 'ruby:2.4.1'
+      image 'ruby:241'
     }
 
   }
   stages {
     stage('Build') {
       steps {
-        sh 'bundle exec jekyll build'
         sh 'bundle install'
+        sh 'bundle exec jekyll build'
       }
     }
     stage('Tests') {
