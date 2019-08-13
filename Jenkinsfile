@@ -8,7 +8,6 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        sh 'bundle install'
         sh '''
 
 bundle exec jekyll build'''
@@ -17,6 +16,7 @@ bundle exec jekyll build'''
     stage('Tests') {
       steps {
         sh 'bundle exec htmlproofer ./_site'
+        sh 'ls -l'
       }
     }
     stage('Build dockerfile') {
