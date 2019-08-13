@@ -1,14 +1,24 @@
 pipeline {
   agent {
     docker {
-      image 'mvn'
+      image 'ruby:2.4.1'
     }
 
   }
   stages {
-    stage('') {
+    stage('Build') {
       steps {
-        sh 'mvn -B'
+        sh 'bundle exec jekyll build'
+      }
+    }
+    stage('Tests') {
+      steps {
+        sh 'bundle exec htmlproofer ./_site'
+      }
+    }
+    stage('Build dockerfile') {
+      steps {
+        sh 'docker build -t cyril-tavian:latest ./dockerfile'
       }
     }
   }
