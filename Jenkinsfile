@@ -1,7 +1,7 @@
 pipeline {
   agent {
     docker {
-      image 'ruby:241'
+      image 'ruby:2.4.1'
     }
 
   }
