@@ -8,7 +8,9 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        sh 'bundle install'
+        sh '''
+
+NOKOGIRI_USE_SYSTEM_LIBRARIES=true; bundle install'''
         sh 'bundle exec jekyll build'
       }
     }
@@ -17,8 +19,5 @@ pipeline {
         sh 'bundle exec htmlproofer ./_site'
       }
     }
-  }
-  environment {
-    NOKOGIRI_USE_SYSTEM_LIBRARIES = 'true'
   }
 }
