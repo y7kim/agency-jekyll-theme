@@ -10,7 +10,7 @@ pipeline {
       steps {
         sh '''
 
-NOKOGIRI_USE_SYSTEM_LIBRARIES=true; bundle install'''
+NOKOGIRI_USE_SYSTEM_LIBRARIES=true; export LC_ALL="en_US.UTF-8";bundle install'''
         sh 'bundle exec jekyll build'
       }
     }
