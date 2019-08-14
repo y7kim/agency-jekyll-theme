@@ -10,7 +10,16 @@ pipeline {
       steps {
         sh '''
 
-NOKOGIRI_USE_SYSTEM_LIBRARIES=true; export LC_ALL="en_US.UTF-8"; apt-get install libcurl4-openssl-dev -y; bundle install'''
+NOKOGIRI_USE_SYSTEM_LIBRARIES=true;
+
+
+
+
+
+
+
+
+ bundle install'''
         sh 'bundle exec jekyll build'
       }
     }
