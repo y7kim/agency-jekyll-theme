@@ -21,7 +21,7 @@ export LC_ALL=en_US.UTF-8'''
 
 
 
- bundle install'''
+ NOKOGIRI_USE_SYSTEM_LIBRARIES=true; bundle install'''
         sh 'bundle exec jekyll build'
       }
     }
@@ -35,6 +35,5 @@ export LC_ALL=en_US.UTF-8'''
     LANGUAGE = 'en_US.UTF-8'
     LANG = 'en_US.UTF-8'
     LC_ALL = 'en_US.UTF-8'
-    NOKOGIRI_USE_SYSTEM_LIBRARIES = 'true'
   }
 }
