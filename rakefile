@@ -1,0 +1,34 @@
+require 'html-proofer'
+
+# Action par défaut du rake
+task :default => ["serve:website"]
+
+# Nettoyage du repertoire _site.
+desc "Nettoyage du _site"
+task :clean do
+  sh "jekyll clean"
+end
+
+# Build du site web.
+namespace :build do
+  desc "Build website"
+  task :website => [:clean] do
+    sh "jekyll build"
+  end
+end
+
+# Lancement du serveur. 
+namespace :serve do
+  desc "Serve website"
+  task :website => [:clean] do
+    sh "jekyll serve"
+  end
+end
+
+# Lancement des tests.
+namespace :test do
+  desc "Test Build"
+  task :website => ["build:website"] do
+    HTMLProofer.check_directory('./_site').run
+  end
+end

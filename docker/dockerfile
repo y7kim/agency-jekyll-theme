@@ -1,0 +1,4 @@
+FROM nginx:alpine
+LABEL maintainer="Cyril TAVIAN <c.tavian@outlook.fr>"
+COPY _site/* /usr/share/nginx/html/
+COPY ./docker/cyril_tavian_fr.conf /etc/nginx/conf.d/cyril_tavian_fr.conf

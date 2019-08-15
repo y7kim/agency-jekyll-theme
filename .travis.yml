@@ -3,9 +3,9 @@ rvm:
   - 2.4.1
 
 before_script: 
-  - chmod +x ./scripts/cibuild
+  - chmod +x ./_scripts/cibuild
 
-script: ./scripts/cibuild
+script: ./_scripts/cibuild
 
 branches:
   only:

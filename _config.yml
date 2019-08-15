@@ -23,4 +23,4 @@ address:
 markdown: kramdown
 permalink: pretty
 
-exclude: [vendor]
+exclude: [Gemfile, Jenkinsfile, rakefile, scripts, docker, README.md]
