@@ -7,7 +7,7 @@ RUN yum update -y
 ## Add epel release repo
 RUN yum install -y epel-release
 ## Install NPM and RUBY for test
-RUN yum install -y npm ruby
+RUN yum install -y npm ruby bundler
 ## Install tools 
 RUN npm install -g sass-lint htmllint-cli markdownlint-cli
 
