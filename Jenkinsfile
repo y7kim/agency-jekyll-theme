@@ -8,8 +8,8 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        sh 'rake build:website'
         sh 'bundle install'
+        sh 'rake build:website'
       }
     }
     stage('Tests') {
