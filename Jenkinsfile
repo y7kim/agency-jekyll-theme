@@ -6,10 +6,9 @@ pipeline {
 
   }
   stages {
-    stage('Build') {
+    stage('Prepare') {
       steps {
-        sh 'bundle install'
-        sh 'rake build:website'
+        sh 'bundle'
       }
     }
     stage('Tests') {
