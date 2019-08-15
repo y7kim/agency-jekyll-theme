@@ -1,16 +1,8 @@
-FROM centos:7
-LABEL maintainer="Cyril TAVIAN <c.tavian@outlook.fr>"
+FROM ruby:2.4.3
 
-# Install tools
-## Update 
-RUN yum update -y
-## Add epel release repo
-RUN yum install -y epel-release
-## Install NPM and RUBY for test
-RUN yum install -y npm ruby bundler
-## Install tools 
+RUN gem install bundle
+RUN apt-get update -y \
+    && apt-get install -y npm \
+    libcurl4-openssl-dev
 RUN npm install -g sass-lint htmllint-cli markdownlint-cli
-
-WORKDIR /
-CMD /bin/bash
-
+WORKDIR /tmp
