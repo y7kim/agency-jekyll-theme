@@ -9,7 +9,7 @@ pipeline {
   stages {
     stage('Prepare') {
       steps {
-        sh 'Bundle'
+        sh 'bundle'
       }
     }
     stage('Tests') {
