@@ -9,12 +9,12 @@ pipeline {
   stages {
     stage('Prepare') {
       steps {
-        sh 'printenv'
+        sh 'Bundle'
       }
     }
     stage('Tests') {
       steps {
-        sh '#rake test:website'
+        sh 'rake test:website'
       }
     }
   }
