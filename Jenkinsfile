@@ -1,8 +1,8 @@
 pipeline {
   agent {
     docker {
-      args '-e LANG=C.UTF-8'
       image 'ruby:2.5.0'
+      args '-e LANG=C.UTF-8 -c /bin/bash'
     }
 
   }
