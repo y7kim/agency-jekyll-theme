@@ -1,8 +1,7 @@
 pipeline {
   agent {
-    docker {
-      args '-e LANG=C.UTF-8'
-      image 'ruby:latest'
+    dockerfile {
+      filename './docker/ruby.dockerfile'
     }
 
   }
@@ -17,8 +16,5 @@ pipeline {
         sh 'rake test:website --trace'
       }
     }
-  }
-  environment {
-    LANG = 'C.UTF-8'
   }
 }
