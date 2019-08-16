@@ -14,7 +14,7 @@ pipeline {
     }
     stage('Tests') {
       steps {
-        sh 'rake test:website'
+        sh 'rake test:website --trace'
       }
     }
   }
