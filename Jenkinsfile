@@ -2,6 +2,7 @@ pipeline {
   agent {
     docker {
       image 'ruby:latest'
+      args '-e LANG=C.UTF-8'
     }
 
   }
