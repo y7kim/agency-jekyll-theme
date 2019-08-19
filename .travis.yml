@@ -3,7 +3,7 @@ rvm:
   - 2.4.1
 
 before_script: 
-  - chmod +x ./_scripts/cibuild
+  - chmod +x ./scripts/cibuild
 
 script: ./_scripts/cibuild
 
