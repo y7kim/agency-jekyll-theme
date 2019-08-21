@@ -10,9 +10,9 @@ pipeline {
   stages {
     stage('Prepare') {
       steps {
-        sh 'bundle'
         sh '''locale; localectl status; export LANG=en_US.UTF-8; export LANGUAGE=en_US.UTF-8;
 export LC_ALL=en_US.UTF-8'''
+        sh 'bundle'
       }
     }
     stage('Tests') {
