@@ -14,7 +14,7 @@ pipeline {
     }
     stage('Tests') {
       steps {
-        sh 'LANG=en_US.UTF-8 rake test:website --trace'
+        sh 'rake test:website --trace'
       }
     }
   }
