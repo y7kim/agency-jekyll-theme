@@ -6,6 +6,9 @@ Gemfile.lock
 Thumbs.db
 ehthumbs.db
 
+# Cache Jekyll
+.jekyll-cache
+
 # Folder config file
 Desktop.ini
 

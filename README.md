@@ -3,7 +3,7 @@
 # Theme cyril-tavian.fr 
 
 ## Information 
-Ce thème est un fork de [Agency-jekyll-theme](https://github.com/y7kim/agency-jekyll-theme), celui-ci a été modifié afin d'être utilisé en tant que portfolio et blog.
+Ce thème est un fork de [Agency-jekyll-theme](https://github.com/y7kim/agency-jekyll-theme), celui-ci a été modifié afin d'être utilisé en tant que blog et blog.
 
 ## Comment l'utiliser ? 
 Les articles du blog sont positionnés dans le répertoire "_posts". 
