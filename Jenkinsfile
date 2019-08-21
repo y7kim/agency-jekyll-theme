@@ -13,7 +13,7 @@ pipeline {
     }
     stage('Tests') {
       steps {
-        sh 'rake test:website --trace'
+        sh 'LANG=en_US.UTF-8 rake test:website --trace'
       }
     }
   }
