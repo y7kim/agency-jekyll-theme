@@ -18,7 +18,7 @@ end
 namespace :build do
   desc "Build website"
   task :website => [:clean] do
-    sh "jekyll build"
+    sh "LANG=en_US.UTF-8 jekyll build"
   end
 end
 
