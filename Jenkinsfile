@@ -16,6 +16,11 @@ pipeline {
         sh 'rake test:website'
       }
     }
+    stage('Build dockerimage') {
+      steps {
+        sh 'docker build -f ./docker/dockerfile . -t test:test'
+      }
+    }
   }
   environment {
     LC_ALL = 'C.UTF-8'
