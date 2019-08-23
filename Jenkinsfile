@@ -17,10 +17,12 @@ pipeline {
       }
     }
     stage('Publish image') {
-      script {
-        docker.withRegistry('https://registry.hub.docker.com', 'dockerhub_nexaoo') {
-          def websiteImage = docker.build("cyriltavian:${env.BUILD_ID}", "-f ./docker/dockerfile .")
-          websiteImage.push()
+      steps {
+        script {
+          docker.withRegistry('https://registry.hub.docker.com', 'dockerhub_nexaoo') {
+            def websiteImage = docker.build("cyriltavian:${env.BUILD_ID}", "-f ./docker/dockerfile .")
+            websiteImage.push()
+          }
         }
       }
     }
