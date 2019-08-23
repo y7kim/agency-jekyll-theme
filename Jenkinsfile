@@ -18,13 +18,18 @@ pipeline {
     }
     stage('Build image') {
       steps {
-        def dockerfile = './docker/dockerfile'
-        def customImage = docker.build("nexaoo/cyriltavian:${env.BUILD_ID}", "-f ${dockerfile} .")
-        docker.withRegistry('https://registry.hub.docker.com', 'dockerhub-nexaoo') {
-          app.push("${env.BUILD_ID}")
-          app.push("latest")
+          def websiteImage = docker.build("cyriltavian:${env.BUILD_ID}", "-f ./docker/dockerfile .")
         }
       }
+    stage('Publish image') {
+      steps {
+          docker.withRegistry('https://registry.hub.docker.com', 'dockerhub_nexaoo') {
+            def websiteImage = docker.build("cyriltavian:${env.BUILD_ID}", "-f ./docker/dockerfile .")
+            websiteImage.push()
+          }
+        }
+      }
+    }
   }
   environment {
     LC_ALL = 'C.UTF-8'
