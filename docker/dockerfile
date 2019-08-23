@@ -1,2 +1,4 @@
-FROM ruby:latest
-COPY ../* /tmp
+FROM nginx:latest
+COPY ./_site /usr/share/nginx/html
+COPY cyril_tavian_fr.conf /etc/nginx/conf.d/cyril-tavian_fr.conf
+EXPOSE 80
