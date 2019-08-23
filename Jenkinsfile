@@ -16,7 +16,7 @@ pipeline {
         sh 'rake test:website'
       }
     }
-    stage('Publish image') {
+    stage('Publish') {
       steps {
         script {
           docker.withRegistry('https://registry.hub.docker.com', 'dockerhub_nexaoo') {
@@ -24,6 +24,7 @@ pipeline {
             websiteImage.push()
           }
         }
+
       }
     }
   }
