@@ -8,7 +8,8 @@ pipeline {
   stages {
     stage('Prepare') {
       steps {
-        sh 'bundle'
+        sh '    LC_ALL=C.UTF-8'
+        sh 'bundle install'
       }
     }
     stage('Tests') {
