@@ -20,7 +20,7 @@ pipeline {
       steps {
         script {
           docker.withRegistry('https://registry.hub.docker.com', 'dockerhub_nexaoo') {
-            def websiteImage = docker.build("cyriltavian:${env.BUILD_ID}", "-f ./docker/dockerfile .")
+            def websiteImage = docker.build("nexaoo/cyriltavian:${env.BUILD_ID}", "-f ./docker/dockerfile .")
             websiteImage.push()
           }
         }
