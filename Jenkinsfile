@@ -16,11 +16,15 @@ pipeline {
         sh 'rake test:website'
       }
     }
-    stage('Build dockerimage') {
+    stage('Build image') {
       steps {
-        sh 'docker build -f ./docker/dockerfile . -t test:test'
+        def dockerfile = './docker/dockerfile'
+        def customImage = docker.build("nexaoo/cyriltavian:${env.BUILD_ID}", "-f ${dockerfile} .")
+        docker.withRegistry('https://registry.hub.docker.com', 'dockerhub-nexaoo') {
+          app.push("${env.BUILD_ID}")
+          app.push("latest")
+        }
       }
-    }
   }
   environment {
     LC_ALL = 'C.UTF-8'
