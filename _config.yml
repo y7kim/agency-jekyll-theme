@@ -1,10 +1,10 @@
-url: 'https://empmetcoglin.github.io/'
+url: 'https://empmetcogling.gitlab.io/website '
 baseurl: '/'
 
 # Site settings
-title: EMCL
-email: your-email@domain.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+title: Empirical Methods in Cognitive Linguistics
+email: emcl.admin@gmail.com
+description: "Official website for Empirical Methods in Cognitive Linguistics"
 
 
 # Team names, titles and social links
