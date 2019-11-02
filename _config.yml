@@ -1,5 +1,15 @@
-url: 'http://127.0.0.1:4000//'
-baseurl: 
+# url: https://empmetcogling.gitlab.io/website
+# baseurl:
+
+# url: https://empmetcoglin.github.io/
+# baseurl:
+
+# url: https://y7kim.github.io
+# baseurl: /agency-jekyll-theme/
+
+url: https://empmetcogling.gitlab.io/website
+baseurl:
+
 
 # Site settings
 title: Empirical Methods in Cognitive Linguistics
