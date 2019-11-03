@@ -23,7 +23,7 @@ description: "Official website for Empirical Methods in Cognitive Linguistics"
 # Team names, titles and social links
 people:
 - name: Monica
-  pic: 1
+  pic: rygel
   position: test
   social:
     - title: twitter
@@ -34,7 +34,7 @@ people:
       url: #
 
 - name: Priya
-  pic: 2
+  pic: priya
   position: TEST
   social:
     - title: twitter
@@ -45,7 +45,7 @@ people:
       url: #
 
 - name: Jeff
-  pic: 3
+  pic: jeff
   position: TeSt
   social:
     - title: twitter
@@ -56,11 +56,11 @@ people:
       url: #
 
 - name: Rémi Gau
-  pic: remi_profile_picture
+  pic: remi
   position: TeSt
   social:
     - title: twitter
-      url: RemiGau
+      url: https://twitter.com/RemiGau
     - title: facebook
       url: remi.gau1
     - title: google-plus
