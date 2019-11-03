@@ -7,21 +7,24 @@
 # url: https://y7kim.github.io
 # baseurl: /agency-jekyll-theme/
 
+# https://sites.google.com/site/emcl7joaopessoabrazil/
+
 url: https://empmetcogling.gitlab.io
 baseurl:
 
 
 # Site settings
 title: Empirical Methods in Cognitive Linguistics
+acronym: EMCL
 email: emcl.admin@gmail.com
 description: "Official website for Empirical Methods in Cognitive Linguistics"
 
 
 # Team names, titles and social links
 people:
-- name: Kay Garland
+- name: Monica
   pic: 1
-  position: Lead Designer
+  position: test
   social:
     - title: twitter
       url: #
@@ -30,9 +33,9 @@ people:
     - title: stack-overflow
       url: #
 
-- name: Larry Parker
+- name: Priya
   pic: 2
-  position: Lead Marketer
+  position: TEST
   social:
     - title: twitter
       url: #
@@ -41,9 +44,9 @@ people:
     - title: linkedin
       url: #
 
-- name: Diana Petersen
+- name: Jeff
   pic: 3
-  position: Lead Developer
+  position: TeSt
   social:
     - title: twitter
       url: #
@@ -52,10 +55,32 @@ people:
     - title: google-plus
       url: #
 
+- name: Rémi Gau
+  pic: remi_profile_picture
+  position: TeSt
+  social:
+    - title: twitter
+      url: RemiGau
+    - title: facebook
+      url: remi.gau1
+    - title: google-plus
+      url: #
+
+- name: Hans
+  pic: 2
+  position: TeSt
+  social:
+    - title: twitter
+      url:
+    - title: facebook
+      url:
+    - title: google-plus
+      url: #
+
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
-    url: http://twitter.com/jekyllrb
+    url: https://twitter.com/emcl_workshops
   - title: facebook
     url:
   - title: stack-overflow
@@ -67,8 +92,7 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+  - line: 3rd planet from the sun
 
 # Build settings
 markdown: kramdown

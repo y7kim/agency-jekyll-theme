@@ -1,0 +1,18 @@
+---
+layout: "default"
+title: "EMCL8"
+date: 2019-07-15
+subtitle: Graphic Design
+modal-id: 1
+img: roundicons.png
+thumbnail: roundicons-thumbnail.png
+alt: image-alt
+project-date: 2019-07-15
+client: Start Bootstrap
+category: Web Development
+description: TEST TEST
+
+---
+
+
+Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
