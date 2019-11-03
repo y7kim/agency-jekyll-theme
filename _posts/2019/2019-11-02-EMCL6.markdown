@@ -4,8 +4,8 @@ subtitle: Case Western Reserve University, Cleveland (USA)
 layout: default
 modal-id: 7
 date: 2014-07-15
-img: roundicons.png
-thumbnail: roundicons-thumbnail.png
+img: Case_western_reserve.jpg
+thumbnail: Case_western_reserve.jpg
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap

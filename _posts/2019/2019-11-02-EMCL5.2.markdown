@@ -4,8 +4,8 @@ subtitle: University of Chicago (USA)
 layout: default
 modal-id: 6
 date: 2014-07-15
-img: roundicons.png
-thumbnail: roundicons-thumbnail.png
+img: Chicago.jpg
+thumbnail: Chicago.jpg
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap

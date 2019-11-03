@@ -4,9 +4,9 @@ title: "EMCL8"
 date: 2019-07-15
 subtitle: Tartu (Estonia)
 modal-id: 9
-img: roundicons.png
-thumbnail: roundicons-thumbnail.png
-alt: image-alt
+img: Tartu_Ulikool.png
+thumbnail: Tartu_Ulikool.jpg
+alt: Tartu_Ulikool.jpg
 project-date: 2019-07-15
 client: Start Bootstrap
 category: Web Development
