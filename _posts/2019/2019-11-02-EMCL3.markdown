@@ -1,8 +1,8 @@
 ---
-title: EMCL7
-subtitle: Joao Pessoa (Brazil)
+title: EMCL3
+subtitle: University of Murcia (Spain)
 layout: default
-modal-id: 8
+modal-id: 3
 date: 2014-07-15
 img: roundicons.png
 thumbnail: roundicons-thumbnail.png

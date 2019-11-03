@@ -2,8 +2,8 @@
 layout: "default"
 title: "EMCL8"
 date: 2019-07-15
-subtitle: Graphic Design
-modal-id: 1
+subtitle: Tartu (Estonia)
+modal-id: 9
 img: roundicons.png
 thumbnail: roundicons-thumbnail.png
 alt: image-alt

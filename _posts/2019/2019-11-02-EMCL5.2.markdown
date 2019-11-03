@@ -1,8 +1,8 @@
 ---
-title: EMCL7
-subtitle: Joao Pessoa (Brazil)
+title: EMCL5.2
+subtitle: University of Chicago (USA)
 layout: default
-modal-id: 8
+modal-id: 6
 date: 2014-07-15
 img: roundicons.png
 thumbnail: roundicons-thumbnail.png

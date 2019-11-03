@@ -1,8 +1,8 @@
 ---
-title: EMCL7
-subtitle: Joao Pessoa (Brazil)
+title: EMCL1
+subtitle:  Cornell University USA)
 layout: default
-modal-id: 8
+modal-id: 1
 date: 2014-07-15
 img: roundicons.png
 thumbnail: roundicons-thumbnail.png
