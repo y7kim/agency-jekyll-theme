@@ -38,11 +38,11 @@ people:
   position: TEST
   social:
     - title: twitter
-      url: #
+      url: https://twitter.com/priyasilverst
     - title: facebook
-      url: #
+      url: https://www.facebook.com/priya.silverstein
     - title: linkedin
-      url: #
+      url: https://uk.linkedin.com/in/priya-silverstein-2123894a
 
 - name: Jeff
   pic: jeff
