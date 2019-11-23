@@ -24,14 +24,10 @@ description: "Official website for Empirical Methods in Cognitive Linguistics"
 people:
 - name: Monica
   pic: rygel
-  position: test
+  position: Indepedent scientist
   social:
     - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
+      url: https://twitter.com/aeryn_thrace
 
 - name: Priya
   pic: priya
@@ -50,21 +46,16 @@ people:
   social:
     - title: twitter
       url: https://twitter.com/jkbye
-    - title: facebook
-      url: #
-    - title: google-plus
-      url: #
 
-- name: Rémi Gau
+- name: Rémi
   pic: remi
-  position: TeSt
+  position: Post-doc
   social:
     - title: twitter
       url: https://twitter.com/RemiGau
     - title: facebook
-      url: remi.gau1
-    - title: google-plus
-      url: #
+      url: https://www.facebook.com/remi.gau1
+
 
 - name: Hans
   pic: 2
@@ -72,10 +63,6 @@ people:
   social:
     - title: twitter
       url:
-    - title: facebook
-      url:
-    - title: google-plus
-      url: #
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
@@ -83,10 +70,6 @@ social:
     url: https://twitter.com/emcl_workshops
   - title: facebook
     url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket
-    url: http://bitbucket.org/jekyll
   - title: github
     url: http://github.com/jekyll
 
