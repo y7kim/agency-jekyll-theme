@@ -9,9 +9,9 @@ description: "We are a USA based nonprofit that seeks to raise awareness about c
 
 # Team names, titles and social links
 people:
-- name: Elaine Ly
+- name: 
   pic: 1
-  position: Chief Executive Officer
+  position: 
   social:
     - title: facebook
       url: #
@@ -22,7 +22,7 @@ people:
       #bio: 
 - name: Sanjay Nagaraj
   pic: 2
-  position: Chief Technology Officer
+  position: Director of Operations
   social:
     - title: facebook
       url: https://www.facebook.com/sanjayn2816
@@ -32,9 +32,9 @@ people:
       url: https://twitter.com/SanjayNagaraj11
   #bio:
   
-- name: Bailey Hirota
+- name: 
   pic: 3
-  position: Chief Operating Officer
+  position: 
   social:
     - title: facebook
       url: #
