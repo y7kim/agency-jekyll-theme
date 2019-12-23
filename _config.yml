@@ -9,17 +9,6 @@ description: "We are a USA based nonprofit that seeks to raise awareness about c
 
 # Team names, titles and social links
 people:
-- name: 
-  pic: 1
-  position: 
-  social:
-    - title: facebook
-      url: #
-    - title: instagram
-      url: #
-    - title: twitter
-      url: #
-      #bio: 
 - name: Sanjay Nagaraj
   pic: 2
   position: Director of Operations
@@ -30,19 +19,30 @@ people:
       url: https://www.instagram.com/sanjay_n1/
     - title: twitter
       url: https://twitter.com/SanjayNagaraj11
-  #bio:
-  
+      bio: Sanjay is a high school junior at Clements High School in Sugar Land, Texas. He has a passion for the preservation of the environment and is passionate about spreading this message. He is involved with many local preservation groups and actively participates in Trash-Off's and city-wide cleanups. Additionally,his passion for the biological sciences motivates him to find biological solutions to diseases with epigenetic causes.
 - name: Akash Krishna
   pic: 3
   position: Chief Editor
   social:
     - title: facebook
-      url: #
+      url: https://www.facebook.com/profile.php?id=100008685758378
     - title: instagram
       url: #
     - title: twitter
+      url: #
+  bio: 
+  
+- name: Bailey Hirota
+  pic: 1
+  position: Events Coordinator
+  social:
+    - title: facebook
+      url: #
+    - title: instagram
+      url: https://www.instagram.com/baileynumata
+    - title: twitter
       url: #a
-   #bio:
+   bio: Bailey is a rising senior from Southern California. In her free time, she likes to go to the beach, hike, or bake. Bailey is passionate about environmental injustice because it is essential to the survival of the human race and preservation of biodiversity, which makes life beautiful.
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
