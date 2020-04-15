@@ -18,7 +18,7 @@ $(function() {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
-                url: "//formspree.io/mqkdjpzy",
+                url: "//formspree.io/coalitionagainstclimatechange@gmail.com",
                 type: "POST",
                 data: {
                     name: name,
