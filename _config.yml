@@ -1,64 +1,65 @@
-url: https://y7kim.github.io
-baseurl: /agency-jekyll-theme/
+url: https://caccoalition.github.io/
+baseurl:
 
 # Site settings
-title: Awesome Title
-email: your-email@domain.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+title: Coalition Against Climate Change
+email: coalitionagainstclimatechange@gmail.com
+description: "We are a USA based nonprofit that seeks to raise awareness about climate change and create change that helps preserve our planet."
 
 
 # Team names, titles and social links
 people:
-- name: Kay Garland
-  pic: 1
-  position: Lead Designer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
-
-- name: Larry Parker
+- name: Sanjay Nagaraj
   pic: 2
-  position: Lead Marketer
+  position: Founder and Director of Operations
   social:
-    - title: twitter
-      url: #
     - title: facebook
-      url: #
-    - title: linkedin
-      url: #
-
-- name: Diana Petersen
+      url: https://www.facebook.com/sanjayn2816
+    - title: instagram
+      url: https://www.instagram.com/sanjay_n1/
+    - title: twitter
+      url: https://twitter.com/SanjayNagaraj11
+  bio: Sanjay is a junior in the Houston area. He has a passion for the preservation of the environment and is passionate about spreading this message. He is involved with many local preservation groups and actively participates in trash-offs and city-wide cleanups. Additionally, his passion for biology motivates him to find biological solutions to diseases with epigenetic causes. In his free time, Sanjay enjoys browsing wikipedia, finding biology jokes, and watching ExtraHistory.
+- name: Akash Krishna
   pic: 3
-  position: Lead Developer
+  position: Chief Editor
   social:
+    - title: facebook
+      url: https://www.facebook.com/profile.php?id=100008685758378
+    - title: instagram
+      url: #
     - title: twitter
       url: #
+  bio: "Akash is a senior from Houston. He began to care about the environment on visits to India when seeing the extremely poor conditions that are experienced in less affluent regions of the world. In his free time, Akash loves to watch sports games and considers himself an avid sports fan of both the Texans and the Rockets."
+- name: Bailey Hirota
+  pic: 1
+  position: Events Coordinator
+  social:
     - title: facebook
       url: #
-    - title: google-plus
-      url: #
+    - title: instagram
+      url: https://www.instagram.com/baileynumata
+    - title: twitter
+      url: #a
+  bio: Bailey is a senior from Southern California. In her free time, she likes to go to the beach, hike, or bake. Bailey is passionate about environmental injustice because it is essential to the survival of the human race and preservation of biodiversity, which makes life beautiful.
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: http://twitter.com/jekyllrb
-  - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket 
-    url: http://bitbucket.org/jekyll
-  - title: github
-    url: http://github.com/jekyll
+- title: instagram
+  url: https://www.instagram.com/caccoalition/
+# - title: facebook
+ #   url:
+ # - title: stack-overflow
+ #   url: http://stackoverflow.com/questions/tagged/jekyll
+ # - title: bitbucket 
+ #   url: http://bitbucket.org/jekyll
+- title: github
+  url: https://github.com/caccoalition/caccoalition.github.io
 
 # Postal address (add as many lines as necessary)
-address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+#address:
+  #- line: 3481 Melrose Place
+ # - line: Beverly Hills, CA 90210
 
 # Build settings
 markdown: kramdown
