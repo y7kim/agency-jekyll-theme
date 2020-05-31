@@ -266,6 +266,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 header {
+    padding-top: 65px;
     text-align: center;
     color: #1A4301; /*mudei aqui*/ 
     background-attachment: scroll;
@@ -285,6 +286,7 @@ header .intro-text {
 
 header .intro-text .intro-lead-in {
     margin-bottom: 25px;
+    color: transparent; /*gambiarra*/
     font-family: {{ site.data.template.font.secondary }};
     font-size: 22px;
     font-style: italic;
@@ -293,6 +295,7 @@ header .intro-text .intro-lead-in {
 
 header .intro-text .intro-heading {
     margin-bottom: 25px;
+    color: transparent;
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
     font-size: 50px;
