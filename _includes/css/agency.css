@@ -259,7 +259,7 @@ fieldset[disabled] .btn-xl.active {
     }
 
     .navbar-default.navbar-shrink {
-        padding: 10px 0;
+        padding: 0 0;
         background-color: #90908E;  /*mudei aqui*/ 
     }
 
@@ -283,8 +283,8 @@ header {
 }
 
 header .intro-text {
-    padding-top: 100px;
-    padding-bottom: 50px;
+    padding-top: 15px;
+    padding-bottom: 25px;
 }
 
 header .intro-text .intro-lead-in {
