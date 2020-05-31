@@ -230,7 +230,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
-    color: #fff;
+    color: ##1A4301;
     background-color: #{{ site.data.template.color.secondary }};
 }
 
@@ -257,7 +257,7 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default.navbar-shrink {
         padding: 10px 0;
-        background-color: #222;
+        background-color: transparent;
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
@@ -633,21 +633,20 @@ section h3.section-subheading {
 }
 
 .team-member {
+    width: 50%;
+    heigth: 50%;
     margin-bottom: 50px;
     text-align: center;
 }
 
 .team-member img {
-    margin-left: 3cm; /*mudei aqui*/
-    margin-right: 3cm; /*mudei aqui*/
+    margin-left: 0 auto; 
     border: 7px solid #fff;
 }
 
 .team-member h4 {
     margin-top: 25px;
     margin-bottom: 0;
-    margin-left: 3cm; /*mudei aqui*/
-    margin-right: 3cm; /*mudei aqui*/
     text-transform: none;
 }
 
