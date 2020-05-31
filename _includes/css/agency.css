@@ -267,7 +267,7 @@ fieldset[disabled] .btn-xl.active {
 
 header {
     text-align: center;
-    color: #fff;
+    color: #1A4301; /*mudei aqui*/ 
     background-attachment: scroll;
     background-image: url('{{ site.baseurl }}/img/header-bg.jpg');
     background-position: center center;
@@ -638,13 +638,16 @@ section h3.section-subheading {
 }
 
 .team-member img {
-    margin: 2cm;
+    margin-left: 3cm; /*mudei aqui*/
+    margin-right: 3cm; /*mudei aqui*/
     border: 7px solid #fff;
 }
 
 .team-member h4 {
     margin-top: 25px;
     margin-bottom: 0;
+    margin-left: 3cm; /*mudei aqui*/
+    margin-right: 3cm; /*mudei aqui*/
     text-transform: none;
 }
 
