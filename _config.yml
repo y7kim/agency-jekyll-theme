@@ -2,63 +2,43 @@ url: https://coletiva-ruta.github.io
 baseurl: /
 
 # Site settings
-title: Awesome Title
-email: your-email@domain.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-
+title: Coletiva RUTA
+email: coletivaruta@gmail.com
+description: "Formada em 2016 por estudantes de Obstetrícia EACH-USP, a Coletiva Ruta promove encontros e conversas sobre autoconhecimento, cuidado e autonomia em saúde."
 
 # Team names, titles and social links
 people:
-- name: Kay Garland
-  pic: 1
-  position: Lead Designer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
+- name: Ana Clara
+  pic: ana_clara
+  position: Ana tem 25 anos e é a primeira parteira/obstetriz formada da Coletiva! Paulistana, se joga de cabeça em tudo quanto é oportunidade e tem a capacidade de encostar e dormir em qualquer canto. Aqui na Ruta cuida dos nossos grupos de estudos. Lésbica que se nutre muito estando entre as suas. Entusiasta da abolição do uso rotineiro de calcinhas e sutiãs e da feminilidade. Pseudo-skatista-DJ. Ama estar nas águas (rios e mares), ouvir rap de mulheres latinoamericanas e um sol pra esquentar o corpo.
 
-- name: Larry Parker
-  pic: 2
-  position: Lead Marketer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: linkedin
-      url: #
 
-- name: Diana Petersen
-  pic: 3
-  position: Lead Developer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: google-plus
-      url: #
+- name: Caroline
+  pic: caroline
+
+- name: Gabriela
+  pic: gabriela
+
+- name: Luisa
+  pic: luisa
+
+- name: Rafaela
+  pic: rafaela
+
+- name: Veri
+  pic: veri
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: http://twitter.com/jekyllrb
   - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket 
-    url: http://bitbucket.org/jekyll
+    url: https://www.facebook.com/coletivaruta
+  - title: instagram
+    url: https://www.instagram.com/coletivaruta/
   - title: github
-    url: http://github.com/jekyll
+    url: https://github.com/Coletiva-RUTA
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
 
 # Build settings
 markdown: kramdown
