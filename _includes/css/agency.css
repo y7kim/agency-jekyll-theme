@@ -248,7 +248,7 @@ fieldset[disabled] .btn-xl.active {
     }
 
     .navbar-default .navbar-brand {
-        font-size: 2em;
+        font-size: 4em;
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s;
@@ -269,6 +269,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 header {
+    padding-top: 25px;
     text-align: center;
     color: #1A4301; /*mudei aqui*/ 
     background-attachment: scroll;
