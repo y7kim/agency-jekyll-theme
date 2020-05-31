@@ -297,11 +297,11 @@ header .intro-text .intro-lead-in {
 }
 
 .header>li .header-image {
-    padding-top: 300px;
+    padding-top: 100px;
     display: table-cell;
-    height: 300px;
+    height: 100px;
     text-align: center;
-    width: 300px;
+    width: 100px;
     vertical-align: middle;
 }
 
