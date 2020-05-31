@@ -640,13 +640,16 @@ section h3.section-subheading {
 .team-member img {
     width: 40%;
     heigth: 40%;
-    margin-left: 0 auto; 
+    margin-left: auto;
+    margin-right: auto;
     border: 7px solid #fff;
 }
 
 .team-member h4 {
     margin-top: 25px;
     margin-bottom: 0;
+    margin-left: 2cm;
+    margin-right: 2cm;
     text-transform: none;
 }
 
