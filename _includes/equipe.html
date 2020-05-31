@@ -7,16 +7,14 @@
         <h3 class="section-subheading text-muted">Todas oficineiras e além disso</h3>
       </div>
     </div>
-    <div class="row">
-      {% for member in site.people %}
-      <div class="col-sm-6">
-	<div class="team-member">
-          <img src="img/team/{{ member.pic }}" class="img-responsive img-circle" alt="">
-          <h4>{{ member.name }}</h4>
-          <p class="text-primary">{{ member.position }}</p>
-	</div>
+    {% for member in site.people %}
+    <div class="col-sm-6">
+      <div class="team-member">
+        <img src="img/team/{{ member.pic }}" class="img-responsive img-circle" alt="">
+        <h4>{{ member.name }}</h4>
+        <p class="text-primary">{{ member.position }}</p>
       </div>
-      {% endfor %}
     </div>
+    {% endfor %}
   </div>
 </section>
