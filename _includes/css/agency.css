@@ -176,6 +176,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default {
     border-color: transparent;
     background-color: #222;
+    font-size: 4em;
 }
 
 .navbar-default .navbar-brand {
@@ -212,7 +213,7 @@ fieldset[disabled] .btn-xl.active {
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
     font-weight: 400;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     color:  #1A4301; /*mudei aqui*/
     -webkit-transition: all ease .35s;
     -moz-transition: all ease .35s;
@@ -264,12 +265,12 @@ fieldset[disabled] .btn-xl.active {
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
-        font-size: 2.5em;
+        font-size: 4em;
     }
 }
 
 header {
-    padding-top: 25px;
+    padding-top: 45px;
     text-align: center;
     color: #1A4301; /*mudei aqui*/ 
     background-attachment: scroll;
@@ -283,8 +284,8 @@ header {
 }
 
 header .intro-text {
-    padding-top: 35px;
-    padding-bottom: 25px;
+    padding-top: 55px;
+    padding-bottom: 15px;
 }
 
 header .intro-text .intro-lead-in {
@@ -295,15 +296,6 @@ header .intro-text .intro-lead-in {
     font-style: italic;
     line-height: 22px;
 }
-
-.header>li .header-image {
-    display: table-cell;
-    height: 10px;
-    text-align: center;
-    width: 10px;
-    vertical-align: middle;
-}
-
 
 header .intro-text .intro-heading {
     margin-bottom: 15px;
@@ -317,7 +309,7 @@ header .intro-text .intro-heading {
 
 @media(min-width:768px) {
     header .intro-text {
-        padding-top: 35px;
+        padding-top: 55px;
         padding-bottom: 15px;
     }
 
