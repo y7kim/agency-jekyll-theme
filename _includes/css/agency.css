@@ -638,15 +638,13 @@ section h3.section-subheading {
 }
 
 .team-member img {
-    margin: 60%;
+    margin: 0 auto;
     border: 7px solid #fff;
 }
 
 .team-member h4 {
     margin-top: 25px;
     margin-bottom: 0;
-    margin-left: 25px;
-    margin-right: 25px;
     text-transform: none;
 }
 
