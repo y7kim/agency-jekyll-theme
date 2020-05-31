@@ -197,7 +197,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: #fff;
+    background-color: #1A4301; /*mudei aqui*/
 }
 
 .navbar-default .navbar-toggle:hover,
@@ -210,7 +210,7 @@ fieldset[disabled] .btn-xl.active {
     font-family: {{ site.data.template.font.primary }};
     font-weight: 400;
     letter-spacing: 1px;
-    color: #fff;
+    color:  #1A4301; /*mudei aqui*/
     -webkit-transition: all ease .35s;
     -moz-transition: all ease .35s;
     transition: all ease .35s;
@@ -224,13 +224,13 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
-    color: #fff;
+    color: #1A4301;  /*mudei aqui*/ 
     background-color: #{{ site.data.template.color.primary }};
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
-    color: ##1A4301;
+    color: #1A4301;  /*mudei aqui*/ 
     background-color: #{{ site.data.template.color.secondary }};
 }
 
@@ -257,7 +257,7 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default.navbar-shrink {
         padding: 10px 0;
-        background-color: transparent;
+        background-color: #90908E;  /*mudei aqui*/ 
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
@@ -633,13 +633,13 @@ section h3.section-subheading {
 }
 
 .team-member {
-    width: 50%;
-    heigth: 50%;
     margin-bottom: 50px;
     text-align: center;
 }
 
 .team-member img {
+    width: 40%;
+    heigth: 40%;
     margin-left: 0 auto; 
     border: 7px solid #fff;
 }
