@@ -8,10 +8,6 @@ description: "Formada em 2016 por estudantes de Obstetrícia EACH-USP, a Coletiv
 
 # Team names, titles and social links
 people:
-- name: Ana Clara
-  pic: ana_clara.png
-  position: "<p style = 'text-align: justify;'> Ana tem 25 anos e é a primeira parteira/obstetriz formada da Coletiva! Paulistana, se joga de cabeça em tudo quanto é oportunidade e tem a capacidade de encostar e dormir em qualquer canto. Aqui na Ruta cuida dos nossos grupos de estudos. Lésbica que se nutre muito estando entre as suas. Entusiasta da abolição do uso rotineiro de calcinhas e sutiãs e da feminilidade. Pseudo-skatista-DJ. Ama estar nas águas (rios e mares), ouvir rap de mulheres latinoamericanas e um sol pra esquentar o corpo.</p>"
-
 - name: Caroline
   pic: caroline.png
   position: "<p style = 'text-align: justify;'> Carol é catarinense, tem 28 anos (de sonho, sangue e América do Sul) e está no quinto ano de Obstetrícia. Na Coletiva Ruta é da frente de articulação, mídias sociais e responsável pelas finanças. É apaixonada pelo ciclo menstrual. Capricorniana louca das planilhas. Não sabe cochichar. Rouba sotaques. Queria ter na vida simplesmente um lugar de mato verde pra plantar e pra colher, uma casinha branca de varanda, um quintal e uma janela.</p>"
@@ -31,6 +27,10 @@ people:
 - name: Veri
   pic: veri.png
   position: "<p style = 'text-align: justify;'> Veri tem 27 anos, é do interior de São Paulo e está no quinto ano de Obstetrícia. Adora tomar café da manhã com calma e come mingau de aveia - por quem nutre uma paixão inexplicável - quase todos os dias. Na coletiva está nas frentes de almoxarifado, grupo de estudos e mídias sociais. Sonha em ser fluente em libras e espanhol, conhecer vários países da América Latina e comer vários tipos de milhos. Tem um Q de queer e ama fazer drag nas horas vagas.</p>"
+
+- name: Ana Clara
+  pic: ana_clara.png
+  position: "<p style = 'text-align: justify;'> Ana tem 25 anos e é a primeira parteira/obstetriz formada da Coletiva! Paulistana, se joga de cabeça em tudo quanto é oportunidade e tem a capacidade de encostar e dormir em qualquer canto. Aqui na Ruta cuida dos nossos grupos de estudos. Lésbica que se nutre muito estando entre as suas. Entusiasta da abolição do uso rotineiro de calcinhas e sutiãs e da feminilidade. Pseudo-skatista-DJ. Ama estar nas águas (rios e mares), ouvir rap de mulheres latinoamericanas e um sol pra esquentar o corpo.</p>"
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
