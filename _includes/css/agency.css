@@ -12,10 +12,13 @@ body {
 
 .text-muted {
     color: #{{ site.data.template.color.muted }};
+    font-family: {{ site.data.template.font.secondary }};
 }
 
 .text-primary {
     color: #{{ site.data.template.color.primary }};
+    font-family: {{ site.data.template.font.secondary }};
+    text-align: justify;
 }
 
 p {
@@ -176,7 +179,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand {
-    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+    font-family:  {{ site.data.template.font.primary }}
     color: #{{ site.data.template.color.primary }};
 }
 
@@ -245,7 +248,7 @@ fieldset[disabled] .btn-xl.active {
     }
 
     .navbar-default .navbar-brand {
-        font-size: 2em;
+        font-size: 3em;
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s;
@@ -339,7 +342,7 @@ section h2.section-heading {
 section h4.section-body {
     margin-bottom: 75px;
     text-transform: none;
-    font-family: {{ site.data.template.font.primary }};
+    font-family: {{ site.data.template.font.secondary }};
     text-align: justify;
     font-size: 18px;
     font-weight: 400;
@@ -650,8 +653,8 @@ section h3.section-subheading {
 }
 
 .team-member img {
-    width: 15%;
-    heigth: 15%;
+    width: 40%;
+    heigth: 40%;
     margin-left: auto;
     margin-right: auto;
     border: 7px solid #fff;
