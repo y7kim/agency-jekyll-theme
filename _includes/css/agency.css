@@ -269,6 +269,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 header {
+    padding-top: 25px;
     text-align: center;
     color: #1A4301; /*mudei aqui*/ 
     background-attachment: scroll;
@@ -299,8 +300,8 @@ header .intro-text .intro-lead-in {
     z-index: 100;
     position: absolute;
     left: 0;
-    width: 80px;
-    height: 80px;
+    width: 40px;
+    height: 40px;
     margin-left: 0;
     border: 7px solid #f1f1f1;
     border-radius: 100%;
