@@ -299,9 +299,9 @@ header .intro-text .intro-lead-in {
 .header>li .header-image {
     padding-top: 100px;
     display: table-cell;
-    height: 100px;
+    height: 10px;
     text-align: center;
-    width: 100px;
+    width: 10px;
     vertical-align: middle;
 }
 
