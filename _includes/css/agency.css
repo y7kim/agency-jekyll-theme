@@ -266,7 +266,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 header {
-    padding-top: 75px;
+    padding-top: 150px;
     text-align: center;
     color: #1A4301; /*mudei aqui*/ 
     background-attachment: scroll;
@@ -341,11 +341,11 @@ section h3.section-subheading {
     margin-bottom: 75px;
     text-transform: none;
     font-family: {{ site.data.template.font.secondary }};
-    text-align: justified;
-    font-size: 16px;
+    text-align: justify;
+    font-size: 18px;
     font-style: italic;
     font-weight: 400;
-    line-height: 20px;
+    line-height: 30px;
 }
 
 @media(min-width:768px) {
