@@ -3,8 +3,8 @@ title: "XXT LAB: LABORATÓRIO VIVO EM SAÚDE"
 layout: default
 modal-id: 1
 date: 2020-02-15
-img: XXLAB.jpg
-thumbnail: XXLAB.jpg
+img: XXTLAB.jpg
+thumbnail: XXTLAB.jpg
 alt: image-alt
 description: "O XXT Lab é um laboratório vivo em saúde para incentivar o autocuidado, a escuta e a autonomia em saúde, pensada em sua integralidade e complexidade. Um espaço seguro e acolhedor onde você pode aprender sobre sua anatomia e fisiologia, falar sobre prazer e sexualidade, visualizar seu colo do útero, conhecer e acessar ervas, óleos essenciais e outros tratamentos naturais para desequilíbrios ginecológicos e, sobretudo, trocar com outras pessoas suas experiências e descobertas." 
 
