@@ -269,7 +269,6 @@ fieldset[disabled] .btn-xl.active {
 }
 
 header {
-    padding-top: 25px;
     text-align: center;
     color: #1A4301; /*mudei aqui*/ 
     background-attachment: scroll;
