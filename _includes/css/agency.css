@@ -336,7 +336,7 @@ section h2.section-heading {
     font-size: 40px;
 }
 
-section h3.section-body {
+section h4.section-body {
     margin-bottom: 75px;
     text-transform: none;
     font-family: {{ site.data.template.font.primary }};
