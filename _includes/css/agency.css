@@ -212,7 +212,7 @@ fieldset[disabled] .btn-xl.active {
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
     font-weight: 400;
-    letter-spacing: 1px;
+    letter-spacing: 1.2px;
     color:  #1A4301; /*mudei aqui*/
     -webkit-transition: all ease .35s;
     -moz-transition: all ease .35s;
@@ -297,6 +297,7 @@ header .intro-text .intro-lead-in {
 }
 
 .header>li .header-image {
+    padding-top: 300px;
     display: table-cell;
     height: 300px;
     text-align: center;
