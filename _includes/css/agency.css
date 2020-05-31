@@ -249,7 +249,7 @@ fieldset[disabled] .btn-xl.active {
     }
 
     .navbar-default .navbar-brand {
-        font-size: 4em;
+        font-size: 2.3em;
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s;
@@ -265,7 +265,7 @@ fieldset[disabled] .btn-xl.active {
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
-        font-size: 2em;
+        font-size: 2.3em;
     }
 }
 
@@ -665,8 +665,7 @@ section h3.section-subheading {
 .team-member h4 {
     margin-top: 25px;
     margin-bottom: 0;
-    margin-left: 8cm;
-    margin-right: 8cm;
+    text-align: center;
     text-transform: none;
 }
 
