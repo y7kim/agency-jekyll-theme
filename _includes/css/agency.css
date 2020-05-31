@@ -297,7 +297,7 @@ header .intro-text .intro-lead-in {
 }
 
 .header>li .header-image {
-    padding-top: 100px;
+    margin: 30px 30px 30px 30px;
     display: table-cell;
     height: 10px;
     text-align: center;
