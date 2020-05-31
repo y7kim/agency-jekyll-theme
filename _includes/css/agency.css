@@ -176,11 +176,6 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default {
     border-color: transparent;
     background-color: #222;
-    float: none;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
 }
 
 .navbar-default .navbar-brand {
@@ -300,6 +295,21 @@ header .intro-text .intro-lead-in {
     font-style: italic;
     line-height: 22px;
 }
+
+.header>li .header-image {
+    z-index: 100;
+    position: absolute;
+    left: 0;
+    width: 80px;
+    height: 80px;
+    margin-left: 0;
+    border: 7px solid #f1f1f1;
+    border-radius: 100%;
+    text-align: center;
+    color: #fff;
+    background-color: #{{ site.data.template.color.primary }};
+}
+
 
 header .intro-text .intro-heading {
     margin-bottom: 25px;
