@@ -274,7 +274,7 @@ header {
     text-align: center;
     color: #1A4301; /*mudei aqui*/ 
     background-attachment: scroll;
-    background-image: url('{{ site.baseurl }}/img/header-bg2.eps');
+    background-image: url('{{ site.baseurl }}/img/back.jpg');
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
