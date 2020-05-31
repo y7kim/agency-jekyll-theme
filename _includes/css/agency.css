@@ -297,17 +297,11 @@ header .intro-text .intro-lead-in {
 }
 
 .header>li .header-image {
-    z-index: 100;
-    position: absolute;
-    left: 0;
-    width: 40px;
-    height: 40px;
-    margin-left: 0;
-    border: 7px solid #f1f1f1;
-    border-radius: 100%;
+    display: table-cell;
+    height: 300px;
     text-align: center;
-    color: #fff;
-    background-color: #{{ site.data.template.color.primary }};
+    width: 300px;
+    vertical-align: middle;
 }
 
 
