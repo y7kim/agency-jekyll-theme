@@ -283,7 +283,7 @@ header {
 }
 
 header .intro-text {
-    padding-top: 15px;
+    padding-top: 35px;
     padding-bottom: 25px;
 }
 
@@ -306,7 +306,7 @@ header .intro-text .intro-lead-in {
 
 
 header .intro-text .intro-heading {
-    margin-bottom: 25px;
+    margin-bottom: 15px;
     color: transparent;
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
@@ -317,8 +317,8 @@ header .intro-text .intro-heading {
 
 @media(min-width:768px) {
     header .intro-text {
-        padding-top: 300px;
-        padding-bottom: 200px;
+        padding-top: 35px;
+        padding-bottom: 15px;
     }
 
     header .intro-text .intro-lead-in {
