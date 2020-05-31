@@ -238,7 +238,7 @@ fieldset[disabled] .btn-xl.active {
     .navbar-default {
         padding: 25px 0;
         border: 0;
-        background-color: transparent;
+        background-color: #90908E; /*mudei aqui*/
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
@@ -648,8 +648,8 @@ section h3.section-subheading {
 .team-member h4 {
     margin-top: 25px;
     margin-bottom: 0;
-    margin-left: 2cm;
-    margin-right: 2cm;
+    margin-left: 4cm;
+    margin-right: 4cm;
     text-transform: none;
 }
 
