@@ -39,14 +39,14 @@ a.active {
 }
 
 a {
-    color: #{{ site.data.template.color.primary }};
+    color: #fff;
 }
 
 a:hover,
 a:focus,
 a:active,
 a.active {
-    color: #{{ site.data.template.color.secondary }};
+    color: #90908E;
 }
 
 h1,
@@ -272,7 +272,7 @@ fieldset[disabled] .btn-xl.active {
 header {
     padding-top: 290px;
     text-align: center;
-    color: #1A4301; /*mudei aqui*/ 
+    color: #000; /*mudei aqui*/ 
     background-attachment: scroll;
     background-image: url('{{ site.baseurl }}/img/header_bg_up.jpg');
     background-position: center center;
