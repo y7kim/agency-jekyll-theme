@@ -39,14 +39,14 @@ a.active {
 }
 
 a {
-    color: #fff;
+    color: #{{ site.data.template.color.primary }};
 }
 
 a:hover,
 a:focus,
 a:active,
 a.active {
-    color: #90908E;
+    color: #{{ site.data.template.color.secondary }};
 }
 
 h1,
@@ -228,7 +228,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
-    color: #90908E;  /*mudei aqui*/ 
+    color: #fff;  /*mudei aqui*/ 
     background-color: #fff;
 }
 
@@ -272,7 +272,7 @@ fieldset[disabled] .btn-xl.active {
 header {
     padding-top: 290px;
     text-align: center;
-    color: #000; /*mudei aqui*/ 
+    color: #1A4301; /*mudei aqui*/ 
     background-attachment: scroll;
     background-image: url('{{ site.baseurl }}/img/header_bg_up.jpg');
     background-position: center center;
