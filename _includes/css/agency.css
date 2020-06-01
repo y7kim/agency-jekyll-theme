@@ -188,7 +188,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
-    color: #538D22;
+    color: #90908E;
 }
 
 .navbar-default .navbar-collapse {
@@ -223,12 +223,12 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
     outline: 0;
-    color: #{{ site.data.template.color.primary }};
+    color: #90908E;
 }
 
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
-    color: #538D22;  /*mudei aqui*/ 
+    color: #90908E;  /*mudei aqui*/ 
     background-color: #fff;
 }
 
