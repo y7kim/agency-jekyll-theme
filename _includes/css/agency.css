@@ -229,7 +229,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
     color: #fff;  /*mudei aqui*/ 
-    background-color: #fff;
+    background-color: #90908E;
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
