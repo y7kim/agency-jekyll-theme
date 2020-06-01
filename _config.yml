@@ -2,7 +2,7 @@ url: https://coletiva-ruta.github.io
 baseurl: /
 
 # Site settings
-title: Coletiva RUTA
+title: Coletiva Ruta
 email: chaytaniguti@gmail.com
 description: "Formada em 2016 por estudantes de Obstetrícia EACH-USP, a Coletiva Ruta promove encontros e conversas sobre autoconhecimento, cuidado e autonomia em saúde."
 
@@ -16,7 +16,7 @@ people:
   pic: gabriela.png
   position: "<p style = 'text-align: justify;'> Gabriela tem 27 anos, é paulista, da mais querida zona leste. Atriz, doula e, em breve, obstetriz, que encontra um caminho comum nas artes e nas ciências. Aqui na Ruta cuida da frente de articulação e produção de materiais. É mãe dos xodós Gael e Isa. Filha de Oxum com Oxóssi, tem 'Os Olhos Cheios D'Água'. Caçadora de si mesma, aquariana e diferentona. Ama um samba na palma da mão, num domingo de sol, Corinthians campeão.</p>"
 
-- name: Luisa
+- name: Luísa
   pic: luisa.png
   position: "<p style = 'text-align: justify;'> Luísa tem 22 anos, está a um semestre de se formar obstetriz e é a típica santista que vai à praia uma vez por ano. Na Coletiva Ruta cuida da comunicação, das mídias sociais e do almoxarifado. É loucamente apaixonada por aniversário e detesta astrologia. Não sabe nadar. Adora acessórios esportistas mesmo sem ser uma. Amante da cidade grande que de vez em quando se aventura no meio do mato. Reveza a graduação integral com maracatu, pilates, cerâmica e aprender uma nova língua.</p>"
 
@@ -40,6 +40,9 @@ social:
     url: https://www.instagram.com/coletivaruta/
   - title: github
     url: https://github.com/Coletiva-RUTA
+  - title: e-mail
+    url: coletivaruta@gmail.com
+
 
 # Postal address (add as many lines as necessary)
 address:

@@ -181,14 +181,14 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-brand {
     font-family:  {{ site.data.template.font.primary }}
-    color: #{{ site.data.template.color.primary }};
+    color: #000;
 }
 
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
-    color: #{{ site.data.template.color.primary }};
+    color: #538D22;
 }
 
 .navbar-default .navbar-collapse {
@@ -196,17 +196,17 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-toggle {
-    border-color: #{{ site.data.template.color.primary }};
-    background-color: #{{ site.data.template.color.primary }};
+    border-color: #fff;
+    background-color: #fff;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: #1A4301; /*mudei aqui*/
+    background-color: #fff; /*mudei aqui*/
 }
 
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-    background-color: #{{ site.data.template.color.primary }};
+    background-color: #fff;
 }
 
 .navbar-default .nav li a {
@@ -214,7 +214,7 @@ fieldset[disabled] .btn-xl.active {
     font-family: {{ site.data.template.font.primary }};
     font-weight: 400;
     letter-spacing: 1px;
-    color:  #1A4301; /*mudei aqui*/
+    color:  #000; /*mudei aqui*/
     -webkit-transition: all ease .35s;
     -moz-transition: all ease .35s;
     transition: all ease .35s;
@@ -229,20 +229,20 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
     color: #538D22;  /*mudei aqui*/ 
-    background-color: #{{ site.data.template.color.primary }};
+    background-color: #fff;
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
-    color: #538D22;  /*mudei aqui*/ 
-    background-color: #{{ site.data.template.color.primary }};
+    color: #000;  /*mudei aqui*/ 
+    background-color: #fff;
 }
 
 @media(min-width:768px) {
     .navbar-default {
         padding: 0 0;
         border: 0;
-        background-color: transparent; /*mudei aqui*/
+        background-color:  #90908E; /*mudei aqui*/
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
@@ -274,7 +274,7 @@ header {
     text-align: center;
     color: #1A4301; /*mudei aqui*/ 
     background-attachment: scroll;
-    background-image: url('{{ site.baseurl }}/img/back.jpg');
+    background-image: url('{{ site.baseurl }}/img/header_bg_up.jpg');
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
