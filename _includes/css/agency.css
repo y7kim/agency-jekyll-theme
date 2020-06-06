@@ -176,7 +176,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default {
     border-color: transparent;
     background-color: #222;
-    font-size: 1em;
+    font-size: 1.1em;
 }
 
 .navbar-default .navbar-brand {
@@ -249,7 +249,7 @@ fieldset[disabled] .btn-xl.active {
     }
 
     .navbar-default .navbar-brand {
-        font-size: 1em;
+        font-size: 1.1em;
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s;
@@ -265,12 +265,12 @@ fieldset[disabled] .btn-xl.active {
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
-        font-size: 1em;
+        font-size: 1.1em;
     }
 }
 
 header {
-    padding-top: 290px;
+    padding-top: 300px;
     text-align: center;
     color: #1A4301; /*mudei aqui*/ 
     background-attachment: scroll;
@@ -284,7 +284,7 @@ header {
 }
 
 header .intro-text {
-    padding-top: 290px;
+    padding-top: 300px;
     padding-bottom: 25px;
 }
 
@@ -309,7 +309,7 @@ header .intro-text .intro-heading {
 
 @media(min-width:768px) {
     header .intro-text {
-        padding-top: 290px;
+        padding-top: 300px;
         padding-bottom: 25px;
     }
 
@@ -784,6 +784,31 @@ ul.social-buttons li a {
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
+    background-color: #{{ site.data.template.color.primary }};
+}
+
+ul.social-buttons2 {
+    margin-bottom: auto;
+}
+
+ul.social-buttons2 li a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    font-size: 20px;
+    line-height: 40px;
+    outline: 0;
+    color: #fff;
+    background-color: #222;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+}
+
+ul.social-buttons2 li a:hover,
+ul.social-buttons2 li a:focus,
+ul.social-buttons2 li a:active {
     background-color: #{{ site.data.template.color.primary }};
 }
 
