@@ -176,7 +176,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default {
     border-color: transparent;
     background-color: #222;
-    font-size: 1.2em;
+    font-size: 1em;
 }
 
 .navbar-default .navbar-brand {
@@ -213,7 +213,7 @@ fieldset[disabled] .btn-xl.active {
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
     font-weight: 400;
-    letter-spacing: 1px;
+    letter-spacing: 0.8px;
     color:  #000; /*mudei aqui*/
     -webkit-transition: all ease .35s;
     -moz-transition: all ease .35s;
@@ -249,7 +249,7 @@ fieldset[disabled] .btn-xl.active {
     }
 
     .navbar-default .navbar-brand {
-        font-size: 1.2em;
+        font-size: 1em;
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s;
@@ -265,7 +265,7 @@ fieldset[disabled] .btn-xl.active {
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
-        font-size: 1.2em;
+        font-size: 1em;
     }
 }
 
