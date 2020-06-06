@@ -22,7 +22,7 @@ people:
 
 - name: Rafaela
   pic: rafaela.png
-  position: "<p style = 'text-align: justify;'> Rafaela tem 23 anos, pra gente é a Roma e pode ser pra você também. Paulistana, não gosta de São Paulo mas talvez não saiba viver longe dessa doideira. Aqui na Ruta, cuida da identidade visual e dos nossos grupos de estudo. Uma geminiana liberal nas séries (assiste qualquer coisa) e conservadora na pipoca (sal e manteiga, e só). Entusiasta da higiene do sono e do café da manhã. Está no quinto ano de Obstetrícia, costura e toca xequerê, só divide o amor pelo carnaval com a festa junina.</p>"
+  position: "<p style = 'text-align: justify;'> Rafaela tem 24 anos, pra gente é a Roma e pode ser pra você também. Paulistana, não gosta de São Paulo mas talvez não saiba viver longe dessa doideira. Aqui na Ruta, cuida da identidade visual e dos nossos grupos de estudo. Uma geminiana liberal nas séries (assiste qualquer coisa) e conservadora na pipoca (sal e manteiga, e só). Entusiasta da higiene do sono e do café da manhã. Está no quinto ano de Obstetrícia, costura e toca xequerê, só divide o amor pelo carnaval com a festa junina.</p>"
 
 - name: Veri
   pic: veri.png
@@ -38,10 +38,10 @@ social:
     url: https://www.facebook.com/coletivaruta
   - title: instagram
     url: https://www.instagram.com/coletivaruta/
-  - title: github
-    url: https://github.com/Coletiva-RUTA
   - title: envelope
     url: coletivaruta@gmail.com
+  - title: github
+    url: https://github.com/Coletiva-RUTA
 
 
 # Postal address (add as many lines as necessary)
