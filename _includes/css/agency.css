@@ -677,6 +677,14 @@ aside.clients img {
     margin: 50px auto;
 }
 
+section#galeria {
+    background-color: #90908E;
+    background-image: url('{{ site.baseurl }}/img/galeria.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
 section#contact {
     background-color: #90908E;
     background-image: url('{{ site.baseurl }}/img/textura.png');
