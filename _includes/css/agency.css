@@ -270,7 +270,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 header {
-    padding-top: 300px;
+    padding-top: 320px;
     text-align: center;
     color: #1A4301; /*mudei aqui*/ 
     background-attachment: scroll;
@@ -284,7 +284,7 @@ header {
 }
 
 header .intro-text {
-    padding-top: 300px;
+    padding-top: 320px;
     padding-bottom: 25px;
 }
 
@@ -309,7 +309,7 @@ header .intro-text .intro-heading {
 
 @media(min-width:768px) {
     header .intro-text {
-        padding-top: 300px;
+        padding-top: 320px;
         padding-bottom: 25px;
     }
 
