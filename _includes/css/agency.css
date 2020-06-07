@@ -331,6 +331,21 @@ header .intro-text .intro-heading {
     }
 }
 
+
+galeria {
+    text-align: center;
+    color: #1A4301; /*mudei aqui*/ 
+    background-attachment: scroll;
+    background-image: url('{{ site.baseurl }}/img/header_bg_up.jpg');
+    background-position: center center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+
 section {
     padding: 100px 0;
 }
@@ -788,7 +803,7 @@ ul.social-buttons li a:active {
 }
 
 ul.social-buttons2 {
-    margin-bottom: auto;
+    margin-bottom: 10px;
 }
 
 ul.social-buttons2 li a {
