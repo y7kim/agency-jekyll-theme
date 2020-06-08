@@ -425,11 +425,11 @@ section h3.section-subheading {
     max-width: 400px;
     text-align: center;
     background-color: #fff;
+    text-transform: lowercase;
 }
 
 #portfolio .portfolio-item .portfolio-caption h4 {
     margin: 0;
-    text-transform: lowercase;
 }
 
 #portfolio .portfolio-item .portfolio-caption p {
