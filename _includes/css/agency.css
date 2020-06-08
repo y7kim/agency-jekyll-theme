@@ -429,7 +429,7 @@ section h3.section-subheading {
 
 #portfolio .portfolio-item .portfolio-caption h4 {
     margin: 0;
-    text-transform: none;
+    text-transform: lowercase;
 }
 
 #portfolio .portfolio-item .portfolio-caption p {
