@@ -688,7 +688,6 @@ section#galeria {
 
 section#contact {
     background-color: #90908E;
-    background-image: url('{{ site.baseurl }}/img/textura.png');
     background-position: center;
     background-repeat: no-repeat;
 }
