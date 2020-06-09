@@ -678,7 +678,7 @@ aside.clients img {
 }
 
 section#galeria {
-    padding-top: 300px;
+    padding-top: 400px;
     background-color: #90908E;
     background-image: url('{{ site.baseurl }}/img/galeria.jpg');
     background-position: center;
