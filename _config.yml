@@ -1,10 +1,10 @@
-url: https://coletiva-ruta.github.io
-baseurl: /
+url: http://coletivaruta.com.br/
+baseurl: http://coletivaruta.com.br/
 
 # Site settings
 title: Coletiva Ruta
-email: chaytaniguti@gmail.com
-description: "Formada em 2016 por estudantes de Obstetrícia EACH-USP, a Coletiva Ruta promove encontros e conversas sobre autoconhecimento, cuidado e autonomia em saúde."
+email: contato@coletivaruta.com.br
+description: "A Coletiva Ruta promove encontros abertos para conversar sobre o que nos inspira e nos move: saúde, corpo, autonomia, cuidado. Formada por obstetrizes e estudantes do curso de Obstetrícia da EACH-USP, a Coletiva desenvolve oficinas e materiais para promover o autocuidado em sua integralidade e complexidade, colocando o indivíduo no centro do processo do cuidado."
 
 # Team names, titles and social links
 people:
