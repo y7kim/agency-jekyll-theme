@@ -7,5 +7,5 @@ color:
 
 # Font Families
 font:
-  primary: '"barrioregular", Montserrat, "Helvetica Neue",Helvetica,Arial'
-  secondary: '"advent_proregular", "Droid Serif", "Helvetica Neue", Helvetica,Arial'
+  primary: '"Barrio", Montserrat, "Helvetica Neue",Helvetica,Arial'
+  secondary: '"Advent Pro", "Droid Serif", "Helvetica Neue", Helvetica,Arial'
