@@ -1,30 +1,5 @@
-Agency Jekyll theme
-====================
-init
-Agency theme based on [Agency bootstrap theme ](https://startbootstrap.com/template-overviews/agency/)
+## Sobre a Coletiva Ruta
 
-# How to use
+A Coletiva Ruta nasce na cidade de São Paulo do desejo de promover encontros abertos para conversar sobre o que nos inspira e nos move: saúde, corpo, autonomia, cuidado. Formada por obstetrizes e estudantes do curso de Obstetrícia da EACH-USP, a Coletiva desenvolve oficinas e rodas de conversa para promover o autocuidado em sua integralidade e complexidade, colocando o indivíduo no centro do processo do cuidado. Nós valorizamos os saberes de outras mulheres que vieram antes de nós, por isso honramos tratamentos naturais (como fitoterapia e aromaterapia) e também experimentamos tecnologias, de forma a usá-las como aliadas no processo de autoconhecimento. Em nossas atividades, buscamos aliar conhecimento, auto-observação, escuta e ferramentas práticas, para que possamos assumir as rédeas da nossa própria saúde. Questionamos o modelo biomédico de saúde que é reproduzido atualmente, pautado no racismo, na hipermedicalização, institucionalização da saúde, mercantilização e intervenção nos corpos das mulheres, homens trans e pessoas não-binárias. Incentivamos um olhar gentil, amoroso e compassivo para nossos corpos, tornando-nos responsáveis pela nossa própria saúde. “Ruta” vem da Ruta graveolens, nome científico da Arruda - planta associada a proteção, entusiasmo e prosperidade, pela qual temos um carinho especial. “Ruta” também nos remete a rota, trajeto, percurso. E, pra nós, autonomia tem a ver com isso: acreditar que a possibilidade de trilhar nossos próprios caminhos de forma consciente, cuidadosa e gentil conosco é parte de um processo coletivo, que existe em rede.
 
-###Portfolio 
-
-Portfolio projects are in '/_posts'
-
-Images are in '/img/portfolio'
-
-###About
-
-Images are in '/img/about/'
-
-###Team
-
-Team members and info are in '_config.yml'
-
-Images are in '/img/team/'
-
-
-# Demo
-
-View this jekyll theme in action [here](https://y7kim.github.io/agency-jekyll-theme)
-
-=========
-For more details, read [documentation](http://jekyllrb.com/)
+Este website  uma adaptação do template [Agency theme](https://startbootstrap.com/template-overviews/agency/) feita por [Cris Taniguti](https://github.com/Cristianetaniguti).
