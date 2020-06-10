@@ -6,7 +6,7 @@
   <meta name="description" content="{{ site.description }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
   
-  <!-- Social Media Open Graph Meta Tags -->
+  <!-- Facebook Open Graph Meta Tags -->
   <meta property="og:type" content="website">
   <meta property="og:url" content="{{ site.baseurl }}">
   <meta property="og:description" content="{{ site.description }}">
@@ -14,6 +14,17 @@
   <meta property="og:locale" content="pt_BR">
   <meta property="og:site_name" content="{{ site.url }}">
   <meta property="og:image" content="{{ "img/header_bg_up.jpg" | prepend: site.baseurl }}">
+  
+  <!-- Google / Search Engine Tags -->
+  <meta itemprop="name" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+  <meta itemprop="description" content="{{ site.description }}">
+  <meta itemprop="image" content="{{ "img/header_bg_up.jpg" | prepend: site.baseurl }}">
+
+  <!-- Twitter Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+  <meta name="twitter:description" content="{{ site.description }}">
+  <meta name="twitter:image" content="{{ "img/header_bg_up.jpg" | prepend: site.baseurl }}">
 
   <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
   <link rel="stylesheet" href="{{ "/style.css" | prepend: site.baseurl }}">
