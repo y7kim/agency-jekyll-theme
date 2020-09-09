@@ -10,6 +10,5 @@ alt: image-alt
 project-date: 2014
 client: none
 category: info
-description: OpenStreetMap Foundation Japanでは、2014年以降1年に1回、State of the Map Japanとして、ローカルカンファレンスの開催を行っています。<ul><li><a href="https://stateofthemap.jp/2014/">State of the Map Japan 2014 - 東京</a></li><li><a href="https://stateofthemap.jp/2015/">State of the Map Japan 2015 - 浜松</a></li><li><a href="https://stateofthemap.jp/2016/">State of the Map Japan 2016 - 東京</a></li><li><a href="https://2017.stateofthemap.org/ja/">State of the Map 2017 - 会津若松</a> (英国OSMFと共催、国際カンファレンスとして開催)</li><li><a href="https://stateofthemap.jp/2018/">State of the Map Japan 2018</a></li></ul>
-
+description: OpenStreetMap Foundation Japanでは、2014年以降1年に1回、<a href="https://stateofthemap.jp">State of the Map Japan<a>として、ローカルカンファレンスの開催を行っています。<ul><li><a href="https://stateofthemap.jp/2014/">State of the Map Japan 2014 - 東京</a></li><li><a href="https://stateofthemap.jp/2015/">State of the Map Japan 2015 - 浜松</a></li><li><a href="https://stateofthemap.jp/2016/">State of the Map Japan 2016 - 東京</a></li><li><a href="https://2017.stateofthemap.org/ja/">State of the Map 2017 - 会津若松</a> (英国OSMFと共催、国際カンファレンスとして開催)</li><li><a href="https://stateofthemap.jp/2018/">State of the Map Japan 2018</a></li><li><a href="https://stateofthemap.jp/2020/">State of the Map Japan 2020 Online</a></li></ul>
 ---
