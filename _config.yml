@@ -14,7 +14,11 @@ people:
 
 - name: Gabriela
   pic: gabriela.png
-  position: "<p style = 'text-align: justify;'> Gabriela tem 27 anos, é paulista, da mais querida zona leste. Atriz, doula e, em breve, obstetriz, que encontra um caminho comum nas artes e nas ciências. Aqui na Ruta cuida da frente de articulação e produção de materiais. É mãe dos xodós Gael e Isa. Filha de Oxum com Oxóssi, tem 'Os Olhos Cheios D'Água'. Caçadora de si mesma, aquariana e diferentona. Ama um samba na palma da mão, num domingo de sol, Corinthians campeão.</p>"
+  position: "<p style = 'text-align: justify;'> Gabriela tem 27 anos, é paulista, da mais querida zona leste. Atriz, doula e obstetriz, que encontra um caminho comum nas artes e nas ciências. Aqui na Ruta cuida da frente de articulação e produção de materiais. É mãe dos xodós Gael e Isa. Filha de Oxum com Oxóssi, tem 'Os Olhos Cheios D'Água'. Caçadora de si mesma, aquariana e diferentona. Ama um samba na palma da mão, num domingo de sol, Corinthians campeão.</p>"
+
+- name: Gabriela
+  pic: gabi_moreno.png
+  position: "<p style = 'text-align: justify;'> Gabi tem 28 anos, é a virginiana mais peixes vibes da Coletiva. Paulistana imersa no universo da yoga, da ayurveda e dos mergulhos sensoriais - alimentação, dança, música, meditação e aromas. É apaixonada na rabeca e nela anda se aventurando. Mãe da pequena Luma. Obstetriz em formação. Na Ruta cuida da frente de articulações. Se nutre de afetos, escutas, silêncios e conexões humanas. Fluir é seu verbo de escolha. Filha das águas e ventos. </p>"
 
 - name: Luísa
   pic: luisa.png
@@ -26,7 +30,8 @@ people:
 
 - name: Veri
   pic: veri.png
-  position: "<p style = 'text-align: justify;'> Veri tem 27 anos, é do interior de São Paulo e está no quinto ano de Obstetrícia. Adora tomar café da manhã com calma e come mingau de aveia - por quem nutre uma paixão inexplicável - quase todos os dias. Na coletiva está nas frentes de almoxarifado, grupo de estudos e mídias sociais. Ama cozinhar, sonha em ser fluente em libras e espanhol, conhecer vários países da América Latina e comer vários tipos de milhos. Tem um Q de queer e ama fazer drag nas horas vagas.</p>"
+  position: "<p style = 'text-align: justify;'> Veri tem 28 anos, é do interior de São Paulo e está no quinto ano de Obstetrícia. Adora tomar café da manhã com calma e come mingau de aveia - por quem nutre uma paixão inexplicável - quase todos os dias. Na coletiva está nas frentes de almoxarifado, grupo de estudos e mídias sociais. Ama cozinhar, sonha em ser fluente em libras e espanhol, conhecer vários países da América Latina e comer vários tipos de milhos. Tem um Q de queer e ama fazer drag nas horas vagas.</p>"
+
 
 - name: Ana Clara
   pic: ana_clara.png
