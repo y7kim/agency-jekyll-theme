@@ -11,7 +11,7 @@ description: "Who are we?  We are a group of high schoolers that love the game o
 people:
 - name: Abhi Korrapati
   pic: 1
-  position: Lead Designer
+  position: Head Coach
   social:
     - title: twitter
       url: #
@@ -22,7 +22,7 @@ people:
 
 - name: Anshul Doshi
   pic: 2
-  position: Lead Marketer
+  position: Outreach
   social:
     - title: twitter
       url: #
@@ -33,7 +33,7 @@ people:
 
 - name: Navin Bhat
   pic: 3
-  position: Lead Developer
+  position: Head Coach
   social:
     - title: twitter
       url: #
@@ -44,7 +44,7 @@ people:
       
 - name: Pranav Joshi
   pic: 4
-  position: Lead Developer
+  position: Eye Candy
   social:
     - title: twitter
       url: #
