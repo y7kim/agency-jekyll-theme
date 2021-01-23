@@ -2,45 +2,69 @@ url: https://y7kim.github.io
 baseurl: /agency-jekyll-theme/
 
 # Site settings
-title: Awesome Title
-email: your-email@domain.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+title: Ortega Hoops
+email: ohoops20@gmail.com
+description: "Who are we?  We are a group of high schoolers that love the game of basketball and we want to teach younger kids that share the love for the game and help them get better.  We started OHoops in September and we immediately  got several signups. Our team is made of five people; Anshul Doshi, Anay Berde, Abhi Korrapati, Pranav Joshi, and Navin Bhat."
 
 
 # Team names, titles and social links
 people:
-- name: Kay Garland
+- name: Abhi Korrapati
   pic: 1
-  position: Lead Designer
+  position: CEO
   social:
     - title: twitter
       url: #
     - title: facebook
-      url: #
+      url: https://www.instagram.com/abh1k_18/
     - title: stack-overflow
       url: #
 
-- name: Larry Parker
+- name: Anshul Doshi
   pic: 2
-  position: Lead Marketer
+  position: Outreach
   social:
     - title: twitter
       url: #
     - title: facebook
-      url: #
+      url: https://www.instagram.com/pornhub/
     - title: linkedin
       url: #
 
-- name: Diana Petersen
+- name: Navin Bhat
   pic: 3
-  position: Lead Developer
+  position: Head Coach
   social:
     - title: twitter
       url: #
     - title: facebook
-      url: #
+      url: https://www.instagram.com/navinbhat1/
     - title: google-plus
       url: #
+      
+- name: PJ
+  pic: 4
+  position: Eye Candy
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: https://www.instagram.com/star.flight431/
+    - title: google-plus
+      url: #
+      
+- name: Anay Berde
+  pic: 5
+  position: Eye Candy
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: https://www.instagram.com/rohan_aloo/
+    - title: google-plus
+      url: #
+  
+
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
