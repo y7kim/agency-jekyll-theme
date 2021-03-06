@@ -3,13 +3,13 @@ title: 会員について
 subtitle: 個人会員・企業会員
 layout: default
 modal-id: 4
-date: 2017-10-11
+date: 2020-03-04
 img: members.png
 thumbnail: members-thumbnail.png
 alt: image-alt
 project-date: Apr 2014
 client: none
 category: info
-description: OSMFJは、個人として参加できる会員種別として「正会員」と「賛助会員」、企業として参加できる会員種別として「賛助会員」を設定しています。「一般社団法人オープンストリートマップ・ファウンデーション・ジャパン(略称:OSMFJ)」の理念に賛同し、活動に参加したり、援助してくださる方を募集しています。<br><br>正会員<br>随時募集中です。希望される方は<a href="mailto:info@osmf.jp">info@osmf.jp</a>へお問い合わせください。<br>賛助会員の募集<br>私たちの活動を応援していただける賛助会員募集しています。（法人、個人は問いません）<br>正会員としての活動はできないが、OSMFJの趣旨に賛同し、資金的に援助したいという方、賛助会員としてOSMFJを支えて頂けませんか？<br>また、賛助会員には会費以外特別な義務はありません。<br>会費<br><ul><li>賛助会員（法人）： （入会金なし、年会費一口50,000円）</li><li>賛助会員（個人）： （入会金なし、年会費3,500円）　（2016年年度改定）</li></ul>※その他寄付等については随時受け賜ります。
+description: 「一般社団法人オープンストリートマップ・ファウンデーション・ジャパン(略称:OSMFJ)」は、個人として参加できる会員種別として<strong>「正会員」</strong>と<strong>「賛助会員（個人）」</strong>、企業として参加できる会員種別として<strong>「賛助会員（法人）」</strong>を設定しています。<br>OSMFJの理念に賛同し、活動への参加や援助を実施くださる方を募集しています。<br><br>それぞれの会員種別の有する権利については「<a href="img/pdf/join-osmfj.pdf" target="_blank">OSMFJ会員の権利</a>」を参照ください。<br><br><h4>会員種別の概要</h4><strong>正会員;</strong><br>入会金3,500円<br>年会費3,500円<br>OSMFJの活動趣旨に賛同し、その活動を支えると共に、積極的に活動に参加し、組織の一員として活動する立場となります。<br>社員総会と役員選挙に対する投票権を有します。<br><br><strong>賛助会員（個人）;</strong><br>入会金なし<br>年会費3,500円<br>OSMFJの活動趣旨に賛同し、その活動を支える立場が主となります。<br>社員総会と役員選挙に対する投票権はありません。<br><br><strong>賛助会員（法人）</strong>;<br>入会金なし<br>年会費50,000円<br>個人の賛助会員と同様、OSMFJの活動趣旨に賛同し、その活動を支える立場が主となります。<br>社員総会と役員選挙に対する投票権はありません<br><br><h4>会員登録の申請</h4>OSMFJの会員になることを希望されるかたは、以下のフォームからご連絡ください。<br><a href="https://docs.google.com/forms/d/e/1FAIpQLSeYyuHz7N-khekIPIqJUM4eyEHk0qP9HQBU3x75ANZkNt6I-w/viewform" target="_blank">OpenStreetMap Foundation Japan会員申請フォーム</a><br><br>※その他寄付等については随時受け賜ります。<br>不明点については<a href="mailto:info@osmf.jp">info@osmf.jp</a>へお問い合わせください。
 
 ---
