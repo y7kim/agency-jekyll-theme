@@ -35,3 +35,9 @@ Icon
 # Files that might appear on external disk
 .Spotlight-V100
 .Trashes
+
+# ignore ruby-version
+.ruby-version
+
+# ignore jekyll-cache
+.jekyll-cache
