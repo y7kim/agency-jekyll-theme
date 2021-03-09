@@ -1,25 +1,17 @@
-  <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <span class="copyright">Copyright &copy; {{ site.title }} {{ 'now' | date: "%Y" }}</span>
-                </div>
-                <div class="col-md-4">
-                    <ul class="list-inline social-buttons">
-                        {% for network in site.social %}
-                        <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
-                        </li>
-                        {% endfor %}
-                    </ul>
-                </div>
-                <div class="col-md-4">
-                    <ul class="list-inline quicklinks">
-                        <li><a href="#">Privacy Policy</a>
-                        </li>
-                        <li><a href="#">Terms of Use</a>
-                        </li>
-                    </ul>
-                </div>
+<!-- Footer-->
+<footer class="footer py-4">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-4 text-lg-left">Copyright &copy; {{ site.title }} {{ 'now' | date: "%Y" }}</div>
+            <div class="col-lg-4 my-3 my-lg-0">
+                {% for network in site.social %}
+                <a class="btn btn-dark btn-social mx-2" href="{{ network.url }}"><i class="fab fa-{{ network.title }}"></i></a>
+                {% endfor %}
+            </div>
+            <div class="col-lg-4 text-lg-right">
+              <a class="mr-3" href="#!">Privacy Policy</a>
+              <a href="#!">Terms of Use</a>
             </div>
         </div>
-    </footer>
+    </div>
+</footer>
