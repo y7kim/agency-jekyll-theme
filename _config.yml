@@ -3,95 +3,69 @@ baseurl: /
 
 # Site settings
 title: EpochML
-email: your-email@domain.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+email: help@epochml.org
+description: "EpochML is building a computational cluster for the IMSA community."
 
 
 # Team names, titles and social links
 motherboard:
-- name: Kay Garland
+- name: Gautham Anne
   pic: 1
-  position: Lead Designer
+  position: CEO
   social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
-
-- name: Larry Parker
+    - title: envelope
+      url: mailto:ganne@epochml.org
+- name: Dev Singh
   pic: 2
-  position: Lead Marketer
+  position: CTO
   social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: linkedin
-      url: #
-
-- name: Diana Petersen
+    - title: envelope
+      url: mailto:dsingh@epochml.org
+- name: Liam Nelson
   pic: 3
-  position: Lead Developer
+  position: CSO
   social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: google-plus
-      url: #
+    - title: envelope
+      url: mailto:lnelson@epochml.org
+- name: Advait Patel
+  pic: 1
+  position: CFO
+  social:
+    - title: envelope
+      url: mailto:apatel@epochml.org
+- name: Sage Owen
+  pic: 2
+  position: CRO
+  social:
+    - title: envelope
+      url: mailto:cowen@epochml.org     
+
 shadowboard:
-- name: Kay Garland
+- name: Braeden Cullen
   pic: 1
-  position: Lead Designer
+  position: Shadow CTO
   social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
+    - title: envelope
+      url: mailto:bcullen@epochml.org
 
-- name: Larry Parker
+- name: Melanie Cuenca
   pic: 2
-  position: Lead Marketer
+  position: Shadow CRO
   social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: linkedin
-      url: #
-
-- name: Diana Petersen
-  pic: 3
-  position: Lead Developer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: google-plus
-      url: #
+    - title: envelope
+      url: mailto: mcuenca@epochml.org
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: http://twitter.com/jekyllrb
-  - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket 
-    url: http://bitbucket.org/jekyll
+  - title: discord
+    url: https://goepoch.ml/discord
   - title: github
-    url: http://github.com/jekyll
+    url: https://github.com/epochml
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+  - line: 1500 Sullivan Road
+  - line: Aurora, IL 60506
 
 # Build settings
 markdown: kramdown
