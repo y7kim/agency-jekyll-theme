@@ -53,7 +53,7 @@ shadowboard:
   position: Shadow CRO
   social:
     - title: envelope
-      url: mailto: mcuenca@epochml.org
+      url: mailto:mcuenca@epochml.org
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
