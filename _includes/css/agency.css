@@ -657,10 +657,7 @@ aside.clients img {
 }
 
 section#getinvolved {
-    background-color: #222;
-    background-image: url('img/map-image.png');
-    background-position: center;
-    background-repeat: no-repeat;
+    background-color: #1e1e24;
 }
 
 section#getinvolved .section-heading {

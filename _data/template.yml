@@ -7,5 +7,5 @@ color:
 
 # Font Families
 font:
-  primary: 'Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif'
-  secondary: '"Droid Serif", "Helvetica Neue", Helvetica,Arial,sans-serif'
+  primary: 'opensans-regular, Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif'
+  secondary: 'opensans-regular, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"'
