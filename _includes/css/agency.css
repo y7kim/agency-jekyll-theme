@@ -269,7 +269,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url('{{ site.baseurl }}/img/header-bg.jpg');
+    background-color: #1e1e24;
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -656,68 +656,68 @@ aside.clients img {
     margin: 50px auto;
 }
 
-section#contact {
+section#getinvolved {
     background-color: #222;
-    background-image: url('{{ site.baseurl }}/img/map-image.png');
+    background-image: url('/img/map-image.png');
     background-position: center;
     background-repeat: no-repeat;
 }
 
-section#contact .section-heading {
+section#getinvolved .section-heading {
     color: #fff;
 }
 
-section#contact .form-group {
+section#getinvolved .form-group {
     margin-bottom: 25px;
 }
 
-section#contact .form-group input,
-section#contact .form-group textarea {
+section#getinvolved .form-group input,
+section#getinvolved .form-group textarea {
     padding: 20px;
 }
 
-section#contact .form-group input.form-control {
+section#getinvolved .form-group input.form-control {
     height: auto;
 }
 
-section#contact .form-group textarea.form-control {
+section#getinvolved .form-group textarea.form-control {
     height: 236px;
 }
 
-section#contact .form-control:focus {
+section#getinvolved .form-control:focus {
     border-color: #{{ site.data.template.color.primary }};
     box-shadow: none;
 }
 
-section#contact::-webkit-input-placeholder {
+section#getinvolved::-webkit-input-placeholder {
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
     font-weight: 700;
     color: #bbb;
 }
 
-section#contact:-moz-placeholder {
+section#getinvolved:-moz-placeholder {
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
     font-weight: 700;
     color: #bbb;
 }
 
-section#contact::-moz-placeholder {
+section#getinvolved::-moz-placeholder {
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
     font-weight: 700;
     color: #bbb;
 }
 
-section#contact:-ms-input-placeholder {
+section#getinvolved:-ms-input-placeholder {
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
     font-weight: 700;
     color: #bbb;
 }
 
-section#contact .text-danger {
+section#getinvolved .text-danger {
     color: #e74c3c;
 }
 

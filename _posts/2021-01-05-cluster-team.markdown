@@ -1,15 +1,11 @@
 ---
-title: Treehouse
-subtitle: Website Design
+title: Cluster Team
+subtitle: Design and maintain the Epoch cluster to support the computational sciences.
 layout: default
-modal-id: 4
-date: 2014-07-15
-img: treehouse.png
-thumbnail: treehouse-thumbnail.png
+modal-id: 1
+img: roundicons.png
+thumbnail: roundicons-thumbnail.png
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
+leader: Dev Singh and Liam Nelson
 description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
-
 ---
