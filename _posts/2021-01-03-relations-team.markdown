@@ -7,5 +7,5 @@ img: roundicons.png
 thumbnail: roundicons-thumbnail.png
 alt: image-alt
 leader: Sage Owen
-description: The business team works to raise money to support Epoch's goals, include funding the cluster. Responsibilities include reaching out to potential sponsors, applying for grants, and developing connections to raise funds.
+description: The relations team manages contacts and relations both internal and external to IMSA, including staff, students, and administration. The relations team also build connections and networks to protect, enhance, and build the reputation and standing of Epoch. 
 ---
