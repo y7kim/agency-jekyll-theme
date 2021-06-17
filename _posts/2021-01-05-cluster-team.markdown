@@ -7,5 +7,5 @@ img: roundicons.png
 thumbnail: roundicons-thumbnail.png
 alt: image-alt
 leader: Dev Singh and Liam Nelson
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+description: The cluster team designs, develops, and maintains the Epoch cluster for machine learning and computational sciences. Cluster team also manages various support and cloud services for the benefit of Epoch users and the IMSA community, including analytics, security, and identity services. Cluster team also provides a beta Kubernetes cluster to provide educational support applications to enhance the educational experience.
 ---
