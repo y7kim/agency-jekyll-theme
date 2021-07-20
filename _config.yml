@@ -2,26 +2,26 @@ url: https://y7kim.github.io
 baseurl: /agency-jekyll-theme/
 
 # Site settings
-title: nazir 
-email: hussain07ali@gmail.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+title: Itechf 
+email: itechfsite@gmail.com
+description: "Web development refers in general to the tasks associated with developing websites for hosting via intranet or internet. The web development process includes web design, web content development, client-side/server-side scripting and network security configuration, among other tasks."
 
 
 # Team names, titles and social links
 people:
-- name: Kay Garland
-  pic: 1
+- name: Nazir Hussain
+  pic: 2
   position: Lead Designer
   social:
     - title: twitter
       url: #
     - title: facebook
-      url: #
+      url: https://www.facebook.com/sagar.hussain.5680
     - title: stack-overflow
       url: #
 
 - name: Larry Parker
-  pic: 2
+  pic: 1
   position: Lead Marketer
   social:
     - title: twitter
@@ -47,7 +47,7 @@ social:
   - title: twitter
     url: http://twitter.com/jekyllrb
   - title: facebook
-    url:
+    url: https://www.facebook.com/itechfP
   - title: stack-overflow
     url: http://stackoverflow.com/questions/tagged/jekyll
   - title: bitbucket 
@@ -57,8 +57,9 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+  - line: Jamia Nagar New Delhi
+ 
+  - line: Delhi, India 110025
 
 # Build settings
 markdown: kramdown
