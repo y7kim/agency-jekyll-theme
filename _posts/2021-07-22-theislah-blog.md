@@ -4,9 +4,9 @@ subtitle: Islamic Blog
 layout: default
 modal-id: 3
 date: 2019-12-01
-img: bestrani-home.jpg
-thumbnail: bestrani-home-thumbnail.jpg
-alt: Bestrani Home Page Screen
+img: theislah home page.png
+thumbnail: theislah home thumbnail.png
+alt: Theislah Home Page Screen
 project-date: December 2020
 client: Theislah.com
 category: Web Development
