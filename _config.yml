@@ -20,16 +20,15 @@ people:
       url: https://www.facebook.com/sagar.hussain.5680
     
 
-- name: Larry Parker
-  pic: 2
+- name: Iffat Zia Khan
+  pic: Iffat Zia Khan.png
   position: Lead Marketer
   social:
     - title: twitter
       url: #
     - title: facebook
-      url: #
-    - title: linkedin
-      url: #
+      url: https://www.facebook.com/IffatZia.Khan
+    
 
 - name: Diana Petersen
   pic: 3
