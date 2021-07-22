@@ -10,15 +10,15 @@ description: "Web development refers in general to the tasks associated with dev
 # Team names, titles and social links
 people:
 - name: Nazir Hussain
-  pic: 1
+  pic: 1.png
+  imgAlt: Nazir Hussain Profile Picture
   position: Lead Designer
   social:
-    - title: twitter
-      url: #
+    - title: quora
+      url: https://www.quora.com
     - title: facebook
       url: https://www.facebook.com/sagar.hussain.5680
-    - title: stack-overflow
-      url: #
+    
 
 - name: Larry Parker
   pic: 2

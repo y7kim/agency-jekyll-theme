@@ -1,12 +1,12 @@
 ---
 title: Bestrani
-subtitle: Fashion
+subtitle: Fashion Blog
 layout: default
 modal-id: 1
-date: 2014-07-15
-img: roundicons.png
-thumbnail: roundicons-thumbnail.png
-alt: image-alt
+date: 2020-12-01
+img: bestrani-home.jpg
+thumbnail: bestrani-home-thumbnail.jpg
+alt: Bestrani Home Page Screen
 project-date: December 2020
 client: Bestrani.com
 category: Web Development
