@@ -1,15 +1,15 @@
 ---
-title: Round Icons
-subtitle: Graphic Design
+title: Gkgud
+subtitle: Amazing facts
 layout: default
-modal-id: 6
+modal-id: 2
 date: 2014-07-15
 img: roundicons.png
 thumbnail: roundicons-thumbnail.png
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
+project-date: December 2020
+client: Gkgud.com
 category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+description: GkGud.com helps you to make informed decisions before buying the products. We consider the best prices, best quality, and customer favorites.
 
 ---
