@@ -10,7 +10,7 @@ description: "Web development refers in general to the tasks associated with dev
 # Team names, titles and social links
 people:
 - name: Nazir Hussain
-  pic: 1.png
+  pic: nazir.png
   imgAlt: Nazir Hussain Profile Picture
   position: Lead Designer
   social:
@@ -20,28 +20,24 @@ people:
       url: https://www.facebook.com/sagar.hussain.5680
     
 
-- name: Larry Parker
-  pic: 2
+- name: Iffat Zia Khan
+  pic: Iffat Zia Khan.png
   position: Lead Marketer
   social:
     - title: twitter
       url: #
     - title: facebook
-      url: #
-    - title: linkedin
-      url: #
-
-- name: Diana Petersen
-  pic: 3
+      url: https://www.facebook.com/IffatZia.Khan
+  
+- name: Amita Srivastav
+  pic: Amita Srivastav.png
   position: Lead Developer
   social:
     - title: twitter
       url: #
     - title: facebook
       url: #
-    - title: google-plus
-      url: #
-
+    
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
