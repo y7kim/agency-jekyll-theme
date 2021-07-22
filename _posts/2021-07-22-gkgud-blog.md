@@ -3,10 +3,10 @@ title: Gkgud
 subtitle: Amazing facts
 layout: default
 modal-id: 2
-date: 2014-07-15
-img: roundicons.png
-thumbnail: roundicons-thumbnail.png
-alt: image-alt
+date: 2020-12-01
+img: gkgud home page.png
+thumbnail: gkgud Home thumbnail.png
+alt: Gkgud Home Page Screen
 project-date: December 2020
 client: Gkgud.com
 category: Web Development
