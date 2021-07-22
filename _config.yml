@@ -10,7 +10,7 @@ description: "Web development refers in general to the tasks associated with dev
 # Team names, titles and social links
 people:
 - name: Nazir Hussain
-  pic: 2
+  pic: 1
   position: Lead Designer
   social:
     - title: twitter
@@ -21,7 +21,7 @@ people:
       url: #
 
 - name: Larry Parker
-  pic: 1
+  pic: 2
   position: Lead Marketer
   social:
     - title: twitter
