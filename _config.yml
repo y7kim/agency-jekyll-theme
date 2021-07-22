@@ -28,19 +28,16 @@ people:
       url: #
     - title: facebook
       url: https://www.facebook.com/IffatZia.Khan
-    
-
-- name: Diana Petersen
-  pic: 3
+  
+- name: Amita Srivastav
+  pic: Amita Srivastav.png
   position: Lead Developer
   social:
     - title: twitter
       url: #
     - title: facebook
       url: #
-    - title: google-plus
-      url: #
-
+    - 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
