@@ -1,56 +1,63 @@
 url: https://folio.itechf.com
 baseurl: /agency-jekyll-theme/
 # Site settings
-title: Itechf 
+title: Modern Web solutions for your Business
+logo: img/logos/itechf-logo-white-trs-site.png
+logo-alt: Itechf Portfolio Website Logo
+favicon: img/logos/itechf-favicon.png
 email: itechfsite@gmail.com
 description: We are providing Responsive Portfolio, e-commerce and Blog website designing, Digital Marketing, Domain, Email Service, SEO service & many more.
 
 seo:
-  - meta: title
-    desc: Modern Web solutions for your Business
-  - meta: og:site_name
-    desc: Itechf Portfolio
-  - meta: og:title
-    desc: Modern Web solutions for your Business
-  - meta: og:type
-    desc: portfolio
-  - meta: description
-    desc: We are providing Responsive Portfolio, e-commerce and Blog website designing, Digital Marketing, Domain, Email Service, SEO service & many more.
-  - meta: og:url
-    desc: https://folio.itechf.com
-  - meta: og:image
-    desc: seo/itechf-folio.png
-  - meta: og:image:type
-    desc: image/jpeg
-  - meta: og:image:width
-    desc: 600
-  - meta: og:image:height
-    desc: 400
-  - meta: og:locale
-    desc: en_US
-  - meta: og:locale:alternate
-    desc: en_IN
-  - meta: twitter:card
-    desc: We are providing Responsive Portfolio, e-commerce and Blog website designing, Digital Marketing, Domain, Email Service, SEO service & many more.
-  - meta: twitter:site
-    desc: @Itechf
-  - meta: twitter:url
-    desc: https://folio.itechf.com
-  - meta: twitter:title
-    desc: Modern Web solutions for your Business
-  - meta: twitter:description
-    desc: We are providing Responsive Portfolio, e-commerce and Blog website designing, Digital Marketing, Domain, Email Service, SEO service & many more.
-  - meta: twitter:image
-    desc: seo/itechf-folio.png
-  - meta: datePublished
-    desc: 2021-07-23T08:00:00+530
+  - property: title
+    content: Modern Web solutions for your Business
+  - property: og:site_name
+    content: Itechf Portfolio
+  - property: og:title
+    content: Modern Web solutions for your Business
+  - property: og:type
+    content: portfolio
+  - property: description
+    content: We are providing Responsive Portfolio, e-commerce and Blog website designing, Digital Marketing, Domain, Email Service, SEO service & many more.
+  - property: og:url
+    content: https://folio.itechf.com
+  - property: og:image
+    content: seo/itechf-folio.png
+  - property: og:image:type
+    content: image/jpeg
+  - property: og:image:width
+    content: 600
+  - property: og:image:height
+    content: 400
+  - property: og:locale
+    content: en_US
+  - property: og:locale:alternate
+    content: en_IN
+  - property: twitter:card
+    content: We are providing Responsive Portfolio, e-commerce and Blog website designing, Digital Marketing, Domain, Email Service, SEO service & many more.
+  - property: twitter:site
+    content: '@Itechf'
+  - property: twitter:url
+    content: https://folio.itechf.com
+  - property: twitter:title
+    content: Modern Web solutions for your Business
+  - property: twitter:desctription
+    content: We are providing Responsive Portfolio, e-commerce and Blog website designing, Digital Marketing, Domain, Email Service, SEO service & many more.
+  - property: twitter:image
+    content: seo/itechf-folio.png
+  - property: datePublished
+    content: 2021-07-23T08:00:00+530
 
 #Home Page Details
 home:
-  title: Welcome To Itechf! conf
-  desc: Get started in web development today
+  title: Welcome To Itechf!
+  desc: Modern Web solutions for your Business
   btnTxt: More Services
 
+#Portfolio
+portfolio:
+  title: Services
+  desc: Our Web Development Services.
 
 #Services we offer
 services:
@@ -111,14 +118,31 @@ people:
       url: #
     - title: facebook
       url: #
-    
-# Footer Menu
-footer:
+
+# Header Menu
+header:
   - menus:
     - title: Privacy Policy
       url: https://itechf.com/privacy-policy/
     - title: Terms of Use
       url: https://itechf.com/terms-and-conditions/
+  - social:
+    - title: facebook
+      url: https://www.facebook.com/itechfP
+
+# Footer Menu
+footer:
+  - menus:
+    - title: Services
+      url: #services
+    - title: Portfolio
+      url: #portfolio
+    - title: About
+      url: #about
+    - title: Team
+      url: #team
+    - title: Contact
+      url: #contact
   - social:
     - title: twitter
       url: http://twitter.com/jekyllrb
