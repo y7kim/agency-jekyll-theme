@@ -68,15 +68,19 @@ services:
       icon: fas fa-business-time
     - title: SEO
       desc: We paint the town red with and let everyone know that your business has arrived for the mainstream
-      icon: fa fa-lock
+      icon: far fa-lightbulb
     - title: DIGITAL ADVERTISING
       desc: Your future customers are watching you tube video or sharing a meme right now.We will adcertise your business right in front of them
-      icon: fa fa-lock
+      icon: fas fa-ad
+    - title: APP DEVELOPMENT
+      desc: Looking for Mobile application development we build native Android and iOS mobile apps . Bring your ideas to us and.
+      icon: fas fa-mobile-alt
+      
 
 # Team names, titles and social links
 teams:
   - title: Our Amazing Team
-    desc: At Reach First, we specialize in web development and take it as an integral part of our digital marketing services. From development to marketing your site, we follow a systematic process in order to build and maintain a site that delivers beyond expectations. Have a look at our process.
+    desc: At Itechf, we specialize in web development and take it as an integral part of our digital marketing services. From development to marketing your site, we follow a systematic process in order to build and maintain a site that delivers beyond expectations. Have a look at our process.
     footer: We start with a brief session with our clients where we develop an understanding of their business and web development needs. Developing an in-depth understanding of a client's unique situation helps us put together a plan of action that appeals to the target audience. Without this insight the campaign's objectives cannot be successfully achieved.
 
 people:
@@ -120,12 +124,8 @@ footer:
       url: http://twitter.com/jekyllrb
     - title: facebook
       url: https://www.facebook.com/itechfP
-    - title: stack-overflow
-      url: http://stackoverflow.com/questions/tagged/jekyll
-    - title: bitbucket 
-      url: http://bitbucket.org/jekyll
     - title: github
-      url: http://github.com/jekyll
+      url: https://github.com/itechf-s
 
 
 
