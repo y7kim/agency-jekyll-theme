@@ -3,51 +3,21 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Services</h2>
-                    <h3 class="section-subheading text-muted">Our Web Development Services.</h3>
+                    <h2 class="section-heading">{{site.services[0].title}}</h2>
+                    <h3 class="section-subheading text-muted">{{site.services[0].desc}}</h3>
                 </div>
             </div>
             <div class="row text-center">
+                {% for service in site.services[0].list %}
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
+                        <i class="{{service.icon}} fa-stack-1x fa-inverse"></i>
                     </span>
-                    <h4 class="service-heading">WEBSITE DEVELOPMENT AND eCOMMERCE</h4>
-                    <p class="text-muted">We design stunning websites which makes a first impression on your visitors and prospective customers.
-                    </div>
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fas fa-users fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="service-heading">SOCIAL MEDIA MANAGEMENT</h4>
-                    <p class="text-muted">Stay ahead of the curve by having an active presence on Social Media. you just need to sit back and relax. we do the rest.
-                    </div>
-                    <div class="col-md-4">
-                        <span class="fa-stack fa-4x">
-                            <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fas fa-business-time fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <h4 class="service-heading">SMALL BUSINESS WEBSITE</h4>
-                        
-                        <p class="text-muted">When you just launch a startup, developing a website may seem to be an extravagance. Let us tell you, a website is an integral part of your business in today’s digital age.</div>
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-lock fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="service-heading">SEO</h4>
-                    <p class="text-muted">We paint the town red with and let everyone know that your business has arrived for the mainstream
-                    </div>
-                    <div class="col-md-4">
-                        <span class="fa-stack fa-4x">
-                            <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fa fa-lock fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <h4 class="service-heading">DIGITAL ADVERTISING</h4>
-                        <p class="text-muted">Your future customers are watching you tube video or sharing a meme right now.We will adcertise your business right in front of them
-                        </div>    
+                    <h4 class="service-heading">{{service.title}}</h4>
+                    <p class="text-muted">{{service.desc}}</p>
+                </div>  
+                {% endfor %}
             </div>
         </div>
     </section>

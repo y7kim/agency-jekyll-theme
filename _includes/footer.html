@@ -6,18 +6,16 @@
                 </div>
                 <div class="col-md-4">
                     <ul class="list-inline social-buttons">
-                        {% for network in site.social %}
-                        <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
-                        </li>
+                        {% for network in site.footer[0].social %}
+                        <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a></li>
                         {% endfor %}
                     </ul>
                 </div>
                 <div class="col-md-4">
                     <ul class="list-inline quicklinks">
-                        <li><a href="#">Privacy Policy</a>
-                        </li>
-                        <li><a href="#">Terms of Use</a>
-                        </li>
+                    {% for menu in site.footer[0].menus %}
+                        <li><a href="{{menu.url}}">{{menu.title}}</a></li>
+                    {% endfor %}
                     </ul>
                 </div>
             </div>

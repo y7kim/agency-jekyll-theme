@@ -3,8 +3,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Our Amazing Team</h2>
-                    <h3 class="section-subheading text-muted">At Reach First, we specialize in web development and take it as an integral part of our digital marketing services. From development to marketing your site, we follow a systematic process in order to build and maintain a site that delivers beyond expectations. Have a look at our process.</div>
+                    {% for team in site.teams %}
+                    <h2 class="section-heading">{{team.title}}</h2>
+                    <h3 class="section-subheading text-muted">{{team.desc}}</h3></div>
+                    {% endfor %}
             </div>
             <div class="row">
                 {% for member in site.people %}
@@ -29,7 +31,7 @@
             </div>
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <p class="large text-muted">We start with a brief session with our clients where we develop an understanding of their business and web development needs. Developing an in-depth understanding of a client's unique situation helps us put together a plan of action that appeals to the target audience. Without this insight the campaign's objectives cannot be successfully achieved.</div>
+                <p class="large text-muted">{{site.teams[0].footer}}</p></div>
             </div>
         </div>
     </section>

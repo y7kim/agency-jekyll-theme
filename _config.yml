@@ -1,13 +1,37 @@
 url: https://y7kim.github.io
-baseurl: /agency-jekyll-theme/
-
+baseurl: ''
 # Site settings
 title: Itechf 
 email: itechfsite@gmail.com
 description: "Web development refers in general to the tasks associated with developing websites for hosting via intranet or internet. The web development process includes web design, web content development, client-side/server-side scripting and network security configuration, among other tasks."
 
+#Services we offer
+services:
+- title: Services
+  desc: Our Web Development Services.
+  list:
+    - title: WEBSITE DEVELOPMENT AND eCOMMERCE
+      desc: We design stunning websites which makes a first impression on your visitors and prospective customers.
+      icon: fa fa-shopping-cart
+    - title: SOCIAL MEDIA MANAGEMENT
+      desc: Stay ahead of the curve by having an active presence on Social Media. you just need to sit back and relax. we do the rest.
+      icon: fas fa-users
+    - title: SMALL BUSINESS WEBSITE
+      desc: When you just launch a startup, developing a website may seem to be an extravagance. Let us tell you, a website is an integral part of your business in today’s digital age.
+      icon: fas fa-business-time
+    - title: SEO
+      desc: We paint the town red with and let everyone know that your business has arrived for the mainstream
+      icon: fa fa-lock
+    - title: DIGITAL ADVERTISING
+      desc: Your future customers are watching you tube video or sharing a meme right now.We will adcertise your business right in front of them
+      icon: fa fa-lock
 
 # Team names, titles and social links
+teams:
+  - title: Our Amazing Team
+    desc: At Reach First, we specialize in web development and take it as an integral part of our digital marketing services. From development to marketing your site, we follow a systematic process in order to build and maintain a site that delivers beyond expectations. Have a look at our process.
+    footer: We start with a brief session with our clients where we develop an understanding of their business and web development needs. Developing an in-depth understanding of a client's unique situation helps us put together a plan of action that appeals to the target audience. Without this insight the campaign's objectives cannot be successfully achieved.
+
 people:
 - name: Nazir Hussain
   pic: nazir.png
@@ -19,7 +43,6 @@ people:
     - title: facebook
       url: https://www.facebook.com/sagar.hussain.5680
     
-
 - name: Iffat Zia Khan
   pic: Iffat Zia Khan.png
   position: Lead Marketer
@@ -38,23 +61,32 @@ people:
     - title: facebook
       url: #
     
+# Footer Menu
+footer:
+  - menus:
+    - title: Privacy Policy
+      url: https://itechf.com/privacy-policy/
+    - title: Terms of Use
+      url: https://itechf.com/terms-and-conditions/
+
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
-social:
-  - title: twitter
-    url: http://twitter.com/jekyllrb
-  - title: facebook
-    url: https://www.facebook.com/itechfP
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket 
-    url: http://bitbucket.org/jekyll
-  - title: github
-    url: http://github.com/jekyll
+  - social:
+    - title: twitter
+      url: http://twitter.com/jekyllrb
+    - title: facebook
+      url: https://www.facebook.com/itechfP
+    - title: stack-overflow
+      url: http://stackoverflow.com/questions/tagged/jekyll
+    - title: bitbucket 
+      url: http://bitbucket.org/jekyll
+    - title: github
+      url: http://github.com/jekyll
+
+
 
 # Postal address (add as many lines as necessary)
 address:
   - line: Jamia Nagar New Delhi
- 
   - line: Delhi, India 110025
 
 # Build settings
