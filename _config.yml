@@ -29,6 +29,9 @@ services:
     - title: DIGITAL ADVERTISING
       desc: Your future customers are watching you tube video or sharing a meme right now.We will adcertise your business right in front of them
       icon: fas fa-ad
+      - title: DIGITAL ADVERTISING
+      desc: Your future customers are watching you tube video or sharing a meme right now.We will adcertise your business right in front of them
+      icon: fas fa-ad
 
 # Team names, titles and social links
 teams:
