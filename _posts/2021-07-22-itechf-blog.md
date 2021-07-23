@@ -4,8 +4,8 @@ subtitle: Digital Marketer Blog
 layout: default
 modal-id: 4
 date: 2021-03-01
-img: itechf home page.png
-thumbnail: itechf home thumbnail.png
+img: itechf-home-page.png
+thumbnail: itechf-home-thumbnail.png
 alt: Bestrani Home Page Screen
 project-date: March 2021
 client: itechf.com

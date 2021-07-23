@@ -4,8 +4,8 @@ subtitle: Islamic Blog
 layout: default
 modal-id: 3
 date: 2019-12-01
-img: theislah home page.png
-thumbnail: theislah home thumbnail.png
+img: theislah-home-page.png
+thumbnail: theislah-home-thumbnail.png
 alt: Theislah Home Page Screen
 project-date: December 2020
 client: Theislah.com
