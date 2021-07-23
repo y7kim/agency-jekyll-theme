@@ -1,10 +1,14 @@
 url: https://y7kim.github.io
-baseurl: ''
+#baseurl: 'agency-jekyll-theme'
 # Site settings
 title: Itechf 
 email: itechfsite@gmail.com
 description: "Web development refers in general to the tasks associated with developing websites for hosting via intranet or internet. The web development process includes web design, web content development, client-side/server-side scripting and network security configuration, among other tasks."
 
+home:
+  title: Welcome To Itechf! conf
+  desc: Get started in web development today
+  btnTxt: More Services
 #Services we offer
 services:
 - title: Services
@@ -68,8 +72,6 @@ footer:
       url: https://itechf.com/privacy-policy/
     - title: Terms of Use
       url: https://itechf.com/terms-and-conditions/
-
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
   - social:
     - title: twitter
       url: http://twitter.com/jekyllrb
