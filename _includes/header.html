@@ -14,7 +14,7 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="hidden"><a href="#page-top"></a></li>
-                    {% for menu in site.footer[0].menus %}
+                    {% for menu in site.header[0].menus %}
                         <li><a class="page-scroll" href="{{menu.url}}">{{menu.title}}</a></li>
                     {% endfor %}
                 </ul>

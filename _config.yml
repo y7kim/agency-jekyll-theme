@@ -119,8 +119,8 @@ people:
     - title: facebook
       url: #
 
-# Header Menu
-header:
+# Footer Menu
+footer:
   - menus:
     - title: Privacy Policy
       url: https://itechf.com/privacy-policy/
@@ -130,8 +130,8 @@ header:
     - title: facebook
       url: https://www.facebook.com/itechfP
 
-# Footer Menu
-footer:
+# Header Menu
+header:
   - menus:
     - title: Services
       url: #services
