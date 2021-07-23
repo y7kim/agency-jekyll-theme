@@ -29,7 +29,7 @@ services:
     - title: DIGITAL ADVERTISING
       desc: Your future customers are watching you tube video or sharing a meme right now.We will adcertise your business right in front of them
       icon: fas fa-ad
-    - title:  APP DEVELOPMENT
+    - title: APP DEVELOPMENT
       desc: Looking for Mobile application development - we build native Android and iOS mobile apps . Bring your ideas to us and.
       icon: fas fa-mobile-alt
       
