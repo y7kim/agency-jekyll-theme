@@ -25,7 +25,7 @@ services:
       icon: fas fa-business-time
     - title: SEO
       desc: We paint the town red with and let everyone know that your business has arrived for the mainstream
-      icon: fa fa-lock
+      icon: far fa-lightbulb
     - title: DIGITAL ADVERTISING
       desc: Your future customers are watching you tube video or sharing a meme right now.We will adcertise your business right in front of them
       icon: fas fa-ad
