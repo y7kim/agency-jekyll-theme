@@ -28,7 +28,7 @@ services:
       icon: fa fa-lock
     - title: DIGITAL ADVERTISING
       desc: Your future customers are watching you tube video or sharing a meme right now.We will adcertise your business right in front of them
-      icon: fa fa-lock
+      icon: fas fa-ad
 
 # Team names, titles and social links
 teams:
