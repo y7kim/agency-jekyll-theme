@@ -1,14 +1,57 @@
-url: https://y7kim.github.io
+url: https://folio.itechf.com
 baseurl: /agency-jekyll-theme/
 # Site settings
 title: Itechf 
 email: itechfsite@gmail.com
-description: "Web development refers in general to the tasks associated with developing websites for hosting via intranet or internet. The web development process includes web design, web content development, client-side/server-side scripting and network security configuration, among other tasks."
+description: We are providing Responsive Portfolio, e-commerce and Blog website designing, Digital Marketing, Domain, Email Service, SEO service & many more.
 
+seo:
+  - meta: title
+    desc: Modern Web solutions for your Business
+  - meta: og:site_name
+    desc: Itechf Portfolio
+  - meta: og:title
+    desc: Modern Web solutions for your Business
+  - meta: og:type
+    desc: portfolio
+  - meta: description
+    desc: We are providing Responsive Portfolio, e-commerce and Blog website designing, Digital Marketing, Domain, Email Service, SEO service & many more.
+  - meta: og:url
+    desc: https://folio.itechf.com
+  - meta: og:image
+    desc: seo/itechf-folio.png
+  - meta: og:image:type
+    desc: image/jpeg
+  - meta: og:image:width
+    desc: 600
+  - meta: og:image:height
+    desc: 400
+  - meta: og:locale
+    desc: en_US
+  - meta: og:locale:alternate
+    desc: en_IN
+  - meta: twitter:card
+    desc: We are providing Responsive Portfolio, e-commerce and Blog website designing, Digital Marketing, Domain, Email Service, SEO service & many more.
+  - meta: twitter:site
+    desc: @Itechf
+  - meta: twitter:url
+    desc: https://folio.itechf.com
+  - meta: twitter:title
+    desc: Modern Web solutions for your Business
+  - meta: twitter:description
+    desc: We are providing Responsive Portfolio, e-commerce and Blog website designing, Digital Marketing, Domain, Email Service, SEO service & many more.
+  - meta: twitter:image
+    desc: seo/itechf-folio.png
+  - meta: datePublished
+    desc: 2021-07-23T08:00:00+530
+
+#Home Page Details
 home:
   title: Welcome To Itechf! conf
   desc: Get started in web development today
   btnTxt: More Services
+
+
 #Services we offer
 services:
 - title: Services
