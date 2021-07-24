@@ -1,11 +1,13 @@
 url: https://folio.itechf.com
-baseurl: /agency-jekyll-theme/
+baseurl: 'agency-jekyll-theme'
+
 # Site settings
 title: Modern Web solutions for your Business
+copyright: Itechf
 logo: img/logos/itechf-logo-white-trs-site.png
 logo-alt: Itechf Portfolio Website Logo
 favicon: img/logos/itechf-favicon.png
-email: itechfsite@gmail.com
+email: itechf@hotmail.com
 description: We are providing Responsive Portfolio, e-commerce and Blog website designing, Digital Marketing, Domain, Email Service, SEO service & many more.
 
 seo:
@@ -22,7 +24,7 @@ seo:
   - property: og:url
     content: https://folio.itechf.com
   - property: og:image
-    content: seo/itechf-folio.png
+    content: img/itechf-folio.png
   - property: og:image:type
     content: image/jpeg
   - property: og:image:width
@@ -44,7 +46,7 @@ seo:
   - property: twitter:desctription
     content: We are providing Responsive Portfolio, e-commerce and Blog website designing, Digital Marketing, Domain, Email Service, SEO service & many more.
   - property: twitter:image
-    content: seo/itechf-folio.png
+    content: img/itechf-folio.png
   - property: datePublished
     content: 2021-07-23T08:00:00+530
 
@@ -56,8 +58,8 @@ home:
 
 #Portfolio
 portfolio:
-  title: Services
-  desc: Our Web Development Services.
+  title: Portfolio
+  desc: Recent website design samples.
 
 #Services we offer
 services:
@@ -119,16 +121,6 @@ people:
     - title: facebook
       url: #
 
-# Footer Menu
-footer:
-  - menus:
-    - title: Privacy Policy
-      url: https://itechf.com/privacy-policy/
-    - title: Terms of Use
-      url: https://itechf.com/terms-and-conditions/
-  - social:
-    - title: facebook
-      url: https://www.facebook.com/itechfP
 
 # Header Menu
 header:
@@ -144,13 +136,23 @@ header:
     - title: Contact
       url: #contact
   - social:
+    - title: facebook
+      url: https://www.facebook.com/itechfP
+
+# Footer Menu
+footer:
+  - menus:
+    - title: Privacy Policy
+      url: https://itechf.com/privacy-policy/
+    - title: Terms of Use
+      url: https://itechf.com/terms-and-conditions/
+  - social:
     - title: twitter
       url: https://twitter.com/Itechf1
     - title: facebook
       url: https://www.facebook.com/itechfP
     - title: github
       url: https://github.com/itechf-s
-
 
 
 # Postal address (add as many lines as necessary)
