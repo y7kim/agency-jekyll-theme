@@ -1,5 +1,5 @@
 url: https://folio.itechf.com
-baseurl: 'agency-jekyll-theme'
+baseurl: '/agency-jekyll-theme/'
 
 # Site settings
 title: Modern Web solutions for your Business
