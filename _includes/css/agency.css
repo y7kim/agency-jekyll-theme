@@ -176,7 +176,9 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand {
-    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+    /* font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive; */
+    font-family: 'Tourney', cursive;
+font-family: 'Ubuntu Mono', monospace;
     color: #{{ site.data.template.color.primary }};
 }
 
@@ -238,7 +240,7 @@ fieldset[disabled] .btn-xl.active {
     .navbar-default {
         padding: 25px 0;
         border: 0;
-        background-color: transparent;
+        background-color: #{{ site.data.template.color.dark }}; /* transparent; */
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
@@ -269,7 +271,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url('{{ site.baseurl }}/img/header-bg.jpg');
+    background-image: url('{{ site.baseurl }}/img/aerial_1.png');
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -289,6 +291,12 @@ header .intro-text .intro-lead-in {
     font-size: 22px;
     font-style: italic;
     line-height: 22px;
+    background-color: #{{ site.data.template.color.dark }};
+    padding: 10px;
+    border-color: #{{ site.data.template.color.primary }};
+    border-radius: 10px;
+    border: 2px;
+
 }
 
 header .intro-text .intro-heading {

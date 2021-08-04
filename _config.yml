@@ -2,15 +2,15 @@ url: https://erode-ai.github.io
 baseurl: 
 
 # Site settings
-title: Erode AI
+title: Erode-AI
 email: your-email@domain.com
 description: "Quantifying the risks of river erosion."
 
 # Team names, titles and social links
 people:
-- name: Kay Garland
-  pic: 1
-  position: Lead Designer
+- name: Cody Kupferschmidt
+  pic: Cody_Team_Pic
+  position: CEO
   social:
     - title: twitter
       url: #
@@ -19,7 +19,7 @@ people:
     - title: stack-overflow
       url: #
 
-- name: Larry Parker
+- name: Larry David
   pic: 2
   position: Lead Marketer
   social:
@@ -30,16 +30,6 @@ people:
     - title: linkedin
       url: #
 
-- name: Diana Petersen
-  pic: 3
-  position: Lead Developer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: google-plus
-      url: #
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
