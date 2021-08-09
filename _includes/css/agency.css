@@ -240,7 +240,7 @@ font-family: 'Ubuntu Mono', monospace;
     .navbar-default {
         padding: 25px 0;
         border: 0;
-        background-color: #{{ site.data.template.color.dark }}; /* transparent; */
+        background-color: transparent; /*#{{ site.data.template.color.dark }}; transparent; */
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
@@ -271,7 +271,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url('{{ site.baseurl }}/img/aerial_1.png');
+    background-image: url('{{ site.baseurl }}/img/Background_Website.png');
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -287,9 +287,9 @@ header .intro-text {
 
 header .intro-text .intro-lead-in {
     margin-bottom: 25px;
-    font-family: {{ site.data.template.font.secondary }};
+    /* font-family: {{ site.data.template.font.secondary }}; */
     font-size: 22px;
-    font-style: italic;
+    /* font-style: italic; */
     line-height: 22px;
     background-color: #{{ site.data.template.color.dark }};
     padding: 10px;
@@ -318,7 +318,7 @@ header .intro-text .intro-heading {
         margin-bottom: 25px;
         font-family: {{ site.data.template.font.secondary }};
         font-size: 40px;
-        font-style: italic;
+        /* font-style: italic; */
         line-height: 40px;
     }
 
@@ -347,7 +347,7 @@ section h3.section-subheading {
     text-transform: none;
     font-family: {{ site.data.template.font.secondary }};
     font-size: 16px;
-    font-style: italic;
+    /* font-style: italic; */
     font-weight: 400;
 }
 
@@ -427,7 +427,7 @@ section h3.section-subheading {
     margin: 0;
     font-family: {{ site.data.template.font.secondary }};
     font-size: 16px;
-    font-style: italic;
+    /* font-style: italic; */
 }
 
 #portfolio * {
@@ -805,7 +805,7 @@ ul.social-buttons li a:active {
     margin: 20px 0 30px;
     font-family: {{ site.data.template.font.secondary }};
     font-size: 16px;
-    font-style: italic;
+    /* font-style: italic; */
 }
 
 .portfolio-modal .modal-content ul.list-inline {
