@@ -6,7 +6,7 @@
 
 body {
     overflow-x: hidden;
-    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Josefin Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #{{ site.data.template.color.secondary-dark }};
 }
 
@@ -280,22 +280,23 @@ header {
     -o-background-size: cover;
 }
 
+header .intro-logo {
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
 header .intro-text {
-    padding-top: 100px;
-    padding-bottom: 50px;
+    padding-top: 20px;
+    padding-bottom: 30px;
 }
 
 header .intro-text .intro-lead-in {
-    margin-bottom: 25px;
-    /* font-family: {{ site.data.template.font.secondary }}; */
+    margin-bottom: 30px;
+    font-family:"Josefin Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 22px;
-    /* font-style: italic; */
     line-height: 22px;
-    background-color: #{{ site.data.template.color.dark }};
     padding: 10px;
-    border-color: #{{ site.data.template.color.primary }};
-    border-radius: 10px;
-    border: 2px;
+    font-weight:300;
 
 }
 
@@ -304,30 +305,37 @@ header .intro-text .intro-heading {
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
     font-size: 50px;
-    font-weight: 700;
+    font-weight: 600;
     line-height: 50px;
 }
 
 @media(min-width:768px) {
+
+    header .intro-logo {
+        padding-top: 0px;
+        padding-bottom: 50px;
+    }
+
     header .intro-text {
-        padding-top: 300px;
-        padding-bottom: 200px;
+        padding-top: 150px;
+        padding-bottom: 100px;
     }
 
     header .intro-text .intro-lead-in {
         margin-bottom: 25px;
-        font-family: {{ site.data.template.font.secondary }};
+        font-family:"Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 40px;
         /* font-style: italic; */
         line-height: 40px;
+        font-weight: 350;
     }
 
     header .intro-text .intro-heading {
-        margin-bottom: 50px;
+        margin-bottom: 10px;
         text-transform: uppercase;
-        font-family: {{ site.data.template.font.primary }};
+        font-family:"Josefin Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 75px;
-        font-weight: 700;
+        font-weight: 600;
         line-height: 75px;
     }
 }
@@ -666,7 +674,7 @@ aside.clients img {
 
 section#contact {
     background-color: #222;
-    background-image: url('{{ site.baseurl }}/img/map-image.png');
+    background-image: url('{{ site.baseurl }}/img/river-dark.png');
     background-position: center;
     background-repeat: no-repeat;
 }
