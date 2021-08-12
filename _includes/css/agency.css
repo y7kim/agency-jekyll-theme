@@ -57,6 +57,14 @@ h6 {
     font-weight: 700;
 }
 
+.img-narrow {
+    width: 90%;
+    max-width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .img-centered {
     margin: 0 auto;
 }
@@ -233,6 +241,8 @@ fieldset[disabled] .btn-xl.active {
     color: #fff;
     background-color: #{{ site.data.template.color.secondary }};
 }
+
+
 
 @media(min-width:768px) {
     .navbar-default {
