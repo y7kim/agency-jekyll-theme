@@ -176,17 +176,15 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand {
-    /* font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive; */
-    font-family: 'Tourney', cursive;
-font-family: 'Ubuntu Mono', monospace;
-    color: #{{ site.data.template.color.primary }};
+    font-family: "Josefin Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #{{ site.data.template.color.white }};
 }
 
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
-    color: #{{ site.data.template.color.secondary }};
+    color: #{{ site.data.template.color.primary }};
 }
 
 .navbar-default .navbar-collapse {
@@ -655,7 +653,7 @@ section h3.section-subheading {
 
 .team-member img {
     margin: 0 auto;
-    border: 7px solid #fff;
+    border: 7px solid #{{ site.data.template.color.primary }};
 }
 
 .team-member h4 {
