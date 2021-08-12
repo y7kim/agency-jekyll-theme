@@ -8,9 +8,9 @@ description: "Quantifying the risks of river erosion."
 
 # Team names, titles and social links
 people:
-- name: Cody Kupferschmidt
+- name: Cody Kupferschmidt, P.Eng., M.Sc.
   pic: Cody_Team_Pic
-  position: CEO
+  position: Founder and CEO
   social:
     - title: linkedin
       url: https://www.linkedin.com/in/cody-kupferschmidt/
@@ -19,9 +19,9 @@ people:
     # - title: stack-overflow
     #   url: #
 
-- name: Craig MacRitchie
+- name: Craig MacRitchie, B.Eng.
   pic: Craig_Team_Pic
-  position: Software Developer
+  position: Full Stack Developer
   social:
     - title: linkedin
       url: https://www.linkedin.com/in/craig-macritchie/
