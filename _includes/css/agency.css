@@ -290,9 +290,15 @@ header {
     -o-background-size: cover;
 }
 
+header .intro-heading {
+    padding-top: 100px;
+}
+
 header .intro-logo {
-    padding-top: 80px;
-    padding-bottom: 40px;
+    padding-top: 0px;
+    padding-bottom: 30px;
+    min-width: 100px;
+    width: 20%;
 }
 
 header .intro-text {
@@ -301,8 +307,8 @@ header .intro-text {
 }
 
 header .intro-text .intro-lead-in {
-    margin-bottom: 30px;
-    font-family:"Josefin Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin-bottom: 15px;
+    font-family:"Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 22px;
     line-height: 22px;
     padding: 10px;
@@ -313,7 +319,7 @@ header .intro-text .intro-lead-in {
 header .intro-text .intro-heading {
     margin-bottom: 25px;
     text-transform: uppercase;
-    font-family: {{ site.data.template.font.primary }};
+    font-family:"Josefin Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 50px;
     font-weight: 600;
     line-height: 50px;
@@ -324,6 +330,8 @@ header .intro-text .intro-heading {
     header .intro-logo {
         padding-top: 0px;
         padding-bottom: 50px;
+        min-width: 100px;
+        width: 20%;
     }
 
     header .intro-text {
@@ -332,7 +340,7 @@ header .intro-text .intro-heading {
     }
 
     header .intro-text .intro-lead-in {
-        margin-bottom: 25px;
+        margin-bottom: 30px;
         font-family:"Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 40px;
         /* font-style: italic; */
