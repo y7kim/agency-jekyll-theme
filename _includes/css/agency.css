@@ -11,7 +11,10 @@ body {
 }
 
 .text-muted {
+    font-family: "Josefin Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #{{ site.data.template.color.muted }};
+    font-size: 18px;
+    font-weight:300;
 }
 
 .text-primary {
@@ -24,7 +27,8 @@ p {
 }
 
 p.large {
-    font-size: 16px;
+    font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 20px;
 }
 
 a,
@@ -53,7 +57,7 @@ h4,
 h5,
 h6 {
     text-transform: uppercase;
-    font-family: {{ site.data.template.font.primary }};
+    font-family: "Josefin Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
 }
 
@@ -61,8 +65,7 @@ h6 {
     width: 90%;
     max-width: 400px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 50px auto;
 }
 
 .img-centered {
@@ -243,7 +246,6 @@ fieldset[disabled] .btn-xl.active {
 }
 
 
-
 @media(min-width:768px) {
     .navbar-default {
         padding: 25px 0;
@@ -349,12 +351,12 @@ header .intro-text .intro-heading {
 }
 
 section {
-    padding: 100px 0;
+    padding: 50px 0;
 }
 
 section h2.section-heading {
-    margin-top: 0;
-    margin-bottom: 15px;
+    margin-top: 50px;
+    margin-bottom: 30px;
     font-size: 40px;
 }
 
@@ -369,7 +371,7 @@ section h3.section-subheading {
 
 @media(min-width:768px) {
     section {
-        padding: 100px 0;
+        padding: 50px 0;
     }
 }
 
@@ -667,9 +669,12 @@ section h3.section-subheading {
 }
 
 .team-member h4 {
+    font-family:"Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
     margin-top: 25px;
     margin-bottom: 0;
+    font-size: 20px;
     text-transform: none;
+    font-weight: 800;
 }
 
 .team-member p {
@@ -678,6 +683,10 @@ section h3.section-subheading {
 
 aside.clients img {
     margin: 50px auto;
+}
+
+section#tech-logos {
+    background-color: #f7f7f7;
 }
 
 section#contact {
