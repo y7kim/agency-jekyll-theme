@@ -9,7 +9,7 @@ description: "Quantifying the risks of river erosion."
 # Team names, titles and social links
 people:
 - name: Cody Kupferschmidt, P.Eng., M.Sc.
-  pic: Cody_Team_Pic
+  pic: Cody-Headshot
   position: Founder and CEO
   social:
     - title: linkedin
@@ -20,7 +20,7 @@ people:
     #   url: #
 
 - name: Craig MacRitchie, B.Eng.
-  pic: Craig_Team_Pic
+  pic: Craig-Headshot
   position: Full Stack Developer
   social:
     - title: linkedin
