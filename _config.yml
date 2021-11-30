@@ -58,6 +58,12 @@ shadowboard:
   social:
     - title: fas fa-envelope
       url: mailto:mcuenca@epochml.org
+- name: Bhavyaa Chauhan
+  pic: dne.jpg
+  position: Shadow CFO
+  social:
+    - title: fas fa-envelope
+      url: mailto:bchauhan@epochml.org
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
