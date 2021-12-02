@@ -51,7 +51,12 @@ shadowboard:
       url: mailto:bcullen@epochml.org
     - title: fab fa-github
       url: https://github.com/BraedenCu
-
+- name: Shria Halkoda
+  pic: dne.jpg
+  position: Shadow CSO
+  social:
+    - title: fas fa-envelope
+      url: mailto:shalkoda@epochml.org
 - name: Melanie Cuenca
   pic: melanie.jpg
   position: Shadow CRO
@@ -64,12 +69,6 @@ shadowboard:
   social:
     - title: fas fa-envelope
       url: mailto:bchauhan@epochml.org
-- name: Shria Halkoda
-  pic: dne.jpg
-  position: Shadow CSO
-  social:
-    - title: fas fa-envelope
-      url: mailto:shalkoda@epochml.org
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
