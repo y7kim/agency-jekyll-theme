@@ -64,6 +64,12 @@ shadowboard:
   social:
     - title: fas fa-envelope
       url: mailto:bchauhan@epochml.org
+- name: Shria Halkoda
+  pic: dne.jpg
+  position: Shadow CSO
+  social:
+    - title: fas fa-envelope
+      url: mailto:shalkoda@epochml.org
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
