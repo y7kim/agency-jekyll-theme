@@ -15,7 +15,7 @@ web pageは、静的コンテンツとして公開されます。
 ==========
 
 コンテンツの修正は、まず、変更したいことについて、[issue](https://github.com/osmfj/osmfj-website/issues)をあげてから、
-課題番号をつけたブランチ( 例 miurahr-issue-19 )を作成して,変更作業をおこなってください。
+課題番号をつけたTOPICブランチ( 例 topic/miurahr/issue-19 )を作成して,変更作業をおこなってください。
 
 
 処理系
