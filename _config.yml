@@ -15,37 +15,9 @@ motherboard:
   social:
     - title: fas fa-envelope
       url: mailto:ganne@epochml.org
-- name: Dev Singh
-  pic: dev.jpg
-  position: CTO
-  social:
-    - title: fas fa-envelope
-      url: mailto:dsingh@epochml.org
-    - title: globe
-      url: https://devksingh.com
-- name: Liam Nelson
-  pic: liam.jpg
-  position: CSO
-  social:
-    - title: fas fa-envelope
-      url: mailto:lnelson@epochml.org
-- name: Advait Patel
-  pic: dne.jpg
-  position: CFO
-  social:
-    - title: fas fa-envelope
-      url: mailto:apatel@epochml.org
-- name: Sage Owen
-  pic: sage.png
-  position: CRO
-  social:
-    - title: fas fa-envelope
-      url: mailto:cowen@epochml.org     
-
-shadowboard:
 - name: Braeden Cullen
   pic: dne.jpg
-  position: Shadow CTO
+  position: CTO
   social:
     - title: fas fa-envelope
       url: mailto:bcullen@epochml.org
@@ -53,22 +25,23 @@ shadowboard:
       url: https://github.com/BraedenCu
 - name: Shria Halkoda
   pic: dne.jpg
-  position: Shadow CSO
+  position: CSO
   social:
     - title: fas fa-envelope
       url: mailto:shalkoda@epochml.org
-- name: Melanie Cuenca
-  pic: melanie.jpg
-  position: Shadow CRO
-  social:
-    - title: fas fa-envelope
-      url: mailto:mcuenca@epochml.org
 - name: Bhavyaa Chauhan
   pic: dne.jpg
-  position: Shadow CFO
+  position: CFO
   social:
     - title: fas fa-envelope
       url: mailto:bchauhan@epochml.org
+- name: Melanie Cuenca
+  pic: melanie.jpg
+  position: CRO
+  social:
+    - title: fas fa-envelope
+      url: mailto:mcuenca@epochml.org  
+
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
