@@ -1,0 +1,15 @@
+---
+title: 年会費の手続き
+subtitle: 個人会員 年会費について
+layout: default
+modal-id: 5
+date: 2012-08-04
+img: members.png
+thumbnail: members-thumbnail.png
+alt: image-alt
+project-date: Aug 2012
+client: none
+category: kaihi
+description: 個人会員 協賛会員の年会費は、PayPalをもちいて年度毎の定期払いを設定してください。クレジット、デビットカードを利用できます。
+
+---

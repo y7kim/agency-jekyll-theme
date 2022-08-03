@@ -12,6 +12,9 @@
                                 <h2>{{ post.title }}</h2>
                                 <img class="img-fluid d-block mx-auto" src="img/portfolio/{{ post.img }}" alt="" />
                                 <p>{{ post.description }}</p>
+                                {% if post.category == 'kaihi' %}
+                                   {% include fee.html %}
+                                {% endif %}
                                 <button class="btn btn-primary" data-dismiss="modal" type="button">
                                     <i class="fas fa-times mr-1"></i>
                                     Close Project

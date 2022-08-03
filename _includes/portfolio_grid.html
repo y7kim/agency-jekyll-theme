@@ -5,7 +5,8 @@
             <h2 class="section-heading">OSMFJについて</h2>
         </div>
         <div class="row">
-        {% for post in site.posts %}
+        {% assign posts_grouped = site.posts %}
+        {% for post in posts_grouped %}
             <div class="col-lg-6 col-sm-6 mb-4">
                 <div class="portfolio-item">
                     <a class="portfolio-link" data-toggle="modal" href="#portfolioModal{{ post.modal-id }}">
