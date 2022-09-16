@@ -1,15 +1,15 @@
-url: https://y7kim.github.io
-baseurl: /agency-jekyll-theme/
+url: https://gucci24k.github.io
+baseurl: /gucci24k.github.io/
 
 # Site settings
-title: Awesome Title
+title: HubX
 email: your-email@domain.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+description: "we are a phonebased affiliate marketiers who link consumers to businesses"
 
 
 # Team names, titles and social links
 people:
-- name: Kay Garland
+- name:gucci khalid
   pic: 1
   position: Lead Designer
   social:
