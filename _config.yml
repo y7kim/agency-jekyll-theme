@@ -1,0 +1,24 @@
+url: https://fastlaw.io
+baseurl: /
+
+# Site settings
+title: fastlaw.io
+email: info@fastlaw.io
+phone: +7 (964) 509-16-37
+description: "Site of fastlaw.io. Team and projects."
+
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+languages: ["en", "ru"]
+exclude_from_localizations: ["assets", "CNAME"]
+defaultLang: en
+languageNames:
+  ru: Russian
+  en: English
+
+plugins:
+  - jekyll-multiple-languages-plugin
+
