@@ -42,3 +42,4 @@ jobs:
         uses: actions/deploy-pages@v1
         env:
           url: "https://fastlaw.io/ru/"
+          page_url: "https://fastlaw.io/ru/"
