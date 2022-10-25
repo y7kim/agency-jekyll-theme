@@ -25,7 +25,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: "https://fastlaw.io/ru/"
+      url: https://fastlaw.io/ru/
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -41,5 +41,5 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v1
         env:
-          url: "https://fastlaw.io/ru/"
-          page_url: "https://fastlaw.io/ru/"
+          url: https://fastlaw.io/ru/
+          page_url: https://fastlaw.io/ru/
