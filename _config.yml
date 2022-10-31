@@ -1,46 +1,46 @@
-url: https://y7kim.github.io
-baseurl: /agency-jekyll-theme/
+url: https://bigboss424.github.io/agency-jekyll-theme
+baseurl: /
 
 # Site settings
-title: Awesome Title
-email: your-email@domain.com
+title: Cogs Web Development and Hosting
+email: ajonescogswebdevandhosting@gmail.com
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 
 
 # Team names, titles and social links
 people:
-- name: Kay Garland
+- name: Aaron Jones
   pic: 1
-  position: Lead Designer
+  position: Web Developer
   social:
     - title: twitter
-      url: #
+      url: @Heeroyuy424
     - title: facebook
       url: #
     - title: stack-overflow
       url: #
 
-- name: Larry Parker
-  pic: 2
-  position: Lead Marketer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: linkedin
-      url: #
+# - name: Larry Parker
+#   pic: 2
+#   position: Lead Marketer
+#   social:
+#     - title: twitter
+#       url: #
+#     - title: facebook
+#       url: #
+#     - title: linkedin
+#       url: #
 
-- name: Diana Petersen
-  pic: 3
-  position: Lead Developer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: google-plus
-      url: #
+# - name: Diana Petersen
+#   pic: 3
+#   position: Lead Developer
+#   social:
+#     - title: twitter
+#       url: #
+#     - title: facebook
+#       url: #
+#     - title: google-plus
+#       url: #
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
@@ -53,12 +53,12 @@ social:
   - title: bitbucket 
     url: http://bitbucket.org/jekyll
   - title: github
-    url: http://github.com/jekyll
+    url: http://github.com/bigboss424
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+  - line: 1214 Penn Mar Ave
+  - line: South El Monte, CA 91733
 
 # Build settings
 markdown: kramdown
