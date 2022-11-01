@@ -857,7 +857,6 @@ details[open] {
   .nav__btn.active ~ .nav__wrap {
     display: block;
     height: 500px;
-    width: 400px;
   }
   .nav nav.active {
     position: absolute;
