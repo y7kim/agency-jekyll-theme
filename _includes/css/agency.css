@@ -178,6 +178,17 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-brand {
     font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
     color: #{{ site.data.template.color.primary }};
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.navbar-default .navbar-brand svg {
+    max-height: 100%;
+    width: 100%;
+}
+
+.navbar-default .navbar-brand svg * {
+    fill: white;
 }
 
 .navbar-default .navbar-brand:hover,
@@ -269,7 +280,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url('{{ site.baseurl }}/img/header-bg.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url('{{ site.baseurl }}/img/assets/header-bg.jpg');
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
