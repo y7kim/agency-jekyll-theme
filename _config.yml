@@ -12,35 +12,15 @@ people:
 - name: Garth Makoldo
   pic: 1
   position: Region Manager
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
 
 - name: Zolada Popov
   pic: 2
   position: Lead Marketer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: linkedin
-      url: #
 
 - name: Chet Apichart
   pic: 3
-  position: Brand Ambassador/Crowd Funder
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: google-plus
-      url: #
+  position: Brand Ambassador
+  
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
