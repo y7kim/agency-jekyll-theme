@@ -1,15 +1,15 @@
 ---
-title: Treehouse
-subtitle: Website Design
+title: The Interstellar Eatery
+subtitle: The Casino Restaurant
 layout: default
 modal-id: 4
-date: 2014-07-15
-img: treehouse.png
-thumbnail: treehouse-thumbnail.png
+date: now
+img: casinorestaurant.png
+thumbnail: casinorestaurant.png
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+project-date: yummy
+client: this is good food
+category: nothing wrong here
+description: This is our beautiful restaurant that our culinary geniuses are running and dishing out amazing galactic dishes.
 
 ---
