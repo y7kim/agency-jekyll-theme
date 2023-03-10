@@ -2,16 +2,16 @@ url: https://https://zolanda-popov.github.io/
 baseurl: /super-sus-casino-website/
 
 # Site settings
-title: Awesome Title
+title: The Super Sus Casino
 email: your-email@domain.com
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 
 
 # Team names, titles and social links
 people:
-- name: Kay Garland
+- name: Garth Makoldo
   pic: 1
-  position: Lead Designer
+  position: Region Manager
   social:
     - title: twitter
       url: #
@@ -20,7 +20,7 @@ people:
     - title: stack-overflow
       url: #
 
-- name: Larry Parker
+- name: Zolada Popov
   pic: 2
   position: Lead Marketer
   social:
@@ -31,9 +31,9 @@ people:
     - title: linkedin
       url: #
 
-- name: Diana Petersen
+- name: Chet Apichart
   pic: 3
-  position: Lead Developer
+  position: Brand Ambassador/Crowd Funder
   social:
     - title: twitter
       url: #
