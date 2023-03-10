@@ -3,7 +3,6 @@ title: The Game Room
 subtitle: Where the MAGIC happens
 layout: default
 modal-id: 5
-date: 30XX
 img: insidethecasino.png
 thumbnail: insidethecasino.png
 alt: image-alt
