@@ -24,16 +24,10 @@ people:
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: http://twitter.com/jekyllrb
-  - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket 
-    url: http://bitbucket.org/jekyll
+  - title: instagram
+    url: https://www.instagram.com/_therealzoladapopoy_/
   - title: github
-    url: http://github.com/jekyll
+    url: https://github.com/zolanda-popov/super-sus-casino-website
 
 # Postal address (add as many lines as necessary)
 address:
