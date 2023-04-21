@@ -1,0 +1,37 @@
+// For format details, see https://aka.ms/vscode-remote/devcontainer.json or this file's README at:
+// https://github.com/microsoft/vscode-dev-containers/tree/v0.101.1/containers/ruby-2
+{
+	"name": "Roboblog",
+	// "image": "jekyll/builder:latest",
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
+	"forwardPorts": [4000],
+	// "containerUser": "mane",
+	"remoteUser": "mane",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"rebornix.Ruby",
+				"wingrunr21.vscode-ruby",
+				"eamodio.gitlens"
+			],
+			"settings": {
+				"terminal.integrated.profiles.linux": {
+					"bash": {
+						"path": "/bin/bash",
+						"icon": "terminal-bash"
+					}
+				},
+				"terminal.integrated.defaultProfile.linux": "bash"
+			}
+		}
+	},
+	"postCreateCommand": "bundle install --gemfile=Gemfile",
+	// "postStartCommand": "jekyll serve",
+	"mounts": [
+		// "source=${localWorkspaceFolder},target=/workspace,type=bind,consistency=cached",
+		// "source=/var/run/docker.sock,target=/var/run/docker.sock,type=bind,consistency=cached"
+	]
+
+}
