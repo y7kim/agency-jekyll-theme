@@ -1,0 +1,33 @@
+﻿name: Build and deploy to branch gh-pages
+
+on:
+  push:
+    branches:
+      - main
+
+  workflow_dispatch:
+
+jobs:
+  build-and-deploy-jekyll-to-branch-gh-pages:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: 📂 setup
+        uses: actions/checkout@v3
+
+      - name: 🎁 Cache Ruby gems
+        uses: actions/cache@v2
+        with:
+          path: vendor/bundle
+          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-gems-
+
+      - name: 🚀 Build and deploy to branch
+        uses: helaili/jekyll-action@v2
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          jekyll_src: 'jekyll'
+          target_branch: 'gh-pages'
+          pre_build_commands: 'gem update --system'

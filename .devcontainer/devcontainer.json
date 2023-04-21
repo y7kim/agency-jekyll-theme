@@ -13,8 +13,7 @@
 		"vscode": {
 			"extensions": [
 				"rebornix.Ruby",
-				"wingrunr21.vscode-ruby",
-				"eamodio.gitlens"
+				"wingrunr21.vscode-ruby"
 			],
 			"settings": {
 				"terminal.integrated.profiles.linux": {
