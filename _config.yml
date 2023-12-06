@@ -1,46 +1,25 @@
-url: https://y7kim.github.io
-baseurl: /agency-jekyll-theme/
+url: https://daisy-nanny.github.io
+baseurl: /home/
 
 # Site settings
-title: Awesome Title
-email: your-email@domain.com
+title: Daisy Nanny and Babysitting service
+email: daisynanny@test.com
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 
 
 # Team names, titles and social links
 people:
-- name: Kay Garland
+- name: Mayuka
   pic: 1
-  position: Lead Designer
+  position: Main Babysitter
   social:
-    - title: twitter
+    - title: instagram
       url: #
-    - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
-
-- name: Larry Parker
-  pic: 2
-  position: Lead Marketer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
+    - title: line
       url: #
     - title: linkedin
       url: #
 
-- name: Diana Petersen
-  pic: 3
-  position: Lead Developer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: google-plus
-      url: #
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
