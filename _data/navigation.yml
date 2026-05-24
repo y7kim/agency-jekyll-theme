@@ -1,0 +1,304 @@
+# Navigation Links
+main:
+  - title: "Главная"
+    url: /
+
+  - title: "Проекты"
+    url: /projects/
+
+  - title: "Разборы"
+    url: /writeups/
+
+  - title: "Заметки"
+    url: /notes/
+
+  - title: "Обучение"
+    url: /trainings/
+
+  - title: "Обо мне"
+    url: /about/
+
+# Navigation for DVWA
+dvwa:
+  - title: "Начало работы"
+    children:
+      - title: "Установка"
+        url: /writeups/dvwa/installation/
+      - title: "Заметки"
+        url: /writeups/dvwa/notes/
+  
+  - title: "Перебор"
+    children:
+      - title: "Низкий"
+        url: /writeups/dvwa/bruteforce-low/
+      - title: "Средний"
+        url: /writeups/dvwa/bruteforce-medium/
+      - title: "Высокий"
+        url: /writeups/dvwa/bruteforce-high/
+  
+  - title: "Внедрение команд"
+    children:
+      - title: "Низкий"
+        url: /writeups/dvwa/command-injection-low/
+      - title: "Средний"
+        url: /writeups/dvwa/command-injection-medium/
+      - title: "Высокий"
+        url: /writeups/dvwa/command-injection-high/
+  
+  - title: "CSRF"
+    children:
+      - title: "Низкий"
+        url: /writeups/dvwa/csrf-low/
+      - title: "Средний"
+        url: /writeups/dvwa/csrf-medium/
+      - title: "Высокий"
+        url: /writeups/dvwa/csrf-high/
+  
+  - title: "Подключение файлов"
+    children:
+      - title: "Низкий"
+        url: /writeups/dvwa/file-inclusion-low/
+      - title: "Средний"
+        url: /writeups/dvwa/file-inclusion-medium/
+      - title: "Высокий"
+        url: /writeups/dvwa/file-inclusion-high/
+  
+  - title: "Загрузка файлов"
+    children:
+      - title: "Низкий"
+        url: /writeups/dvwa/file-upload-low/
+      - title: "Средний"
+        url: /writeups/dvwa/file-upload-medium/
+      - title: "Высокий"
+        url: /writeups/dvwa/file-upload-high/
+  
+  - title: "Небезопасная CAPTCHA"
+    children:
+      - title: "Низкий"
+        url: /writeups/dvwa/insecure-captcha-low/
+      - title: "Средний"
+        url: /writeups/dvwa/insecure-captcha-medium/
+      - title: "Высокий"
+        url: /writeups/dvwa/insecure-captcha-high/
+  
+  - title: "SQL-инъекция"
+    children:
+      - title: "Низкий"
+        url: /writeups/dvwa/sql-injection-low/
+      - title: "Средний"
+        url: /writeups/dvwa/sql-injection-medium/
+      - title: "Высокий"
+        url: /writeups/dvwa/sql-injection-high/
+  
+  - title: "SQL-инъекция (слепая)"
+    children:
+      - title: "Низкий"
+        url: /writeups/dvwa/sql-injection-blind-low/
+      - title: "Средний"
+        url: /writeups/dvwa/sql-injection-blind-medium/
+      - title: "Высокий"
+        url: /writeups/dvwa/sql-injection-blind-high/
+  
+  - title: "XSS (отраженная)"
+    children:
+      - title: "Низкий"
+        url: /writeups/dvwa/xss-reflected-low/
+      - title: "Средний"
+        url: /writeups/dvwa/xss-reflected-medium/
+      - title: "Высокий"
+        url: /writeups/dvwa/xss-reflected-high/
+  
+  - title: "XSS (хранимая)"
+    children:
+      - title: "Низкий"
+        url: /writeups/dvwa/xss-stored-low/
+      - title: "Средний"
+        url: /writeups/dvwa/xss-stored-medium/
+      - title: "Высокий"
+        url: /writeups/dvwa/xss-stored-high/
+
+# Navigation for MBE
+mbe:
+  - title: "Начало работы"
+    children:
+      - title: "Установка"
+        url: /writeups/mbe/installation/
+      - title: "Заметки"
+        url: /writeups/mbe/mbe_notes/
+
+  - title: "Реверс-инжиниринг"
+    children:
+      - title: "Lab1C (легко)"
+        url: /writeups/mbe/lab1c/
+      - title: "Lab1B (средне)"
+        url: /writeups/mbe/lab1b/
+      - title: "Lab1A (сложно)"
+        url: /writeups/mbe/lab1a/
+  
+  - title: "Повреждение памяти"
+    children:
+      - title: "Lab2C (легко)"
+        url: /writeups/mbe/lab2c/
+      - title: "Lab2B (средне)"
+        url: /writeups/mbe/lab2b/
+      - title: "Lab2A (сложно)"
+        url: /writeups/mbe/lab2a/
+  
+  - title: "Shellcoding"
+    children:
+      - title: "Lab3C (легко)"
+        url: /writeups/mbe/lab3c/
+      - title: "Lab3B (средне)"
+        url: /writeups/mbe/lab3b/
+      - title: "Lab3A (сложно)"
+        url: /writeups/mbe/lab3a/
+  
+  - title: "Форматные строки"
+    children:
+      - title: "Lab4C (легко)"
+        url: /writeups/mbe/lab4c/
+      - title: "Lab4B (средне)"
+        url: /writeups/mbe/lab4b/
+      - title: "Lab4A (сложно)"
+        url: /writeups/mbe/lab4a/
+  
+  - title: "DEP и ROP"
+    children:
+      - title: "Lab5C (легко)"
+        url: /writeups/mbe/lab5c/
+      - title: "Lab5B (средне)"
+        url: /writeups/mbe/lab5b/
+      - title: "Lab5A (сложно)"
+        url: /writeups/mbe/lab5a/
+  
+  - title: "ASLR"
+    children:
+      - title: "Lab6C (легко)"
+        url: /writeups/mbe/lab6c/
+  #   - title: "Lab6B (medium)"
+  #     url: /writeups/mbe/lab6b/
+  #   - title: "Lab6A (hard)"
+  #     url: /writeups/mbe/lab6a/
+
+  #- title: "Heap"
+  # children:
+  #   - title: "Lab7C (easy)"
+  #     url: /writeups/mbe/lab7c/
+  #   - title: "Lab7A (hard)"
+  #     url: /writeups/mbe/lab7a/
+
+  #- title: "Misc and Stack Cookies"
+  # children:
+  #   - title: "Lab8C (easy)"
+  #     url: /writeups/mbe/lab8c/
+  #   - title: "Lab8B (medium)"
+  #     url: /writeups/mbe/lab8b/
+  #   - title: "Lab8A (hard)"
+  #     url: /writeups/mbe/lab8a/
+
+  #- title: "C++"
+  # children:
+  #   - title: "Lab9C (easy)"
+  #     url: /writeups/mbe/lab9c/
+  #   - title: "Lab9A (hard)"
+  #     url: /writeups/mbe/lab9a/
+
+  #- title: "Linux Kernel"
+  #  children:
+  #    - title: "Lab10C (easy)"
+  #      url: /writeups/mbe/lab10c/
+  #    - title: "Lab10A (hard)"
+  #      url: /writeups/mbe/lab10a/
+  
+  #- title: "Project 1"
+  #  children:
+  #    - title: "Analysis"
+  #      url: /writeups/mbe/project1/
+  #    - title: "Solution"
+  #      url: /writeups/mbe/p1_notes/
+  
+  #- title: "Project 2"
+  #  children:
+  #    - title: "Analysis"
+  #      url: /writeups/mbe/project2/
+  #    - title: "Solution"
+  #      url: /writeups/mbe/p2_notes/
+
+# Navigation for OTW
+otw:
+  - title: "OverTheWire"
+    children:
+      - title: "Сводка"
+        url: /writeups/otw/otw_wargames/
+
+  - title: "Варгеймы"
+    children:
+      - title: "Bandit"
+        url: /writeups/otw/bandit/
+      - title: "Leviathan"
+        url: /writeups/otw/leviathan/
+      - title: "Krypton"
+        url: /writeups/otw/krypton/
+      - title: "Natas"
+        url: /writeups/otw/natas/
+      - title: "Narnia"
+        url: /writeups/otw/narnia/
+      - title: "Behemoth"
+        url: /writeups/otw/behemoth/
+      - title: "Utumno"
+        url: /writeups/otw/utumno/
+      # - title: "Maze"
+      #   url: /writeups/otw/maze/
+      # - title: "Vortex"
+      #   url: /writeups/otw/vortex/
+      # - title: "Semtex"
+      #   url: /writeups/otw/semtex/
+      # - title: "Manpage"
+      #   url: /writeups/otw/manpage/
+      # - title: "Drifter"
+      #   url: /writeups/otw/drifter/
+
+# Navigation for HTB
+htb:
+  - title: "Hack The Box"
+    children:
+      - title: "Сводка"
+        url: /writeups/htb/htb_writeups/
+
+  - title: "Машины Active Directory"
+    children:
+      - title: "Forest (легко)"
+        url: /writeups/htb/forest/
+      - title: "Sauna (легко)"
+        url: /writeups/htb/sauna/
+      - title: "Active (легко)"
+        url: /writeups/htb/active/
+      - title: "Resolute (средне)"
+        url: /writeups/htb/resolute/
+      - title: "Cascade (средне)"
+        url: /writeups/htb/cascade/
+      - title: "Intelligence (средне)"
+        url: /writeups/htb/intelligence/
+      - title: "Monteverde (средне)"
+        url: /writeups/htb/monteverde/
+      - title: "StreamIO (средне)"
+        url: /writeups/htb/streamio/
+      - title: "Backfield (сложно)"
+        url: /writeups/htb/blackfield/
+      - title: "Reel (сложно)"
+        url: /writeups/htb/reel/
+      - title: "Mantis (сложно)"
+        url: /writeups/htb/mantis/
+      - title: "Search (сложно)"
+        url: /writeups/htb/search/
+      - title: "Acute (сложно)"
+        url: /writeups/htb/acute/
+      - title: "Object (сложно)"
+        url: /writeups/htb/object/  
+      - title: "Sizzle (безумно)"
+        url: /writeups/htb/sizzle/
+      - title: "Multimaster (безумно)"
+        url: /writeups/htb/multimaster/
+
+      
+

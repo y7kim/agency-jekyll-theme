@@ -1,0 +1,205 @@
+/* ==========================================================================
+   H4CKXEL minimal terminal editorial layer
+   ========================================================================== */
+
+$surface: #0b0b0b;
+$surface-soft: #111111;
+$muted: #8a8a8a;
+
+html {
+  scroll-behavior: auto;
+}
+
+body {
+  background: $background-color;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Helvetica, Arial, sans-serif;
+  line-height: 1.7;
+}
+
+body,
+button,
+input,
+select,
+textarea {
+  color: $text-color;
+}
+
+code,
+kbd,
+pre,
+samp,
+.highlighter-rouge,
+.highlight {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+.masthead {
+  border-bottom: 1px solid $border-color;
+  background: $background-color;
+}
+
+.greedy-nav {
+  background: transparent;
+}
+
+.site-title {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+
+.site-title::before {
+  content: "$";
+  color: $primary-color;
+}
+
+.page__content,
+.archive__item-body,
+.author__content,
+.sidebar {
+  color: $text-color;
+}
+
+.page__title,
+.archive__item-title,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $text-color;
+  letter-spacing: -0.015em;
+}
+
+.page__meta,
+.page__taxonomy,
+.archive__item-excerpt,
+.author__bio,
+.breadcrumbs,
+.toc__menu,
+.nav__items,
+.page__footer-copyright {
+  color: $muted;
+}
+
+.archive__item,
+.toc,
+.sidebar.sticky,
+.notice,
+.notice--primary,
+.notice--info,
+.notice--warning,
+.notice--danger,
+.notice--success,
+table {
+  border-color: $border-color;
+}
+
+.archive__item,
+.toc,
+.notice,
+.notice--primary,
+.notice--info,
+.notice--warning,
+.notice--danger,
+.notice--success {
+  border-radius: 0;
+  background: $surface;
+}
+
+.archive__item {
+  padding: 1rem 0;
+  border-width: 1px 0 0;
+}
+
+.archive__item + .archive__item {
+  margin-top: 0;
+}
+
+.sidebar.sticky {
+  padding: 1rem;
+  border: 1px solid $border-color;
+  border-radius: 0;
+  background: $surface;
+}
+
+.toc {
+  border: 1px solid $border-color;
+  border-radius: 0;
+  overflow: hidden;
+}
+
+.toc .nav__title {
+  background: $surface-soft;
+  color: $text-color;
+}
+
+.toc__menu a,
+.nav__items a,
+.author__urls a {
+  color: $muted;
+}
+
+.toc__menu a:hover,
+.nav__items a:hover,
+.author__urls a:hover,
+.page__content a:not(.btn):hover {
+  color: $primary-color;
+}
+
+.page__content a:not(.btn) {
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.18em;
+}
+
+.page__content pre,
+.page__content .highlight {
+  border: 1px solid $border-color;
+  border-radius: 0;
+  background: $code-background-color;
+}
+
+.page__content code {
+  border-radius: 0;
+}
+
+table {
+  border: 1px solid $border-color;
+  border-radius: 0;
+  overflow: hidden;
+}
+
+thead {
+  background: $surface-soft;
+}
+
+tbody tr:nth-child(odd) {
+  background: rgba(255, 255, 255, 0.015);
+}
+
+.btn,
+.pagination--pager {
+  border-radius: 0;
+}
+
+.page__footer {
+  border-top: 1px solid $border-color;
+}
+
+.page__footer,
+.page__footer-follow {
+  background: $background-color;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition: none !important;
+  }
+}

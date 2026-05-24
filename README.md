@@ -1,30 +1,40 @@
-Agency Jekyll theme
-====================
+# H4CKXEL
 
-Agency theme based on [Agency bootstrap theme ](https://startbootstrap.com/template-overviews/agency/)
+Технический блог о наступательной безопасности, reverse engineering, exploit development и системах.
 
-# How to use
+Сайт по-прежнему построен на Jekyll и сохраняет реальную структуру блога: posts, проекты,
+training-материалы и коллекции write-ups. Подача остается сдержанной, редакционной и
+ориентированной на чтение.
 
-###Portfolio 
+## Визуальное направление
 
-Portfolio projects are in '/_posts'
+- Редакционный стиль вместо театральности
+- Нейтральная темная палитра со сдержанными акцентами
+- Иерархия чтения важнее декора
+- Без фальшивого терминала, scanlines, custom cursor, canvas-частиц и декоративных анимаций на главной
 
-Images are in '/img/portfolio'
+## Локальный запуск
 
-###About
+```bash
+bundle install
+bundle exec jekyll serve
+```
 
-Images are in '/img/about/'
+Затем открой `http://localhost:4000`.
 
-###Team
+## Основные разделы
 
-Team members and info are in '_config.yml'
+- `/` — главная
+- `/projects/` — проекты
+- `/writeups/` — архив write-ups
+- `/trainings/` — учебные материалы
+- `/about/` — страница о блоге
 
-Images are in '/img/team/'
+## Обновление блога
 
+- Новые посты блога: `_posts/`
+- Новые обычные страницы: `_pages/`
+- Write-ups по коллекциям: `_htb/`, `_otw/`, `_mbe/`, `_dvwa/`
+- Верхняя навигация и боковые меню: `_data/navigation.yml`
 
-# Demo
-
-View this jekyll theme in action [here](https://y7kim.github.io/agency-jekyll-theme)
-
-=========
-For more details, read [documentation](http://jekyllrb.com/)
+Готовые примеры для копирования смотри в [`CONTENT_GUIDE.md`](CONTENT_GUIDE.md).
