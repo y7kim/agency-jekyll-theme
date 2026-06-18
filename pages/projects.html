@@ -1,0 +1,33 @@
+---
+layout: page
+title: "AMGCUBE | Projects"
+permalink: /projects/
+header_image: "/img/projects-header.jpg"
+hero_title: "From Concept to Reality"
+hero_subtitle: "See how AMGCUBE projects take shape in real sites and real conditions."
+---
+
+<div class="container text-center projects-heading">
+    <h1 class="projects-title">Projects</h1>
+</div>
+
+<section class="projects-container bg-light-gray">
+    <div class="modules-container" id="projects-list">
+        {% assign unique_posts = site.posts | where: "categories", "Projects" | sort: "date" | reverse %}
+        {% for post in unique_posts %}
+            <a href="{{ post.url }}" class="module-card-link" 
+               data-type="{{ post.type }}" 
+               data-location="{{ post.location }}">
+                <div class="project-card">
+                    <img src="{{ site.baseurl }}/img/projects/{{ post.thumbnail }}"
+                         alt="{{ post.title }}"
+                         class="module-image" loading="lazy">
+                    <div class="module-content">
+                        <h3 class="project-cards-title">{{ post.title }}</h3>
+                        <p class="module-description">{{ post.subtitle }}</p>
+                    </div>
+                </div>
+            </a>
+        {% endfor %}
+    </div>
+</section>

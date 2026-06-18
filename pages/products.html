@@ -1,0 +1,153 @@
+---
+layout: page
+title: "AMGCUBE | Products"
+permalink: /products/
+header_image: "/img/products-header-b1.png"
+---
+
+<!-- Products Section -->
+<section id="products">
+  <div class="container bg-light-gray">
+    
+   
+    <!-- ✅ 原标题与介绍 -->
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading">AMGCUBE HOMES</h2>
+
+<p class="product-intro-text">
+  <b>AMGCUBE HOMES</b> is a prefabricated housing solution, combining a heavy-duty steel frame, advanced envelope systems, and modular interiors to 
+  achieve high product quality, rapid delivery, and cost-efficient manufacturing.
+
+<!-- 折叠内容区域 -->
+<div id="moreContent" style="max-height: 0; overflow: hidden; transition: max-height 0.8s ease;">
+  <p class="product-intro-text">
+   Each AMGCUBE unit is a precision-engineered module, factory-built and pre-fitted with essential components—frame, walls, kitchen, bathroom, electrical and plumbing systems, and interior finishes—delivered fully assembled and move-in ready.<br><br>
+   With off-site prefabrication, AMGCUBE requires only basic foundations and on-site assembly—dramatically reducing construction time and labor costs while enhancing quality control and sustainability.<br><br>
+   AMGCUBE can serve as a standalone home, granny flat, or be scaled into townhouses, eco resorts, workforce housing, student accommodation, and more.<br><br>
+   <b>It’s not just a building—it’s a reimagined product for living spaces.</b>
+  </p>
+</div>
+
+<!-- 美观按钮容器 -->
+<div class="product-intro-text" style="text-align: center; margin-top: 20px;">
+  <a id="toggleButton" class="explore-btn" href="javascript:void(0);" onclick="toggleMoreText()">EXPLORE MORE</a>
+</div>
+
+<!-- 展开脚本 -->
+<script>
+  let expanded = false;
+
+  function toggleMoreText() {
+    const content = document.getElementById("moreContent");
+    const button = document.getElementById("toggleButton");
+
+    if (!expanded) {
+      content.style.maxHeight = "1000px";
+      button.innerText = "SHOW LESS";
+      button.style.backgroundColor = "#A0AEC0"; // 深灰蓝
+      button.style.color = "#fff";
+    } else {
+      content.style.maxHeight = "0";
+      button.innerText = "EXPLORE MORE";
+      button.style.backgroundColor = "#FFA500"; // 原橙色
+      button.style.color = "#fff";
+    }
+    expanded = !expanded;
+  }
+</script>
+
+
+
+</section>
+
+ <!-- ✅ 移动到标题前的图标区域 -->
+    <div class="row text-center icon-row-spacing">
+      <div class="col-md-4">
+        <a href="/products/" class="text-decoration-none">
+          <span class="fa-stack fa-4x">
+            <i class="fa fa-circle fa-stack-2x text-product"></i>
+            <i class="fa fa-shield fa-stack-1x fa-inverse"></i>
+          </span>
+        </a>
+        <h4 class="products-heading">Better</h4>
+        <p class="product-highlight">
+          Precision-engineered<br>
+          materials<br> 
+        </p>
+      </div>
+      <div class="col-md-4">
+        <a href="/products/" class="text-decoration-none">
+          <span class="fa-stack fa-4x">
+            <i class="fa fa-circle fa-stack-2x text-product"></i>
+            <i class="fa fa-bolt fa-stack-1x fa-inverse"></i>
+          </span>
+        </a>
+        <h4 class="products-heading">FASTER</h4>
+        <p class="product-highlight">
+          12-16-week build<br>
+          Minimal site work<br>
+        </p>
+      </div>
+      <div class="col-md-4">
+        <a href="/products/" class="text-decoration-none">
+          <span class="fa-stack fa-4x">
+            <i class="fa fa-circle fa-stack-2x text-product"></i>
+            <i class="fa fa-dollar fa-stack-1x fa-inverse"></i>
+          </span>
+        </a>
+        <h4 class="products-heading">MORE AFFORDABLE</h4>
+        <p class="product-highlight">
+          Save up to 20%<br>
+          No hidden fees<br>        
+        </p>
+      </div>
+    </div>
+
+<!-- System Components（模块展示） -->
+<section id="modules" class="bg-light-gray">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-lg-12">
+                <h3 class="section-heading">AMGCUBE HOMES FEATURES</h3>
+            </div>
+        </div>
+        <div class="modules-container">
+            <div class="module-card">
+                <img src="/img/products/steel-structure.png" alt="Steel Structure" class="module-image" loading="lazy">
+                <div class="module-content">
+                    <h4 class="module-title">Structure</h4>
+                    <p class="module-description">Reliable, Safe, Durable</p>
+                    <a href="/products/structure/" class="module-link">View Details</a>
+                </div>
+            </div>
+            <div class="module-card">
+                <img src="/img/products/building envelope.png" alt="Wall System" class="module-image" loading="lazy">
+                <div class="module-content">
+                    <h4 class="module-title">Wall，roof，floor</h4>
+                    <p class="module-description">Insulated, Weatherproof, Resilient</p>
+                    <a href="/products/building-envelope/" class="module-link">View Details</a>
+                </div>
+            </div>
+            <div class="module-card">
+                <img src="/img/products/building finishes.png" alt="Wall System" class="module-image" loading="lazy">
+                <div class="module-content">
+                    <h4 class="module-title">Buliding Finishes</h4>
+                    <p class="module-description">Flexible, Stylish, Pre-finished</p>
+                    <a href="/products/finishes/" class="module-link">View Details</a>
+                </div>
+            </div>
+            <div class="module-card">
+                <img src="/img/products/bathroom-0.png" alt="Wall System" class="module-image" loading="lazy">
+                <div class="module-content">
+                    <h4 class="module-title">Bathroom</h4>
+                    <p class="module-description">Waterproof, Pre-plumbed, Ready-to-use</p>
+                    <a href="/products/bathroom/" class="module-link">View Details</a>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+

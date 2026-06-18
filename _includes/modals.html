@@ -1,5 +1,5 @@
- <!-- Portfolio Modals -->
- {% for post in site.posts %}
+<!-- Portfolio Modals -->
+{% for post in site.posts %}
     <div class="portfolio-modal modal fade" id="portfolioModal{{ post.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
@@ -14,10 +14,11 @@
                         <div class="modal-body">
                             <h2>{{ post.title }}</h2>
                             <hr class="star-primary">
-                            <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
-                            <p>{{ post.description }}</p>
+
+                            <!-- Description and Details -->
+                            <p style="text-align: left;">{{ post.description }}</p>
                             <ul class="list-inline item-details">
-                                <li>Client:
+                                <li>Resouces:
                                     <strong><a href="http://startbootstrap.com">{{ post.client }}</a>
                                     </strong>
                                 </li>
@@ -25,11 +26,19 @@
                                     <strong><a href="http://startbootstrap.com">{{ post.project-date }}</a>
                                     </strong>
                                 </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">{{ post.category }}</a>
+                                <li>Categories:
+                                    <strong><a href="http://startbootstrap.com">{{ post.categories }}</a>
                                     </strong>
                                 </li>
                             </ul>
+
+                            <!-- Image Gallery -->
+                            <div class="image-gallery">
+                                {% for image in post.images %}
+                                <img src="{{ image }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+                                {% endfor %}
+                            </div>
+
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>

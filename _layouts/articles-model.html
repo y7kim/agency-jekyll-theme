@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    {% include head.html %}
+   </head>
+
+<body>
+    {% include nav.html %}
+
+    {% if page.header_image %}
+  <div class="post-header" style="background-image: url('{{ page.header_image | relative_url }}'); height: 300px; background-size: cover; background-position: center;"></div>
+{% else %}
+  <div class="post-header" style="background-image: url('/img/article-banner.jpg'); height: 300px; background-size: cover; background-position: center;"></div>
+{% endif %}
+
+
+   <article class="container markdown-content">
+       <h1>{{ page.title }}</h1>
+       <p class="meta">Published on {{ page.date | date: "%B %d, %Y" }} by {{ page.auther }}</p>
+    
+       {% if page.subtitle %}
+       <hr class="post-divider">
+       <h2 class="post-subtitle">{{ page.subtitle }}</h2>
+       {% endif %}
+      
+       <div class="post-images">
+           {% for img in page.images %}
+               <img src="{{ site.baseurl }}/{{ img }}" class="img-responsive" alt="{{ page.title }}">
+           {% endfor %}
+       </div>
+       
+       {% if page.description %}
+       <div class="post-description">{{ page.description | markdownify }}</div>
+
+       {% endif %}
+
+       <div class="post-content">
+           {{ content }}
+       </div>
+
+      
+
+       <hr>
+    </article>
+    {% include footer.html %}
+</body>
+</html>
+<script src="/js/agency.js"></script>

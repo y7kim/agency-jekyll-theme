@@ -1,3 +1,16 @@
+---
+
 {% include css/bootstrap.min.css %}
 {% include css/agency.css %}
+
+/*{% include css/hero.css %} 把hero内容全部导入agency */
+
 {{ content }}
+
+.text-product {
+    color: #FFA500; /* 你可以换成其他颜色，比如橙色 */
+}
+
+.text-modules {
+    color: #4A90E2 !important; /* 强制变蓝 */
+}

@@ -1,0 +1,23 @@
+<header class="hero-page-wrapper">
+  <div class="hero-page" style="background-image: url('{{ page.header_image | default: "/img/hero-page-bg.jpg" }}');">
+    
+    {% if page.hero_title or page.hero_subtitle or page.title %}
+    <div class="page-hero-text-container">
+      <div class="page-hero-text">
+
+        {% if page.hero_subtitle %}
+        <div class="page-hero-subtitle">
+          {{ page.hero_subtitle }}
+        </div>
+        {% endif %}
+
+        <div class="page-hero-title">
+          {{ page.hero_title | default: page.title }}
+        </div>
+
+      </div>
+    </div>
+    {% endif %}
+
+  </div>
+</header>

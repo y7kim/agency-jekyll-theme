@@ -4,6 +4,7 @@ color:
   secondary: fec503   
   secondary-dark: 333
   muted: 777
+  lead-text: fed136  # 新增颜色变量
 
 # Font Families
 font:

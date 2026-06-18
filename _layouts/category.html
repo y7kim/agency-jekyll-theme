@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+<body>
+    {% include head.html %}
+
+    <div class="container">
+        <h1>{{ page.title }}</h1>
+        <p>这里是 {{ page.title }} 页面</p>
+
+        <div class="content">
+            {{ content }}  <!-- 这里会加载具体的二级页面内容 -->
+        </div>
+    </div>
+
+    {% include footer.html %}
+</body>

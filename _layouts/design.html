@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {% include head.html %}
+</head>
+
+<body>
+  {% include nav.html %}
+
+  <!-- Top Banner -->
+  {% assign banner_image = page.header_image | default: '/img/designs/design-banner-default.jpg' %}
+  <section class="design-header" style="background-image: url('{{ banner_image | relative_url }}');">
+    <div class="design-header-overlay"></div>
+    <div class="design-header-content container">
+      <h1>{{ page.title }}</h1>
+
+      {% if page.subtitle %}
+        <p class="design-subtitle">{{ page.subtitle }}</p>
+      {% endif %}
+    </div>
+  </section>
+
+  <article class="markdown-content design-post-content">
+
+    <!-- Intro -->
+    <section class="design-intro">
+      {% if page.overview %}
+      <div class="design-overview">
+        <h2 class="section-title">Overview</h2>
+        <div class="description-content">
+          {{ page.overview | markdownify }}
+        </div>
+      </div>
+      {% endif %}
+
+      {% if page.best_for or page.key_benefits or page.typical_use %}
+      <div class="design-attributes">
+        {% if page.best_for %}
+        <div class="attribute-block">
+          <div class="attribute-title">Best For</div>
+          <div class="attribute-content">{{ page.best_for }}</div>
+        </div>
+        {% endif %}
+
+        {% if page.key_benefits %}
+        <div class="attribute-block">
+          <div class="attribute-title">Key Benefits</div>
+          <div class="attribute-content">{{ page.key_benefits }}</div>
+        </div>
+        {% endif %}
+
+        {% if page.typical_use %}
+        <div class="attribute-block">
+          <div class="attribute-title">Typical Use</div>
+          <div class="attribute-content">{{ page.typical_use }}</div>
+        </div>
+        {% endif %}
+      </div>
+      {% endif %}
+    </section>
+
+    <!-- Design Details -->
+    {% if page.designs %}
+    <section class="design-gallery">
+      <h2 class="section-title">Design Details</h2>
+
+      {% for design in page.designs %}
+      <div class="design-block">
+
+        {% if design.name %}
+          <h3 class="image-title">{{ design.name }}</h3>
+        {% endif %}
+
+        {% if design.description %}
+          <p class="caption">{{ design.description }}</p>
+        {% endif %}
+
+        {% if design.floorplan %}
+        <div class="design-image-block design-floorplan-block">
+          <a href="{{ design.floorplan | relative_url }}"
+             data-lightbox="{{ design.name | slugify }}"
+             data-title="{{ design.name }} - Floorplan">
+            <img src="{{ design.floorplan | relative_url }}"
+                 class="img-responsive design-thumb" loading="lazy"
+                 alt="{{ design.name }} floorplan">
+          </a>
+        </div>
+        {% endif %}
+
+        {% assign has_renders = design.renders %}
+        {% assign has_real_images = design.real_images %}
+
+        {% if has_renders or has_real_images %}
+        <div class="design-image-group">
+          {% if design.renders %}
+            {% for render in design.renders %}
+            <div class="design-image-block">
+              <a href="{{ render | relative_url }}"
+                 data-lightbox="{{ design.name | slugify }}"
+                 data-title="{{ design.name }} - Render">
+                <img src="{{ render | relative_url }}"
+                     class="img-responsive design-thumb" loading="lazy"
+                     alt="{{ design.name }} render">
+              </a>
+            </div>
+            {% endfor %}
+          {% endif %}
+
+          {% if design.real_images %}
+            {% for real in design.real_images %}
+            <div class="design-image-block">
+              <a href="{{ real | relative_url }}"
+                 data-lightbox="{{ design.name | slugify }}"
+                 data-title="{{ design.name }} - Real Image">
+                <img src="{{ real | relative_url }}"
+                     class="img-responsive design-thumb" loading="lazy"
+                     alt="{{ design.name }} real image">
+              </a>
+            </div>
+            {% endfor %}
+          {% endif %}
+        </div>
+        {% endif %}
+
+      </div>
+      {% endfor %}
+    </section>
+    {% endif %}
+
+    <!-- CTA -->
+    {% if page.cta_title or page.cta_text %}
+    <section class="design-cta">
+      {% if page.cta_title %}
+        <h2 class="section-title">{{ page.cta_title }}</h2>
+      {% endif %}
+
+      {% if page.cta_text %}
+        <p class="cta-text">{{ page.cta_text }}</p>
+      {% endif %}
+
+      {% if page.cta_button_text and page.cta_button_link %}
+        <a href="{{ page.cta_button_link | relative_url }}" class="btn btn-xl">{{ page.cta_button_text }}</a>
+      {% endif %}
+    </section>
+    {% endif %}
+
+  </article>
+
+  {% include footer.html %}
+  <script src="https://cdn.jsdelivr.net/npm/lightbox2@2/dist/js/lightbox-plus-jquery.min.js"></script>
+</body>
+</html>

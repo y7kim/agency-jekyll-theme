@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {% include head.html %}
+</head>
+
+<body>
+  {% include nav.html %}
+
+  <!-- 顶部图 -->
+  {% if page.header_image %}
+    <div class="project-header" style="background-image: url('{{ page.header_image | relative_url }}');"></div>
+  {% else %}
+    <div class="project-header" style="background-image: url('/img/project-banner.jpg');"></div>
+  {% endif %}
+
+  <article class="container markdown-content">
+
+    <h1>{{ page.title }}</h1>
+    {% if page.subtitle %}
+      <h4 style="color: #777;">{{ page.subtitle }}</h4>
+    {% endif %}
+
+    <!-- 第一部分：项目属性 -->
+    <section class="project-attributes grid-3">
+      {% if page.location %}
+        <div><strong>Location:</strong> {{ page.location }}</div>
+      {% endif %}
+      {% if page.floor-area %}
+        <div><strong>Floor Area:</strong> {{ page.floor-area }}</div>
+      {% endif %}
+      {% if page.project-type %}
+        <div><strong>Type:</strong> {{ page.project-type }}</div>
+      {% endif %}
+      {% if page.project-status %}
+        <div><strong>Status:</strong> {{ page.project-status }}</div>
+      {% endif %}
+      {% if page.completion %}
+        <div><strong>Completion:</strong> {{ page.completion }}</div>
+      {% endif %}
+      {% if page.construction-time %}
+        <div><strong>Construction Time:</strong> {{ page.construction-time }}</div>
+      {% endif %}
+    </section>
+
+   <hr class="section-divider"> <!-- ✅ 分隔线 -->
+    <!-- 第二部分：项目点评（直接渲染正文 Markdown）-->
+    <section class="project-review">
+    {{ content }}
+     </section>
+
+      <!-- 第三部分：项目图片 -->
+      {% if page.progress %}
+      <section class="project-timeline">
+        <h2 class="section-title">Details</h2>
+          {% for item in page.progress %}
+            <div class="timeline-stage">
+              <img src="{{ site.baseurl }}/{{ item.img }}" class="img-responsive" loading="lazy" alt="project progress image">
+              {% if item.text %}
+                <p class="caption">{{ item.text }}</p>
+              {% endif %}
+            </div>
+          {% endfor %}
+      </section>
+    {% endif %}
+
+  </article>
+  {% include footer.html %}
+</body>
+</html>

@@ -1,0 +1,44 @@
+---
+layout: page
+---
+
+{% if page.header_image %}
+    <div class="post-header" style="background-image: url('{{ page.header_image | relative_url }}');"></div>
+{% else %}
+    <div class="post-header default-header"></div> <!-- 默认背景 -->
+{% endif %}
+
+<article class="container">
+    <h1>{{ page.title }}</h1>
+    <p class="meta">Published on {{ page.date | date: "%B %d, %Y" }}</p>
+    
+
+{% if page.subtitle %}
+    <hr class="post-divider">
+    <h2 class="post-subtitle">{{ page.subtitle }}</h2>
+{% endif %}
+
+
+{% if page.description %}
+     <div class="post-description-wrapper">
+        <div class="post-description-border"></div>
+        <div class="post-description">{{ page.description }}</div>
+    </div>
+    
+{% endif %}
+
+
+
+    <div class="post-content">
+        {{ content }}
+    </div>
+    <div class="post-images">
+        {% for img in page.images %}
+           <img src="{{ site.baseurl }}/{{ img }}" class="img-responsive" loading="lazy" alt="{{ page.title }}">
+        {% endfor %}
+
+    </div>
+    
+    <hr>
+
+</article>

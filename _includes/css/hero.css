@@ -1,0 +1,600 @@
+/* Modules Section Styling */
+.modules-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 40px 20px;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .modules-container {
+    grid-template-columns: 1fr; /* 移动端只显示一列 */
+    padding: 20px 10px;         /* 可适当缩小间距 */
+  }
+}
+
+
+.module-card {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s;
+    text-align: center;
+    max-width: 450px;
+    margin: auto;
+    width: 100%; /* 确保所有卡片宽度一致 */
+    display: flex;
+    flex-direction: column;
+}
+
+.module-card:hover {
+    transform: translateY(-5px);
+}
+
+.module-image {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.module-content {
+    padding: 20px;
+    flex-grow: 1; /* 让内容区填充剩余空间，保持卡片高度一致 */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.module-link {
+    display: inline-block;
+    padding: 10px 15px;
+    background: #ffcc00;
+    color: #333;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    transition: background 0.3s;
+    align-self: center; /* 居中按钮 */
+}
+
+.module-link:hover {
+    background: #ffdb4d;
+}
+
+/* 仅在 projects 页面应用可点击卡片 */
+.projects-page .module-card-link {
+    text-decoration: none; /* 移除默认链接样式 */
+    color: inherit; /* 继承颜色，避免变蓝 */
+    display: block; /* 让整个链接占据整个卡片区域 */
+}
+
+.projects-page .module-card-link:hover .module-card {
+    transform: scale(1.03); /* 鼠标悬停时轻微放大 */
+    transition: transform 0.2s ease-in-out;
+}
+
+.projects-page .module-card {
+    cursor: pointer; /* 让整个卡片变为可点击 */
+}
+
+
+/* 针对 Projects 页面 */
+
+.project-card {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s;
+    text-align: center;
+    max-width: 450px;
+    margin: auto;
+    width: 100%; /* 让所有卡片宽度一致 */
+    display: flex;
+    flex-direction: column;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+}
+
+
+/* 设置项目图片为 4:3 */
+.project-card .module-image {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 4/3; /* 这里可以改成 4/3 */
+    object-fit: cover;
+}
+
+/* 让 Products 页面仍然保持原来的格式 */
+.product-card .module-image {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+/* 二级页面的排版优化 */
+.section-title {
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto 40px;
+}
+/* 主标题优化 */
+.section-title h2 {
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #222;
+    max-width: 800px;
+    margin: 0 auto 45px;
+    line-height: 1.2;
+    position: relative;
+}
+
+.section-title h2::after {
+    content: "";
+    width: 90px; /* 控制线条长度 */
+    height: 4px;
+    background: #ffcc00; /* 可换成品牌色 */
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 2px;
+}
+
+
+/* 背景优化 */
+.bg-light-gray {
+    background: linear-gradient(to bottom, #f9fafb, #ebeff2);
+    padding: 60px 0;
+}
+
+
+/* 卡片优化 */
+.products-header {
+    max-width: 900px;
+    padding: 30px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease-in-out;
+}
+
+.products-header:hover {
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.12);
+    transform: translateY(-2px);
+}
+
+/* h4 调整 */
+.products-header h4 {
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    margin-bottom: 8px;
+}
+
+/* 正文优化 */
+.products-header p {
+    text-align: justify;
+    hyphens: auto;
+    color: #333;
+    line-height: 1.8;
+    max-width: 800px;
+    margin: 0 auto 18px;
+}
+
+/* 让默认状态下的链接继承 h4 的颜色，不变黄 */
+.products-header h4 a {
+    color: inherit;  /* 继承 h4 的默认颜色 */
+    text-decoration: none;  /* 去掉默认下划线 */
+}
+
+/* 鼠标悬停时才变黄 */
+.products-header h4 a:hover {
+    color: #FFA500;  /* 替换成你希望的黄色 */
+    text-decoration: underline; /* 可选，增加下划线 */
+}
+
+
+@media (max-width: 768px) {
+    .section-title h2 {
+        font-size: 2rem; /* 在小屏幕上缩小字体 */
+        max-width: 85%; /* 避免占据整个屏幕 */
+    }
+
+    .section-title h2::after {
+        width: 60px; /* 让底部线条在小屏幕上稍微缩短 */
+    }
+}
+
+@media screen and (max-width: 768px) {
+  .products-header {
+    padding: 12px 10px;
+    margin-left: 4px;
+  }
+  .products-header h4 {
+    font-size: 1.5rem;
+    padding-left: 10px;
+    margin-left: 4px;
+    padding-right: 10px;
+  }
+  .products-header p {
+    font-size: 1.25rem;
+    margin-left: 4px;
+    margin-right: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+
+/* Team页面格式 */
+.vision-statement {
+    max-width: 750px;
+    margin: 40px auto; /* 居中对齐，并与上方团队介绍拉开间距 */
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+    font-weight: 400;
+}
+
+.vision-statement strong {
+    font-size: 22px;
+    font-weight: 800;
+    color: #111;
+}
+
+.vision-statement em {
+    color: #ffcc00; /* AMGCube 变成品牌色 */
+    font-weight: 600;
+}
+.vision-box {
+    background: #f9fafb; /* 添加淡灰色背景 */
+    padding: 25px 30px;
+    border-radius: 10px;
+    box-shadow: 0px 6px 14px rgba(0, 0, 0, 0.06);
+    transition: all 0.3s ease-in-out;
+}
+
+.vision-box:hover {
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);
+}
+.vision-box {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.vision-box.appear {
+    opacity: 1;
+    transform: translateY(0);
+}
+.vision-statement strong.highlight {
+    color: #ffcc00;
+    font-weight: 700;
+}
+
+
+/* ===== About 页面移动端优化 ===== */
+@media (max-width: 575.98px) {
+  .vision-statement {
+    font-size: 1.5rem;        /* 原可能为 1.25rem 或更大 */
+    line-height: 1.6;
+    padding: 0 1rem;
+    text-align: left;
+  }
+
+  .vision-statement strong {
+    font-size: 1.75rem;
+    display: block;
+    margin: 0.5rem 0;
+    text-align: left;
+  }
+
+  .section-subheading {
+    font-size: 1rem;
+    font-style: italic;
+    padding: 0 1rem;
+  }
+
+   .timeline h4 {
+    font-size: 1.3rem;        /* 默认可能是 0.875rem，太小 */
+    margin-bottom: 0.25rem;
+  }
+
+  /* 时间轴副标题（事件标题） */
+  .timeline h4.subheading {
+    font-size: 1.4rem;      /* 原为 1rem，可略放大 */
+    font-weight: 600;
+  }
+
+  /* 时间轴正文内容 */
+  .timeline .timeline-body p {
+    font-size: 1.2rem;        /* 原为 0.875rem 或更小 */
+    line-height: 1.6;
+    padding-right: 0.5rem;
+  }
+}
+
+/* 三级页面的排版优化 */
+
+/* 副标题 */
+.post-subtitle {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #333;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+/* 灰色分割线 */
+.post-divider {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 15px 0;
+}
+
+/* 描述部分 */
+.post-description-wrapper {
+    display: flex; /* 让装饰条和文本等高 */
+    align-items: stretch; /* 让内容和装饰条高度匹配 */
+}
+
+.post-description {
+    font-size: 1.5rem;
+    color: #444;
+    line-height: 1.8;
+    background: #f9f9f9;
+    padding: 15px;
+    margin-bottom: 25px;
+    flex: 1; /* 让文本区域自动填充剩余空间 */
+}
+
+.post-description-border {
+    width: 5px; /* 蓝色装饰条宽度 */
+    background-color: #007bff; /* 蓝色装饰条颜色 */
+    margin-right: 10px; /* 控制装饰条与文本之间的间距 */
+}
+
+/* 默认导航栏透明 */
+.navbar-default {
+    border-color: transparent;
+    background-color: transparent;
+    transition: background-color 0.3s ease-in-out, padding 0.3s;
+}
+
+/* 滚动后导航栏变黑 */
+.navbar-default.navbar-shrink {
+    background-color: #222 !important;
+    padding: 10px 0;
+}
+
+.navbar-default.navbar-shrink .navbar-brand {
+    font-size: 1.5em;
+    transition: font-size 0.3s;
+}
+
+/* 二级页面contact的地图格式 */
+.contact-background {
+    position: relative;
+      
+    
+}
+.contact-bg {
+    width: 100%
+    max-width: 1224px;
+    height: 600px;
+    background-image: url('/img/about/map-image.gif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+.company-info {
+    padding: 30px 20px;
+    background-color: #f8f8f8; /* 轻微背景色 */
+    border-radius: 10px;
+}
+
+/* 公司名称样式 */
+.company-name {
+    font-size: 32px;  /* 字号增大 */
+    font-weight: bold;
+    text-align: left;  /* 居中对齐 */
+    margin-bottom: 10px;  /* 增加下方间距 */
+
+.contact-box {
+    text-align: left;
+    padding: 10px;
+}
+
+.contact-box h4 {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.contact-box p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+.contact-box a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.contact-box a:hover {
+    text-decoration: underline;
+}
+/* contact 内容格式 */
+.company-info-box {
+    background: #f9fafb; /* 采用淡灰色背景 */
+    padding: 30px 40px;
+    border-radius: 12px; /* 让边角更柔和 */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05); /* 轻微阴影 */
+    transition: all 0.3s ease-in-out;
+    max-width: 900px;
+    margin: 40px auto; /* 让它居中 */
+    text-align: left;
+}
+
+.company-info-box:hover {
+    box-shadow: 0px 6px 14px rgba(0, 0, 0, 0.1); /* 鼠标悬停时增加阴影 */
+    transform: translateY(-2px);
+}
+
+
+.contact-box h4 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.contact-box p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+}
+
+.contact-box strong {
+    font-weight: 700;
+    color: #000;
+}
+
+.contact-box a {
+    color: #ffcc00; /* 让 Email 使用品牌金色 */
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.contact-box a:hover {
+    text-decoration: underline;
+}
+.company-info-box {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.company-info-box.appear {
+    opacity: 1;
+    transform: translateY(0);
+}
+@media (max-width: 768px) {
+    .company-info-box {
+        padding: 20px;
+    }
+    .contact-box {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}
+
+/* 设置不同post页面的图片 */
+.post-header {
+    width: 100%;
+    height: 300px; /* 适当调整高度 */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.default-header {
+    background-image: url('/img/default-header.jpg'); /* 默认背景 */
+}
+
+.projects-title {
+    margin-top: 60px ;
+    margin-bottom: 5px ;
+    font-size: 42px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.projects-container {
+    width: 100%;  /* 让容器占满整个页面 */
+    max-width: 1200px;  /* 控制最大宽度 */
+    margin: 10px auto;  /* 增加上下外边距，并居中 */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;  /* 让项目卡片居中对齐 */
+}
+
+.filter-container {
+    margin-top: 5px !important;
+    padding: 15px;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    align-items: center;
+}
+
+.filter-container label {
+    font-weight: bold;
+}
+
+.filter-container select {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* 文章整体布局 */
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+/* 标题居中 */
+h1, .post-subtitle, .meta {
+    text-align: center;
+}
+
+/* 副标题样式 */
+.post-subtitle {
+    font-size: 22px;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+/* 文章元信息（日期、作者） */
+.meta {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+/* 移除蓝色竖线 */
+.post-description-border {
+    display: none;
+}
+
+/* 文章正文 */
+.post-content {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #333;
+    text-align: justify;
+}
+
+/* 文章中的图片 */
+.post-images img {
+    max-width: 100%;
+    display: block;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}

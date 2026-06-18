@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(xargs ls:*)",
+      "Bash(git checkout *)",
+      "Bash(bundle exec *)",
+      "Bash(git stash *)",
+      "Bash(xargs file)",
+      "Bash(pkill -f \"jekyll serve\")",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:4000/)"
+    ]
+  }
+}

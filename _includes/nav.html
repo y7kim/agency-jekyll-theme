@@ -1,0 +1,43 @@
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <!-- <a class="navbar-brand" href="{{ "/" | prepend: site.baseurl }}">{{ site.title }}</a> --> <!--把网站名称换成logo-->
+            <a class="navbar-brand" href="{{ '/' | prepend: site.baseurl }}">
+                <img src="/img/about/logo-title.png" alt="AMGCube Logo" id="nav-logo" width="250" height="65">
+            </a>
+            
+        </div>
+
+        <div class="collapse navbar-collapse" id="bs-navbar">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="{{ "/designs/" | prepend: site.baseurl }}">Designs</a></li>
+                <li><a href="{{ "/projects/" | prepend: site.baseurl }}">Projects</a></li>
+                <li><a href="{{ "/services/" | prepend: site.baseurl }}">Services</a></li>
+                <!-- <li><a href="{{ "/story/" | prepend: site.baseurl }}">Story</a></li> --> <!--合并了story内容到team -->
+                <li><a href="{{ "/about/" | prepend: site.baseurl }}">About</a></li><!--栏目改名为about-->
+                <li><a href="{{ "/contact/" | prepend: site.baseurl }}">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js"></script>
+<script src="/js/agency.js"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        window.addEventListener("scroll", function () {
+            var navbar = document.querySelector(".navbar-default");
+            if (window.scrollY > 50) {
+                navbar.classList.add("navbar-shrink");
+            } else {
+                navbar.classList.remove("navbar-shrink");
+            }
+        });
+    });
+</script>
